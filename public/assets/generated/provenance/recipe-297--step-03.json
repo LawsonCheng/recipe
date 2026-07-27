@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-297:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-297-garlic-butter-fish-fried-rice/step-03.webp",
+  "promptHash": "170aa63e1641fd6c67a05df24c86d82454f4616cff2bc66511ed7e9e10d71282",
+  "providerPromptHash": "07eeb56abb1580be47139d7be653aac20ac59fde7fbcef598403d9e2f7cf1be8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d5c61aa2-9483-45a1-adc9-d60b3b6656de",
+  "generatedAt": "2026-07-26T23:53:42.342Z",
+  "registeredAt": "2026-07-27T01:44:58.385Z",
+  "assetSHA256": "3731e941322520b02c1233f12cda64531c75fc9755de29b5b69ba1d870377c0d",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "0f02b3efc7ea315d5baf388e3fd9f187798c9c121b384789ca67e67b71194e8d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.478972639539279,
+        "quantizedColours": 258,
+        "dHash64": "60981a2e3a26aeac"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

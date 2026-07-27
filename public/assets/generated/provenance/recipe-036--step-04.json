@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-036:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-036-cantonese-vegetable-omelette/step-04.webp",
+  "promptHash": "31b8b6fd628f4c2a6c4a6d18248ff3e10ce80b897da7853f227fdbc9d2fb2a3f",
+  "providerPromptHash": "b6e444097f63a0b5cd127d0dbac80a872a3ce7489bcc835ddf6b5e20f8229446",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-25a43584-b5d8-4d22-a1d7-04dfd03d8b6b",
+  "generatedAt": "2026-07-27T04:38:05.000Z",
+  "registeredAt": "2026-07-27T12:59:39.808Z",
+  "assetSHA256": "cf2fa270d94d409c9e4cfcb4b46d878f82a42d3cc9307525a86166001780c0d0",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "d6599b0a7b9b174a1c1c67e403b850020a093f3c14bcdc7ba56237c011c193c3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.177866747049848,
+        "quantizedColours": 443,
+        "dHash64": "8f1761796445638e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-102:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-102-korean-glazed-chicken/step-05.webp",
+  "promptHash": "60339780a3e112322b19011f1385f8160409390736f5a474cf6a685a1e927938",
+  "providerPromptHash": "761843d47e65d0492f8c442efa126a323b4fa026f2aa49ad3a9747a8cfa3255b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4204fbdc-43ce-4c12-a7bf-a00ae4de6a0a",
+  "generatedAt": "2026-07-26T18:01:42.980Z",
+  "registeredAt": "2026-07-27T01:39:02.031Z",
+  "assetSHA256": "5d25869b03bd09f3cfa79422aae56b9bf8197a6190151c458c8748343eae4925",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "243f67d7cbdbd8179642e6005f50b46c7250c6e25ca917bc66b23721b619e46c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.591419868636876,
+        "quantizedColours": 281,
+        "dHash64": "10bc376f55090424"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

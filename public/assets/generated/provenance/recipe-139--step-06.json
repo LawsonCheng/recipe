@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-139:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-139-mild-thai-glass-noodle-salad/step-06.webp",
+  "promptHash": "b3427e8f63609b26acf2d5cc67bba0d4d1a9f0e4b8e653fb1cf1e5326154d1e7",
+  "providerPromptHash": "2329c4295512647b52c0d57299e200b1a23ea5f8fe84abec4d05e73a1206ab4e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d38ca6a2-90af-4700-86ea-a067b7df725d",
+  "generatedAt": "2026-07-26T21:57:26.419Z",
+  "registeredAt": "2026-07-27T01:40:11.876Z",
+  "assetSHA256": "c9eb6d51f541adefc31cdb7c6793b00588ecb845cb4b44a3668c7e987d46a0db",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "b53123db9eb03f324ca6a6e2d7cf17e80a41584c088c55158df7d555a97286c4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.531186508525934,
+        "quantizedColours": 320,
+        "dHash64": "b8321f1c3e370d0f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

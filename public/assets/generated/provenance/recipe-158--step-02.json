@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-158:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-158-sayur-lodeh-style-vegetable-soup/step-02.webp",
+  "promptHash": "9c9ce467e7d7e82dcac12ad99532c87b38b80a05f428fb3a6bbfaac359ffd05c",
+  "providerPromptHash": "14b8dfb20883e63e1aab994322ec864faf8201aaab83498f1f520e5d96af2932",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-43b890bc-9f20-4068-ad70-e69b97d47d72",
+  "generatedAt": "2026-07-26T23:44:00.926Z",
+  "registeredAt": "2026-07-27T01:40:46.199Z",
+  "assetSHA256": "0bfabb1c9fe54ea7393dabdab9ddf00d7b0d8baebd17ccf95258457349561c1f",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "062ded9513837d46d265027e1a826f3b468b476bbb72743e943486db24234f29"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.265365953207947,
+        "quantizedColours": 211,
+        "dHash64": "c6868f932e1e0e8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

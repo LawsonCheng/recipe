@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-207:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-207-lemon-herb-fish-fillet/step-04.webp",
+  "promptHash": "81a44577bbfcbf1f03b3dafe91eaaf647298a26026d6822d86073435b4f9e7ae",
+  "providerPromptHash": "c05747652e7b8745b7a0618ca54b50faa0ca288360f87fd77b4354657d98b0be",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-32d7fb15-ee96-4386-bfc8-626b6c5108ac",
+  "generatedAt": "2026-07-27T05:55:36.827Z",
+  "registeredAt": "2026-07-27T13:00:10.049Z",
+  "assetSHA256": "04e66b3091e6d438325127775c6764c88122c2568d48bb269d36e79d04df1d82",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "10dd298e9255b9021f3af94ebe979e1d40f33eda6c90aa300145c0e7d0b848ee"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.416457035054918,
+        "quantizedColours": 182,
+        "dHash64": "708e17330f8ecfce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly three seasoned fish fillets sear in the allowed frying pan to an almost-opaque centre."
+    }
+  }
+}

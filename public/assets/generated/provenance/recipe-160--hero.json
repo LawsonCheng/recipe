@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-160:hero",
+  "publicPath": "/assets/generated/recipes/recipe-160-indonesian-honey-fried-chicken/hero.webp",
+  "promptHash": "e9667be1ad922f24d0f6e8511dc60fa20f9df1270ce92144893a01719e6d2f0c",
+  "providerPromptHash": "7228cbd7c6bcc14bcf6ad1f3bec3dcec39390506a90973185a252b0c669fe4b1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8a7a3165-9e55-46de-869f-f3160f8af135",
+  "generatedAt": "2026-07-26T23:54:14.052Z",
+  "registeredAt": "2026-07-27T01:40:49.445Z",
+  "assetSHA256": "a59e0717f928a3facc67f3d01854f1b9d22a9bf42309ad2d3cff3785c0e8d058",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "17003ec2700f13d9b74113e4d5cd2fd64901ebd2288f5d5864d7f26a2727905f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.795205669128336,
+        "quantizedColours": 262,
+        "dHash64": "95cd920f316d6c74"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

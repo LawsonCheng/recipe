@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-046:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-046-red-braised-pork-meatballs/step-06.webp",
+  "promptHash": "1c35b83e0546a2ea46b9c77181303c9ddcaa081162d3f055caaf91b8af68a876",
+  "providerPromptHash": "a123b06851a3a5e28b213332c3b3b5acce37d30226f888eaff1e3ecd4c1780b2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_v4ZRTA1iqBVmRKK1F1YRbkys",
+  "generatedAt": "2026-07-27T13:25:27.000Z",
+  "registeredAt": "2026-07-27T13:55:29.461Z",
+  "assetSHA256": "6743bff5d3b3b5a8c39337ee17ea5f4d8e70a984e52213cd8dcddb3dd3592542",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "da314b882d27bbed775f5bb1c5479503c359e12d602f22794fc520dd2174b107"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.504151458153501,
+        "quantizedColours": 322,
+        "dHash64": "e3c3030b0b0f97ef"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly six finished meatballs remain in one Chinese wok, one is probed for doneness and the final spring onion is present."
+    }
+  }
+}

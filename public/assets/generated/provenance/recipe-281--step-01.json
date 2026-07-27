@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-281:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-281-soy-sauce-chicken-pasta/step-01.webp",
+  "promptHash": "b50b94b83e87d1e8733e346dcaebdbce8cf5c390b441b1e0f10a43e2ceb87c8c",
+  "providerPromptHash": "38ba93ef9341ca31586d09ee7a1afc657a25feda4c83e2f179c6f1501e862bae",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-eb4815dc-fb9b-4b1e-9b58-940f582c2db6",
+  "generatedAt": "2026-07-26T22:17:52.566Z",
+  "registeredAt": "2026-07-27T01:44:29.085Z",
+  "assetSHA256": "8e4486dcac91036fea89593f576adc85b1cead2161b910130ab8590093d7c17c",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "b2ec2163e7170954df1c7c7846f9e51a565040bdf1cf245c25e35dbd595b54ed"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.487027766925166,
+        "quantizedColours": 402,
+        "dHash64": "8f1054a2a3616d4a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

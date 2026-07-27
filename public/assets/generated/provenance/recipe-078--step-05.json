@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-078:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-078-mild-chilli-dumpling-style-soup/step-05.webp",
+  "promptHash": "1c179bd90be0f69bc885abaf75caff294a65872bda7d998b8ebd8eb770949a49",
+  "providerPromptHash": "f4d854ff5ffd53ff35b3262db49fd6dc1e7e0b12562cefa6c00947606c433194",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-30fa3b97-ab8a-4c58-8126-c81394257c25",
+  "generatedAt": "2026-07-27T04:57:50.000Z",
+  "registeredAt": "2026-07-27T12:59:53.288Z",
+  "assetSHA256": "186ae87418b51919f6cc3778fb7639bccbc9306b12735ea3fea7609feb794fdf",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "9084f173904974d5434358a1717cd549a94fe0707fc0df9885f3c24750e58f82"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.605428912371281,
+        "quantizedColours": 138,
+        "dHash64": "3889073f3f3397ee"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

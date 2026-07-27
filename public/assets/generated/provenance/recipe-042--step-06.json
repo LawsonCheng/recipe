@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-042:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-042-moo-shu-pork-with-egg-and-vegetables/step-06.webp",
+  "promptHash": "7d0f804758cb70941e4e4138c3135bc222d12dd7aa2ea46f987007452dc8d19d",
+  "providerPromptHash": "d03e5b1e8b48d2fa6e2c9f66e48e1e0fa4d9d80902caba38015a89b289dba4b5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-08a7e108-fc01-43ec-8c54-c1f072c628a5",
+  "generatedAt": "2026-07-26T21:34:42.265Z",
+  "registeredAt": "2026-07-27T01:37:19.475Z",
+  "assetSHA256": "0105914eb5ea3dc09d87aa05b1c42b23a63a326b9e1aaba82ae65c6b996a3df7",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "9c827f7be7b25bd7ff24c73b37110bed6a1f6b51232389a43401714f866577a8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.666518294950947,
+        "quantizedColours": 454,
+        "dHash64": "f0620f37064fa68e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

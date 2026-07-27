@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-221:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-221-greek-lemon-chicken/step-05.webp",
+  "promptHash": "5389a545ebe3881dbf8d6a2530942155f79ddb125a639c16b0814df41cc1ae64",
+  "providerPromptHash": "c2a0b19c06044183d0dfaa891e835d5e22bd2767fe668c1944afd3e9d0158c58",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ea2f0393-0798-4bcc-9b46-315a68a8f3c6",
+  "generatedAt": "2026-07-26T20:13:37.441Z",
+  "registeredAt": "2026-07-27T01:42:42.026Z",
+  "assetSHA256": "a074637f90cf627501ccc76bdc323add98ac17c41ecfb582a5a47cad58581761",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "d63cd28ff4af32f401582adca2a690ef2eb3f806f8c74cee07aa39f05d8badf8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.193774444240262,
+        "quantizedColours": 217,
+        "dHash64": "c0dceec78d97e3dd"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

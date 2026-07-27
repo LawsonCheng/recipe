@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-202:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-202-beef-hamburger-steak-with-mushroom-gravy/step-04.webp",
+  "promptHash": "68598db96c9de417bd9f834a0db6d867ae9b21ed93e98a02c3080ac3d7cf58c8",
+  "providerPromptHash": "aee7e05dec5bd0002c6bff65b4e8141efc9253eb8cab5a95f782bbeca813c8ca",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-60ca965d-af65-495a-8724-a997b5979f83",
+  "generatedAt": "2026-07-27T04:54:35.450Z",
+  "registeredAt": "2026-07-27T13:00:08.299Z",
+  "assetSHA256": "4a0cc36b482f1af42e9bd23992366aa7ab6690b1a4263866a266c639dc25950f",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "2ce3aac0592c1a8bb830753e7719551b4d2814503fc355a5f23e7f5ce95e4e92"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.217004795180401,
+        "quantizedColours": 178,
+        "dHash64": "83dcb71387c66dc6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three browned hamburger steaks sear together in the allowed frying pan."
+    }
+  }
+}

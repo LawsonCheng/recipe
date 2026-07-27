@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-251:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-251-indian-masala-prawns/step-01.webp",
+  "promptHash": "49290eb4d97f4461803a8dd24e66a62ac61e6c4c72c289ed8a98a6cd2a65a80e",
+  "providerPromptHash": "11530bbe4b3d0124bc7dd0b94f7876b7cd5b1cf75ed7b9bc89e5b7423496bb90",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6ae99270-a536-46a2-98f0-aee1a4366b51",
+  "generatedAt": "2026-07-26T18:55:46.419Z",
+  "registeredAt": "2026-07-27T01:43:34.980Z",
+  "assetSHA256": "c5996c7e6d6a709a112a2ae0ba8753e65a15585afd6aecf7003b2a31a2040f4a",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "41e6893bcfdd887fd7993be4f2f1e3bbbc3f64b0424ad695705f8014a3f43a08"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.588908037927467,
+        "quantizedColours": 433,
+        "dHash64": "1bcb8899b369d1c3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

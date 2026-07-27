@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-235:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-235-tomato-lentil-stew/step-03.webp",
+  "promptHash": "4b00b314e88e5474cb9d5f95921b748de0b28fab0fbf6b329f6245581190aeba",
+  "providerPromptHash": "c1c1eea4e6501aaef90a1f471e5efb3d17a8d7d08be03786961e2af9c27e8872",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f6542929-ad01-4601-b1a1-b4fa3b5cdb69",
+  "generatedAt": "2026-07-27T06:24:47.333Z",
+  "registeredAt": "2026-07-27T13:00:18.111Z",
+  "assetSHA256": "d085af5e6fe9ddb5cbce19de6fe23ea5a52806d2492d1fe1d5acc1bb96b2c884",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "87188a9c4ae163e0103fe1aaa045d13fd1b753b1de9ebfc758e0ff4b7df5f011"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.2826136908261105,
+        "quantizedColours": 296,
+        "dHash64": "d64f5f0f0f170ee4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Tomatoes soften and release juice in the spice base without lentils appearing before step 4."
+    }
+  }
+}

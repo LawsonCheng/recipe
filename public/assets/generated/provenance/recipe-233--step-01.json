@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-233:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-233-mediterranean-roast-salmon/step-01.webp",
+  "promptHash": "796ab17c2d999c4ed42a8b32b7da64ddea413b3b105c43a2a71b6b32734300d3",
+  "providerPromptHash": "37469a31a805b7647fc02ff9d22bc1bba7e915de094dd99f9d4107056ac092a8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d250fe1c-0f7e-42e2-bd61-7c0f0221b56c",
+  "generatedAt": "2026-07-27T05:00:07.118Z",
+  "registeredAt": "2026-07-27T13:00:17.123Z",
+  "assetSHA256": "d91e5dce1c7ba6792cdc30673f94a090d06bd7b65e90cf4e0b88d0d13b73ee48",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "8d2b457f624adc9c4bf0fe0f4da31c193bcd3c9c58cc93e76c72faf84f434bc7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.513076736649964,
+        "quantizedColours": 382,
+        "dHash64": "10f1181686a3e164"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three equal raw salmon portions and all prepared onion, tomato, garlic, olives, zest and lemon juice appear once in one preparation state."
+    }
+  }
+}

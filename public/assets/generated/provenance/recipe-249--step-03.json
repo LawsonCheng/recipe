@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-249:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-249-indian-spiced-lamb-curry/step-03.webp",
+  "promptHash": "b85078561ab9a40b278f1cb66e35ba1a86742e94cdc7ebf92f180a2929ec9d57",
+  "providerPromptHash": "c1649dec8cdae36c1892ca74002638e1eb10c837633d92926f17d9bb09bdd0a4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c8db6b72-72f8-4b3f-99f3-22147963e97f",
+  "generatedAt": "2026-07-26T22:33:12.932Z",
+  "registeredAt": "2026-07-27T01:43:31.951Z",
+  "assetSHA256": "f532a06a2e43ec80fa3225e471031f055b7d8fbac19b74447d15d6896722ced6",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "344040cbf3979a08d21b9199bf08b0f5fa8a68fbbaa185cc152d31373177d99a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.2838884792872705,
+        "quantizedColours": 194,
+        "dHash64": "50d296929d0d4363"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

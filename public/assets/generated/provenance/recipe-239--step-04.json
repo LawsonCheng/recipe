@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-239:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-239-mediterranean-tomato-baked-eggs/step-04.webp",
+  "promptHash": "4c893073442f5aa878483f13d5039ba0a531f4c7641225d32081d03027ea6d98",
+  "providerPromptHash": "bd1082a68e205189a90fc7430f43d63718b7816c96453bf452ed2ca8edbe1dda",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_d84XijSLISr4y9UQuV0wVDH0",
+  "generatedAt": "2026-07-27T13:16:10.000Z",
+  "registeredAt": "2026-07-27T13:55:32.425Z",
+  "assetSHA256": "a66866dd90cc798dcc8240cdcdda862f7733e9f22549b72fbb8ed625057be989",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "26671edeb51fb1b6dce24668def3b23c619509fcb2930ce819a98037fb2489ed"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6519863753637765,
+        "quantizedColours": 314,
+        "dHash64": "0370d4aaacd9fef0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Final current image shows exactly three raw eggs, one in each of three wells in the spinach-tomato sauce, with no fourth egg."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-161:hero",
+  "publicPath": "/assets/generated/recipes/recipe-161-family-style-hainanese-chicken-rice/hero.webp",
+  "promptHash": "63f659e3a003012ee767d550214c071a64a9a71f922404ada48e0d2243b748ee",
+  "providerPromptHash": "78c6b53aa6f9a5f31b2d9a00c21f8fefb0baea3d3791e5ae03fd352f86fce73c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e73d5198-5174-4d94-9743-43b459b646dd",
+  "generatedAt": "2026-07-27T05:55:36.495Z",
+  "registeredAt": "2026-07-27T13:00:04.798Z",
+  "assetSHA256": "272a034c885db5a05ed5acef8f1a3ceabe110379faa1cbeab1f5fa81e3352169",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "a8e083a552d8fed938cbb0f528b5d659a10fd3b76785e7ebf5748f1b2c21d090"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.538428736384958,
+        "quantizedColours": 285,
+        "dHash64": "abe4e6de96b2d264"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three Hainanese chicken-rice plates include evenly sliced chicken, rice and cucumber."
+    }
+  }
+}

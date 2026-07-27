@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-233:hero",
+  "publicPath": "/assets/generated/recipes/recipe-233-mediterranean-roast-salmon/hero.webp",
+  "promptHash": "0f991df91421cc916f6f969bb4825b1ff37991b7ec420583acd345601a19d3d8",
+  "providerPromptHash": "ebb9a28a052df195a6441f9b732d3ad0bf4295019206b1e562e4ad91b4770386",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-28de0d24-acbc-4d18-8d8f-906fb5e309ef",
+  "generatedAt": "2026-07-26T21:05:15.625Z",
+  "registeredAt": "2026-07-27T01:43:02.275Z",
+  "assetSHA256": "da5f10d2ebed9f7a52014b7d5bd981f320d3891fc079c3e3c44f2c665ad2b965",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "61f46e3881851006880abd3454006da919a8db43f66018a72e81f31008e40eaa"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.769878230756149,
+        "quantizedColours": 391,
+        "dHash64": "8ccedbb965697317"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

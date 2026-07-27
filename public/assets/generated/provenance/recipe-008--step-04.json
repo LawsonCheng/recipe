@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-008:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-008-hong-kong-sweet-soy-chicken-wings/step-04.webp",
+  "promptHash": "0a751ede30025dcd3996afcffcf984a3259e56ca66f7ae168796ecfd573e770c",
+  "providerPromptHash": "9da6882147bf86b2fc55e5118f7e899fb37a0ec8a917aff55bee864a0082830a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5fd1c870-0a82-4c0f-aaf9-149d49889261",
+  "generatedAt": "2026-07-26T18:20:49.011Z",
+  "registeredAt": "2026-07-27T01:36:20.885Z",
+  "assetSHA256": "3b02bcd9f1de65acbc9143026063fc063ee74afb277909cd366f300a6995b966",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "c197699478ae005d2adb3289a70a1b7dcafe1f98c0e5d161a4bdd3b2cdbba7b6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.512732444869471,
+        "quantizedColours": 256,
+        "dHash64": "c08c1f1b2f0ec6c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

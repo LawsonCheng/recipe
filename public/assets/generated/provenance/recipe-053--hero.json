@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-053:hero",
+  "publicPath": "/assets/generated/recipes/recipe-053-northern-chicken-and-mushroom-stew/hero.webp",
+  "promptHash": "4e4ab3647e39c165e1c7a564128d68f6f3fb364f44a233ba6e871e47eb22b519",
+  "providerPromptHash": "c9605b5e8435b5061d05e7a5d7e543a0a436b115378a8db214a23a72a5a2e217",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3125cdf0-ed14-4eb5-b9b6-e3625b4d806c",
+  "generatedAt": "2026-07-26T22:28:32.509Z",
+  "registeredAt": "2026-07-27T01:37:36.977Z",
+  "assetSHA256": "9d9fccc8ef357bcef9049cdf610726400a2b6e6ed304a83aa075ff7aaf5a2ebb",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "d07c0dfecad15718cff3b8cef074318969bdf2bb9aff14b0088e87fb35de1127"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.871062155929394,
+        "quantizedColours": 257,
+        "dHash64": "99d8f6879bf3fbe6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

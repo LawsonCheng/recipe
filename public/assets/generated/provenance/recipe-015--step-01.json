@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-015:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-015-hong-kong-borscht/step-01.webp",
+  "promptHash": "4e93ebcf7a312d857ecd671ee7c636fe800ecfd807fcb228ca8eae23e05dadce",
+  "providerPromptHash": "b263b8853364552f64bd791b89f61ba11b209553f6080cc8fce323e5abf876f0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-09328990-a893-4237-9e95-f561d84dda9d",
+  "generatedAt": "2026-07-26T18:57:38.861Z",
+  "registeredAt": "2026-07-27T01:36:32.169Z",
+  "assetSHA256": "77213f2977942c466a9319688e2aa2f761c3359c34e2444bb61e2739772df7b3",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "5e374ff486600f94dc43ff836194755a7d2712e2f8766e6f1c1795d1052de1a3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.829439760418609,
+        "quantizedColours": 597,
+        "dHash64": "de8787a791319744"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

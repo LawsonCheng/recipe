@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-100:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-100-japanese-creamy-corn-soup/step-03.webp",
+  "promptHash": "296ef6cdb7ce566b50dfbc8e589f23cba8dfb7881e8c8d5bc8129eef3a676a67",
+  "providerPromptHash": "71c1e8ed03f73a3f0331e549d619b99ae3bffed52bc86151f3257ea8538f4e16",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ec3a1c4e-9b2a-43d4-ab73-8daabeea9317",
+  "generatedAt": "2026-07-27T05:14:17.296Z",
+  "registeredAt": "2026-07-27T13:00:01.800Z",
+  "assetSHA256": "a8ab5f5c7837dffe5a89084bb826eb3eba45c2094e2b4b85bab97229d52a68e8",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "edd6fb97afa4e680fb030fd9ee94d819e632e701f3e83754c8409153c9151d59"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.503012717264937,
+        "quantizedColours": 217,
+        "dHash64": "f09a1f2f2b130f82"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — A smooth pale aromatic roux is stirred in the allowed Chinese wok with no dry flour."
+    }
+  }
+}

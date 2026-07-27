@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-245:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-245-coconut-fish-curry/step-04.webp",
+  "promptHash": "26f4717666acc6fb6baa028bac83c4300647b53a5d09b47144b4d53ab62efb5f",
+  "providerPromptHash": "772df93872cc20bc522bd0c32e9485e6c0c62782d0edba88cd8ef88fb3aacee6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_V6XO5KDLadS1CvqaBj13lN8n",
+  "generatedAt": "2026-07-27T14:17:04.000Z",
+  "registeredAt": "2026-07-27T14:24:07.363Z",
+  "assetSHA256": "fb9aa024b6646e45a56405053783b22b2ce274f77a249a1fad6e37eccce2a26b",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "6238302cedbd38e97c7c1eac48cc296d578e1d7cf27b1dcc107d22a8b14afedf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.563109748298302,
+        "quantizedColours": 246,
+        "dHash64": "3bf36333d9d9d82c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — re-opened at original resolution: exactly three raw seasoned fish portions rest on a clean plate beside the coconut-tomato curry sauce in the Chinese wok; no premature cooking."
+    }
+  }
+}

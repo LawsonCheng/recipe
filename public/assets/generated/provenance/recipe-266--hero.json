@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-266:hero",
+  "publicPath": "/assets/generated/recipes/recipe-266-mixed-mushroom-tofu-pot/hero.webp",
+  "promptHash": "f717e87fc6a0dcfd367acf1c857313c5ef8a557f80456e903c8ff436d503110d",
+  "providerPromptHash": "baa00e3c1625e40051165a8a38f0fd8ffede97a05b95ddffe87ad665a343b1a1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4ff33a49-c2c2-47a1-a4e1-24d7a77dd52f",
+  "generatedAt": "2026-07-26T20:32:36.169Z",
+  "registeredAt": "2026-07-27T01:44:01.832Z",
+  "assetSHA256": "4e74a1f2cc6e68a54e68d830552815abb8a225d14e949cde967f3845d3e54c49",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "0ac83e562c320e8db171d88b163598109311ca405d55663a09cc2328951ffa82"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.858951594796963,
+        "quantizedColours": 423,
+        "dHash64": "8b33c5cc5c51ebce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:29:20.799Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — The CURRENT hero prompt specifies Hong Kong family-style plating for a three-serving mixed mushroom tofu pot; one shared finished clay pot is consistent with that prompt and no separate three-plate layout is required."
+    }
+  }
+}

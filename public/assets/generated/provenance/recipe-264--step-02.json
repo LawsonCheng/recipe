@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-264:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-264-pumpkin-tofu-curry/step-02.webp",
+  "promptHash": "807cd22649d7cf73c69e6d602cc7d2176a56de9814e0ae39fbaf05d7f5281f63",
+  "providerPromptHash": "883ec5773d3b686d3c8570a9a49df1579240f10792de90dee4f0fc7d6795bf54",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-704db569-ba03-4b08-9d44-d38f617f1af9",
+  "generatedAt": "2026-07-26T20:17:03.033Z",
+  "registeredAt": "2026-07-27T01:43:58.772Z",
+  "assetSHA256": "4e9ca65ebe6107ec18f50d04e631f7443a3e6e8e9dfdda7b64d1ab4d22a3606e",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "29adecc24e9bd845182d49672424e4f8953075d75241fb085fb4998f92165b77"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.477047225878778,
+        "quantizedColours": 192,
+        "dHash64": "336c8e8703860e13"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

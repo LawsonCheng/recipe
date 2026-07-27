@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-228:hero",
+  "publicPath": "/assets/generated/recipes/recipe-228-lemon-herb-lamb/hero.webp",
+  "promptHash": "44ae8c49d6b19d30503dbeeb4179f0a8286309e673fe69ab435901c06829a16a",
+  "providerPromptHash": "d16cdb5c5f7b8fe9eea3fa228488a7cd37ed721cf1414da0ea6f4739fd94f687",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f13bf78f-dc81-4a18-b9d4-9e2b43698c24",
+  "generatedAt": "2026-07-27T06:04:32.000Z",
+  "registeredAt": "2026-07-27T13:00:15.358Z",
+  "assetSHA256": "851ec79c3ca8d6b81221a84e924870f1b0b8b882f138afce9bd7f75ecf6938d2",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "0a52692ee86717287077461890833476e3d4eff273fe7edb51774cd7240f35b3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.689154352701735,
+        "quantizedColours": 331,
+        "dHash64": "178e8e8fb3f9e39c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

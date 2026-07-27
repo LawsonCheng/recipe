@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-182:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-182-family-style-carbonara/step-03.webp",
+  "promptHash": "51078ef5f264545a2ed3379426b8a64f44d8d3b5a0606f0b00f99b51850231a9",
+  "providerPromptHash": "612b2cf1d862fd0484cea94d0d5f0f07c8da8b1d1271c6f7daf43530fc6d4698",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0f07f881-584c-4c9f-8c96-c84a77804d7d",
+  "generatedAt": "2026-07-26T23:16:11.371Z",
+  "registeredAt": "2026-07-27T01:41:31.186Z",
+  "assetSHA256": "829540a755df5f0368cbd3b1482d55f7d52a63b0dd253a2e38bd6ce3b79f0805",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "49a5b4cdf37ae254be3b4468a15dbb5f34db198328c87a5a1d0399caa33ef775"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.641031380044296,
+        "quantizedColours": 150,
+        "dHash64": "bfcf8d191d1f1c72"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-198:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-198-italian-tomato-cheese-omelette/step-03.webp",
+  "promptHash": "521856ce3ca536cef1e823b8dbd475c136ccb670675c05b29906b27ef7c60a0f",
+  "providerPromptHash": "e14fb71d13038857e711a90a0087127390800c3768f0a295f1554024ebaaed40",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-389a1c62-192e-4a82-aa75-8f31f0be81b0",
+  "generatedAt": "2026-07-27T00:43:07.265Z",
+  "registeredAt": "2026-07-27T01:42:00.644Z",
+  "assetSHA256": "3d1b5f48a76286198622dd388eea2cd3d10c07227c30b158a23752e596db7d9b",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "144be56c63a7777848275582cf364f74d416acd7404a6db7384a6f94ef46af04"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.462293679855065,
+        "quantizedColours": 237,
+        "dHash64": "325a331c14336228"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

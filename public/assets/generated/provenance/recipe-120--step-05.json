@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-120:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-120-mild-kimchi-style-egg-fried-rice/step-05.webp",
+  "promptHash": "b886055d3d3a7b941ec3c7d53373054dfa844bac407faca396b4fe2141fb8bdc",
+  "providerPromptHash": "56f15bf5adfdbbd8bfaeda8e722d069d3412e0ff83f7b0ef1384399c7475837f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-62a14888-d2e4-4ad2-b728-3d1d2d2504cc",
+  "generatedAt": "2026-07-26T19:56:11.825Z",
+  "registeredAt": "2026-07-27T01:39:36.349Z",
+  "assetSHA256": "16454d81c38e3c153bd173e37ab417f926a38f5a145a2c452a578f45f7d2552d",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "8ee968373ebff26f65ed596f0128e6e5748d04a4542a79c1ebb34e70fff4f39a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.679889274935704,
+        "quantizedColours": 304,
+        "dHash64": "fcb4961b270f8fc4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

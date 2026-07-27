@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-146:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-146-padang-style-coconut-chicken/step-01.webp",
+  "promptHash": "438de9e61bf4cb7a929a9f70ee623883406e980ab7039734f4ace5fe0456b3a2",
+  "providerPromptHash": "1e1ac2c9e80f658b9b3ddbb5adce2f8a36f8293ddfab097c046006d14ec14628",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a06868d5-6e51-471b-af0e-43b6a4ceb540",
+  "generatedAt": "2026-07-26T22:34:17.475Z",
+  "registeredAt": "2026-07-27T01:40:23.706Z",
+  "assetSHA256": "32dd20404b2bc6b3983e994dff8563029f58c941e6740fb715cc1030b1c17015",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "6e40fc6f4caee665975abf6fc65d9422b16d0f7229d9c0d215020a6814e34524"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.648451062224922,
+        "quantizedColours": 299,
+        "dHash64": "3b4b0b3b294d6999"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

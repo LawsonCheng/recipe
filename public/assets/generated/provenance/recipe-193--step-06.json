@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-193:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-193-italian-tomato-baked-rice/step-06.webp",
+  "promptHash": "31fcebf343588302c0b0e0ccc7768dcd04d4d7919d61ed147cbb374b9bfd257d",
+  "providerPromptHash": "f63fc1d1f43c66d925a3485fa8d4caac38351368a80c0bbf664380f95554cd7b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-398e80f5-217c-4763-914b-a41724070290",
+  "generatedAt": "2026-07-27T00:20:08.648Z",
+  "registeredAt": "2026-07-27T01:41:52.606Z",
+  "assetSHA256": "1054109bab5c91b0d472d5251e6fd0d01ce5d75a5e4452e31e8a1d189856994c",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "d3f2faa3fd2e3a99e980180225ee57c3acf52dd18b3661e5fbd099b3b28cd07a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.641026161567424,
+        "quantizedColours": 308,
+        "dHash64": "168705563b17060c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image validly depicts checking the hot centre of the finished tomato rice bake before resting and portioning."
+    }
+  }
+}

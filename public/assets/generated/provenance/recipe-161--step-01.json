@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-161:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-161-family-style-hainanese-chicken-rice/step-01.webp",
+  "promptHash": "d7cc81842808eb03854c25a360f779974ea80a7ff80bd4c94506a01f070b1d7a",
+  "providerPromptHash": "daecb6fc4cf2207854f5d6987265e951a3cf175bb9dd9dac5564b8a637c94202",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-73634c04-0a4e-455d-8100-3c3df70a28e8",
+  "generatedAt": "2026-07-27T00:03:43.455Z",
+  "registeredAt": "2026-07-27T01:40:51.698Z",
+  "assetSHA256": "33ead02277e8b1cf0765f4e1061dfc1a16601839c344351fc940d0b2582c3bbe",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "0fa0727e30e38acae0099325a1b6b00cc59fc8a32f86ae5552292fb4480206de"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.730507932095861,
+        "quantizedColours": 389,
+        "dHash64": "6134f3602d1e3638"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

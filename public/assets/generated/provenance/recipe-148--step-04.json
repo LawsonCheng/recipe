@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-148:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-148-sambal-prawns/step-04.webp",
+  "promptHash": "2b962a07d4a405278d5e1de7966ba7fc8434aed012fa5b958d545773a95093f4",
+  "providerPromptHash": "44142507ef5a17c760d56dd232201849304b5d5ae533aeb490006105faa7d39a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f99960de-eda2-4b58-a659-6b831e8f66d1",
+  "generatedAt": "2026-07-26T22:47:15.164Z",
+  "registeredAt": "2026-07-27T01:40:27.961Z",
+  "assetSHA256": "dd6d4838bdedd4becb6144a653d37fcded588189687fda15faad30abdc9bd3f0",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "1132b37b75a0e0f30a13912f88ca783e307ba38f5c593b2b2d93713e403ac8bf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.399209610375692,
+        "quantizedColours": 243,
+        "dHash64": "f3948e161796cfd6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

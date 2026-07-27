@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-045:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-045-northern-style-tomato-beef-brisket/step-06.webp",
+  "promptHash": "a244230ea5792202e5c50a65059f50758674678c7dfca13b3bc5cf3351615d70",
+  "providerPromptHash": "8743f546270a4de62f2375e602bb88a9bff4af7be4f5660430eaeec8f96b61e1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-75fa71be-17da-46c3-8f66-dcc02fc576de",
+  "generatedAt": "2026-07-26T21:52:50.596Z",
+  "registeredAt": "2026-07-27T01:37:24.693Z",
+  "assetSHA256": "d7d6c0212d981620abd9d56695e65681860de5a40916f0b80f18f87d56348e59",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "46e874dba205646ea5c296f090ba3a89c958e8ae45dac15873fa7d0a79d0d5a5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6758100665174425,
+        "quantizedColours": 441,
+        "dHash64": "b5ec9c0f36160c9c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

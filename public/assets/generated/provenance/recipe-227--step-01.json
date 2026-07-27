@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-227:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-227-greek-spinach-cheese-frittata/step-01.webp",
+  "promptHash": "036a9b547215362fbff1c2feacd9d212a9fb1cc5ecbaf47231feb4345c5efe2e",
+  "providerPromptHash": "6f49c114319aecccf17cdf4bc73f27f8c17fbece66d18a2bc6e8bff1969422d4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f80bb146-fd37-491a-9046-962f8cd0eef7",
+  "generatedAt": "2026-07-26T20:28:33.171Z",
+  "registeredAt": "2026-07-27T01:42:51.748Z",
+  "assetSHA256": "3e741cd904c7e1c39e8952fad79f56bc5c244fad610643742aad7e73722ad43d",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "0e5a1325113cd24f1a87cd3574713ce6822afecacd08cc493576b27ca8fdf1e6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.873653477989137,
+        "quantizedColours": 426,
+        "dHash64": "13393d89c9498946"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

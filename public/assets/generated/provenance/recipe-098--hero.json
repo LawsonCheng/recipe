@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-098:hero",
+  "publicPath": "/assets/generated/recipes/recipe-098-family-steamed-egg-custard/hero.webp",
+  "promptHash": "628a3455eb18af054112dbcfaa8167424c9a6412dc1cc1cb42c633f7edd773ad",
+  "providerPromptHash": "76954e378d3fef5ed51e719de8d6c8b0098b6aea155969b8e9bd73c2e54c25e6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-89df36f0-f5b2-438c-8e24-14c487c56a60",
+  "generatedAt": "2026-07-27T05:14:16.796Z",
+  "registeredAt": "2026-07-27T13:00:01.053Z",
+  "assetSHA256": "6040c472df25584f2e61dfb664731824dd80ff97411d01046d57080ca79c89b7",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "a75ac121c912580ed719236cea8b34fb726c4dea822cb33c3ed3c1892c511b91"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.673949945692584,
+        "quantizedColours": 409,
+        "dHash64": "ceace4e7d3f3b34e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three finished custards visibly include prawns, sliced mushrooms and spring onion."
+    }
+  }
+}

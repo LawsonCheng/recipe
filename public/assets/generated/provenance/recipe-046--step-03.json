@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-046:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-046-red-braised-pork-meatballs/step-03.webp",
+  "promptHash": "da9ab3d26e938afe0a0f1f713ab3da5768c0f5e79c9ec33d010c3a334efcd9ae",
+  "providerPromptHash": "2203f9606ad40853e8c5389d3c9f594a34b3517ae5290e73cca2c552f3debcdd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0f001310-8ab9-4f6f-a669-e44bcf6d9d55",
+  "generatedAt": "2026-07-26T21:59:16.995Z",
+  "registeredAt": "2026-07-27T01:37:25.672Z",
+  "assetSHA256": "90d9caf751bad68860a96849657cc12014c5843cd541be30a369cc9ceab9b9c5",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "7d7200845e45b4262a7d626ed4c3810f5600a3a3ef026026fd4a92dd576634e3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.538506175740622,
+        "quantizedColours": 192,
+        "dHash64": "e283131c1fa6cda1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

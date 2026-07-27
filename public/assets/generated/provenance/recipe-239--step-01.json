@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-239:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-239-mediterranean-tomato-baked-eggs/step-01.webp",
+  "promptHash": "b2f6c98979d7df76613581b0819712d15feac5c32b953d29a43d1dac38debb9f",
+  "providerPromptHash": "9e7c84c39b200a14c6c22dc50b54dcb0b5070225afc2d2b35d23bbd035f8ae4c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1110925a-4c9f-46a7-b660-8e20fe5149a7",
+  "generatedAt": "2026-07-26T21:36:19.351Z",
+  "registeredAt": "2026-07-27T01:43:13.280Z",
+  "assetSHA256": "17a93436b7df3dcceefa381b612c228e497529d7922992ad8208f28487c438bb",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "861a79257573fe546a1623cd4f91dc52256eb39a3fae65c014d8d7c91f37d441"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.321072544466006,
+        "quantizedColours": 343,
+        "dHash64": "a723627279d9d969"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

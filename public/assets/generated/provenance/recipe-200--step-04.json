@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-200:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-200-italian-lentil-soup/step-04.webp",
+  "promptHash": "76adc2d50614e349c3866958d5c07100cace50938f98f95498788f3e0e237078",
+  "providerPromptHash": "946bcca41933d4a0e193f16df1efca2a597ea53e8d36fec5b1b7d6fafb3035e6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-33d39433-2a5a-4766-80e9-f328236b62b2",
+  "generatedAt": "2026-07-27T00:54:12.443Z",
+  "registeredAt": "2026-07-27T01:42:04.377Z",
+  "assetSHA256": "82a3fe10c2fe7c335fdd6f099694bec50d7018026151e8142112631c3ab8ffc3",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "8cf5ceb7c42b845810e425712ad1a67ee60229dd3f42a269c43cb689e2a30e72"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.642159259230539,
+        "quantizedColours": 312,
+        "dHash64": "676571f446fa8e8c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

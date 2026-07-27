@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-265:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-265-tomato-cheese-baked-rice/step-01.webp",
+  "promptHash": "1128419081f3054649f2a63a802c356be20d2a26a76b648f8fbe8b951f5a624b",
+  "providerPromptHash": "0fafbb4527ee0ef4268792de41f84deb60959a55500250e24350eccef17123b6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4d8879f5-6905-49aa-804c-04b6e105b5fd",
+  "generatedAt": "2026-07-26T20:23:50.864Z",
+  "registeredAt": "2026-07-27T01:44:00.313Z",
+  "assetSHA256": "c5f0a8e6a396eb8d6dcf1b2f160a8def41e74ee5bb330a62922e0f6046639d4a",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "74a4388d39e3dbf619022a75fa38b3f6738131315e61708532d65051abc7c241"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.532765107171144,
+        "quantizedColours": 307,
+        "dHash64": "b38dcd8c4cccc8dc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-179:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-179-malaysian-turmeric-cauliflower/step-04.webp",
+  "promptHash": "5c6134d9952338ad71adb07bb25d8744d003c214f43f9da30864b41841ded429",
+  "providerPromptHash": "5ff3590b6321d5deb5c90492fd662dc97627f503bbbdd25ca6e8ae21176c76b0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-707c659f-bb78-4035-b71e-cfaabea5f122",
+  "generatedAt": "2026-07-26T23:00:45.543Z",
+  "registeredAt": "2026-07-27T01:41:25.650Z",
+  "assetSHA256": "d13b7fda24e9106dbadf7e5d01bd18ac268ef8467483d9a8851a30dc9a7f7100",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "94d84f59a8aa61ac28e85293b92ced81563fc06430b2d9e2778485cbdc70bb58"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.325500927807298,
+        "quantizedColours": 173,
+        "dHash64": "f2cc8f8717978fce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

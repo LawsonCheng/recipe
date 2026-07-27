@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-258:hero",
+  "publicPath": "/assets/generated/recipes/recipe-258-paneer-pepper-skewers/hero.webp",
+  "promptHash": "814697de3150b9af22899cedc3bf6746d60d8b62529dd5999f1303b0a02fe839",
+  "providerPromptHash": "f9ab90bc639a2e9ac0e838de4f0b64c5b126fc673c1bc774ff4e42b3eb56fdf7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8ceadd34-3661-424d-b887-0a99cf1422a5",
+  "generatedAt": "2026-07-26T19:42:09.373Z",
+  "registeredAt": "2026-07-27T01:43:47.305Z",
+  "assetSHA256": "40f3784e32fdf26777997ea1472a11ef43fbb59289ea6a08b0ed63f294a3894e",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "be096fc83732d620f5b39ce343900c7f42c8554613ba638da29ffc1f3d9c89fb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.438813262198892,
+        "quantizedColours": 401,
+        "dHash64": "cccc9c0fb9357121"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

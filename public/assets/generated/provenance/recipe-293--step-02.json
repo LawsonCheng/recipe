@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-293:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-293-sambal-prawn-pasta/step-02.webp",
+  "promptHash": "143385dceefc388b3650f3e1bc0f667fd2dac56bbb41ed7b7126ad5c151e2c7c",
+  "providerPromptHash": "b60516959139ee49858f47eb6f3bb5f39c1fd4ff0df9defb5673f9057199e52f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6c584ec7-8b5e-49a7-b639-b6ed72761aa2",
+  "generatedAt": "2026-07-26T23:26:11.662Z",
+  "registeredAt": "2026-07-27T01:44:50.984Z",
+  "assetSHA256": "daed1b7933fd536df3f0a4ec44c80eb3f9360209c6f2acc7a8cab40fa62a899b",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "9e45064456bc18874327edd19dbeaf779e806629707d3ac451d1ab9d47c8a43a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.740834453143179,
+        "quantizedColours": 261,
+        "dHash64": "2dd939981f33b2cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

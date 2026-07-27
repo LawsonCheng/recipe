@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-111:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-111-korean-cabbage-pancake/step-01.webp",
+  "promptHash": "0fec47ae066211daa67416e7684d4ba167bf408d2768c561a27436bc2262bf21",
+  "providerPromptHash": "a8cff5b498aaf67071c780bc4549a6276dbf9ef23a022bd616af1631076b955c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ee2dc825-1c98-43ad-a065-86a19819feec",
+  "generatedAt": "2026-07-26T18:57:30.797Z",
+  "registeredAt": "2026-07-27T01:39:18.291Z",
+  "assetSHA256": "8adab7a09943f0221bbea0783556fc4a3396978b9c18d7986cb9799975985a08",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "e98b2dbcd6914268439f6c52249269d869f39e547d93304565286495cd9221d0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.597809012979269,
+        "quantizedColours": 275,
+        "dHash64": "1f33533de4c482ae"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

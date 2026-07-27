@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-039:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-039-braised-mushrooms-in-oyster-style-sauce/step-02.webp",
+  "promptHash": "a3ad87df1e2ac0aed65a6712090859c74dae2d208397101f2ca63b80d46eec6b",
+  "providerPromptHash": "bd4e3186ecbccdbb2322ffa691b9c557c5fdd07e3073568699b918d7b17bd165",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-bc7ce5e2-6ee3-4a40-9c49-9c1070f011b7",
+  "generatedAt": "2026-07-26T21:16:52.908Z",
+  "registeredAt": "2026-07-27T01:37:13.405Z",
+  "assetSHA256": "301d9e4b18fd02885f9c97bb35ce99a2688cafcdb926d119b212b01311769a25",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "5bf24d1141466def44a0ce8c7439c21e5835c0a0ce1c0793f2cb4f9b012f5fe2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.535878897760995,
+        "quantizedColours": 246,
+        "dHash64": "f878751c3c737919"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

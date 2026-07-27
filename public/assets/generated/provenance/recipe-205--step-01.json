@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-205:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-205-cottage-pie-with-mashed-potato/step-01.webp",
+  "promptHash": "86ec4e50f020bf7056801b547daff5ddec4a22974adeb90dbe9a2e8a32b6abe7",
+  "providerPromptHash": "1c293234f8251a7f29255d341e775b57f0ad669289206cd8f86487bf856dbddd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-07b1b940-d9d6-4d83-a273-54fcf8e879b9",
+  "generatedAt": "2026-07-26T18:22:00.804Z",
+  "registeredAt": "2026-07-27T01:42:12.470Z",
+  "assetSHA256": "a20c506787d60785d414ae5948716903b3aadb4a0136fe924919705d589124cc",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "190e1c4f775016c163d0b01c328d570950fee775821c3fb6f3accfe4efa0009e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.9740146315580205,
+        "quantizedColours": 170,
+        "dHash64": "d3c5c6829387ce7c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

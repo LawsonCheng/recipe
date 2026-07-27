@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-233:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-233-mediterranean-roast-salmon/step-02.webp",
+  "promptHash": "7aea876cbaaa07779a5ccc47c6bc38a87c295950a8344a12a4e0356e6af72577",
+  "providerPromptHash": "85fb413fbe2d267ac12060cecf0d057de4d0b6921eddc75bf6e0607945555e31",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-12e00a9a-d2f2-47ad-a708-605d3e616f77",
+  "generatedAt": "2026-07-27T05:01:04.731Z",
+  "registeredAt": "2026-07-27T13:00:17.373Z",
+  "assetSHA256": "1b6680be9f7604406797125be47d1d3bd733c7b799bdd4e8f7419183895ef812",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "36b886699a196ae00769daf1b599bdd07e6a8d052196cb04525f2bd87e134a7b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.50496394084621,
+        "quantizedColours": 314,
+        "dHash64": "4ca66b569c61d9f3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three salmon portions are being evenly seasoned on one paper-lined MX2 tray, with no vegetables or later cooked state shown."
+    }
+  }
+}

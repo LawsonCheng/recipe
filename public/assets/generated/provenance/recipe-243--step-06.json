@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-243:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-243-chana-masala/step-06.webp",
+  "promptHash": "4e3adeb191ba74379c94f4d95a9714ca832d141e6534ca6cfc836ebe0bddbec2",
+  "providerPromptHash": "13d3d0d20c98ef85a90988991e17d42ddb27301dc770b0f98c8b57f57e396d3b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-54f3740f-d017-44be-87e9-89b2534799cb",
+  "generatedAt": "2026-07-26T22:03:21.453Z",
+  "registeredAt": "2026-07-27T01:43:21.742Z",
+  "assetSHA256": "691f07b90291f63ccbf1b065d4b46744e1fbab7c1a372cbe2c4c8665cc3ab734",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "e19211462fbce669efd98d559982c32f74ad2699a229b0298562fcb185078d43"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.462104788253782,
+        "quantizedColours": 215,
+        "dHash64": "f8b4a6271f9a9f87"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

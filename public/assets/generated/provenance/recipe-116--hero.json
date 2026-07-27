@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-116:hero",
+  "publicPath": "/assets/generated/recipes/recipe-116-korean-honey-soy-salmon/hero.webp",
+  "promptHash": "067a7ca05ccf633a323001cdd3035371d944f508db27ff1332d99bdce84c5a8d",
+  "providerPromptHash": "8b441e4bb932289ad5e695f1069206caec3ba79a3b5a1a2bd8183402cf050078",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-aa23ba60-c646-4151-a0c3-2cdf1a29dc6e",
+  "generatedAt": "2026-07-26T19:29:58.565Z",
+  "registeredAt": "2026-07-27T01:39:27.450Z",
+  "assetSHA256": "d6d8f5e6ab446420d3cc5845cce055f2e59afb9fdc9628b1f468a44a444f2c28",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "218e20261d286583361fbe461b46fb599f3350e2a74106bd2d51a79189893c9f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.786515379179036,
+        "quantizedColours": 342,
+        "dHash64": "228c941622643986"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

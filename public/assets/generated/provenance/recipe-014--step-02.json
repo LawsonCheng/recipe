@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-014:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-014-hairy-gourd-and-vermicelli-claypot/step-02.webp",
+  "promptHash": "f8fd06e143c653493c4341db6b04c9641baa9d7c520297a035737fddadb4b8cd",
+  "providerPromptHash": "64efdac8f39f33e923128db4d5e271bab72ba3e58d0cb9d40637c84573ce59a7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1b3951a0-3d14-4833-b319-f0ea1c8baa4c",
+  "generatedAt": "2026-07-26T18:57:38.861Z",
+  "registeredAt": "2026-07-27T01:36:30.732Z",
+  "assetSHA256": "ae5a9b9757838a8e7d1f12353f6aaa1c33a174f49288ece6099b2c14adb7d85a",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "45f4cdac602742cd13f8d7a877262d72e94ce723cf45cad9cd3105a32a7c0f45"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.777435623342171,
+        "quantizedColours": 372,
+        "dHash64": "1f3b74f2b1af66e4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

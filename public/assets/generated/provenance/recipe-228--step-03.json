@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-228:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-228-lemon-herb-lamb/step-03.webp",
+  "promptHash": "6fac4f3d5266b01ba0a1c559cb57a58990a16d6a6ca964cee7fc0bbb218ba4f1",
+  "providerPromptHash": "95b5ca2fadaf8128ac0b551eb768e62b2f69517511513ad0b33d3fe2d0d295d6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-22b9391e-3e2a-4cd3-bd58-f95bfa462b2e",
+  "generatedAt": "2026-07-26T20:35:36.625Z",
+  "registeredAt": "2026-07-27T01:42:54.087Z",
+  "assetSHA256": "d718ba6d5925e3a2b5949efbede034c6fb7c9a64ca621be114c0fc43249346b9",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "da106c7ad4917fbe154b57357d7b5900c02e87bc86d26291c14ca933a7c46c07"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.711287462618202,
+        "quantizedColours": 509,
+        "dHash64": "c4c78d3b74b0c3c3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:29:20.799Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — Independent recount shows six loaded bamboo skewers, not five, with lamb, onion and bell pepper alternating as required by the CURRENT instruction."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-209:hero",
+  "publicPath": "/assets/generated/recipes/recipe-209-western-beef-vegetable-soup/hero.webp",
+  "promptHash": "5a6dfa015c1131bd6206ac85a710566f2db5ec15f5b5ef4c55b3597c33a71910",
+  "providerPromptHash": "c18e83e404b942b130e69b46b9bd30f8e47e1fe28ebb62c0e89f3a7a9eb61ce3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2868158b-38a6-48d7-8bab-6b46fdd757a1",
+  "generatedAt": "2026-07-26T18:41:57.675Z",
+  "registeredAt": "2026-07-27T01:42:19.272Z",
+  "assetSHA256": "d6320769c8cabc763f7378bace003137a3d09deb8abc98939b617ad4a1e1a31c",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "b6afd157f75adfacc6d1efaf6e8867cd26f1a17ebba47a5ce10e9db10a6b2dea"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.703343345128815,
+        "quantizedColours": 446,
+        "dHash64": "cbcccd97f37b7336"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

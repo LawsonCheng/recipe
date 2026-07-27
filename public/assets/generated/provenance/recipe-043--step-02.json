@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-043:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-043-cumin-lamb-stir-fry/step-02.webp",
+  "promptHash": "3f85e3edf62c5fdf317abffc47b21c8f53b92c2b1c0a7f92b426f942b9c48d6b",
+  "providerPromptHash": "fefc415891523ed0d4cda72bab37cbd050b6b8d597d71b7815bf83711e1ec571",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dfce8fcd-da2a-48c3-befc-8dd7d97d933e",
+  "generatedAt": "2026-07-26T21:40:44.205Z",
+  "registeredAt": "2026-07-27T01:37:20.214Z",
+  "assetSHA256": "e2065bca49611de34c0709680a064549e03fc060e639c69d04311f733c33ceef",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "499bdc10a929336078b251ea8a4ce58882c674e8e650c94db0999f01cef2200f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.712795361003373,
+        "quantizedColours": 319,
+        "dHash64": "c0ac162e0c6cc3d3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-215:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-215-salmon-potato-fishcakes/step-05.webp",
+  "promptHash": "e94fa96edea94e0638c79ab87303f6100842b68280d30f032ca9e810db6e2819",
+  "providerPromptHash": "a45cff968277bdba41437e42b9f47479fac87d6297025b5176de2ce015ecc98e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-519c1323-8510-4588-b982-f9da6ac5718a",
+  "generatedAt": "2026-07-27T06:06:56.723Z",
+  "registeredAt": "2026-07-27T13:00:12.056Z",
+  "assetSHA256": "73d80ad32761d18e7818d521669e55cf42a153e41cacd420c69dc760674251c4",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "20e01893da9fce6f0a7d8031f839b8b32ba5ddb1db664df5920288d45dfc81cd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.514920865114618,
+        "quantizedColours": 169,
+        "dHash64": "8e13394d11032386"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly six uniformly breaded fishcakes rest on one clean plate ready to chill."
+    }
+  }
+}

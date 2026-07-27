@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-233:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-233-mediterranean-roast-salmon/step-05.webp",
+  "promptHash": "ed47979c2bdd3c55f4aaa2fb4603a434c328a0bcd7e3a2bbbd6550bf0864a532",
+  "providerPromptHash": "64b0a21f4d0d37e2de312759efc1f47f87a7352fd5ab936e8728cbb35e6ec87b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ed054827-d9fb-4565-b63e-698a170444ff.png",
+  "generatedAt": "2026-07-27T05:12:31.594Z",
+  "registeredAt": "2026-07-27T13:00:17.609Z",
+  "assetSHA256": "33a765633cf56170722fac0dc5f6f124c9d0a1380a21e56a617aa4eca5b083d4",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "31cf4bb0b7f4295c18e0a84e6e88addd7f03fae84d80d41a89644d5162acc147"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.9521928098547505,
+        "quantizedColours": 350,
+        "dHash64": "ecea69e12e2a7b92"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three salmon portions rest on three vegetable beds on the lower MX2 tray at Steam Bake 210°C while the centre is probed."
+    }
+  }
+}

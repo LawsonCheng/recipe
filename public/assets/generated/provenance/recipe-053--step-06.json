@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-053:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-053-northern-chicken-and-mushroom-stew/step-06.webp",
+  "promptHash": "66287e7584d5f894adc9f0ea0e2380911bd1ee7e88598440317f621297fca066",
+  "providerPromptHash": "dfe25f812322d097364be516540d41115276a95834b11fbeb9b5a997cbce3257",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e23e0cf2-9783-4562-b306-ebfcc8cba0ae",
+  "generatedAt": "2026-07-27T04:30:43.482Z",
+  "registeredAt": "2026-07-27T12:59:43.557Z",
+  "assetSHA256": "1f5e49739df95e53820b90cbc709749b0fd73cf95f595cf4a4e7b4124cc8cacd",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "515768ac815f8cf0d7c6b53105c38d0e392526f73e9dd109cbe25d022e11c617"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.460114646673901,
+        "quantizedColours": 262,
+        "dHash64": "ebc94c0e0e3e8d9b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — chicken-and-potato stew is checked at a food-safe temperature in the Chinese wok and finished with spring onion."
+    }
+  }
+}

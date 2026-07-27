@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-171:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-171-malaysian-coconut-rice-with-grilled-chicken/step-03.webp",
+  "promptHash": "69d13fa3d2d3d6ba80affc67c7dc9089bb282256550bdced9b7259e0548833c0",
+  "providerPromptHash": "ba3bdd6ff81f6aa9fb6edc254b0f21fd3e901a318927a89e5b4bca2107af8aaf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8b025084-c8ee-4b23-a593-683e21077e50",
+  "generatedAt": "2026-07-27T01:01:30.609Z",
+  "registeredAt": "2026-07-27T01:41:10.458Z",
+  "assetSHA256": "76e52d85debddb60c23887e3ac7a7fd00e9b6eef9d6f7dfce4b8c837c965c863",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "22becdac79652b18939cbd8cfe89abb659ede1decc31812ec0d1b049226f4ac6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.550287691643462,
+        "quantizedColours": 99,
+        "dHash64": "87d4be06068c6860"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

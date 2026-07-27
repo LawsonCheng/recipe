@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-193:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-193-italian-tomato-baked-rice/step-02.webp",
+  "promptHash": "844664a43ed42d86996204bbf715f4aff0f5be751e2d61a013b80ed306dbd81b",
+  "providerPromptHash": "d90b0c58a32cdc61e275374818220fdd71f6938b091d88394d8dc780591a6f5f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2aa26a10-a8c2-494e-810c-3c5044516d63",
+  "generatedAt": "2026-07-27T00:17:01.806Z",
+  "registeredAt": "2026-07-27T01:41:51.614Z",
+  "assetSHA256": "b2619858a66a0f9fb22b873703c37e5aa43c66d3f076f029132d07f7cb2ea3b3",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "2a1cd3aee8cd278b3375cd8a67c7b2c5c98b7d10eeabec2face72546c49967c3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.57662000588607,
+        "quantizedColours": 350,
+        "dHash64": "71c69f3bad1bcce0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-066:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-066-dry-fried-green-bean-style-okra/step-01.webp",
+  "promptHash": "cd6786f5997e47da830abe5e0a4b775c4008db709d75cbf8f904c679e9940bc5",
+  "providerPromptHash": "f52d8b9b371801f1d5763e6668b2ce6642b8288b0b1a6b8bf6673386afe5fbcc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1070b94a-2922-4b19-aac9-ffa5e14cb085",
+  "generatedAt": "2026-07-27T05:30:56.656Z",
+  "registeredAt": "2026-07-27T12:59:49.027Z",
+  "assetSHA256": "f5afda8e4deb66c5bec768359cf0f0b084eeef0b13aa4422506e4727d701287f",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "cdb58689ceb35b11823be667d538081c5d47cefc05983dd27ce209c4b042a06c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.780066400067881,
+        "quantizedColours": 507,
+        "dHash64": "9c9c8ee7f6c2c2e4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — All okra is trimmed and diagonally cut, with minced garlic and diced bell pepper and no duplicate whole pods."
+    }
+  }
+}

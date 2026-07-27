@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-076:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-076-steamed-fish-with-mild-chopped-peppers/step-06.webp",
+  "promptHash": "5dca3c14b1aed444b064b968503abbf012d6f08ff1d2c5b59b56208d412dbe48",
+  "providerPromptHash": "e7b64168c774e0073ae8ea56b9b68d1a3534aaf253355d662fcbe001b8fec9d7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d7e2a2ab-ff08-415d-a869-d56ac4ef5bab",
+  "generatedAt": "2026-07-27T00:27:45.233Z",
+  "registeredAt": "2026-07-27T01:38:17.630Z",
+  "assetSHA256": "096d3f469d2d6f581c905e35ef5e38dd524bae39158936d4d26cc372d34e5c99",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "5ba771a4c93c8e2cf96ea3fabadfa5e90f271679d0f2478fba0f33beef99fb38"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.600021192338318,
+        "quantizedColours": 306,
+        "dHash64": "d35366b469712907"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-070:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-070-minced-pork-with-glass-noodles/step-02.webp",
+  "promptHash": "10787f0b87016e4ab0dce34021a2f41a34240be3c337fb9309e23f096c26c59a",
+  "providerPromptHash": "1304f2a099c73ebfdaec35abff89a64a7411f0763f44813bd3cf680c5e6fac41",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5b2f5ca6-f746-4dc7-a88c-e860588175e7",
+  "generatedAt": "2026-07-26T23:57:44.916Z",
+  "registeredAt": "2026-07-27T01:38:06.456Z",
+  "assetSHA256": "5e99cc32dee296b3ef6a471f8f4c70c186a155ad0d05b0e6aea7e0123a1ea3fe",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "fdea588250b43dab26ccf4c4e0634fe734c8b13e3844b03edd592416c8b73028"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.393027801012067,
+        "quantizedColours": 313,
+        "dHash64": "8fc7870f5abced7b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

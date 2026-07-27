@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-122:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-122-thai-green-curry-chicken/step-01.webp",
+  "promptHash": "0175e036e1a7ab2735852a285ddadbbcc3476fdc06b79dfb232c5ae8856ec605",
+  "providerPromptHash": "217bf97b177a935c72a36649fd669b4fc1bf46d04d75a954f70a809939225e3e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-56a633d4-d7e5-43e2-9c4e-0a30c572be21",
+  "generatedAt": "2026-07-26T20:05:05.906Z",
+  "registeredAt": "2026-07-27T01:39:39.055Z",
+  "assetSHA256": "f3c9f526212313260b27d65c2851c8c8ee20e73b52c0bde02e4a6c18c512c6c4",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "6e324b5d508d05206bfe198c8de1509edbe4a5db60b12234e9800ae3c8f891d1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.686993079259992,
+        "quantizedColours": 478,
+        "dHash64": "cdbbca32325233b3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

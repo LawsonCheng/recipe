@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-060:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-060-braised-beef-with-potatoes/step-04.webp",
+  "promptHash": "fb2d1283b1183a07247e1fb4b8c17e27b3edbb08b31cd70b846af31d1cc48dc9",
+  "providerPromptHash": "4253a41d04d8ef5ed3818589369f4f585ff066029e646489280645a38fcde4c6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3cd6fc9a-2856-4ba1-af98-390e31add97a",
+  "generatedAt": "2026-07-26T23:07:00.147Z",
+  "registeredAt": "2026-07-27T01:37:49.789Z",
+  "assetSHA256": "ece644d3461b369a551a5ae895a3d479de3e601da1daf623e5fc5eb2fc489d3d",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "4847a3b6ed71c0c140baf7a7b966a437421ea71b6bbde28c464c5cbbf0af6d52"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.288283173758828,
+        "quantizedColours": 213,
+        "dHash64": "f19e860baa868eee"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

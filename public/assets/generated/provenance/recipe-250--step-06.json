@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-250:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-250-coconut-pumpkin-curry/step-06.webp",
+  "promptHash": "6ba9ec9e0f68efe5fe61e682e4f76e2f0e533a422df1d2f856c00776aee37952",
+  "providerPromptHash": "f517836e0d7facb2e3cb1a8ba5284a6ced13185555d59a5dc9527a31348c15a3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d6e66de8-d208-4172-84f6-b55b3c59757f",
+  "generatedAt": "2026-07-26T22:40:07.464Z",
+  "registeredAt": "2026-07-27T01:43:34.476Z",
+  "assetSHA256": "43c7af0adda4975511d1b8761f40c9711e6dc513a3a16a78db77e86292644055",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "2f904aa66c8166f4d404a98c09debbcc7dd0581ed56256e86c7d635e45d67e8d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.471661148301791,
+        "quantizedColours": 249,
+        "dHash64": "c2194ab9b3545b59"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-253:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-253-indian-spiced-baked-fish/step-02.webp",
+  "promptHash": "1e4376ba764e0722f0301e4cb7d87a6688133886029a702ddbee2df50e2a3bb4",
+  "providerPromptHash": "9d48e290d33ce283af6242eab82c03826ff3c63512ea696a7e7490583106d53f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f5a815a6-9d33-486d-825c-a546e3fe6041",
+  "generatedAt": "2026-07-26T19:12:25.708Z",
+  "registeredAt": "2026-07-27T01:43:38.832Z",
+  "assetSHA256": "993d8a5b6f8e792c24532571ad2bd0f3d322a97c30e1f7c9df8e9595d9501bb0",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "a9ebeca564fc055509220183f23523fafadf3262e974c73f4060465173e0d7ed"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.365584362531081,
+        "quantizedColours": 199,
+        "dHash64": "7bdea613132b2b86"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

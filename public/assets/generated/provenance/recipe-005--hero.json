@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-005:hero",
+  "publicPath": "/assets/generated/recipes/recipe-005-tomato-and-egg-stir-fry/hero.webp",
+  "promptHash": "05130b58382055b640c541bbc03e343d88d22e5b303529945da5e1be60ab2ddc",
+  "providerPromptHash": "513c9a2faee1d53f338e746940a3e5b0273c22dd09f3ceff93bee98244bff317",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9948b4e4-bfca-4979-8947-3f13a1e44d4c",
+  "generatedAt": "2026-07-26T18:02:19.213Z",
+  "registeredAt": "2026-07-27T01:36:14.836Z",
+  "assetSHA256": "f478a23f2cf3d37736441485590606cce902600bd1530f7daa2e732c5cbf2dda",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "af5378e9e9c607a85f10c8f165d177847ed09512d092d9aee32fece62a8927bb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.8515037492034025,
+        "quantizedColours": 470,
+        "dHash64": "cf8e8fabd1e96b96"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-129:hero",
+  "publicPath": "/assets/generated/recipes/recipe-129-thai-minced-chicken-lettuce-cups/hero.webp",
+  "promptHash": "cbd702dba39ada9012fb9f62ec1411a880b2b3dc8f399894bc00fe77ef7ea638",
+  "providerPromptHash": "2aac3ae7b823ef603f608ee2a3204ea579643538efc1178452407f36a7f37782",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2ab528d5-ddf1-44cc-a573-1a75a1a93959",
+  "generatedAt": "2026-07-26T20:53:52.228Z",
+  "registeredAt": "2026-07-27T01:39:52.366Z",
+  "assetSHA256": "46e72110ff3867712af233f4b10f0854d578492a5a1753eac29486963aaeb4f6",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "0f46dfdcd9392ceb70e301eb07fad3fb3950baf0b75e78e7e4060aae3e1eb46c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.75746009768045,
+        "quantizedColours": 556,
+        "dHash64": "9f889487923b3396"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

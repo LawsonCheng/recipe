@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-007:hero",
+  "publicPath": "/assets/generated/recipes/recipe-007-black-pepper-beef-cubes/hero.webp",
+  "promptHash": "af7b181f161d074cd106754f254a9471dcac1ed9f00a334f0092c41234f3c762",
+  "providerPromptHash": "ee7a437c747a51ee8b12334cb066b61b3acec0ab4f22459b858aac25416b13a6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-12013bc1-b7ac-4f38-a7f1-0e89642629ea",
+  "generatedAt": "2026-07-26T18:13:38.434Z",
+  "registeredAt": "2026-07-27T01:36:18.194Z",
+  "assetSHA256": "b689ae067a9d0953333177b3ecbc14fd5a0e2633a3625cc332b8731ee4343e4e",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "d01171fca297b1fad5c305429dae77af6610f5b709fbb20a11b6ba8d80b96114"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.704544083215296,
+        "quantizedColours": 334,
+        "dHash64": "0e0a36d9b1d56937"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

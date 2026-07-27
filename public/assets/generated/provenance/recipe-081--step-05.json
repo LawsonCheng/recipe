@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-081:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-081-teriyaki-chicken-steak/step-05.webp",
+  "promptHash": "519c916c4dc767a7145e1e07f376736c476047e95054456797ce0b98a6cb451c",
+  "providerPromptHash": "26bba4417f10eb53ea014004d9bd78d0ac40503d6cc9e76b2fe93b22eeb6af14",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-fcf60416-0f3e-480a-a371-1162ab1e5347",
+  "generatedAt": "2026-07-27T04:56:21.477Z",
+  "registeredAt": "2026-07-27T12:59:53.782Z",
+  "assetSHA256": "8b5fb6ed1544e64da6ac1255c05380f145833b8824f02643430842196edb4371",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "ee7b9a3ab5373a91e4a63734a0da4cc8f9d43a9a26204790691e151d122d372e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.33354471635721,
+        "quantizedColours": 300,
+        "dHash64": "25c70f479f8e4c1e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

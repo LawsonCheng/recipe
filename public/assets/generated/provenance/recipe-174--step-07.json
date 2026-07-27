@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-174:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-174-burmese-style-egg-curry/step-07.webp",
+  "promptHash": "abefa45166e73288c29c80ac0a947d300e0e3d348baae1bda80b99952a4f9f35",
+  "providerPromptHash": "04dc9bf79117e7f564927299bc7b147e50b51e2e0dc37645f718de09a80ebfa9",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cf166665-7f59-4af9-9c3d-2d82fa0195bc",
+  "generatedAt": "2026-07-27T01:18:08.041Z",
+  "registeredAt": "2026-07-27T01:41:16.936Z",
+  "assetSHA256": "5524341addb03f9242ff3af512c01cbd7f34600ffdd8275159a77b2d4f35accc",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "cae04e5727150613259e8b9dbbc452a7d21ec0a60894e6498c6c02ad13c7d15c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.541433275328018,
+        "quantizedColours": 298,
+        "dHash64": "c16335394ccc9c72"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

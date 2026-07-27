@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-257:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-257-easy-chicken-biryani-style-rice/step-05.webp",
+  "promptHash": "0fb5ce8f9dd1623db184e81dcde8d615ff491605b70ab97e12554322ccfd6d89",
+  "providerPromptHash": "95549216de64f6fb35602bfb88d5ced550e210cb4069e24b433632cb20497331",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4c2bdf6d-a614-423c-b583-864f58c48b1a",
+  "generatedAt": "2026-07-26T19:34:37.108Z",
+  "registeredAt": "2026-07-27T01:43:46.775Z",
+  "assetSHA256": "7cb52bef1207b0526ecc8e9e38f1c44b36b7edf8186f819005fa9b23eee26826",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "c82de8b78ca70fbaf90fd6313f21bf0968a7e62ced91103a4d35d0e0e15cc582"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.561361953266896,
+        "quantizedColours": 385,
+        "dHash64": "c3c3070b1b051f67"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

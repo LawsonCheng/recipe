@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-128:hero",
+  "publicPath": "/assets/generated/recipes/recipe-128-thai-lemongrass-chicken-wings/hero.webp",
+  "promptHash": "155b60df3ed3b63078fbe3699fbdcc293a3284509e2196ddd351b8402b48fb43",
+  "providerPromptHash": "729082fab88987edc6af08f8a70101253ad7bcc46e52aa1dc02ce73dcdf4dfba",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3048021c-8b0e-48a7-971d-9d8810ae91a8",
+  "generatedAt": "2026-07-26T20:45:05.362Z",
+  "registeredAt": "2026-07-27T01:39:50.408Z",
+  "assetSHA256": "0e4fbfba615ddaab8cf6507004a506fceae437e19b5426d43c55e96d254bd30a",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "8cd6ff899f9882d2e564f8746d120d14d1573611bc5bd8bae36d94dba90d61e3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7253659658599645,
+        "quantizedColours": 297,
+        "dHash64": "d1dea697d2f6463c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

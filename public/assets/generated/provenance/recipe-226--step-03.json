@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-226:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-226-middle-eastern-spiced-cauliflower/step-03.webp",
+  "promptHash": "9c1becbd595577f83ff1859f196f910bc22cdb701340c496fe2ded9f14c8784b",
+  "providerPromptHash": "5601b2b07623c1538231ec5f27b6efb3f6b71e0da7ef2eb7412f541fdf26e841",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-bdf9d9ef-5828-48b8-b6ac-acff7e885e99",
+  "generatedAt": "2026-07-26T20:24:19.826Z",
+  "registeredAt": "2026-07-27T01:42:50.503Z",
+  "assetSHA256": "dfb7857c56c933c5529e50bb6700dda25a9b05de4fc7f1c5c10c62cd4e2d65b1",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "ac1e14b582aad2addf61183a2b6ff7009eac965b8db39d5c6b3734e782ce574e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.674358676711563,
+        "quantizedColours": 275,
+        "dHash64": "234f7e6b4d51577e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

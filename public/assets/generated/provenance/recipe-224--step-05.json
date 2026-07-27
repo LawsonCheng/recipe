@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-224:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-224-turkish-style-beef-meatballs/step-05.webp",
+  "promptHash": "29cdb6955c26cc55a847439b45bc98a5e9bfd40a6c6a688ff070645b14b02cad",
+  "providerPromptHash": "87b09147ffa20ee19eb40b71cf94d7d3985649ac31e7c3718056a05d62dbcde5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0b51f9ec-32cb-42d6-b51b-17cd63a0bf2b",
+  "generatedAt": "2026-07-26T20:14:24.191Z",
+  "registeredAt": "2026-07-27T01:42:47.421Z",
+  "assetSHA256": "30e79374ad8850148d3ed2a51721fc164809599990963956fbf312cc7aafb361",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "d194c2b2433ac4d873969f7d500037eb1e7fe92f67fa58ba2aa552f2007a0820"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.529762754449621,
+        "quantizedColours": 204,
+        "dHash64": "7cd48fa72f9f46e4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

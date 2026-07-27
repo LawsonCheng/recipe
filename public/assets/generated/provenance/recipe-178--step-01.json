@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-178:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-178-vietnamese-rice-paper-roll-salad/step-01.webp",
+  "promptHash": "385f784871d65334aef246e2b4631f9f332143c29a77f8561240ec178eb26e4e",
+  "providerPromptHash": "01aa155c9bb1f74fe02489e966b8404dd678857ded2da51b94da198d5b829b53",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-701c6ae0-d85d-4d8d-8cf6-a4ee271acb9b",
+  "generatedAt": "2026-07-26T22:53:11.221Z",
+  "registeredAt": "2026-07-27T01:41:22.939Z",
+  "assetSHA256": "7415585bafce60aa1d4259d78ef7a62e456b228736ed46074ca6b1d80dc10e85",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "3409a28c0dc23714090154e13c1a936daa06228a413ee64cc091ff6d145949ec"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.78789410146419,
+        "quantizedColours": 363,
+        "dHash64": "1b197dcd9c8c8486"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

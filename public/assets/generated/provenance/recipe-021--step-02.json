@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-021:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-021-steamed-fish-with-ginger-and-spring-onion/step-02.webp",
+  "promptHash": "c358aff00c29a8d9f2884bfc2b675430ffb8f9b8bdda82a63f3d63c5fe0fd650",
+  "providerPromptHash": "c5facf4695f8b0dc7bc8389d7fb7c1ddf1e1081ed75ea04155d4ea9986e30acf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8a31a07b-d7bc-4d0c-97b5-14a82907a59d",
+  "generatedAt": "2026-07-26T19:36:16.202Z",
+  "registeredAt": "2026-07-27T01:36:42.624Z",
+  "assetSHA256": "61148dff792102e80082b78e633c1bab55169efd3c0c15e0652c31ee1ce89488",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "afbce84158c9ae77abc0953eb91cdde86ffa8d8179500e05f3f695e31de97de1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.4471775990678,
+        "quantizedColours": 395,
+        "dHash64": "3434372d3d333ac1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

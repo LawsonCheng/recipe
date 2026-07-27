@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-240:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-240-lemon-cumin-chicken-meatballs/step-06.webp",
+  "promptHash": "4a34f9fc86e3cb88fd8fbcddcfc5db3ae6fa2111c07902d016f5a37ebedcff4b",
+  "providerPromptHash": "dc90f0615babfcad3de1643e541e1ee0500f5c48790a35eb4c4daac046a8b98a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-fa2798bb-88aa-4034-bbbc-cc1ba9004a0f",
+  "generatedAt": "2026-07-26T21:45:32.542Z",
+  "registeredAt": "2026-07-27T01:43:16.329Z",
+  "assetSHA256": "8b4918cc5116088a4e1d52101a2851ce6c14a8cefccf05decf0c82458d7c4511",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "4d7fd45fe3a4bee5aefeb7e8c6ab8c3db223078bb6207df9469982f6604d6dce"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.767812480335124,
+        "quantizedColours": 340,
+        "dHash64": "3ef19e960e2204c8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

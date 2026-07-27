@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-029:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-029-lamb-and-tofu-skin-style-winter-pot/step-05.webp",
+  "promptHash": "5b83556ef09f3ee5ad9aa5248d1e9b7297bea80b700f2828d2f04e235bce7656",
+  "providerPromptHash": "aa6d3fa513f4030a10f087e5ceb3f7c77614abc6a2bd3a5a5a1c480a9b427d65",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ed3ddf63-d8d9-407b-be49-5ee7409eec93",
+  "generatedAt": "2026-07-26T20:19:15.465Z",
+  "registeredAt": "2026-07-27T01:36:56.920Z",
+  "assetSHA256": "e166522cb8f00368143873ce247e6594b700661cecdd2c83e4f1ceb1269b2ed4",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "a767e0d25d3a24f54a63e55de688ad49a2f76b341efde746c7da34fa0722caa2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.683542718121316,
+        "quantizedColours": 279,
+        "dHash64": "1e1f0fce920c8890"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

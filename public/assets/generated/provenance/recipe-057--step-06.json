@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-057:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-057-mushroom-pork-sauce-noodles/step-06.webp",
+  "promptHash": "9090b2e1cad11752ae025c55dda301dfbe2029e5ca0d86dd1f29b5adcfa15098",
+  "providerPromptHash": "7b8a2b3f7674b58f141704a460105ab39303dea473909757255144fffa3f77d6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-90924b57-9c3c-4411-9f3d-4f37db1aa8b5",
+  "generatedAt": "2026-07-26T22:56:08.329Z",
+  "registeredAt": "2026-07-27T01:37:45.237Z",
+  "assetSHA256": "be42629316336bd293eceb884f496a818f205ce358c17dabe113bca7a86d171d",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "06332cd578f4601b69dd602e0a2c4e9a56816186f462e733bc4f2e195853047a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7828928511589766,
+        "quantizedColours": 415,
+        "dHash64": "86232335a9cc0c26"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

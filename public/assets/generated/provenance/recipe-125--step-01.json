@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-125:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-125-thai-lime-steamed-fish/step-01.webp",
+  "promptHash": "ef8f0a69630ac37d59620a2624323b5cd2b4840d6907371bb9af6724fd029379",
+  "providerPromptHash": "074d9bc1148b3e840a54b3356639657a73e9683896c7dc2c4c61f1e1061dbf54",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-eb5abb14-2f05-4c0d-b385-00118241e699",
+  "generatedAt": "2026-07-26T20:24:35.638Z",
+  "registeredAt": "2026-07-27T01:39:44.203Z",
+  "assetSHA256": "69dbe7c2bfbb998c2513e01fe7ac7bba7877f5887260da4c6ec87c02b6ec6f72",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "4b4ebd768fa173ed626c505f405ee90f13f4398ee50859ab5d992504881867b1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.591652836534195,
+        "quantizedColours": 143,
+        "dHash64": "b3310323068e273c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

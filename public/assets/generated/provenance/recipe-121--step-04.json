@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-121:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-121-thai-basil-minced-pork/step-04.webp",
+  "promptHash": "d5f47beb18b42542b6eb17ed39ec0aeaa76d2164fa1ea53d645314a4ed7f71e6",
+  "providerPromptHash": "853d7dda5939ee96f0b2111f2bae756c7e2a58e2e68b3634e542421ca5ce0ff7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f4b96e07-5e98-4551-850f-2c5d139d2b5d",
+  "generatedAt": "2026-07-26T20:01:23.072Z",
+  "registeredAt": "2026-07-27T01:39:38.051Z",
+  "assetSHA256": "9ebad6d9af4aa081748c7843d56ab580193a289ca0a4b14d191dc043f2a82d7e",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "7ca2e8ba4a2e3ae8d398ed342fb02c3a9a57adcd318d09c35f4960d5b6a6bf1e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.315913402038859,
+        "quantizedColours": 116,
+        "dHash64": "d88b1b1b3b938fd1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

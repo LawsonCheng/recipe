@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-222:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-222-mediterranean-herb-fish/step-03.webp",
+  "promptHash": "f10681d84e028635ee0b02ae8c0a599cecdfadccb706efe95e3eb3d93c7dacd9",
+  "providerPromptHash": "7c2ae9663e5ef10a2485019f458839c32100b9f7f5e3d14f510edb1d914a564e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6882ff8a-b8e3-4208-8e51-d3beb9827700",
+  "generatedAt": "2026-07-26T20:00:50.242Z",
+  "registeredAt": "2026-07-27T01:42:43.314Z",
+  "assetSHA256": "36f78de2e9b359d1087db13857c31b592d9222029640a83221e66b1a3c342d03",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "32a7b3ad4d52e6449c1d1a912cd114e7b82f83c51724fc9103e41f0d1e6387b7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.480468519244823,
+        "quantizedColours": 404,
+        "dHash64": "fedcfcc48198c0c3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

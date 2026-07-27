@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-031:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-031-steamed-beef-patty-with-citrus-aroma/step-01.webp",
+  "promptHash": "9387e6e8d40826053f6c878b8b8cc72bb4704a9b9086e2ce368860a3740bd1d1",
+  "providerPromptHash": "e13228ca55ad182cb3af6769297875be2c7637d9ac613a0546f494f127e4a3f2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-89001419-3e0a-42ce-b238-77734e2997b7",
+  "generatedAt": "2026-07-26T20:24:45.399Z",
+  "registeredAt": "2026-07-27T01:36:59.574Z",
+  "assetSHA256": "a38cf6962777c737ffffda91d9368af4698fe79ef2dab76c87d9a9b65097f1a8",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "4f1c82b052670f45b955cf1246cbaec0419c8ea23e8a2c5cbf6a976854588144"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.482763340081874,
+        "quantizedColours": 353,
+        "dHash64": "9a9213a246899b91"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

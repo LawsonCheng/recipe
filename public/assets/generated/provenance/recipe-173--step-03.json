@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-173:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-173-vietnamese-tomato-fish/step-03.webp",
+  "promptHash": "263befb6b46a53308b8a2a0864e802a0554a201aa89e23cc9d0846eeae241bbd",
+  "providerPromptHash": "21f235d23e6574e9ec623f39291ca04a74b7ae40d18fbda5e87963872ff587d7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-efb2579c-2087-4225-aede-8d12ae9ef7ed",
+  "generatedAt": "2026-07-27T01:13:22.529Z",
+  "registeredAt": "2026-07-27T01:41:14.124Z",
+  "assetSHA256": "f63a6929d74efc1b6ac09a5118356680333d5f70df72c92e9dbe17231558a181",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d886fb030fd2c17970f5cc6e0b5da7f03e2508f5f827bd6d80a994efee30aab7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.2773350508650765,
+        "quantizedColours": 209,
+        "dHash64": "509a1a191f379f64"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

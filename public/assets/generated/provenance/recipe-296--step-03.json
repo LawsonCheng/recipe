@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-296:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-296-hong-kong-curry-chickpeas/step-03.webp",
+  "promptHash": "ca1fdc0fd605fafcb4cd9fdfb759823937317832437f48b3b1bc1f8f07f21390",
+  "providerPromptHash": "08ebb10973a3097234c4e513237a507e8c9646a0fdaeee4cba57ce807cc2fabd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_n4YSMKQxqmjUVFrBQCX7qojM",
+  "generatedAt": "2026-07-27T10:24:11.715Z",
+  "registeredAt": "2026-07-27T13:00:28.697Z",
+  "assetSHA256": "f0e9bf21cfd14d80ce0c5dd720f3f968708608d3a3a79e0f013c04321be9f705",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "bde919230726170ff305febf9facab7a7891d84a2a308bcce07098c8013f026c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5461642841328285,
+        "quantizedColours": 266,
+        "dHash64": "f2a30f2f0f1f1e4c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Potatoes and carrot simmer in curry base while a knife checks resistance; chickpeas do not appear before step 4."
+    }
+  }
+}

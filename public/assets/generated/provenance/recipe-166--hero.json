@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-166:hero",
+  "publicPath": "/assets/generated/recipes/recipe-166-vietnamese-lemongrass-pork/hero.webp",
+  "promptHash": "8425816d06dd6173f376eb85b90aab2a1f4fb850220269a5470d4067d905ef66",
+  "providerPromptHash": "6a37f37558fdb38f23e0c804517933b7d7bf5061878ac04c4efd56935a79cad3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5427b387-275a-4416-8367-0162db5702c3",
+  "generatedAt": "2026-07-27T04:49:36.735Z",
+  "registeredAt": "2026-07-27T13:00:05.304Z",
+  "assetSHA256": "604d569f6cb7b76ca0e7f293af6b513cfad0d0f6cbc2747095ea767760e90a23",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "5fc7b0c3007ed6941cfc67e8216e84b4786adf01d8f7e3d39cac769b2e657c46"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.737994352672104,
+        "quantizedColours": 290,
+        "dHash64": "078c8e9b29243599"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — all three servings show corrected thin pork-loin strips rather than whole steaks, with natural browning and garnish."
+    }
+  }
+}

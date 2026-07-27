@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-013:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-013-steamed-chicken-with-mushrooms/step-02.webp",
+  "promptHash": "c70435aa31f41c130fcaca9ff8035437cfedd5b762753a9cef0245764e80633b",
+  "providerPromptHash": "2c3d2e8dd59a7527b7700f17852e3b5b3ad392dc69db7de0f5e9185ffab43803",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-22fb1f87-3401-4cbe-a33c-50227bab13bd",
+  "generatedAt": "2026-07-26T18:50:40.116Z",
+  "registeredAt": "2026-07-27T01:36:29.063Z",
+  "assetSHA256": "c0243cddfe1bacca25bf5cbe31e75804343b7f29de43c51b610e60a499e07a18",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "789dbcbfbf8d363cf68d51b91989059f22fdbe9a4487ef5189649dddda00499e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.671967949980171,
+        "quantizedColours": 244,
+        "dHash64": "0e033361456b378c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

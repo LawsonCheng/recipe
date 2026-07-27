@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-140:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-140-pineapple-coconut-sticky-rice-style-dessert/step-03.webp",
+  "promptHash": "beeac17a0c764e4054bf66f4a734e572d9afe265433bf4e2335cea7fb1f66c5f",
+  "providerPromptHash": "5f644053feb9f66faba4ba894d6c4b7fbca784aedbd11a36199e091736aa6582",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-07d581f5-3f25-432e-910b-0ac85c1de644",
+  "generatedAt": "2026-07-26T21:59:54.238Z",
+  "registeredAt": "2026-07-27T01:40:13.092Z",
+  "assetSHA256": "888f804d0d60fe8b116f583bbbfc3542ce3046f08626c9f682cda06a63446c98",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "38644c0a42ab47a03bfdc09edada7465002a4d9329ba97d4b1f677d9252f891a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.61727354186587,
+        "quantizedColours": 127,
+        "dHash64": "0590160e0e0ce870"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

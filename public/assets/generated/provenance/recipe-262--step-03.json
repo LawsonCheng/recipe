@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-262:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-262-vegetarian-mapo-tofu/step-03.webp",
+  "promptHash": "380daf9a5933299c3342918942c7392b0265c94ce5c7277c78f0b7f6a6fdfdbc",
+  "providerPromptHash": "3c0e0b04ff83bce6b8044835c2720ff62afe83e664084ddd0e2b8e9e31367a11",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-809cbe70-dd8f-47ed-8855-b7f7e612fcd4",
+  "generatedAt": "2026-07-26T20:11:21.712Z",
+  "registeredAt": "2026-07-27T01:43:55.436Z",
+  "assetSHA256": "9d0bf0c722aabdf414c3c24a656444e74ef6ec6df6447001b16db4c73c43cc11",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "6ffec535e0b8c6c6ca23a2913e8cce2ea03e318bcc20310dd3f9f302f381765c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.459621678921394,
+        "quantizedColours": 200,
+        "dHash64": "b5fc6797939b922e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

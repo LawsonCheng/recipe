@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-281:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-281-soy-sauce-chicken-pasta/step-06.webp",
+  "promptHash": "11f900c9b5891bb0a813b8000ba24c7bd88a34a899280d4cf74ae83bb3e8f33b",
+  "providerPromptHash": "c7c1c008104f2372d59088d28ab57ec66d711724986035b7fae0a24c5eb0540e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-693746f1-5b97-41a5-a50f-ce156bb257b6",
+  "generatedAt": "2026-07-26T22:17:53.401Z",
+  "registeredAt": "2026-07-27T01:44:30.341Z",
+  "assetSHA256": "d2114e695ac855ceb4445f04dd6d846b16b03e978f22995dfba3c09202fffa25",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "6faae3838cce52d29c9f133d9fef5de9636d847579bfb827b41af5fef0fa39af"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.533041724716895,
+        "quantizedColours": 320,
+        "dHash64": "a1a21818199918b0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

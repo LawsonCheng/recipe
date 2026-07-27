@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-290:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-290-mild-mapo-tofu-pasta/step-02.webp",
+  "promptHash": "933ffe15c8a394d0637fceb2f98607fbe02b917280c8688987b57bd0be5457d2",
+  "providerPromptHash": "8f8685e898a17baf3a9dad770e8ac05ad94fd49438c290f296bb60cfd6e9e626",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a508e192-2dce-49ab-90ec-fd4502a2ebc0",
+  "generatedAt": "2026-07-26T23:12:20.583Z",
+  "registeredAt": "2026-07-27T01:44:45.609Z",
+  "assetSHA256": "062d725e386852e6c3cb19db870e489bd86465c151c2d04f953e6c5b26f043a8",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "82cedf0c19e273ab9de29359dbee507ceac6afb2f61ba95c02b7e9efd28836aa"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.61996427871054,
+        "quantizedColours": 197,
+        "dHash64": "5ecf8e0f8d0989d1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

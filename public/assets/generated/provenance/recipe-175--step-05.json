@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-175:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-175-filipino-chicken-adobo/step-05.webp",
+  "promptHash": "99be99205d551ceb6a403298f2aa59ba1143874a47c83c332c8d2b6b81334e32",
+  "providerPromptHash": "4e29b68237a31253fb6637ec5a515ac86c528d72c48efd53778ccd18e8118e89",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-06e7c22b-2c6b-44a0-bb7f-55e3cabaa6d4",
+  "generatedAt": "2026-07-27T01:24:30.622Z",
+  "registeredAt": "2026-07-27T01:41:18.443Z",
+  "assetSHA256": "96560cde32d48cdc84286a3af35117db5913a72867584ea9ab3f6f966ba4757e",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "8dc887431c66c1672854acca3ce7e0c7c1986464e38d6aa01613b18774e27e1d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.533541579497978,
+        "quantizedColours": 244,
+        "dHash64": "0e4e4e1e565a1906"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

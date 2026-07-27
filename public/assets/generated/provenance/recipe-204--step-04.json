@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-204:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-204-british-style-tomato-chickpeas/step-04.webp",
+  "promptHash": "2a0661dbdd4d87d1a613401267bbc65ccd6d9935c581bdff9ae1a4dd6c275ceb",
+  "providerPromptHash": "d77ecce3f11d713f8fb827f33236b4f59b81d68a0852c7cd649e9e4b44c3133b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e9e1c0a0-3cd9-4175-b8b6-e199ed3dcd04",
+  "generatedAt": "2026-07-27T05:27:13.000Z",
+  "registeredAt": "2026-07-27T13:00:09.284Z",
+  "assetSHA256": "732975b3ac6a7d6707c7d193a0d0356e3758f86f0c4c88a6629ce0c4edd4912e",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "3463f64f3f721860de756d72631e193f8b69e854bff139edbfbe9afe9796df46"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.568895552074537,
+        "quantizedColours": 334,
+        "dHash64": "1094201226b3d3de"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

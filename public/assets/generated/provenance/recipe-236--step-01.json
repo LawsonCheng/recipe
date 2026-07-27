@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-236:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-236-greek-style-potato-salad/step-01.webp",
+  "promptHash": "ce8d41fb6a2bf68352c8ec1817ac71847dce3980080d8437889f76be24aac31f",
+  "providerPromptHash": "f67893164d2dcfcd7b84acf0e16fee448e581430b2001aa5751a03e0fd39d5d1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-beb3f109-55f3-4ca3-a291-774712b0941d",
+  "generatedAt": "2026-07-26T21:20:10.156Z",
+  "registeredAt": "2026-07-27T01:43:07.842Z",
+  "assetSHA256": "59d225ab12733edcfec9060ae2cb06dfa4d45b1db3bbef79d41523e2fd817eab",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "276019201b07bac2334c1f6f6577a82e29d93a39be967bf4953380948667dd39"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.829157155472785,
+        "quantizedColours": 274,
+        "dHash64": "df1e0d971b47076d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

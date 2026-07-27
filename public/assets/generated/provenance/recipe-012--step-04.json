@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-012:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-012-steamed-spare-ribs-with-black-bean-sauce/step-04.webp",
+  "promptHash": "bbc7b43129a4c4420c081d6868675e1ca54cbf9a85fd5df6f809fe06c95a35be",
+  "providerPromptHash": "aa24497149e426f9f732e02d8d300a6b39872334934de720e3e093dae64ab144",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_F6cFb6ymucALE948sGebJJbx",
+  "generatedAt": "2026-07-27T04:23:06.000Z",
+  "registeredAt": "2026-07-27T12:59:38.083Z",
+  "assetSHA256": "9a3cbab7526ff73f3f06877bcbe8699d3b1966bd8b43fe80cb86d8979b57800d",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "af55c8a4d3e6404f23dbbc692bd7e3c692a6da93e17cf3af5d80ca7b821252a7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.742812177632004,
+        "quantizedColours": 164,
+        "dHash64": "7cecccccccccc030"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened; real-camera photo shows the empty MX2 lower rack and fresh-water tank being filled without loading food early."
+    }
+  }
+}

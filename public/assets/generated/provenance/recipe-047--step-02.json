@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-047:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-047-beijing-sauce-chicken-cubes/step-02.webp",
+  "promptHash": "8b816e7e7e5596e4993ae4872278affdd079c11bf2b97eb98d2b8216d9b55586",
+  "providerPromptHash": "69795f6031c78c557c2be243cf9353ce52bce3c315107b71a3b464179333670c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4ab5ee10-a857-40a9-802b-a4a3597a6f1d",
+  "generatedAt": "2026-07-26T21:59:16.995Z",
+  "registeredAt": "2026-07-27T01:37:27.147Z",
+  "assetSHA256": "c8caad484a16f149e885ec3c41fbfc413e4ecaa324514728917e9d749cf6a3bf",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "79ed7a799cf66e5cb5a75455458f1d5d47c9ef91d69d03e67645509698bd36cf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.686064041452482,
+        "quantizedColours": 317,
+        "dHash64": "3633330f4e262d8b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

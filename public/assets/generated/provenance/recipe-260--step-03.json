@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-260:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-260-indian-beef-and-potato-curry/step-03.webp",
+  "promptHash": "3a4fd301237acacf21ebedd8212337124457cde7c1f04ae51af9598973168539",
+  "providerPromptHash": "b0b010844c9abaab0088475b05553ab7a4c0597ab0d11239e5934e628f876a18",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8ab14f9d-9c5c-45a8-bc66-b5ba8bfc6113",
+  "generatedAt": "2026-07-26T19:56:23.417Z",
+  "registeredAt": "2026-07-27T01:43:51.880Z",
+  "assetSHA256": "4ca502d05d645a2cf3e807e55213c1b120ce248661728d6e13e1707b900ecf95",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "b351a44cbaefee85c74fe34d8d3daa034ebdebce3e863600e2173cca78809dd8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.461338211433031,
+        "quantizedColours": 227,
+        "dHash64": "7efcbf870b1387c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

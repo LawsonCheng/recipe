@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-192:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-192-herb-roast-chicken-with-potatoes/step-03.webp",
+  "promptHash": "a4a1adaccf16c59fdfe8804dd453422dc7ab7cd23742459daab002c9b5440a30",
+  "providerPromptHash": "77b5b49bb985661311943d94109e790afbd0e6136456110b8b5e8c2a820b74b5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f6f74e21-76ef-4221-ae76-df24a49edc3a",
+  "generatedAt": "2026-07-27T00:11:14.291Z",
+  "registeredAt": "2026-07-27T01:41:49.863Z",
+  "assetSHA256": "976ec8a2900e554e8b3149f908af1578a7b03f1f753346a2bdd33a2e71d2216a",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "a193d64d4e252bb63f7ca1e25bcff19a77d718a7c4ac0cf76ded0358edfdaf02"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.717007698724046,
+        "quantizedColours": 384,
+        "dHash64": "874f0f533d6d398e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-009:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-009-luncheon-style-vegetarian-ham-egg-fried-rice/step-02.webp",
+  "promptHash": "e98133fe9eb57b0bc28cdbef9749e1df8be126d2a8e0adcaf5d04b0a3efcc67d",
+  "providerPromptHash": "8704d070a88326e6b4574367502cca3660596beec3d3f74fadc69ad905b2c0ea",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a6d5fa73-9bd5-4786-a383-6b683bf0ba01",
+  "generatedAt": "2026-07-26T18:26:29.273Z",
+  "registeredAt": "2026-07-27T01:36:22.102Z",
+  "assetSHA256": "fcff75c3683988656f5074fdbefac7a73e69168af080400ac944e62e400c131c",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "516fe0e293cbf091eec1c33d016fad91419b8cc344099923425406fd273c5589"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.389016424131114,
+        "quantizedColours": 363,
+        "dHash64": "0f9d89e8c6ce908a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

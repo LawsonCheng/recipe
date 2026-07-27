@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-192:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-192-herb-roast-chicken-with-potatoes/step-06.webp",
+  "promptHash": "18104471b380e02ec3f0d21cef4733102cbb01cb13386d4d4b778d01c8e82158",
+  "providerPromptHash": "91718ddb6d1c9b051726d96c454e2c3a737e9174b7abd0e9fbcbaa1e81de2c82",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f44b5336-a3c7-4d80-af73-e23b423ff486",
+  "generatedAt": "2026-07-27T00:13:32.006Z",
+  "registeredAt": "2026-07-27T01:41:50.586Z",
+  "assetSHA256": "7b25eec5d3ff021a459bbfa35feeb821431c44c68edd5518bd467539f74660f8",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "81566248a2b071aa82f4acadc77081f392067b1baaed34d4b5e891f207a45897"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.094117177533917,
+        "quantizedColours": 239,
+        "dHash64": "f549c1231f37b20d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image accurately shows the chicken-and-root tray roasting on the lower oven level with golden surfaces and no unrelated state."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-229:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-229-middle-eastern-spiced-chicken-rice/step-01.webp",
+  "promptHash": "e63e8a1af78a74eed143668c88882e25623aae34dcae709a9b9b7b2f69c62072",
+  "providerPromptHash": "094fe52ae76b60451fc77cc865709b2a7be56ee46568d89316f28602b2acfbbd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ea526aca-6bf7-40f1-ab4a-9e12f5edb5f1",
+  "generatedAt": "2026-07-26T20:38:43.011Z",
+  "registeredAt": "2026-07-27T01:42:55.326Z",
+  "assetSHA256": "ff7e6d62c11a2e391053ed9a16659fbabc82ac33ea3b7181c30555e2d49adc2f",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "60c09c33f5ebb7b6143e47610974fced62d6770c8c94f1475187272149115406"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.429258597287117,
+        "quantizedColours": 260,
+        "dHash64": "613335256159d8d2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

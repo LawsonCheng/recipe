@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-279:hero",
+  "publicPath": "/assets/generated/recipes/recipe-279-thai-basil-mixed-mushrooms/hero.webp",
+  "promptHash": "af8ca39de00afae0af526760dec95f292a20273d29a84b6599deb00894466025",
+  "providerPromptHash": "8ccb7d0daf61b2d3e7562534ad100cbf4d1ff5b781fda8c9a066cb012c68a84a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-58739d01-9bb7-4019-9e23-55464f3c0966",
+  "generatedAt": "2026-07-26T22:05:19.534Z",
+  "registeredAt": "2026-07-27T01:44:25.222Z",
+  "assetSHA256": "71f27426d72da346f9454f676bc3bb6e635283ef7d4bb1346fe3e61893795a99",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "f77dc36cf269fde6f03e32c58056cc7349708824268c2ad0e0f2e5dd9cd3c791"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.770316062029451,
+        "quantizedColours": 274,
+        "dHash64": "de86073dfce5eb3c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

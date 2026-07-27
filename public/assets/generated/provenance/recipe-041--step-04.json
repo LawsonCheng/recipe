@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-041:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-041-beijing-sweet-bean-pork-strips/step-04.webp",
+  "promptHash": "fde1baea3ac04f8ae0b94574530f0823375dca641c9327968add1b8ce23c35bd",
+  "providerPromptHash": "30bf1298b9ca20d38042445a68ca49aaa447b4c9a17eac417533c7816f0a7af2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-bb0e9bd5-25ac-4a67-9c54-43e8db380a8d",
+  "generatedAt": "2026-07-26T21:28:24.562Z",
+  "registeredAt": "2026-07-27T01:37:17.261Z",
+  "assetSHA256": "136ea999ef03233a2ed2a79279eb7fecd3155df1ab361755d55c507c7a97662b",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "55c32770a4285435dff4c24043e3cf15921ef07e2efde4b027a1cc0ddbb19012"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.444365476083476,
+        "quantizedColours": 159,
+        "dHash64": "f5838d0d173f9f9e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

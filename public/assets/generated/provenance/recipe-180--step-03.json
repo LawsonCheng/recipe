@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-180:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-180-singapore-chicken-corn-soup/step-03.webp",
+  "promptHash": "f308f3974245f88b17d5d6f751845a4610da7546537fdc23d4703d6a4f3a5dc9",
+  "providerPromptHash": "1ad6fc7445653229525b0000a0b0f58e11c33535b6ffb77200626570b56b2502",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9f285331-cb21-4f6c-9958-438ae00aad1d",
+  "generatedAt": "2026-07-26T23:05:13.954Z",
+  "registeredAt": "2026-07-27T01:41:27.149Z",
+  "assetSHA256": "7dbae2464a754edeeecc94cb7ea07f3843211b4887e95bc4560b9cbd26b996be",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "f7d27d8a5f300140c419c53c55c1bf1fbd5cba02cc4b316f9916a8114b64e0d2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.223355520400219,
+        "quantizedColours": 185,
+        "dHash64": "e98c0e270323074b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image shows corn stock simmering with visible ginger strips only; it does not prematurely include chicken or egg."
+    }
+  }
+}

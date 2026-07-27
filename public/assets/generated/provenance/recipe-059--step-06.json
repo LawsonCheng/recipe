@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-059:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-059-sweet-corn-and-egg-drop-soup/step-06.webp",
+  "promptHash": "901bd850a7c7e72da7c9bf34e13c22add9ec649dcc9c03baf48d951442279b33",
+  "providerPromptHash": "20acd890163be27f4de4471fd275c5124569a5f0b91d7b1158931c699854bb34",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7d4aef55-0fff-4e73-921d-460e4986e382",
+  "generatedAt": "2026-07-27T04:38:46.439Z",
+  "registeredAt": "2026-07-27T12:59:46.509Z",
+  "assetSHA256": "f5b78b4834ada65605913e3e2ef26f3898588ba470794bd87c4eba4e9cbd133f",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "d09d80808c4cc6af2bf67371029d2690128b00cb4937cffb089ea630526c44b3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.723206599825062,
+        "quantizedColours": 287,
+        "dHash64": "9a3c5c3a62233337"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — finished soup is visibly ladled from a Chinese wok into exactly three bowls, with cooked egg ribbons and spring onion."
+    }
+  }
+}

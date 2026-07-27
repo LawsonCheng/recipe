@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-169:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-169-vietnamese-lime-fish-sauce-wings/step-01.webp",
+  "promptHash": "5e296dbbdece10672f8548701fce9befce86283e6b9d613aaf2f14d22674d6ca",
+  "providerPromptHash": "009a0c7c345867d090dd0679d6bbc8ede3960666798d38a345f7ce3555c6c26b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-928d6665-1d43-4ea4-b331-dd416a784141",
+  "generatedAt": "2026-07-27T00:46:51.326Z",
+  "registeredAt": "2026-07-27T01:41:06.316Z",
+  "assetSHA256": "9fedd602ae3b477b788ea684ac8bb7889951bf43671be1115c5fe55659dfb8f0",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "b723ec78aebe3719b6d26323c59e04a70e425c6b95af8e77979970965a7fdf39"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.30940262664808,
+        "quantizedColours": 288,
+        "dHash64": "3364b290b5c3cf4f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

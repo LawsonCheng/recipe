@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-159:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-159-indonesian-potato-beef-patties/step-03.webp",
+  "promptHash": "1db7e92bb32043e14512f771be458dc9d5cd57d27e22a4aaa04e3e2743d3c142",
+  "providerPromptHash": "618a2b2d4b5b73d93b10e55d9dd2bc7ef72e68342b8b803edd101bcd278dca51",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-848162bc-4491-4e26-b78a-80b337ed6fdd",
+  "generatedAt": "2026-07-26T23:50:18.005Z",
+  "registeredAt": "2026-07-27T01:40:48.181Z",
+  "assetSHA256": "598ff666e965b7bac4dfa96aad17bf65914b24886c2aa1360bcfafa78e70aa44",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "9b621a4c791ace519df6ac7c5cd0877e688511b9d6ae9e272540b7b16f182cd9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.738528091409535,
+        "quantizedColours": 250,
+        "dHash64": "f0be26591b663346"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

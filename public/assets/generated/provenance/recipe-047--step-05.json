@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-047:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-047-beijing-sauce-chicken-cubes/step-05.webp",
+  "promptHash": "84a95da0628eb48f164469a423dc9a7b191a5b918d6ac12736ca9b466693f64d",
+  "providerPromptHash": "4cf9ce977ddf149158817573c8459d3bb35e2082022803c80eae67d4e435bd11",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-92c6f5a0-5349-4ef1-8aa7-e1d89758d30f",
+  "generatedAt": "2026-07-27T04:37:19.257Z",
+  "registeredAt": "2026-07-27T12:59:41.826Z",
+  "assetSHA256": "6c6f31f911df79836f25401406dc46e04d2acbfc0b953b219b05116ccf1fbca4",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "87e2f4bfe45ac6129b64e1793ff8b52ab2690786bec5797e7f3801c0799a5120"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.29741806876882,
+        "quantizedColours": 279,
+        "dHash64": "fa343939230f2f94"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Ginger, bell pepper and glossy Beijing sauce reduce in the Chinese wok without chicken pieces."
+    }
+  }
+}

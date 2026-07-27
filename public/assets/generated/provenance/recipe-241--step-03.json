@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-241:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-241-family-style-butter-chicken/step-03.webp",
+  "promptHash": "67aaef04e3cc1aaffb6ae10947fa1d03f536dfceb96aebd66f822a7c4090dfa1",
+  "providerPromptHash": "9f8fab91a96def7d45d14ace3075c65d3e6d982b29e0a96d5ff867003ceb3bac",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4c7a2ec5-75e7-4bf1-8de9-d4e86e83bf61",
+  "generatedAt": "2026-07-26T21:49:03.634Z",
+  "registeredAt": "2026-07-27T01:43:17.335Z",
+  "assetSHA256": "a6cb8dc2814bcd9ba297f72a25dac3ed38372ac032a9ded269e314e40ebafed7",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "1b9260fda0fbdf13dcdd25b35c2285ef3dad53be336bea394a74b56487bdae92"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.21081695500834,
+        "quantizedColours": 189,
+        "dHash64": "f6d3860f1fb78fc6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

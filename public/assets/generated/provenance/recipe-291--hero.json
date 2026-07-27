@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-291:hero",
+  "publicPath": "/assets/generated/recipes/recipe-291-teriyaki-chicken-fried-noodles/hero.webp",
+  "promptHash": "e2f4bbda78a509e55e50ab9a08ce249a42668c4eb8b66d8fb37fb7492def16f9",
+  "providerPromptHash": "b4963e6e37d275a6ff4ab91bb13f5901fd669d32733f5e97d5694c9c83282079",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_tgN1kfW0518FgW1FB87KMbpK.png",
+  "generatedAt": "2026-07-27T12:46:58.000Z",
+  "registeredAt": "2026-07-27T13:00:28.449Z",
+  "assetSHA256": "4da9221c06286f92b7b09cf80fc257c2526949cab12598e46f564fde5def9885",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "2a98af9a945a9c80a5ab2b22b0009bb69b2b268c75f3359c373011605b4b7a01"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.766028149868362,
+        "quantizedColours": 394,
+        "dHash64": "12ccd61626606226"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

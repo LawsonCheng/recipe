@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-040:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-040-cantonese-poached-chicken/step-01.webp",
+  "promptHash": "d9c21bda0674303866b6a9cbed93d5c40ebae26a6f13a97395473bc5161d15b5",
+  "providerPromptHash": "a34556a83ebf6e6b979ac0a797e7b5880b4dec1a69062728e784df944222ff15",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f5e9f44c-e54c-4e91-8b23-f30a643f50d7",
+  "generatedAt": "2026-07-26T21:22:58.688Z",
+  "registeredAt": "2026-07-27T01:37:14.844Z",
+  "assetSHA256": "bd728098a0a6f58fc11766d68ecb21d4a75a0c0fbefd43295661efc795818f97",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "6b500efa404c74f1f232a48e50886dc86f5b80fdc2425a9c686ee355e10e4b48"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.598494689344079,
+        "quantizedColours": 291,
+        "dHash64": "3b1d0f1d29292632"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

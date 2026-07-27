@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-285:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-285-ginger-spring-onion-chicken-steak/step-03.webp",
+  "promptHash": "f698a00b6a23e1795dbc535c675be28760b17aeb6050fa4593344476b67863c2",
+  "providerPromptHash": "49ab3fa30baa9145ab88fe4b408efea158aed55ed3d29ff5a545cf864c26a899",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_vtntSZ2IKiBrLum8ZiZq521V",
+  "generatedAt": "2026-07-27T13:12:00.000Z",
+  "registeredAt": "2026-07-27T13:55:32.660Z",
+  "assetSHA256": "15dc162cef959b9454d9cadf36631c124bc7fc3793717f093ab2d63ffdad2e12",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d9d8c62627b751780f0e5aaf846770413cdfb320504113e8ef9cf3bb2208fd84"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.470674585129018,
+        "quantizedColours": 197,
+        "dHash64": "f060c78b838b078c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — re-opened at original resolution: one frying pan only, all potatoes are half-moons in the same covered simmering state, with no second pan or before/after duplication."
+    }
+  }
+}

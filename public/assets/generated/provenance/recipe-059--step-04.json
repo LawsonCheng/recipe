@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-059:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-059-sweet-corn-and-egg-drop-soup/step-04.webp",
+  "promptHash": "42ce127273948d75b821e13f5c9a961317a40ec1198918d870b78bdd3c35b759",
+  "providerPromptHash": "bcd10212d12ef012ec00ab06a73a59659ff54aa7faf0b7be6d7407f0873cff01",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e27cbef6-2551-4c3d-9833-e658e58d0ce7",
+  "generatedAt": "2026-07-27T04:36:36.672Z",
+  "registeredAt": "2026-07-27T12:59:46.035Z",
+  "assetSHA256": "d468673f306034546b50b65789016473d1cef26b2058e0fb332da9459d10c474",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "273516c4ca597c7fe24456123bcb9543744ecfa013567793cbb1ae05f4a3a812"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.614013839047402,
+        "quantizedColours": 223,
+        "dHash64": "333c388f1b9f0fcc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — slurry enters the gently simmering corn soup in one continuous stream in one Chinese wok, before any egg ribbons appear."
+    }
+  }
+}

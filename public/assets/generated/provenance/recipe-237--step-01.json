@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-237:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-237-moroccan-spiced-fish-fillet/step-01.webp",
+  "promptHash": "0f9d68667937ae64f311de2a109f7bfa5b283b5bf6b57346e315e549fa83181f",
+  "providerPromptHash": "15208f5476db06d043c5c62e6d6508621b09b896cc177c987546dd575f1ce55d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-257732f5-44de-4a65-8fdd-4358dbe8ac90",
+  "generatedAt": "2026-07-26T21:25:35.268Z",
+  "registeredAt": "2026-07-27T01:43:09.670Z",
+  "assetSHA256": "aea3ed2e83fb00ebfd1997949c2efbba2fa2c00f195eb4efd1c5d864f7f6b0a1",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "9fdea1114e42d37079b8596b8ee40f77f2316f58240708f587f8dde9df215957"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5706096042304125,
+        "quantizedColours": 379,
+        "dHash64": "3777c7cc5d4b4333"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:29:20.799Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — Independent recount shows exactly three raw fish portions on the plate, matching the CURRENT instruction to cut the fillet into three equal portions."
+    }
+  }
+}

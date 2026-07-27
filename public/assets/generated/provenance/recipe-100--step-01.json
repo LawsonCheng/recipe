@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-100:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-100-japanese-creamy-corn-soup/step-01.webp",
+  "promptHash": "af237c3a085fb6e2cfa0f3ccc05a282219b80889acefe90e35d15a6eb76ca12b",
+  "providerPromptHash": "76a55dbc78228f51c18583494553f687ce83687c2502eda36d4696dee76408c3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-fb46e6f0-e956-4620-bc94-862d8e3c0d56",
+  "generatedAt": "2026-07-27T05:14:17.131Z",
+  "registeredAt": "2026-07-27T13:00:01.549Z",
+  "assetSHA256": "d4b56f5d2523d98d70c6b6b26d47f9bc9cf8b1b2cb7e039d712fb610bfcb9b72",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "3b668bc903a419d75f6aec290e4a777f5bd21483807ab8fcf1321941466ccfeb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.0631107329099905,
+        "quantizedColours": 211,
+        "dHash64": "2e6e29313b3b3b35"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — The large and small corn portions plausibly preserve the specified 300 g versus 100 g split beside onion and garlic."
+    }
+  }
+}

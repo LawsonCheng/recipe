@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-166:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-166-vietnamese-lemongrass-pork/step-06.webp",
+  "promptHash": "8f8b4da87b7e83d9e2d442ee5155de164c3b4d5a2216f837c5e5812c555eb491",
+  "providerPromptHash": "f5bd3aad9a0d69bc00bc5c6f64f698cc52f17d39894a44adb221aa185b2dd4a5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9c881c8a-b5f8-4b3e-8915-9cc0f937c9df",
+  "generatedAt": "2026-07-27T00:34:31.449Z",
+  "registeredAt": "2026-07-27T01:41:02.115Z",
+  "assetSHA256": "1745ff1ebd2c8e9daf98c33460ee6cd97355d664e437eec88489169d6a5dfe4c",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "4775d3a1b5f90f8ff181038f92961cbfba4ab8ebe7ebb36001b86a17ca2ff3f3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.58951528729267,
+        "quantizedColours": 359,
+        "dHash64": "640730e4f05034c8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The finished sliced pork is plated with cucumber and coriander while lime is squeezed over it, matching the complete serving instruction."
+    }
+  }
+}

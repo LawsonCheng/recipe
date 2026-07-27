@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-238:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-238-roast-eggplant-and-chickpeas/step-03.webp",
+  "promptHash": "fe9ee9d7919b04319036aae7969ee6ace8058a4ce5bc193f21f0de98d1599c5e",
+  "providerPromptHash": "df87e1b35dcb70d785a71ae5f2b775b538bc05e6f9beea031f8fa78bf4b67099",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-50a38d08-11e1-4317-b140-3d6e5791fed1",
+  "generatedAt": "2026-07-26T21:32:55.737Z",
+  "registeredAt": "2026-07-27T01:43:11.982Z",
+  "assetSHA256": "692aeb04eba3f10f976c76f8a1a0a11df6884bd9e0a8d5e36eb6da6ac90551b1",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "aa4b98211d8a9ee3c252dc4bccb8f1699baea3580e9d7e893936618e7680895e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.64224743063096,
+        "quantizedColours": 332,
+        "dHash64": "d2c73396505a7020"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

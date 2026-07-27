@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-172:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-172-singapore-black-pepper-prawns/step-06.webp",
+  "promptHash": "762cdcb1dc4147ceb538dc6f49517634004566c19d26c2fec425673855d8232f",
+  "providerPromptHash": "75ee0b3baaaf4872288d23a91123b221f28f333288048a3cee00c17d3d304ede",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dc4e2e45-d6d0-4f73-ab05-c6b0931977e8",
+  "generatedAt": "2026-07-27T01:11:56.184Z",
+  "registeredAt": "2026-07-27T01:41:13.138Z",
+  "assetSHA256": "745477e486c5cdb36fc9ff5bbe058ad009a3c72d2086478eb2020ece6508e350",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "65ce738ce4598b7f0b783de4435f542973e4b8bb8c5fa5628f9130a2f2fb114b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.571198866469786,
+        "quantizedColours": 347,
+        "dHash64": "c88e0f17139b5e2a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image shows seared prawns returned to black-pepper sauce with spring onion in the wok, matching the requested finishing state."
+    }
+  }
+}

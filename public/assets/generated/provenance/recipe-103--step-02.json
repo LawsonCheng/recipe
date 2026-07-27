@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-103:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-103-mild-kimchi-style-tofu-pot/step-02.webp",
+  "promptHash": "6bc27a6bd96ffd95aa1da13136f8a737612f88e1614eca8696fb8b2d71dc2669",
+  "providerPromptHash": "af0a8bb3ea2d6a4146522b164f8eb63e7e365db9f6868e703a9a32df9162bb89",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c7a49533-1e00-473f-89ea-fd3c51e31f1a",
+  "generatedAt": "2026-07-26T18:05:00.050Z",
+  "registeredAt": "2026-07-27T01:39:03.018Z",
+  "assetSHA256": "1526526d0c80bd36e7c0a6c54cf9f523b8951988f84db038d952e6a20fafdcee",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "4b5cb1b7111724d4987a586140e847c833450a29b3abe0aa3e4e3a024fa22ec3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.727927134837955,
+        "quantizedColours": 334,
+        "dHash64": "360413392c2898c8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

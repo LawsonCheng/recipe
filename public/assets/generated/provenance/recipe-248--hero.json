@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-248:hero",
+  "publicPath": "/assets/generated/recipes/recipe-248-tomato-egg-curry/hero.webp",
+  "promptHash": "678cb144484886034da94ca9572b266858c8b71d513dc922b1a79d82e8dfcd35",
+  "providerPromptHash": "65c23a6d283c6218409c683766945418522ee20f1b721f183ebc3f6fa0827f1a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-db0376f5-3147-40d3-b3d8-9c1c0b8a5d93",
+  "generatedAt": "2026-07-27T07:07:09.626Z",
+  "registeredAt": "2026-07-27T13:00:21.129Z",
+  "assetSHA256": "8de38b89fd980fc06f618ad9b0aa97b23e1c8011ff2d6f3f4c6a7223a3183218",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "0e64f68ef0bdcef2be8dffdcd546a5dfdc68436daf380eee348a7391d717c00c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.785637793247588,
+        "quantizedColours": 399,
+        "dHash64": "27ed8c1e1e242133"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three finished bowls each contain exactly one egg with equal-looking potato-and-tomato curry."
+    }
+  }
+}

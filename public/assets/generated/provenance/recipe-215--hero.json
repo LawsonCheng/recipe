@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-215:hero",
+  "publicPath": "/assets/generated/recipes/recipe-215-salmon-potato-fishcakes/hero.webp",
+  "promptHash": "e17ed9a3e51a23bd7800a79deb91ac324dbdf5cecca960e1f2d3f91263f3eb81",
+  "providerPromptHash": "0abe8877ee15194d3161c48ef78a49d2eab24465ab43f833c35cf3a618846a18",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cb6fbc2b-a460-4c60-b6f6-11017f4b9afb",
+  "generatedAt": "2026-07-27T06:06:56.549Z",
+  "registeredAt": "2026-07-27T13:00:11.810Z",
+  "assetSHA256": "beaff8ab5926b95b7ec22ff52f6969dd8e5d8c9cbe6fd7d6b755a4e37e97400c",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "3686ac7629ae4bcade5d0653e608554184d7b9db5fb7e31c75db524a027a8b89"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.865323544247076,
+        "quantizedColours": 517,
+        "dHash64": "5394d29b39393933"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three servings show exactly six golden salmon-potato fishcakes, two per plate."
+    }
+  }
+}

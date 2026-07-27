@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-213:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-213-tomato-cheese-cauliflower-bake/step-03.webp",
+  "promptHash": "605905b3690bdf31cd73e17dab886d516d4048877c211e49cf018f42bafd9d07",
+  "providerPromptHash": "0c04d6d8c2b528358b53a281f106fc98a7a488da96c7ed0cb835bb72582acc13",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ba7d4117-887d-436b-a417-9c3e0f744f9b",
+  "generatedAt": "2026-07-26T19:06:36.144Z",
+  "registeredAt": "2026-07-27T01:42:27.122Z",
+  "assetSHA256": "25bc923ed7e965b7c313746fb5f1c77eae7f64899ba970d34b61881f2fb32705",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d82e62e8088d7f984975e18498ba6dd173b0cccb03e0f616359b18c2c284d421"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.230218614509795,
+        "quantizedColours": 201,
+        "dHash64": "c0d9dbdedf8bc3f3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

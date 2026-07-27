@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-098:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-098-family-steamed-egg-custard/step-05.webp",
+  "promptHash": "d54fdbaa65c7eed4cd2d8dbd059d3fcdc7b4bab9468472f66297b52a25e2e016",
+  "providerPromptHash": "9fb7c9fa3e081339e7dd0a4603f7a24a0e5bad978710c8c5dd87094d4b7418d2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-df3e88f9-db97-48f0-91ac-40907edd25e6",
+  "generatedAt": "2026-07-27T01:09:55.044Z",
+  "registeredAt": "2026-07-27T01:38:55.099Z",
+  "assetSHA256": "18d66e78dba95851aca154da7f19edf02bd7c05af31bdb34066b15e956a81a14",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "9b8f80cc5260b46a0a43c0785ca336d7d9e46d387efe9ab09d650509e08d68a6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.185424782685004,
+        "quantizedColours": 239,
+        "dHash64": "0ffc870b178f6357"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

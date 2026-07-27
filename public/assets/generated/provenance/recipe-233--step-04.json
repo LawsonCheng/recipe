@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-233:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-233-mediterranean-roast-salmon/step-04.webp",
+  "promptHash": "7f4c37ba9a4822dcb05d7005ba779118d09bcf4827703c9022bc4b7364a61df8",
+  "providerPromptHash": "ae467dd7b783c82aa1c697ae2e0a2e52beedaccdaa201eb88fd6c4afc9cc922d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b57343e4-4d1b-4a37-a05d-5e75e184e306",
+  "generatedAt": "2026-07-26T21:07:31.348Z",
+  "registeredAt": "2026-07-27T01:43:03.267Z",
+  "assetSHA256": "f7fca3c0b4c1da9dd2b7444847856578d9934751b140632875ecb7f50ba5ecd6",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "513abc9e7375100214b0238a6b71b88344fb0b94528a6f626a00f8d807865bb9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.502297116239788,
+        "quantizedColours": 318,
+        "dHash64": "3eaa2b294b9292fe"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

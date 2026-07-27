@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-201:hero",
+  "publicPath": "/assets/generated/recipes/recipe-201-herb-baked-chicken-steak/hero.webp",
+  "promptHash": "04ae5cfb000a799cad9b1cc576a7278af827ee8fdaa13e8a22bbe5b734da72f6",
+  "providerPromptHash": "421c088c8acd0fc21c899666f5967671a667ee6e3c5f0781623a13c58ec8006b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ade5a727-b3ab-4e48-8955-a8d3414c6000",
+  "generatedAt": "2026-07-27T05:27:46.820Z",
+  "registeredAt": "2026-07-27T13:00:08.043Z",
+  "assetSHA256": "438a5f7da7d27eced46bfcf0fd35ffe9ef9a11eace72107b11e6414f7b6554be",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "f053fb8f37f81adc24de6e4f1e6848c71aafc5fd63cc98dfab3ae7e12f4a922d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.743791497370694,
+        "quantizedColours": 307,
+        "dHash64": "6161f09e495592a4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

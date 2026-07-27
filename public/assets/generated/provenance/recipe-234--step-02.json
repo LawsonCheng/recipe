@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-234:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-234-mediterranean-tofu-skewers/step-02.webp",
+  "promptHash": "61733d683ee2ae67aa24f7f329ac83c5841fa6ace7d45320b9d67137797a7bea",
+  "providerPromptHash": "90412f00e55ae0b24a35ab2a5a3d3b8d3bd6c4c67600fd6d34556e0c8e436af6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d3dee769-7e78-42ab-a0ac-0d1de2e5bbf7",
+  "generatedAt": "2026-07-26T21:11:02.905Z",
+  "registeredAt": "2026-07-27T01:43:04.541Z",
+  "assetSHA256": "4995a00d16a7752fb18345f27f751e0507b718275f5fb5c6f78d2b12d647133d",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "eb12c07101628dbe8405ddc5864e8a3c810fa902d0c8925c968cae038680b1bd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.63155533792451,
+        "quantizedColours": 368,
+        "dHash64": "6362d0c4c663e360"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

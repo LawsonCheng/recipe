@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-199:hero",
+  "publicPath": "/assets/generated/recipes/recipe-199-garlic-herb-fish-fillet/hero.webp",
+  "promptHash": "66bdfa2843565f18bf978bb7c43c65ca04e0788c65e15b4d977067cf55c400b1",
+  "providerPromptHash": "a37e4c86893bbc65ce7d417338aa95a9b4e45cbfe8885434e372999501df33a5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-acd9edf8-0edc-45c6-b27e-fc3ff1997261",
+  "generatedAt": "2026-07-27T00:46:03.710Z",
+  "registeredAt": "2026-07-27T01:42:01.632Z",
+  "assetSHA256": "aa1f88b840af2df1a8abcc0e8e3e3f54ca029af71b972b06127cbc967479d809",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "537465314fb4f57deade90f8a705dfd5e893908f33e881c942551ea2fcf2b6cd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.72243609222096,
+        "quantizedColours": 257,
+        "dHash64": "2e8e1e2e6363331e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

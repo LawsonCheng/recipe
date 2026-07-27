@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-114:hero",
+  "publicPath": "/assets/generated/recipes/recipe-114-korean-style-egg-ribbon-soup/hero.webp",
+  "promptHash": "2d29b525b05bbd1776769eca3bdfa24f4cb26673826ac3284d1b15d553fbd477",
+  "providerPromptHash": "632a27795ef93fef9c54a58dce913cab295f2743d29fdc9b643b918207bf0c60",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4ca6fdb0-f0f1-421a-96e1-0369c3774aca",
+  "generatedAt": "2026-07-26T19:16:27.058Z",
+  "registeredAt": "2026-07-27T01:39:23.724Z",
+  "assetSHA256": "09411fd56df5b45ab709b801a93d9f90b2868ace825d08bc92c7671afae6ff01",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "0bd834d5a4807fb9ca65601c48a4a5d17814cf38f4c2582ba27d355b959ca776"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.538290031367069,
+        "quantizedColours": 259,
+        "dHash64": "19cce0a6ef43b3f0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-271:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-271-cauliflower-vegetable-fried-rice/step-06.webp",
+  "promptHash": "f476f7646bc69c23cedec24fa724a2fafffed5b6d6c24e6c2349ce5a390513bc",
+  "providerPromptHash": "087edfce1181b64a9c4b4d3a3379ed2f050bae906a2ecfaa894f97dae146a47d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4db05c38-5271-4561-9ba0-ce5707e6a4d6",
+  "generatedAt": "2026-07-26T21:15:40.137Z",
+  "registeredAt": "2026-07-27T01:44:12.545Z",
+  "assetSHA256": "32d17e6aad2fca5f70bbad3b0e1f89a7690b321fbc7002e617ff9472e2e1226a",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "3ad2e1ebbfa9ea4a60536f81dc71f780f9ec73271d3cbee043b5de346b6ae5d2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.556742577449768,
+        "quantizedColours": 243,
+        "dHash64": "d6b72b3410c79317"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

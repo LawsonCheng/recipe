@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-054:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-054-napa-cabbage-and-tofu-stew/step-03.webp",
+  "promptHash": "3fd3399a917c16c612d3d94404b2ce296c4557c55c25efe925e2f4e6778cc291",
+  "providerPromptHash": "804589919ebd412596b668aaebe8ad43c44aee64cc5d23290408966b811b1120",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c362428e-a85c-4516-87d5-e8323aac7f1d",
+  "generatedAt": "2026-07-26T22:39:46.901Z",
+  "registeredAt": "2026-07-27T01:37:39.416Z",
+  "assetSHA256": "203357c7a057a2d4258e83785e1f48053f500bd8b368ab7c3526915d382fbaa2",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "ba8e4011c3c308eceef05656e93656ab3592179ef092b5c3b29e23e0cff2396e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.528234910336323,
+        "quantizedColours": 208,
+        "dHash64": "e03838557332b3e1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Noether",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T04:09:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The vessel has high, continuously curved sides and loop handles characteristic of a Chinese wok, not a flat frying pan; the tofu is uniformly golden and is being transferred intact to a plate as instructed."
+    }
+  }
+}

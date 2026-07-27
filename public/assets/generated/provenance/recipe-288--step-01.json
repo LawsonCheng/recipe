@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-288:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-288-miso-corn-chicken-soup/step-01.webp",
+  "promptHash": "6e3b3412b8b0121bc319f499751dec72b54428efb0a83e98c9bfac0eb62e2e9d",
+  "providerPromptHash": "88fe3a499cd1e8f203f0bbc4e0d4d4cc5c5dcf6fccf4150bef3566585639b431",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e469e0d2-f7bc-4685-b0ec-928fdeffc7ed",
+  "generatedAt": "2026-07-26T22:59:09.004Z",
+  "registeredAt": "2026-07-27T01:44:41.801Z",
+  "assetSHA256": "1da0e04545aacd387292b52800d4941fa420897f3bcc89a59a21f8546567e0c8",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "ae83a6b70fcb1dfc51df0747b357859401943b4bf07ba1046804e0df9d1b2db0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.4989062980457675,
+        "quantizedColours": 320,
+        "dHash64": "232c2c666b99491d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

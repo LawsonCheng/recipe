@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-119:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-119-korean-vegetable-tofu-pot/step-03.webp",
+  "promptHash": "3c58591369c888eaa5c8aed1cc38138af0c36a592a3a6c4e9e99a8faa0aa90a8",
+  "providerPromptHash": "3fa0ff3c201204d0aed9a0c69b4fd4ae54735cb5d81736b0b7484181b3fff182",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-242af0f2-f49d-4bc2-baf1-828a6bd66b13",
+  "generatedAt": "2026-07-26T19:48:16.672Z",
+  "registeredAt": "2026-07-27T01:39:33.908Z",
+  "assetSHA256": "bad535b008a61df38b2e97318ffeafd7f0967fd73ba68077119eccb948f1b75e",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "b17b1e91de8828ffff30c90a70ffcfaac8fa68cbbcd752aabadc38fbb095215e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.603451827773824,
+        "quantizedColours": 216,
+        "dHash64": "6bed8eb7ab9f5786"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-048:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-048-vinegar-sizzled-cabbage/step-01.webp",
+  "promptHash": "d0e38fadaf0d223dd7b99dc8324d715107cd1185f6b27847435b971e8e774cce",
+  "providerPromptHash": "5b1680789548b96ea21ddf679a7f237a2f22749591f6f9906a08459cf2da95d8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9530c66f-c32e-4795-9b4f-5ff93506d129",
+  "generatedAt": "2026-07-26T22:05:28.071Z",
+  "registeredAt": "2026-07-27T01:37:28.622Z",
+  "assetSHA256": "efaafa4ebc4f0773a4cee627f1a1330b1f29e3db08c018834a74ff3f0a858989",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "29c8b39aab5c4889ae9b09f1206efb51537ca88f83b39eab081a9890bd30a15a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.700246168649755,
+        "quantizedColours": 288,
+        "dHash64": "2373b299587afd76"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

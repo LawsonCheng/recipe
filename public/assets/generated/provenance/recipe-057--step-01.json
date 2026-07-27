@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-057:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-057-mushroom-pork-sauce-noodles/step-01.webp",
+  "promptHash": "918fda4c5d3252e41c1c172ad2ebf5adc6ff708f744b515979f97b06773a0395",
+  "providerPromptHash": "da5602ca809ca12e63cb1482e32ca4aae11a85801d52da1e3c40310e175f3582",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1d8b433f-3afb-497b-80fd-45baca45948b",
+  "generatedAt": "2026-07-26T22:50:38.556Z",
+  "registeredAt": "2026-07-27T01:37:44.015Z",
+  "assetSHA256": "1716a788e0b870f5dcb957cdcb6d420f2aa53039dff2305da2c7dfe0d4ca11a2",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "c8d5caacedf1b854bc9387c6d0e2dd3b5a1b41c043d7f9d794ef1a9245bddb85"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.734042574011255,
+        "quantizedColours": 409,
+        "dHash64": "c6a62f674f673531"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

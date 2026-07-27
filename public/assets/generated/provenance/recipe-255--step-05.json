@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-255:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-255-indian-cabbage-egg-stir-fry/step-05.webp",
+  "promptHash": "ead77580423e8b1ae83b17b9334d1f7e40c09d6018983f22fb03b17f6a16d5c0",
+  "providerPromptHash": "1474f4b983138b397cc3d6a230c88cd0a8ca798054733d6cca769b53652928fd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9a6a19a3-a502-4345-b9ac-4bcbd549c999",
+  "generatedAt": "2026-07-26T19:27:01.170Z",
+  "registeredAt": "2026-07-27T01:43:43.196Z",
+  "assetSHA256": "f1428f57ca0b3e77bc37ec053cef9ea754ac7af8e221699e43d0d96bb83dad87",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "9e49b88050b0054fe14289846d7193b5b60ab11956ed5099b751842d15157a19"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.517809988697991,
+        "quantizedColours": 363,
+        "dHash64": "e087972f391587c2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

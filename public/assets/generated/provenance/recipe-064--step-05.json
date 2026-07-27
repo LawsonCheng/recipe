@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-064:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-064-twice-cooked-pork-with-cabbage/step-05.webp",
+  "promptHash": "5d1caebed604ca18200a11dd1fe192b37613c663a6218e91b1bfe86c7a07d935",
+  "providerPromptHash": "05338fec52ff11595988ca9231220b23d7f4f13b3e8a70fc303c17874ba65669",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1bf6f997-194c-49fd-9a9c-e09fb1192733",
+  "generatedAt": "2026-07-26T23:31:01.557Z",
+  "registeredAt": "2026-07-27T01:37:56.903Z",
+  "assetSHA256": "0a13225084b6401bb9d7da7e0c2b08bec44440d0c5a36c134fbe32217eaf9e67",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "e5a86b83b38bc428c52a4285abc27e90f74bb6830a2ceeb1d00c58f6facd9e0b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.572364596417174,
+        "quantizedColours": 506,
+        "dHash64": "f2b11d1333674fdb"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

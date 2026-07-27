@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-167:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-167-vietnamese-style-beef-noodle-soup/step-03.webp",
+  "promptHash": "396f2c61dd696d2a885bac1a74a563925b5b9c0e96533b75ef1319e2f9f26af1",
+  "providerPromptHash": "6998b086ba2dce1aa4ed2789ef7cda959b967fe4a0ba363f22aa6a535866f095",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b5bbf05e-a1ca-439b-b698-f1acce4d6fa1",
+  "generatedAt": "2026-07-27T00:37:20.527Z",
+  "registeredAt": "2026-07-27T01:41:03.081Z",
+  "assetSHA256": "354f8f45def92999aa5d7ca59f2d32bedc731609f6280e701cc7d8a6c621cc52",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "f26a228a12243f82093d7bb1b1af182a3222e0eb8b324c47e70d0ace0dbae9be"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.521519544869079,
+        "quantizedColours": 231,
+        "dHash64": "6c6c264b65d99a1a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-064:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-064-twice-cooked-pork-with-cabbage/step-01.webp",
+  "promptHash": "3e587cff3d0fbf9f855a43c7a3638a8d8ad154c8e295ac3c216ec5ad180e30ee",
+  "providerPromptHash": "910d53b79c385c585a3bbc2289023f1d9f461d334a26ab9aec8d1abc02ee1e5d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cecc6a90-05a5-4573-adf5-77b98cbd71e9",
+  "generatedAt": "2026-07-27T04:41:32.867Z",
+  "registeredAt": "2026-07-27T12:59:48.005Z",
+  "assetSHA256": "aa33cd456a6ccfc30f330a734ba7a878b791f9f02b98fded1c1b684731fa4797",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "77713f89918645cf106604b5e06ac06e52bf5504740be03a8058b31e8357869c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.547142987372354,
+        "quantizedColours": 128,
+        "dHash64": "f0ba0b170f0f9fcf"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Pork belly and ginger cook in a water-filled Chinese wok at a plausible gentle simmer."
+    }
+  }
+}

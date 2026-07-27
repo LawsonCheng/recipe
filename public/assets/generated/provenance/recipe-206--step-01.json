@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-206:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-206-creamy-mushroom-chicken/step-01.webp",
+  "promptHash": "3cd55e86433eb458abc19dcf199e3b5b62f674429b486031ccc51ce7a0e81d17",
+  "providerPromptHash": "d4eb69cfc18134c5f23f6c2ce1c8fe61aaa56a509f7eedc787d7b6cc17d3aa4d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-325f5578-ad21-46b4-bd1d-2741297de12e",
+  "generatedAt": "2026-07-26T18:27:32.063Z",
+  "registeredAt": "2026-07-27T01:42:14.198Z",
+  "assetSHA256": "89aff4e29d62dcd0f84b3837abee6e76042549ea551cd68e2b6d5d4c2720a8bd",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "cb1cdeae211af8e44cf4afe5b997535d156e2791c5fc4e4aa73c328dfaeff9ae"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.679807995969895,
+        "quantizedColours": 248,
+        "dHash64": "323d6b2514506029"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

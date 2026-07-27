@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-224:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-224-turkish-style-beef-meatballs/step-04.webp",
+  "promptHash": "b3f338e8171fdcd1ed498c91dd7584417b9624b3bc167b6ac43ba3f3570748b5",
+  "providerPromptHash": "60508e5a3fdab35affa8ddc49147f59758a62f75799d6627e096b4e209505e02",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-560074a4-7460-49e6-955b-546b571bd18e",
+  "generatedAt": "2026-07-27T04:57:19.559Z",
+  "registeredAt": "2026-07-27T13:00:14.592Z",
+  "assetSHA256": "f564d26004809da036c43a56acba6a32594bfa7d5848cb0b09c28384b8939272",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "45d8ba72ecf0aa41fbab349822d26c9321c51cdfd9db1343fc50c1cca5be756e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.418173581361771,
+        "quantizedColours": 191,
+        "dHash64": "e78315282b26cb9b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly eight oblong köfte are uniformly browned together in one frying pan."
+    }
+  }
+}

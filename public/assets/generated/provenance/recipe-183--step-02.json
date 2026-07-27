@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-183:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-183-italian-herb-tomato-chicken/step-02.webp",
+  "promptHash": "af0c28509b820740744fc93b533a6d220b5559c17bab05ad75e617752e828ba5",
+  "providerPromptHash": "5ebb9b407532e7bcc84fd7d4dd04b3546940ee05cd68ba3dea4a60d890a54780",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ee3bb240-45e0-4afe-854e-47bb94a4e58d",
+  "generatedAt": "2026-07-26T23:21:30.041Z",
+  "registeredAt": "2026-07-27T01:41:32.939Z",
+  "assetSHA256": "c2033a5808c353ca3b5dc57edf47ef0451eb7aedd1482fbaf870a3c2486012ac",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "801a2eaa1511b632a7dd8c7ac264b2ded64e74302af2bde64b8a5c7bce4496bb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.220711222502359,
+        "quantizedColours": 267,
+        "dHash64": "780e0e37369c2e6e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Boneless chicken thighs are shown browning in a frying pan with no later sauce or serving state present."
+    }
+  }
+}

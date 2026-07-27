@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-119:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-119-korean-vegetable-tofu-pot/step-02.webp",
+  "promptHash": "d621ce5cf205905cc9b54da3c3d156e860ddbda272dd5170d12ebabe12dca358",
+  "providerPromptHash": "85368f98000dbdb97df22a08a21eef3c779478323f66c766e09030ad07ff1bab",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-de219945-9e40-4abd-8905-16beea4f40c0",
+  "generatedAt": "2026-07-26T19:47:33.512Z",
+  "registeredAt": "2026-07-27T01:39:33.650Z",
+  "assetSHA256": "b20da28d30a792622da1e4455caf7bccb4e4122eceeed7e78131e15b5ac53fa9",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "7d83034261fa3de4e14c6d3cf430c0b3b6d7207851e2a2d25cf3e389a61b8d16"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.142190680257045,
+        "quantizedColours": 197,
+        "dHash64": "16214367654d3b9e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

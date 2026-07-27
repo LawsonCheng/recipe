@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-182:hero",
+  "publicPath": "/assets/generated/recipes/recipe-182-family-style-carbonara/hero.webp",
+  "promptHash": "907750f71d4ca101a62562f39857218157fe9887552a51421a338d15e60fb2c6",
+  "providerPromptHash": "10ed2a515e426808e724a4f55138859376c3f2821395443b78fbc96b7d8d4b12",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1bab1cc9-2d24-413f-92b5-b86c62b18c66",
+  "generatedAt": "2026-07-26T23:14:24.446Z",
+  "registeredAt": "2026-07-27T01:41:30.423Z",
+  "assetSHA256": "c2ecdd9905a32a0bdab22323829bc505a553477694fe0423112e50c3a5b29c86",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "bf994942bd0968a9f9943359523b10281bb61a96c7798cc0ca0cb606f7057c23"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.76518941228278,
+        "quantizedColours": 376,
+        "dHash64": "669534162325338c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image presents three photorealistic servings of glossy carbonara with the expected egg-cheese emulsion and pork."
+    }
+  }
+}

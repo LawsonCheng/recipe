@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-219:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-219-herb-tomato-chickpea-casserole/step-06.webp",
+  "promptHash": "1a205a0d77aa3affd9bf57c37f46b266d76f5b610b816fb71139090bab08272e",
+  "providerPromptHash": "4f7898f4df7664575860c696878f28c0f024382b82dd69e01a4543dee5c2a007",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d3c3ee45-cfcb-4e64-b68d-4ff6f4d35e62",
+  "generatedAt": "2026-07-26T19:43:29.806Z",
+  "registeredAt": "2026-07-27T01:42:38.729Z",
+  "assetSHA256": "5c8b846621a3d17eddac002468b317957aaa63ba845c5867a2fd4b8521944f74",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "a903c704a7fb41489e99855da6be0b66fa88c79a224bcce1fb4c162852226943"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.233870245721846,
+        "quantizedColours": 236,
+        "dHash64": "b8fd9e030f0e06ce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

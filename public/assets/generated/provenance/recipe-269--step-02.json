@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-269:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-269-sweet-and-sour-tofu/step-02.webp",
+  "promptHash": "1fcc4668137022991d8bbd1469b9f1a8b2f440dfa321395ba3fa5f61045c0415",
+  "providerPromptHash": "77af0f7f788fc305beb89de7a93e4726f312c8df07a3e70b74051454d87eae27",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ac33d89a-f05d-4490-aa81-530db8db9a59",
+  "generatedAt": "2026-07-26T21:01:55.961Z",
+  "registeredAt": "2026-07-27T01:44:07.929Z",
+  "assetSHA256": "f21c23d6ca0efb02493bd773441ddb4c02bfc2e2bf2e0887dd0f4100b9f7f856",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "da75d56a9101dba864172a166e74a62b120002676913eb5ca25bc1df6510d35f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.718292541219853,
+        "quantizedColours": 158,
+        "dHash64": "a012270e07131bc6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

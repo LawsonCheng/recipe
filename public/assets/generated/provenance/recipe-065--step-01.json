@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-065:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-065-family-style-mild-sichuan-fish/step-01.webp",
+  "promptHash": "5178c20ff5248d778054808b8e95820ba3d94519924911d346454c37c17aeb95",
+  "providerPromptHash": "1eb73ad0e3c94ad0b6a06c7b46f47aeb494d2942c1beb057c528eeb02d3715fb",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2dda8df0-f1ed-45dd-838d-2aa5287e28cc",
+  "generatedAt": "2026-07-26T23:31:01.557Z",
+  "registeredAt": "2026-07-27T01:37:57.652Z",
+  "assetSHA256": "9939f02640c29512c6775d88aceaf106cbb936d2ae3795e3716602c5aab1a64d",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "d4ebc7946be0e9f7d28f8eb880eb5248db70f5f6b91f8f8fe79dea044b715c74"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.429380608024076,
+        "quantizedColours": 232,
+        "dHash64": "79d3d191e8cceaf2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

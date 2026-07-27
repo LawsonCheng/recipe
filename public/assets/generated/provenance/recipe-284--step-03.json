@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-284:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-284-curry-salmon-baked-rice/step-03.webp",
+  "promptHash": "176f2ffb7c710bbc6b4f7621ce3783b7b15adcd3f4f84a4e0a4dcfa550d2a315",
+  "providerPromptHash": "eaf87e98652869740a8166de45f9e259e1dd2ce3c8eaa9bbb4a9fcf0e0ae792e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-738e460b-2b81-41ae-8de0-0065efa578d1",
+  "generatedAt": "2026-07-26T22:32:14.013Z",
+  "registeredAt": "2026-07-27T01:44:34.891Z",
+  "assetSHA256": "d3d4ac925af754dc7705d410724df477c021a7553146d7fb52737cfb23cde8d5",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "8d1e6de93d1bbbc7c78dd7fb1fb38ff50839d5480e0c99249c1b2dc80bd5a315"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.437602065077954,
+        "quantizedColours": 276,
+        "dHash64": "878787c60f418726"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

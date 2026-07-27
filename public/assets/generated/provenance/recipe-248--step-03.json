@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-248:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-248-tomato-egg-curry/step-03.webp",
+  "promptHash": "5d41b7f358c0af986d462e148ba0054153348c78c13f8a76abeefa6bc80bb876",
+  "providerPromptHash": "aa817c474c10e7ea7ca0657dbe76058889e8ff78fff1947a46a64f85cba487c5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_7CfiotZjogQbO5PfTbxVhBZD",
+  "generatedAt": "2026-07-27T11:42:19.300Z",
+  "registeredAt": "2026-07-27T13:00:21.378Z",
+  "assetSHA256": "4a3937aed6ba357a12260ac06bbce90de20beec3f596916ad3c63ca81a2062ff",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "34736fee1bfddff3a43001aa608a74afa5c8ddd3b8fd9f4a17715f196e1d8844"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.640612696763128,
+        "quantizedColours": 279,
+        "dHash64": "f1dc1e1f0f1e4ec4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Potatoes and tomatoes simmer in curry in the Chinese wok and a fork tests tenderness; no egg appears early."
+    }
+  }
+}

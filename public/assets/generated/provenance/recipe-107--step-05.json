@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-107:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-107-korean-soy-garlic-chicken-wings/step-05.webp",
+  "promptHash": "2fdb7962b6971ef52e2bac7736b90c05db6b9ca7adcf0fb46f10c760c1fe1054",
+  "providerPromptHash": "9da90afe45f5f0c104d7bb8d6258f514e94baabd9481eb11dfb794ab4c49fb9d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4a8e9a02-cdbd-4243-9977-0e5043f65f39",
+  "generatedAt": "2026-07-26T18:34:13.023Z",
+  "registeredAt": "2026-07-27T01:39:11.434Z",
+  "assetSHA256": "21d4b99a1cf2c85a9d947c29997122abcecceef23f962a82a7fd6be184ef06c4",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "ae472ba9c66179fab115fda87b28b93c96588ed6edda7fe8b97e506b9caef337"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.379331119474955,
+        "quantizedColours": 270,
+        "dHash64": "5c386f63d38e97c3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-272:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-272-red-braised-king-oyster-mushrooms/step-04.webp",
+  "promptHash": "ce383a0a853c4e1c593430f3cd6525feea0d8d6a9de7da7f112da256c3928f3e",
+  "providerPromptHash": "8201de85ffbb59522acd3e268c6e5a535217e0fe5261ddfa75e236564eb9f102",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1f1604d2-e184-4812-8d7c-9e50a3835b4d",
+  "generatedAt": "2026-07-26T21:23:12.443Z",
+  "registeredAt": "2026-07-27T01:44:13.807Z",
+  "assetSHA256": "294740fc80af5a05799061cd0e7026dc6f4fb376e49bc8fce37bc3128e5f5028",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "9a7ca56f294ba184209b95f99c7d9133e5dd5ee398733581434e63b56fd3937a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.366446332855048,
+        "quantizedColours": 249,
+        "dHash64": "fd8e1b172f4b8383"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

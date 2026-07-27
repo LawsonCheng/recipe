@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-195:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-195-italian-herb-pork-loin/step-04.webp",
+  "promptHash": "79b275bb089959d02928efaf155ada61a95044ccb0a3e2b038e52cd2ebbdd787",
+  "providerPromptHash": "0f2afe9d8ae0c36fd8160fe3c613f489f44a9b3936974ccfd917dec31f2489c4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4b60a2ba-b566-43bb-b1b7-adc9aae23d2b",
+  "generatedAt": "2026-07-27T00:28:41.504Z",
+  "registeredAt": "2026-07-27T01:41:55.595Z",
+  "assetSHA256": "473039696b27b43b0604eada684b6b43b3b913254ed71846b0ac2689bfb87ff5",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "a88ef8f96a320c9d38713adc6e93340ac0c0d9ec68ca6f0274fcc3b9600bc79f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.542345700610895,
+        "quantizedColours": 361,
+        "dHash64": "f3dd0e3f2f0f0fc3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

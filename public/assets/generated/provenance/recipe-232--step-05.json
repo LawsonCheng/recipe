@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-232:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-232-middle-eastern-pumpkin-soup/step-05.webp",
+  "promptHash": "7d960b93e634c6a3a208ddca60f525063f9c54e378d4205070c65a85a60bb97a",
+  "providerPromptHash": "4486893ca25641696e548982f39389a15e29f15ddabcfca3c9e83138a33b583e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3bda5de4-69c3-4697-a1f5-f536996007c2",
+  "generatedAt": "2026-07-26T21:03:57.700Z",
+  "registeredAt": "2026-07-27T01:43:01.757Z",
+  "assetSHA256": "6d033dca4742656b2d33537fc8a41a3e89cb1d234ed2d6f339277f1c29327cc7",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7b894b5cda7592bbb599209699240cfd1bf140faae6b86382fce07a765b111a2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.308370293452754,
+        "quantizedColours": 167,
+        "dHash64": "f9bb171f0f2f978e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

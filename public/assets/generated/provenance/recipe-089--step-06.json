@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-089:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-089-japanese-tofu-hamburger-steak/step-06.webp",
+  "promptHash": "2edceaeac0bcea73aa6401c7748aec03638c390c7e9b6b4781047797ba9d3064",
+  "providerPromptHash": "54b604cc5dcb34b0b4a165c987ff46da58b5cd7b6645aea7ad8656b31d429b0a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e56f6ac9-332e-4d3a-b750-ca563deab2d4",
+  "generatedAt": "2026-07-27T00:37:45.474Z",
+  "registeredAt": "2026-07-27T01:38:40.058Z",
+  "assetSHA256": "f73884c71a11bb1cb57c597b98fcab80e21762732ebe3f45f57af3ece36bd5bb",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "cc89a10bd9d6c789dc09ed3d2a0b8cc83d05f11bd0521b84fe10501d06486f83"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.396738430135883,
+        "quantizedColours": 240,
+        "dHash64": "86161d256722255e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

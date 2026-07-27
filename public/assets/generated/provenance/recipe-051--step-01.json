@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-051:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-051-northern-home-style-tofu/step-01.webp",
+  "promptHash": "e428e76767dba5851ded9e86c8f97439e1ba361d7ae332aa35b9eebd88bb8265",
+  "providerPromptHash": "0edd5bd4b1010fc32ea3227266e00ba1ab72137b027ff207082838e63cc459ae",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-652f8c3f-e4e6-4d00-a11a-529143e8e125",
+  "generatedAt": "2026-07-26T22:22:24.490Z",
+  "registeredAt": "2026-07-27T01:37:33.755Z",
+  "assetSHA256": "805bde287241f3feacc28cb6bf12416d60ef028a572956441ba3cfd01326eb2e",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "22ccb16089d00231022707421a967e28b1d915983ca15f54de7ae7aadb8b8609"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.699928280271706,
+        "quantizedColours": 524,
+        "dHash64": "b40c3676b52c6c5e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

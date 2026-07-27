@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-069:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-069-mild-sichuan-mouth-watering-chicken/step-01.webp",
+  "promptHash": "97f3d03c73c3656ca117c3a237b68c61107a0a3b1d515975068ff36cc1a38a81",
+  "providerPromptHash": "eb8965ee27e88e74433436e5f7a432db6a8dfe56d405ad62a35acefac878e301",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b26ae436-b5be-41fb-99cf-db4952b46797",
+  "generatedAt": "2026-07-26T23:52:00.502Z",
+  "registeredAt": "2026-07-27T01:38:04.537Z",
+  "assetSHA256": "726a345662bbd98d3a89562b9e362557143f4ebb55e23d790166aab1f17cda28",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "2c032f111d0050da2576fb43747091cdd6df48b125ce924fe28e1299133bd860"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.560713361486705,
+        "quantizedColours": 393,
+        "dHash64": "0e370f7166c65a22"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

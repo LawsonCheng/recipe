@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-112:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-112-korean-style-braised-beef-brisket/step-01.webp",
+  "promptHash": "694dd06b4d01f3121ff5de364622ae02825a7e2ec00044127019bdeeac79e402",
+  "providerPromptHash": "9c29ddd4b2966e190d99d1a9f5a5ee1300e06b278bdb33527c78a36b13df7356",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-bac2b7d5-196a-44ab-9e78-7a601ecc6480",
+  "generatedAt": "2026-07-26T19:03:33.860Z",
+  "registeredAt": "2026-07-27T01:39:20.048Z",
+  "assetSHA256": "4ad41ebf8dc5fa7d51b79b4beeb984986d7c2a508d60f3607ce58309423ec37b",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "1ab6cb14571a9185e4e66cb68d3e29b1f1ab4473e4e3cc7a1186b919dea5b385"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.488199072937277,
+        "quantizedColours": 271,
+        "dHash64": "47f2ba6ad26eb63c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

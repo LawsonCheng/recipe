@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-229:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-229-middle-eastern-spiced-chicken-rice/step-03.webp",
+  "promptHash": "319dcbaeebd7ff912fac8bc9d011fc53891cb6e74483bc66b86e08d087612295",
+  "providerPromptHash": "c5e38ce70be42cfd6ae8fc497d01436e62afe09bb74fa365cbe0fc042523fb0c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a1489ba5-b869-40c7-ab4f-f618550f29a9",
+  "generatedAt": "2026-07-27T06:39:32.209Z",
+  "registeredAt": "2026-07-27T13:00:16.361Z",
+  "assetSHA256": "83b8f7085f9a47b002aa8c22dd20e8bd209adde41ea746d6ab38d313636ef47c",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "35b282cc38ddbabbfc13e4b88905333bec325f9c61a9e0acb56700924f6aea1f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.339452146785334,
+        "quantizedColours": 222,
+        "dHash64": "e1a52e0793964cc8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Seasoned 4 cm chicken pieces are browned in a Chinese wok with a visibly underdone centre ready for removal."
+    }
+  }
+}

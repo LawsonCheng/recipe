@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-010:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-010-satay-beef-vermicelli-pot/step-06.webp",
+  "promptHash": "388522d1fd24a6593584362631d3066e2e85be1df01abb8b23e374bac68dfa98",
+  "providerPromptHash": "46e0a485fca2ca45af657e2f8be8cfbc5c2850ffe648cd10811d6398e5e7379b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4948f1b7-ff2d-489d-98e0-135f8fac4ccf",
+  "generatedAt": "2026-07-27T04:37:18.756Z",
+  "registeredAt": "2026-07-27T12:59:37.591Z",
+  "assetSHA256": "88b0e5c74f19d6723da460faee8b7a4c36747dc98c4cecb98501fcac15cf973e",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "f8a40d7464a87bee2a3c0f75cefb9fd4a3bc7e2c3928a6aaf8a7de93ae9e3ebc"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.509454511164222,
+        "quantizedColours": 239,
+        "dHash64": "f0861f2b2b2f1e1e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Cabbage and vermicelli simmer in satay sauce in a Chinese wok without prematurely returned beef."
+    }
+  }
+}

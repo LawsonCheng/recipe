@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-058:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-058-shredded-chicken-cold-noodles/step-01.webp",
+  "promptHash": "7fa4d5c3cdc6901070f0bf3e3da0775a59342d5195aba0cda244959ce7ebe976",
+  "providerPromptHash": "8ed0df912bd8d916701617649615ea88b476f42220e94eedde4f5aeca918c44a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ebce722e-21d1-4bc4-9dd9-b3060c1aabac",
+  "generatedAt": "2026-07-26T22:56:08.329Z",
+  "registeredAt": "2026-07-27T01:37:45.729Z",
+  "assetSHA256": "229aecde29d57976a849b50a40d9580be575b00fe5bdbe9d542d861d9c06e2c3",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "4d7b2b063764370a7a4439353e1717809dc5a963018520a6c646c6120dffb113"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.452675345095486,
+        "quantizedColours": 304,
+        "dHash64": "b43964ef2d0c4e52"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

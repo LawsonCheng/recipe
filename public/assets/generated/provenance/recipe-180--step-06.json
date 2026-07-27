@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-180:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-180-singapore-chicken-corn-soup/step-06.webp",
+  "promptHash": "4ed628feebdd393184f32b2edc2525f01b8d9ed6db1f8f73f89443e71c238853",
+  "providerPromptHash": "8d27d75f5c6253a4ca959c67dd864b7c3338958aea81fbff41f6731172935d76",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-401e1d21-9755-4548-8b9c-059a35967f76",
+  "generatedAt": "2026-07-27T05:21:19.989Z",
+  "registeredAt": "2026-07-27T13:00:06.266Z",
+  "assetSHA256": "2ec135fd78d71cce5a8a62b33ea1530340455aea5b6b0a101928b6afde8f3928",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "75e5098725beb7222e67fdb568958afddbe476d34b09334de41b115331af2b4d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.405892314942321,
+        "quantizedColours": 218,
+        "dHash64": "d5860e3f3b0b078f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-206:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-206-creamy-mushroom-chicken/step-03.webp",
+  "promptHash": "2a43503727076ed37c8b89f38545ad1c41d57459ca01f7a817db30866edd922b",
+  "providerPromptHash": "f739db783612e1482b3d5a1e08c890ee747f70be0981cd072089bccbabb79832",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1352314a-fe08-4604-b825-e39e2adeb5dd",
+  "generatedAt": "2026-07-26T18:28:02.708Z",
+  "registeredAt": "2026-07-27T01:42:14.698Z",
+  "assetSHA256": "f5c6ae782a3bad007ef42d4b5a22da3fa1921d0f254d5b6951e595a4d58743c3",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "3a36d12155e20b9e086fef7cdd1aa557211c3b1503e291a89752cb03a2073a54"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.42274236434605,
+        "quantizedColours": 178,
+        "dHash64": "79cf9626271347c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

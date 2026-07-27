@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-148:hero",
+  "publicPath": "/assets/generated/recipes/recipe-148-sambal-prawns/hero.webp",
+  "promptHash": "e32ccfd3557bfb00112f7bd9818f392f02961ae888d3392c181671953a41bd84",
+  "providerPromptHash": "e583be9b752ce7664af9056732754360570bb85c2d50da5a8a23666838c1a86a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f34ba642-4706-4927-926a-99072aa3258e",
+  "generatedAt": "2026-07-26T22:44:13.779Z",
+  "registeredAt": "2026-07-27T01:40:26.985Z",
+  "assetSHA256": "097124f858472f4f9e5dca3d0c5ad4f31b540e4d5e9fffb56857c6743f6c9a4c",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "d3fc06209eff3ba1b265cf2bbdd05dfc314a11d706531e0442f185e0eef81b16"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.568335869107614,
+        "quantizedColours": 300,
+        "dHash64": "30cece92316d5533"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

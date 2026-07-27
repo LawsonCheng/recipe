@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-289:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-289-lemongrass-pork-fried-rice/step-04.webp",
+  "promptHash": "4fa3127287dc5750feeacd7f4a33c46aea0d43cab9543539168bd31907435502",
+  "providerPromptHash": "29f3766e38b788b2a776adc4819cb05ff645718f2b461184e8791ac662de30e5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-855e7306-289a-4d91-93c6-1fb81482e930",
+  "generatedAt": "2026-07-26T23:05:45.194Z",
+  "registeredAt": "2026-07-27T01:44:44.322Z",
+  "assetSHA256": "d87d53363c3bcd2c288bf696036d8fe20d9ce5f641f284fe03892bd409b26d9b",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "389988d5dafb99376377a6457753cad016aafae8353695e5b1f0ed4cc52fb6eb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.353899764981179,
+        "quantizedColours": 286,
+        "dHash64": "ec8e2703130f96cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

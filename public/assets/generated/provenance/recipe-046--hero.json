@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-046:hero",
+  "publicPath": "/assets/generated/recipes/recipe-046-red-braised-pork-meatballs/hero.webp",
+  "promptHash": "80437c31304051c38d504912b65527121e7a45985897930573505e86715bcd29",
+  "providerPromptHash": "228773c5650e38ba349d338f8112a3faa63e94dcf67b762105937b60d9981aee",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-07e239ff-47ce-428f-8fe2-b5f626f3302d",
+  "generatedAt": "2026-07-27T04:26:35.913Z",
+  "registeredAt": "2026-07-27T12:59:41.082Z",
+  "assetSHA256": "425b67e8a313728b628d72be98d78f54f24e297acc37fb904ebd61e739b6d9d6",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "418b622db8f130a5c22efc07541f4635313b5a6b4b6865649f839eaab95a31c2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.572945010528201,
+        "quantizedColours": 218,
+        "dHash64": "70e4ce8633313993"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current hero is genuine food photography with exactly six finished lion-head meatballs divided two per serving."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-028:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-028-red-fermented-beancurd-style-vegetable-braise/step-04.webp",
+  "promptHash": "4be2683f6b0154b399e33f8e96189a7a95d2ee6ec7bc23264feaf916cff709dc",
+  "providerPromptHash": "aac1d792dd91af7fe50f52caf6cc138458737bcb109350759b8376c1118402f4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-658337e4-a532-4899-8d5e-56c62638271b",
+  "generatedAt": "2026-07-26T20:12:52.930Z",
+  "registeredAt": "2026-07-27T01:36:54.971Z",
+  "assetSHA256": "1f8c0b535ce28fa157b6c87411399ee894c83488ebfd802121acb0fffbc18d8f",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "f7ea2389df08555267d698d51376c2590a6eca0cd3580723be297dac8fbf34a1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7104577611899,
+        "quantizedColours": 374,
+        "dHash64": "f0ce8f2f2d0d8fc6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-248:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-248-tomato-egg-curry/step-04.webp",
+  "promptHash": "91ffa770bd476119e301f519050224f81fd7bf00bd8cfcc393d4a86caad7398e",
+  "providerPromptHash": "7bbdf5861be9d32548ab3f11285ed481335e43b20b2f5811692d8ea0b9c943a7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d32c8379-319f-4f2b-9d24-bd6dc98d2095",
+  "generatedAt": "2026-07-26T22:27:35.462Z",
+  "registeredAt": "2026-07-27T01:43:30.419Z",
+  "assetSHA256": "768fb45a85bc424e7b3a7e8e0941b5557cbcf2bdcf2467568812d9de0311f02d",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "fbaf694cfe40e0ba18779cb56102c4113c5fe1e1ee12b20eca6c02224ecf03e0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.361355680972338,
+        "quantizedColours": 127,
+        "dHash64": "f1c18f0b1b163434"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

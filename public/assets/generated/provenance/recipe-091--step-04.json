@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-091:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-091-japanese-simmered-pumpkin/step-04.webp",
+  "promptHash": "41ca00c9276e5c73861a3c8d7400991efebb5fdf7061ef27dfe5ef3c5e4ad7b8",
+  "providerPromptHash": "f77c5619ae33421c5464f619ffce6fee370a5893230dd16a009c65beda363610",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6a727a43-6b0e-4cb2-bf2d-8dc67b87f124",
+  "generatedAt": "2026-07-27T04:43:29.233Z",
+  "registeredAt": "2026-07-27T12:59:57.306Z",
+  "assetSHA256": "355a02515b7ddb6258fe70f582862e45012573e178e1f0c2ee3cfd200cb46669",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "961417d0ecdc6f9374f77e8d4771d8fca7f91c6471a0b608daf43e93dd730741"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.433415771047294,
+        "quantizedColours": 272,
+        "dHash64": "f0300f2b37230786"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — skin-on pumpkin pieces are tightly arranged in one layer while simmering liquid is poured into the Chinese wok."
+    }
+  }
+}

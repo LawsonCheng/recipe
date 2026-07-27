@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-282:hero",
+  "publicPath": "/assets/generated/recipes/recipe-282-black-pepper-beef-stir-fried-pasta/hero.webp",
+  "promptHash": "b2853c46ed9660f7f24352e5b9dc7dd033883ef51145bd0ecaa5ba0cf4374a02",
+  "providerPromptHash": "e068b7b957124fe301c50525994d524423dc16c3f6021e3c1ca6e385393cae68",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a8f27516-754e-48e9-86b0-8b34ca64dc35",
+  "generatedAt": "2026-07-26T22:17:53.563Z",
+  "registeredAt": "2026-07-27T01:44:30.601Z",
+  "assetSHA256": "cb722769dda66bc208199a75f2adf2af2cfbaa5eda1c674e8e9f5aceee5e6f44",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "7316240e1a9cb39e1d3a6437f6007793a6eba51283162703163d4ca69bbff785"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.8092999865766615,
+        "quantizedColours": 271,
+        "dHash64": "cf8e0f3b65756933"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

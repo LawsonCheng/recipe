@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-077:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-077-mild-spicy-cauliflower-stir-fry/step-05.webp",
+  "promptHash": "f1ccbb4928df6643c73755a6531045c7be46f529729be8e23762bc2b04339157",
+  "providerPromptHash": "f00eb0aa46ac7f4010116cb0d61f0f7077fead026a8f218e041b38cb12a6590e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-87ce012d-301e-4a9f-82e6-763fc7151eb3",
+  "generatedAt": "2026-07-27T00:33:49.748Z",
+  "registeredAt": "2026-07-27T01:38:19.112Z",
+  "assetSHA256": "0d136e316d0a53d60df7ce90a02246427680bd443ad711dc1ea8c9e787bc51af",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "e593f42caba2af69ad7c7a1c5f23edacb56888b10bdf3473bb36182cf952d7ab"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.475579777055827,
+        "quantizedColours": 463,
+        "dHash64": "71c88d2f2f270706"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

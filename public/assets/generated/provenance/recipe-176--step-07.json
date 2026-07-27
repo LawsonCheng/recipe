@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-176:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-176-filipino-tomato-beef-stew/step-07.webp",
+  "promptHash": "f728a7ddce2941379b8ca0af288ddc2ae0fda94b6fea9b930e3d6f07d068a783",
+  "providerPromptHash": "c6733657eaa968102ba648b4931f199013996fca912a3ae7e08eb4cedca6f90e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1402e036-64fd-4e3f-a4a6-ce47b72c4866",
+  "generatedAt": "2026-07-26T22:46:12.551Z",
+  "registeredAt": "2026-07-27T01:41:20.690Z",
+  "assetSHA256": "1e231e8c3478750519dc73c0d2a9901b85ee96bcbbc7f33d9151fd60d1929e49",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "82eb8145bb2a330020f4fe77d69074d8611657358aa3ef119a1c7a70284ae16c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.443065767176449,
+        "quantizedColours": 286,
+        "dHash64": "735d0e9f372f0b0b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-284:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-284-curry-salmon-baked-rice/step-06.webp",
+  "promptHash": "7c645b9e35e8bd64d534d40814d55ac1cf897f0b27eaddf1e0c43fea86694d12",
+  "providerPromptHash": "49f1db1c9623f061035bad1750091c681f1bd013e4e18233743291adb28b34ef",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-51190fc9-9f79-482e-9a0d-1ed773c4386f",
+  "generatedAt": "2026-07-27T06:41:12.710Z",
+  "registeredAt": "2026-07-27T13:00:26.182Z",
+  "assetSHA256": "cca1181ae581e3d0fcf1d0cebe320f9426c060df05560ebe8af8b05f6026b564",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "b6f660bd2894c5377b2b7255e22212112317757935dc50f54e6ff3808620a741"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.56687998722191,
+        "quantizedColours": 307,
+        "dHash64": "4c6c1c63a9a9a8f8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

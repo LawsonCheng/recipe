@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-003:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-003-hong-kong-curry-chicken-with-potatoes/step-05.webp",
+  "promptHash": "d0291f0d8dcdaf928c28b2d0736e3fdb439ab8249f82da4e7b0aede0c6d18804",
+  "providerPromptHash": "722ec0eba51f65326cd5e715eebab46701c4d223f45ef0fe24ffcadeb3de6427",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_Ckff1p7cucmDO80MOMdwTTb3",
+  "generatedAt": "2026-07-27T04:12:00.000Z",
+  "registeredAt": "2026-07-27T12:59:37.092Z",
+  "assetSHA256": "086b34047457e196798719c7c1d303e1a671f4b4c68c3837dd37de41736e263c",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "dc06bc9fbd4a6b9b2c081e99e30408245b948fe6b01f409bac6383400c714e69"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.399133212522429,
+        "quantizedColours": 180,
+        "dHash64": "e48c0e1f2b1b0edc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Chinese-wok curry base contains potatoes and carrot only, with no prematurely returned chicken; the gentle simmer is photorealistic."
+    }
+  }
+}

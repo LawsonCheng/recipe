@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-145:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-145-mie-goreng-with-vegetables/step-07.webp",
+  "promptHash": "5eae9da85b4f806d2bc7d48ab49a73818ff581b2ba1c3e1c1273888463c9f48b",
+  "providerPromptHash": "7e4cf93a92a0970e1ec0ba01c487eb5ecb075a7583f7c6b9a21cfca46550005a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5c737e80-d153-4c08-9408-ed8575212f3b",
+  "generatedAt": "2026-07-26T22:32:32.668Z",
+  "registeredAt": "2026-07-27T01:40:23.205Z",
+  "assetSHA256": "471b706ead02c58e45b0a7cbbe5027bb9aeaaeb09f3e7e576cc2a355f65ddb14",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "8b2473cbaa07fef8d58ec5c88e77732bd0efb47c1df374977cf75e76e0cb2fac"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.662967136129737,
+        "quantizedColours": 421,
+        "dHash64": "fbc54e1f273b1e92"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-109:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-109-mild-korean-seafood-tofu-soup/step-05.webp",
+  "promptHash": "a69c724d9b45a16978cbf3ca08056fbe95ffeec309fa27ffdf2b272854dc9b2d",
+  "providerPromptHash": "dcc8023cf19da6cf83364d65c037352c8a18cd81878d0a822991988f81165723",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-545ceddf-3895-43a1-b61f-d54f82361623",
+  "generatedAt": "2026-07-26T18:47:56.817Z",
+  "registeredAt": "2026-07-27T01:39:15.373Z",
+  "assetSHA256": "8e41962f70448e5fbaa2af27a8b55ec2061feac71806ec172299df59c7a33c03",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "e727850e25327c42ef888669799eeaf1a27c4afd36c01b47f18b6a1b067b1afc"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.569773728668224,
+        "quantizedColours": 205,
+        "dHash64": "0c17172d2d091f8f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Intact silken-tofu pieces are gently simmering in the already prepared seafood broth, matching this step without revealing a later state."
+    }
+  }
+}

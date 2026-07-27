@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-192:hero",
+  "publicPath": "/assets/generated/recipes/recipe-192-herb-roast-chicken-with-potatoes/hero.webp",
+  "promptHash": "3d8ad6527a00e9f9e12bf9b8fda25b0ea7241bb07a48da161d4ab340ec46d347",
+  "providerPromptHash": "abf098898de6242d6c39da5e39f1aaced08e3c434e8fdb3927d86d20c8604611",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7d45fa57-96af-49c8-8f98-8384a607137d",
+  "generatedAt": "2026-07-27T00:08:53.174Z",
+  "registeredAt": "2026-07-27T01:41:49.120Z",
+  "assetSHA256": "77f27ad51034ba513b3bddd1ca23678ab12732170cdf1c52c99c97d6962e929e",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "60bca227a4b44aa6ccf8ce91b35dc4f56c6cac6d5a50937a2a48fb885e7027b6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6797801305074245,
+        "quantizedColours": 391,
+        "dHash64": "9b465693b9950d39"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Three complete servings show roasted boneless chicken thigh, potatoes, carrot and tray juices with appropriate final doneness."
+    }
+  }
+}

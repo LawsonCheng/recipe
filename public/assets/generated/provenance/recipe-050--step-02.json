@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-050:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-050-chive-style-egg-pancake/step-02.webp",
+  "promptHash": "2adf018b022ef9553485b32bb617713236082dd4e32ae68a95c23c8b44541e8f",
+  "providerPromptHash": "5c7710e6761e547d5ec060d6db93de1b82c1d1851ac780615097e73c03845c83",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-fc38986a-97ee-4905-8279-214ca6474c7c",
+  "generatedAt": "2026-07-26T22:16:23.082Z",
+  "registeredAt": "2026-07-27T01:37:32.252Z",
+  "assetSHA256": "28f507f7763fff950dbdd5f851be44cb339ce0dddc4612a3e8b639d489633022",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "45e448616f2f6c65eb9698a419d2f2658eae634f1d982a0d55995b3dd31612a4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.619161980925128,
+        "quantizedColours": 264,
+        "dHash64": "860d171f3b4b179f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

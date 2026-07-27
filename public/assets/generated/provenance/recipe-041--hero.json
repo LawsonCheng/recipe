@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-041:hero",
+  "publicPath": "/assets/generated/recipes/recipe-041-beijing-sweet-bean-pork-strips/hero.webp",
+  "promptHash": "8e4f3f26bf17aed8e47b92df4e6ab49f3d56b98b6e95538d0030bdca179e1133",
+  "providerPromptHash": "2fa9eac8942ab6ac2c8c7c7554bb05543f2308924001e592a0a2b517c32f32a4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-09a991cc-eb45-4c4e-8f52-b0526f3b3038",
+  "generatedAt": "2026-07-26T21:28:24.562Z",
+  "registeredAt": "2026-07-27T01:37:16.294Z",
+  "assetSHA256": "efe111804e33ffb8dc4678466311603d5ede0064b536b1c28d16fa3c39da0184",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "f2d0a8f642eca9f9cd5402c91f805656e95a0d48d27bc68705a07bf1d65c9bda"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.847590558114462,
+        "quantizedColours": 391,
+        "dHash64": "8fce8e3361514932"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-085:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-085-miso-glazed-salmon/step-04.webp",
+  "promptHash": "36af4065aa6cf21fcf6071c204b299b87da157bdd1f65989879abfacbc202498",
+  "providerPromptHash": "e04d058a8d9ba948b65dcdba9fc9aede27e2318fe5c12aa29dcbd1b1758c49de",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-537f0c05-fe9b-4567-afe0-75e74ad3c062",
+  "generatedAt": "2026-07-27T04:57:11.992Z",
+  "registeredAt": "2026-07-27T12:59:55.529Z",
+  "assetSHA256": "2b73334f4d95c33a0fbf915204bc7a8906fa3de6cabb2fa92adbc8d5dbebefbd",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "df630ec749ae9bc7149aca85de00e15f458d6c9b66cba8589896454b26d2b23e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.438199423733749,
+        "quantizedColours": 307,
+        "dHash64": "09c4ca0e2f11739e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

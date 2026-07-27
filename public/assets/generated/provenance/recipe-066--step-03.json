@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-066:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-066-dry-fried-green-bean-style-okra/step-03.webp",
+  "promptHash": "320afb878bc0839cee4012310787ef93d2f492d1beeebccb5ac37541acaf02f0",
+  "providerPromptHash": "60c9e6dc2abd56eabc3f94d1cc6e0b92e87d4a56c557d6ad594874e735ad8690",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6dded0a1-56fc-4e8b-b9df-0ccb799a1c49",
+  "generatedAt": "2026-07-27T04:50:09.122Z",
+  "registeredAt": "2026-07-27T12:59:49.282Z",
+  "assetSHA256": "0d0968bcbb7dd5b30fe80a7938763acf6d3f96a24516a7e25624d0741d46d91a",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "ff5638d7cf7a3e274da93b30bcea3c8923b9c5e8432fbf9396e23df72ab9e54c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.388020935810346,
+        "quantizedColours": 273,
+        "dHash64": "3639891b379fc6d9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Cut okra is blistering over high heat in a Chinese wok with the expected darker-green surface."
+    }
+  }
+}

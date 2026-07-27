@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-217:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-217-home-style-barbecue-ribs/step-04.webp",
+  "promptHash": "3770926d3b7fa55bde7bf95b6c720569cf5520ebfd5775c8551b36842371cd61",
+  "providerPromptHash": "5b031dfff57f8a3b3c60d795979e5d36f94faf228acff835e906dfbe89efc407",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3fd22927-fb16-4390-9a0a-07b99260d9d0",
+  "generatedAt": "2026-07-26T19:31:33.043Z",
+  "registeredAt": "2026-07-27T01:42:34.714Z",
+  "assetSHA256": "96fdc4b9f5037ebc81c11c7402499753915afd39f796d305c1f4ee00713c673f",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "168c341f3ea578419b3fb0ac51895fbf8ead363f131322980f531d9d08145527"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.4233108847693074,
+        "quantizedColours": 280,
+        "dHash64": "dfe8e7e9e4e060e0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:29:20.799Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — The staging image shows the ribs separated into individual single-rib pieces across the tray, not intact racks/slabs, matching the carried-forward preparation state."
+    }
+  }
+}

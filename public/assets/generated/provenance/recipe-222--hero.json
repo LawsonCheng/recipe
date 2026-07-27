@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-222:hero",
+  "publicPath": "/assets/generated/recipes/recipe-222-mediterranean-herb-fish/hero.webp",
+  "promptHash": "fc06daf5945bc5d600c4448a7facb1eb9e4a8f8b224924594f55b5d085bc1be2",
+  "providerPromptHash": "e294121f8af2d293db6da89dc75b943010ff74b5c52fac746ebc107b787dfd55",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-00b66f72-270b-497d-aec8-d4e52a1931b1",
+  "generatedAt": "2026-07-27T06:06:57.057Z",
+  "registeredAt": "2026-07-27T13:00:13.840Z",
+  "assetSHA256": "aff6235fa748b5c01d15f7864b97b63db14d57bcb50e0e836460f1951ba85b60",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "8facdf94004d7dad18a43c4ec9182fd3fd7b25c82ed55074d82a2dbb5be26205"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.664817973127356,
+        "quantizedColours": 267,
+        "dHash64": "dcf08f3b267ca2b8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — One whole approximately 700 g roasted Mediterranean herb fish is shown on the supplied-style tray, not three duplicate fish."
+    }
+  }
+}

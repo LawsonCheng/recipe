@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-191:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-191-italian-tomato-fish-soup/step-06.webp",
+  "promptHash": "4c4106ac77cb442a3d6e912ebb92be561efe906b012be53874499b4f9b2f6d66",
+  "providerPromptHash": "256619f637c51b3d716a49ff966c0248cca36ff72673addc65c3267cbc3a9fc7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c7e99245-d736-458a-8722-adfa25f92bfc",
+  "generatedAt": "2026-07-27T00:07:48.710Z",
+  "registeredAt": "2026-07-27T01:41:48.860Z",
+  "assetSHA256": "74c576952fda07b8863ee1b5ce205fdf60b60bf540b3ffdd85c9a6ff0b9d20ba",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "c91b3f19f8335c68b149bb0096296e8d02898794a13dcd327e89ebb77bd2a072"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.626070154030458,
+        "quantizedColours": 310,
+        "dHash64": "cb31b813b3291343"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-178:hero",
+  "publicPath": "/assets/generated/recipes/recipe-178-vietnamese-rice-paper-roll-salad/hero.webp",
+  "promptHash": "2d081eddeae52e3658725dec72fbe8d2d49796ba1bda7f17f952373b56bfec2a",
+  "providerPromptHash": "ab6d80c521e4e1b138604395428fad781f212b7475599d3ff084e5e7223274a9",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_fj3TOaeMF12NGunYyPdPqyrZ",
+  "generatedAt": "2026-07-27T13:24:39.000Z",
+  "registeredAt": "2026-07-27T13:55:31.194Z",
+  "assetSHA256": "74c62ec4a708a57672d2b6706df3fbf962fd360e7f22a1bf070ad8f7f1073133",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "253621e0e211844bfa16b9ddb6118c5c4b795045f54058ff014aa31c2d6c5a6c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7256743082543835,
+        "quantizedColours": 339,
+        "dHash64": "fb4149e94149f9b7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen image reviewed at full size: exactly 12 photorealistic tofu-vermicelli rice-paper rolls with a thin amber soy-lime dipping sauce and no peanuts."
+    }
+  }
+}

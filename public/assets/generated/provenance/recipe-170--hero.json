@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-170:hero",
+  "publicPath": "/assets/generated/recipes/recipe-170-malaysian-sambal-fish/hero.webp",
+  "promptHash": "155002a896fee7fde698aecab2e9b671d0b76f5af82da1222cda9a4b7bfccb2a",
+  "providerPromptHash": "5705f015a130e59ca474c9fb98a6016c80f04094fef5f17c87cabf340b05b8c7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-95d8aeb2-8836-4246-88a4-faa2a33461f6",
+  "generatedAt": "2026-07-27T00:53:19.100Z",
+  "registeredAt": "2026-07-27T01:41:07.976Z",
+  "assetSHA256": "2bd89f87f38ab534431285f605cbe95a6615eba26add424ef8ebd4582ab6849b",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "10954161abe44329671aa63592bed5c05d68a13ea54ed41bb25357d1db9251eb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.716796331813384,
+        "quantizedColours": 380,
+        "dHash64": "48ce86f9ccfcc976"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

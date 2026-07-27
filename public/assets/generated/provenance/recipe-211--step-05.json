@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-211:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-211-honey-roast-chicken-wings/step-05.webp",
+  "promptHash": "692101b2ced6f3d7f3d2618264716f6c8e81e253435f0516effd71a4e5ee9a3c",
+  "providerPromptHash": "31c6ed978c8e13919b4f8ba897aa9ec5649d023b5efbdaec9c8bcfff35a78bba",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6ed34967-c7e0-4d97-9f1f-cc664f4d94e6",
+  "generatedAt": "2026-07-26T18:57:51.540Z",
+  "registeredAt": "2026-07-27T01:42:24.044Z",
+  "assetSHA256": "6740890cc7c68f3aed483f77a40bcbf0ad2a1712418f51128f0ff01da5390bf1",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "c7610a2220fb3654b9d7a6e272fb06e1666ca9d5b5d911921ae60d0fd69dbe78"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.182544920462533,
+        "quantizedColours": 300,
+        "dHash64": "7cf8f84fcd83c139"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

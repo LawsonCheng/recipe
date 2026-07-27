@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-198:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-198-italian-tomato-cheese-omelette/step-04.webp",
+  "promptHash": "a35c60e99e1a134429210339c249f8550f726018a67350ac659787a2d45fc2ad",
+  "providerPromptHash": "9c2398a48af6f7583d86a3470f8518045347c0a0a01f52380553e0e939d1ad37",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-81c3a02e-b334-4589-b6dc-3c47be8e353b",
+  "generatedAt": "2026-07-27T04:53:41.372Z",
+  "registeredAt": "2026-07-27T13:00:07.780Z",
+  "assetSHA256": "c596532c830cd924ffee7f633e5f3320436744a3462460c09af7b4f984a095de",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "97fcb241771e75997b3acf2752fe5eecb78f79f207bdb4c13b6e7bcf0ebd5f64"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.882324857433559,
+        "quantizedColours": 183,
+        "dHash64": "7f9db3132b1b864e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — only one omelette base cooks in the frying pan, with set edges pulled inward and a still-glossy top."
+    }
+  }
+}

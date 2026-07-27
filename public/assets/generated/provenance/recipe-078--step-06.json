@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-078:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-078-mild-chilli-dumpling-style-soup/step-06.webp",
+  "promptHash": "185141f938e0300daa0293f7583d02f2e86dc8e69924e139c8e813642cdb36cb",
+  "providerPromptHash": "825d66d8f347ec58f49027d265aa47ed92b47cca30861af4ba957526bb6b2c64",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c919a9a8-b96f-43bf-9844-f03d57e422a5",
+  "generatedAt": "2026-07-27T05:07:31.000Z",
+  "registeredAt": "2026-07-27T12:59:53.533Z",
+  "assetSHA256": "8c392413edf7a94ea1a30457249ca21fb1f11112488790e256af5aa514d664af",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "e67a2579972ac30906725910cd5de3297c903e8d9d58211c9898df980e36f79f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.4425320173904765,
+        "quantizedColours": 297,
+        "dHash64": "713913c54307968e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

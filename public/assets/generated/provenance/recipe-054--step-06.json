@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-054:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-054-napa-cabbage-and-tofu-stew/step-06.webp",
+  "promptHash": "1cc078ae129f09fa2fa85f3a458896e373ebc0ba4954d9302bba845ac8528dd9",
+  "providerPromptHash": "4501220df8650026f441c0f480246344e8230562987b9f9b7d5cef07f6d208a9",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0fab3e12-ceb3-4c9a-a1d6-ebc6b0139fb0",
+  "generatedAt": "2026-07-27T04:38:06.000Z",
+  "registeredAt": "2026-07-27T12:59:44.043Z",
+  "assetSHA256": "28ec4cb2de68bbdf4c52f27bc42fa5d693c0950a7f43e5ff9c1c64b4eec23f21",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "9be2ed96d52fd2112ae3f8bdae03da17f8a7091f3cf53e70bebf96c297eddb97"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7051523145637475,
+        "quantizedColours": 260,
+        "dHash64": "f3c39333232b86cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

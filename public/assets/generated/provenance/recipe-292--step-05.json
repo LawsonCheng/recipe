@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-292:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-292-thai-curry-chicken-rice-bake/step-05.webp",
+  "promptHash": "6176ca0098d4fb7551102bd9fc21e95e3fcaac17a149a361909a90a6474997a7",
+  "providerPromptHash": "df73b62b847004866c7dd0e30d2008d0c2c8d335ab97e570987ca023f643f601",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-64a3a8a0-7ab9-4007-b7cc-335362da388d",
+  "generatedAt": "2026-07-26T23:26:11.016Z",
+  "registeredAt": "2026-07-27T01:44:49.954Z",
+  "assetSHA256": "30a57827f72d2de4c58f919a3da505ff3cc7d291efa265f9cd34c8d7e3962667",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7f3562c4b25736190880d313c1c4e4273184c8b6426c3060013e7b30e958631a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.275458544434514,
+        "quantizedColours": 277,
+        "dHash64": "18e18f031383e117"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

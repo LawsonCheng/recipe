@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-217:hero",
+  "publicPath": "/assets/generated/recipes/recipe-217-home-style-barbecue-ribs/hero.webp",
+  "promptHash": "511abc1dd64c31443dc2b3a7b9c2dd70548842e32d6f6af2551ebc084cfd1f5b",
+  "providerPromptHash": "a3368dacdb5ced6df9a5ffcc4094c20c479727b49c26c67b34bcee578a197cbb",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-32f3932a-3f56-4cd5-8c04-46a2cad292b2",
+  "generatedAt": "2026-07-26T19:26:54.932Z",
+  "registeredAt": "2026-07-27T01:42:33.711Z",
+  "assetSHA256": "f2a1f23eee9dacbbdbbb8064c961aa648932031dd71eba0179ae2868290156ff",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "11b856dd005d52eb5078ed3e6ee09be66428e5dd5cf18a4628822b02c17188a8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.576271044643363,
+        "quantizedColours": 355,
+        "dHash64": "2c0eeeda31353993"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

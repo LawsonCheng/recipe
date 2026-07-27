@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-166:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-166-vietnamese-lemongrass-pork/step-04.webp",
+  "promptHash": "39f5436b4c0b99ff379d9af367d64a8cf8284e4bd3e09e1fa7a2d29b9f0541ae",
+  "providerPromptHash": "d1683a3a9a8f84118d809aefc826e4bf3e1ec057363a2cd74e59692b17b2f16f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c265bee8-2e98-4ab1-8c0d-82e4c1537850",
+  "generatedAt": "2026-07-27T00:34:02.535Z",
+  "registeredAt": "2026-07-27T01:41:01.631Z",
+  "assetSHA256": "6afbe1f2e6e0240bc5d3d1baaeee02359ff19c64847d9bec5b53089ca0fa3ac9",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "9119538ab55d762a5fc46b38d692733e3b8cc9e590c78fd4af0086a43191a292"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.532150943414308,
+        "quantizedColours": 232,
+        "dHash64": "3fff93ad9babafc7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

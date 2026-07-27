@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-278:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-278-steamed-eggplant-and-tofu-with-garlic/step-04.webp",
+  "promptHash": "f37927ccc8672028f82901c4ab7fb8d06e1dee073f7bae5eb0e2280cb6866bdc",
+  "providerPromptHash": "ec4d40fc01a6925fe724220cd958cdce43ec4cc39ad2a13df177bad2430fc4f5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a70c25a9-c76c-441f-ab5b-d45a0bc241ae",
+  "generatedAt": "2026-07-26T21:59:55.792Z",
+  "registeredAt": "2026-07-27T01:44:24.452Z",
+  "assetSHA256": "a0be343dfac85acf552871890da411bc98b6bdeb3aaf1273cc3968033ea94111",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "6f4c03dfe68c60e2210d55dc93142ce464e1de84621deacaf91ed4fa4547eac1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.071770131820813,
+        "quantizedColours": 147,
+        "dHash64": "d676f6e6cec6f2ce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

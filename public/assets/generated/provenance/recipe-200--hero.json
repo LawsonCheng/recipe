@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-200:hero",
+  "publicPath": "/assets/generated/recipes/recipe-200-italian-lentil-soup/hero.webp",
+  "promptHash": "096b92d97ecc19ccb6782759e959d9edc637ad45e17f3f9eeb94f6f32c53b843",
+  "providerPromptHash": "c092d144935ba674fe44f467838e6a8ffb3b6bcc2552747948eadc11d94a8b04",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ba453c50-4bd8-4b33-b983-6633e18a7d01",
+  "generatedAt": "2026-07-27T00:51:14.010Z",
+  "registeredAt": "2026-07-27T01:42:03.377Z",
+  "assetSHA256": "77db26cab99ffdec54ff2741324e9fa3a33cd2a1ed0b098b680f6d76e8fff316",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "b8202634110d3c9e0ea523e97d3ea4935223a5c563b1ffabdac1ea2320fefe1c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.594014550904831,
+        "quantizedColours": 255,
+        "dHash64": "d998e7c3d991bb8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image shows exactly three photorealistic servings of finished red-lentil soup with the correct thick, spoonable texture."
+    }
+  }
+}

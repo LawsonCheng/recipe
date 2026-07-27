@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-253:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-253-indian-spiced-baked-fish/step-05.webp",
+  "promptHash": "fb44e0102848a7f765efeb67e29e7468447347d6dda1cbf5d57ebb5c297a3997",
+  "providerPromptHash": "ede12705a5f52f924278cfbf844f9bbacb4bcab445be66dd8f68c664f1a08125",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0da3472e-c1fb-4162-9d53-acdc16e44140.png",
+  "generatedAt": "2026-07-27T05:12:32.203Z",
+  "registeredAt": "2026-07-27T13:00:22.920Z",
+  "assetSHA256": "706798b801a92780ace88d9862f7cf832cc436c09ab81cb52038fe37c6130b14",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "c7cedd3ba1b43ff8a72add0db2c970b828160fb461702bfa23dd40bfcf90ce21"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.254743379686261,
+        "quantizedColours": 298,
+        "dHash64": "4f470b2f2d1d1e1e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three browned fish portions bake together on the paper-lined lower tray while one centre is checked with a probe."
+    }
+  }
+}

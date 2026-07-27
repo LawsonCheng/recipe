@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-220:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-220-chicken-mushroom-pie-style-rice-bake/step-03.webp",
+  "promptHash": "393e98c226100ca2a754f2860cb0a5230e3ceed36b7ffbac921ac837c86e2b0e",
+  "providerPromptHash": "ecf0dfcb22ceb1de1f727c21dcb75a81a5661a86f48bf982cc64d79e6ead4dad",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cc8cf415-a340-43ba-a460-2025b6fb4945",
+  "generatedAt": "2026-07-27T04:55:32.914Z",
+  "registeredAt": "2026-07-27T13:00:13.318Z",
+  "assetSHA256": "98649ece724f0acb67bc5390e622c3b7645d81417b00babd304092e15b096521",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d40f322887087aa34bb79f450c2b441a1f1c3f1df00e497af7c96b9981ddb0e2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.523509745078627,
+        "quantizedColours": 179,
+        "dHash64": "eb8c141e3c08b3b3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — small chicken pieces are shown during a natural transfer from frying pan to clean plate, all at the same opaque-outside, underdone-inside state."
+    }
+  }
+}

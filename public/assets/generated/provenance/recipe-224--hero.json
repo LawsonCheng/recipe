@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-224:hero",
+  "publicPath": "/assets/generated/recipes/recipe-224-turkish-style-beef-meatballs/hero.webp",
+  "promptHash": "5bbdb69e28f2a8d6c8052d64194f9e02f914a73b4e3dbae8094f2b5c8b028d8a",
+  "providerPromptHash": "e76ef71102686f78effa0bb87f0b1059fc70313cf197a301305449ad492dbe58",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_Nm2XWLgc3HUZqoafaquqeIqk",
+  "generatedAt": "2026-07-27T13:23:55.000Z",
+  "registeredAt": "2026-07-27T13:55:31.930Z",
+  "assetSHA256": "64f2d54ff9475560c2ab91ce860ab4062608aac56558698ad845adc620f846b8",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "ed0100745dba1fe3d9d7383ccb0a676d42093c1eb795f0f5347e3b5e3052f2eb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.64179541147314,
+        "quantizedColours": 350,
+        "dHash64": "13e0ecacaa8ae08e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — one communal platter contains exactly eight intact oblong köfte in two rows of four, with realistic tomato-pepper sauce."
+    }
+  }
+}

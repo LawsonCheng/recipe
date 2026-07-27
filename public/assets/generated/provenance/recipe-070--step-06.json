@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-070:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-070-minced-pork-with-glass-noodles/step-06.webp",
+  "promptHash": "85aa438680067171261a73dfd4f745ef6b923a4ce338a8e5adad74142c3e88f9",
+  "providerPromptHash": "110405221efa5f57b3657e09fa78bb0e4af1c43861dbf947b88ac6deecfe71fa",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_opb1wjm5YVFlDuTLNQZBN5vK",
+  "generatedAt": "2026-07-27T13:48:00.000Z",
+  "registeredAt": "2026-07-27T13:55:30.194Z",
+  "assetSHA256": "bfd83c370ac976f1afce6ce275ce28b2ef2e6fc01fc7b1163ead04d41ec18695",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "3bbc7f2c1be9e8612961156ee41c9bae7f9430ffd723f8f0ed6ab9754d11533e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.675167889450677,
+        "quantizedColours": 235,
+        "dHash64": "e3c39397879f8ffb"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — one continuous milky slurry stream enters the full noodle-and-pork batch in one Chinese wok, with no spring onion or later garnish."
+    }
+  }
+}

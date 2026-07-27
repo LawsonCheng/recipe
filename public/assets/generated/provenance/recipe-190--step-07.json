@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-190:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-190-creamy-spinach-chicken-rice-bake/step-07.webp",
+  "promptHash": "beaf24720d6cda21fc46a6577273c0ba704db5663521a27c33d3c8a0c55fe42a",
+  "providerPromptHash": "a992746ee8cb073ee79737eae0ec441327acce3347dfd9115f8b9ba69cb2d316",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_Ki5zHRafhQBTECHjPxG8AsJo",
+  "generatedAt": "2026-07-27T13:23:55.000Z",
+  "registeredAt": "2026-07-27T13:55:31.438Z",
+  "assetSHA256": "b30c976d1490267def1c279dfdc8edb9f0615dcbc1d28854fc934ea7b87e7c69",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "30459f4760ad0b17393e32a6526efbfc1c56dd144b9b80200f8959f8f38eb1f0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.663160335891007,
+        "quantizedColours": 292,
+        "dHash64": "8f0ceae6d6ebf43c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three bowls contain the whole finished quantity with small chicken cubes and no extra casserole, tray or leftover food."
+    }
+  }
+}

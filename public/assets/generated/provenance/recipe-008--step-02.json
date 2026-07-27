@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-008:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-008-hong-kong-sweet-soy-chicken-wings/step-02.webp",
+  "promptHash": "a7c6da038a3a3d19c5646a6c02d840b90b11aa799ce503b98eaf5c5576b8a168",
+  "providerPromptHash": "2a9a406a6fdc9fda94d0badeeb13a39f5496c3c9d0e6104ee73763b621908896",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f2e92cf7-54ce-4d33-a7bb-aa176439289a",
+  "generatedAt": "2026-07-26T18:20:49.011Z",
+  "registeredAt": "2026-07-27T01:36:20.399Z",
+  "assetSHA256": "0f5815561695df54fd751c0160dfb6694823853f7b6189e5b77fee86177cfa1a",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "9023d2c3f22a86a2e2bb7319164f653599cc2cca24a3ac53f11b13636c4dc812"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.276178364641964,
+        "quantizedColours": 229,
+        "dHash64": "1839397175199d94"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

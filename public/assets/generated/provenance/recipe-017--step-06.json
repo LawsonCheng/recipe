@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-017:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-017-salt-and-pepper-pork-chops/step-06.webp",
+  "promptHash": "8c73ad944fe09ddedc0a42101f2a88d23dabf37bcf888de80eecbe6b58022c31",
+  "providerPromptHash": "210a30f50193a79b8e106c861da501901f6d0ee291a2f26de238750b713ba238",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4f027428-5e94-4dd4-889a-0011eb04c7fb",
+  "generatedAt": "2026-07-26T19:17:41.795Z",
+  "registeredAt": "2026-07-27T01:36:36.792Z",
+  "assetSHA256": "6b8fc38af5049505ceb5631477f2524c5a7d1f9e2b4eb2a657ee1c29e85d219a",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "8803494109a3b93b05efd1667eee55293288193f21cf715cbec499c6c521c5ac"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.483711730375944,
+        "quantizedColours": 357,
+        "dHash64": "f1e38f8f97126444"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

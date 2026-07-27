@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-231:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-231-mediterranean-garlic-lemon-prawns/step-05.webp",
+  "promptHash": "7aa197da2c200e0cfe1af4118e20f1ee68fdde60ebfd4eb9e47a18e17127452e",
+  "providerPromptHash": "976c755316ee3701685afc5c6c607c88a741fc9c25a1e8ec6b819484a869d83d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-af9452b4-f131-42d2-98dc-749daddcde9c",
+  "generatedAt": "2026-07-26T20:59:04.253Z",
+  "registeredAt": "2026-07-27T01:42:59.958Z",
+  "assetSHA256": "44f9ec3cc6c257b75d9ea11b38b014132877fd280e9fa9b4e9979b5bde5b0cde",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "4b4c7a561e9a83942f6da3d99868384a15ae8508779841db5899c6a866290e4b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.693110601932858,
+        "quantizedColours": 351,
+        "dHash64": "efcb87172717378c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

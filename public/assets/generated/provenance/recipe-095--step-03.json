@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-095:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-095-teriyaki-tofu/step-03.webp",
+  "promptHash": "89f01c834f0084694cb6ee502aa36ca77aab8ccd38931c229f3d674c90d6e3c3",
+  "providerPromptHash": "d6685329d59508d181433004fe8cd2507b09de1ff3d60ad4743b18a4e2de2516",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b95de092-d469-4175-aa0f-93d2f3035395",
+  "generatedAt": "2026-07-27T01:09:40.196Z",
+  "registeredAt": "2026-07-27T01:38:49.540Z",
+  "assetSHA256": "ead1d1bbb1874867c1ac8320f82e8c95259d333b83e002f7da1ff04ccc7ae27c",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "4abfc4c1682faf0ce9cd3434ba1789a7cf4fb89b55455da37bb1f132ba367d6e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.511031429137802,
+        "quantizedColours": 307,
+        "dHash64": "a024642089a41a1c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

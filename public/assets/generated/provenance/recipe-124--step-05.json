@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-124:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-124-mild-tom-yum-prawn-soup/step-05.webp",
+  "promptHash": "2ea9d3b20d7cd5ff7862edb8e5eb513a886797779a2295106bff3ef5d73d6989",
+  "providerPromptHash": "13f0ec8679064a3c9e08241fc9b14c9c3a9ee0f0b698d181748ca1f770ef67c3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-195d937f-0792-44bd-99cf-8789767a1bf9",
+  "generatedAt": "2026-07-26T20:21:10.780Z",
+  "registeredAt": "2026-07-27T01:39:43.468Z",
+  "assetSHA256": "3c6f349cb570e94522cc9c97cc4d3db33e3521e13d5c86439c2ff68cd376a280",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "5255e2179e428aa01d5c4efd381247e55544fe16c804438fe808eefa3c9b3631"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.711958897765726,
+        "quantizedColours": 321,
+        "dHash64": "73e59c0c271f272e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

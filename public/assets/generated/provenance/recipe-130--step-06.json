@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-130:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-130-thai-curry-squid/step-06.webp",
+  "promptHash": "afb2b97d0a7ac27d9ebf8c0e22b0e3b430ce9f660e643efa721961bd038ee6fc",
+  "providerPromptHash": "73832946f18ff609f4149e22032eedc3bb6428a2976df9e8daada53e7355992c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ac6d974f-ef0c-4822-a47a-34a3328b5581",
+  "generatedAt": "2026-07-26T21:04:04.293Z",
+  "registeredAt": "2026-07-27T01:39:55.599Z",
+  "assetSHA256": "4f617b413c1598a8dc1867909e8eef3d2e5608819f45f885e3995cac0a0387a6",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "a65d7b7245f96aba01ae217e05fd4e89219f81107b66fab492f857bc7f0e45d2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.590608172460634,
+        "quantizedColours": 346,
+        "dHash64": "d9bd1902272317c7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

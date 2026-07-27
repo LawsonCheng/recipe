@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-201:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-201-herb-baked-chicken-steak/step-04.webp",
+  "promptHash": "0e6cf3d37b4e2566389082f3d3df58f3ed13a6e1b7df9e7be3a3c04b339c08bd",
+  "providerPromptHash": "227110105a7580843a71a8c526c0836d6221c15b4ba0e699221392d7c2926874",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f4425d3c-0767-465b-a583-e58e2ccb3ad6",
+  "generatedAt": "2026-07-26T17:55:46.598Z",
+  "registeredAt": "2026-07-27T01:42:06.136Z",
+  "assetSHA256": "19f9679da77da7f149ea62abae244974e98abb9d30e0f76f7d7a5d779fdb1c96",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "8492c91fb4f93a806e57861298afe6d27a92ec2965155f4e6a11cb30268e5160"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.630833326489665,
+        "quantizedColours": 270,
+        "dHash64": "b8bcfc0d1b37066c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

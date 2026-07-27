@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-075:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-075-hunan-farmhouse-pork-stir-fry/step-02.webp",
+  "promptHash": "a9b5c8bfcbd704071d5ff74f48c8658594ad2b70af22280642dce6dc8c904315",
+  "providerPromptHash": "6eec2f10942a0b951555146b515c041e213ba5a0cbb83cd3aa1dd5e2faeb3954",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f14d0965-a541-413e-be37-8324062c248c",
+  "generatedAt": "2026-07-27T00:22:03.698Z",
+  "registeredAt": "2026-07-27T01:38:14.956Z",
+  "assetSHA256": "adc1fc4c469821040f890053b0a231ce834a25b536cb1f6d477a76bc72da3e62",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "dc6d0f01ade94afcb8630b9ab3e0ff8afe8ef7c177ccfb723ed6fb1fd540df8e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.75189546495676,
+        "quantizedColours": 236,
+        "dHash64": "622633716161fbaf"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

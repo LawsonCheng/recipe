@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-245:hero",
+  "publicPath": "/assets/generated/recipes/recipe-245-coconut-fish-curry/hero.webp",
+  "promptHash": "354807e086b4050a727fc444352e6ba15ce6e50a5e0b45d9dbf8e4d539331cf1",
+  "providerPromptHash": "6d6d5cdfad7dbc1edbf4e6a5841d570eae15dbfa61f81b2d0cecf264b1cacd5a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a296b3c8-f45d-4d60-9a1a-8d8ec88c24b3",
+  "generatedAt": "2026-07-26T22:08:50.583Z",
+  "registeredAt": "2026-07-27T01:43:23.845Z",
+  "assetSHA256": "6e5ebbb8bd6e231ee16f6a6b31d647e05f98f5808e727ebf24b09fd2fcef2d41",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "a210282f3824737c3081c647f455e41295b825e2271f4e01c65b45a4e724c84a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.686668229987845,
+        "quantizedColours": 406,
+        "dHash64": "3888e8962b3b3b33"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

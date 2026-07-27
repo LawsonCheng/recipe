@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-155:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-155-javanese-sweet-soy-beef/step-07.webp",
+  "promptHash": "452eb4dbf12fc5d97837c62634eb2e24f3ebcb665dea8d8e0fcb43820fea91c9",
+  "providerPromptHash": "4d8e106ea8026eb19f4583cbb803a027044fc5deacf469153d10963818a9c70a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-796b42e1-e011-4e42-a4f0-39527246170a",
+  "generatedAt": "2026-07-26T23:30:10.159Z",
+  "registeredAt": "2026-07-27T01:40:41.591Z",
+  "assetSHA256": "84421b9b6636a0b702695fbbd577c600b2f2dff33b0d2371f848109e3f95ec7d",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "537a6b708043bfd7b20d9d07ade66b70c34590642ee90c5773a5ab1fae737df0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.239158288575709,
+        "quantizedColours": 203,
+        "dHash64": "6fc68e1f1b9b93ef"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image captures the required lime-squeezing action over the finished Javanese beef; plating follows later within the same multi-action step."
+    }
+  }
+}

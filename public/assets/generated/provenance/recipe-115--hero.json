@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-115:hero",
+  "publicPath": "/assets/generated/recipes/recipe-115-family-korean-black-bean-noodles/hero.webp",
+  "promptHash": "f32e273d51042dbc09a9cee3e49972de064450435c26b3e1e87221c3337d71e5",
+  "providerPromptHash": "d343be9946ae2193ae29e380e20c054eb73602373ab7867104f27da07323029a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-59f76f42-aa2b-478b-ade5-150ba72e8431",
+  "generatedAt": "2026-07-26T19:22:01.319Z",
+  "registeredAt": "2026-07-27T01:39:25.426Z",
+  "assetSHA256": "05cd6a781f53b32aec2a180d3b9d937f5cf7d074209f334f447870b141a5d231",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "1cba19777b31d6fa4a3f83e7a2c84c71c6b8a0cb10d60cfdc7e023c4a806d32f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7927687666378915,
+        "quantizedColours": 285,
+        "dHash64": "a68d9cb622627268"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-018:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-018-char-siu-style-pork-with-scrambled-egg/step-04.webp",
+  "promptHash": "5a603b47c06bd05d2354182181c520db1490e4b04ae469f30a73465c3e84bd89",
+  "providerPromptHash": "eb23b1bd5880b26a0ffef336ed02388c67d6b2f9cb4dccd6c0964548dbc305bc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-06a51cb8-69eb-4796-8d47-73db48781823",
+  "generatedAt": "2026-07-26T19:17:41.795Z",
+  "registeredAt": "2026-07-27T01:36:37.993Z",
+  "assetSHA256": "724a376810fa1dde523daf390ab3d9a860c6dd0d50df8c7ec857c79b1ee7f74c",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "35e6d7c4ac7723071944c5c44f756af0d43805a1809165332142769804c94efb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.075777915000799,
+        "quantizedColours": 212,
+        "dHash64": "cc8c984f0f070744"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

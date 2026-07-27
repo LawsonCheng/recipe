@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-173:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-173-vietnamese-tomato-fish/step-05.webp",
+  "promptHash": "0bf2130b9dbbc67dc2ff5954107d2ead46be71187ea1c31bd7d50db54ca645ef",
+  "providerPromptHash": "3a187700cd264b4c39b61620c91d6c4c909d20290f7d648bef51bac7c255a6bc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4d5c8487-af7e-4573-ae83-c305d8c6d812",
+  "generatedAt": "2026-07-27T01:14:44.411Z",
+  "registeredAt": "2026-07-27T01:41:14.623Z",
+  "assetSHA256": "f79324e00088b4cec0636bc495698917067ddbd13144517936c2daf12ab02f4b",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "ee079f2b52362979b1fd8bb28fbab847d29bb91c1654e0f05b9d474e9193fa0b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.803854868601775,
+        "quantizedColours": 350,
+        "dHash64": "d9789f131b1313c7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

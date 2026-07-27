@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-082:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-082-japanese-beef-curry/step-02.webp",
+  "promptHash": "366e4194b6a58d671df4ec765fc38e0f51959e777ddb69385ee6002f0b20aff6",
+  "providerPromptHash": "8e79a6b768a45440b5b2b94a36617a1b959cd39e327d644fafb0ae7bfa9dbe87",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2e1ed68e-ea86-40d5-9b2b-7f9b05adc5cd",
+  "generatedAt": "2026-07-27T00:56:56.178Z",
+  "registeredAt": "2026-07-27T01:38:27.001Z",
+  "assetSHA256": "26e0c0f9cedf8ad31eda4ee42907a4c727ef639679a834df14904ab5b236ad83",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "a988a62824032ea7a9a88ff7b09443c399802b1ffa30b82d72d855f3f82d44ef"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.583740654867142,
+        "quantizedColours": 180,
+        "dHash64": "f7ce8f1f1313ca76"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

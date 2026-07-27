@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-185:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-185-creamy-mushroom-pasta/step-04.webp",
+  "promptHash": "71a162e5a1890f250e3c31e29f65ed7286230b4f1c440374f586bb713dcca462",
+  "providerPromptHash": "df6aea0777b69c768ab868f231cc61185e16227097f4bab7bf0f7bbffc05e905",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-48bf7cdf-988a-4d4a-b361-5b537ebc4153",
+  "generatedAt": "2026-07-26T23:32:45.865Z",
+  "registeredAt": "2026-07-27T01:41:36.942Z",
+  "assetSHA256": "175b9ea47b1bcce987f299591b217acef60d14c328a781c038e13aec7ff729a5",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "fca000a10f6a9d1127041ca53f4d3cff37aea086994aff647ea1227947fd88a1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.718835986670456,
+        "quantizedColours": 175,
+        "dHash64": "6b708e9333992787"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

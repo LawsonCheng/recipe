@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-102:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-102-korean-glazed-chicken/step-03.webp",
+  "promptHash": "ca2b28d5f44e1c66e15940aa245fd8c04bc46eb8afc7d79e77fe993883b145dd",
+  "providerPromptHash": "0c2ff02301073255caf053073c6fe19733eec9dc48b245881c440ed62701bec8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e7d54039-86c4-4aa5-a3a7-ad64e2d322e6",
+  "generatedAt": "2026-07-26T17:59:49.268Z",
+  "registeredAt": "2026-07-27T01:39:01.519Z",
+  "assetSHA256": "bedbe1b5fa9751012b3d37bd05d32d996a19543650e7dc160ce6f7d3e7a31df8",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "7fd6ca1db671c9147f97a0504929b705fe03aa4c42698ca4a1deb1882ca3354c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.540288610616699,
+        "quantizedColours": 215,
+        "dHash64": "f1e1a2cc9c4ecce8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

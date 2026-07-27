@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-226:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-226-middle-eastern-spiced-cauliflower/step-05.webp",
+  "promptHash": "1a6e85a63f4149abaa4a59be20c0877d07e61d28ca58595216c7d31046c6006e",
+  "providerPromptHash": "0de8963022f196451bbb5b3392ef30b3b06c251dad25c0236ce36309d34c0560",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a92644c8-417c-4a2e-87b9-76dc580eabfc",
+  "generatedAt": "2026-07-26T20:26:06.529Z",
+  "registeredAt": "2026-07-27T01:42:50.998Z",
+  "assetSHA256": "76a91a764fb1ca3602056fc607aad0ac83594cc7e9139a7f40ac206db4d52c89",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "4ef07512cf70e39cc4fabd52660ab3832342e7855bda6c162fe35d4817f48b32"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.25392882007327,
+        "quantizedColours": 327,
+        "dHash64": "f0f94905332581d8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

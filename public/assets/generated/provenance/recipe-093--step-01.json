@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-093:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-093-chicken-yaki-udon/step-01.webp",
+  "promptHash": "76bc2812b7bf7e9a47a0f2fc1c3ab6da2866aa4e3dc605e53c227f7e8ec952c7",
+  "providerPromptHash": "864549287c2c5faa6c7caa04ef386c995c8df808a92d48978a9e94d350ddd7b2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5e8e9ec6-8f73-4cea-bec7-6f9b3cbd949c",
+  "generatedAt": "2026-07-27T00:58:02.873Z",
+  "registeredAt": "2026-07-27T01:38:45.629Z",
+  "assetSHA256": "2d278dbd612ba34c7873930ef48aaff12b7d777d3155ec8c8f802a646828abe7",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "300b113eef07508dfbf28f8e3db610158256aff519f02828eb4d6095231a7cb5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.704189451556886,
+        "quantizedColours": 344,
+        "dHash64": "2637390d1366261d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

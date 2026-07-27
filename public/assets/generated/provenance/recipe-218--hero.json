@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-218:hero",
+  "publicPath": "/assets/generated/recipes/recipe-218-broccoli-mushroom-cheese-rice-bake/hero.webp",
+  "promptHash": "983b81b55869c124eb9113de956666e2cbe501af0eb373b37eccef1d233bc0e6",
+  "providerPromptHash": "b940ec159417c875c2fd28f9c93b544bce5b0d2bf681707453c0a6b86eb29cb3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b4090649-ac6e-489e-acc9-85c9db18d25c",
+  "generatedAt": "2026-07-26T19:33:41.334Z",
+  "registeredAt": "2026-07-27T01:42:35.462Z",
+  "assetSHA256": "7621d8370a97849314891ba39b862fc2dfa57789a17bf8390d036fa86e18afc0",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "016aaced9e8387587a7f8a08cf0ef2a1a8f2560347f392872cb4836f839e7cbf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.784914486226626,
+        "quantizedColours": 372,
+        "dHash64": "8d9ec2cb96948de6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

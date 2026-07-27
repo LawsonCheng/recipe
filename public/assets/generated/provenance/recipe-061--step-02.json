@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-061:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-061-mild-mapo-tofu/step-02.webp",
+  "promptHash": "825f952f88edc4ed2d25c75b7a93107977fe6dd887df8ef1305a189cec7e0abd",
+  "providerPromptHash": "92eb77c0c7c84b1414c079ab42e7d20935129c9bb2cc450cb5119d7ed10ec613",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4db7488c-d6dd-4345-8e16-3334a51b0e3f",
+  "generatedAt": "2026-07-27T04:41:32.700Z",
+  "registeredAt": "2026-07-27T12:59:47.504Z",
+  "assetSHA256": "6ebb1cc3b6b6898c14bf554589b83b12e9e5d862ece93489ed7658ae7cdc3be1",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "d7c22081ac4a5ac46f0a4f01dd9fd8bd354d8d88840a28d48e19cfb5891051a8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.517374587361701,
+        "quantizedColours": 166,
+        "dHash64": "f4c2860f069ede71"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Silken tofu is lifted from barely simmering water with a slotted spoon in the allowed Chinese wok."
+    }
+  }
+}

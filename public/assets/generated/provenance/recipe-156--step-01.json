@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-156:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-156-indonesian-lemongrass-grilled-fish/step-01.webp",
+  "promptHash": "d5051411b8d8b3a0333f3207b09074953bc59c3ad48225ce68d687f6e60dd890",
+  "providerPromptHash": "854ee94bcbedffcd158590938d75dc080d9717d64fe4bfee77f6e59bb9372623",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a422030d-0233-487f-a4ac-393b475f730d",
+  "generatedAt": "2026-07-26T23:30:56.932Z",
+  "registeredAt": "2026-07-27T01:40:42.118Z",
+  "assetSHA256": "e02340282011bf75009bed98eea1d364f28dcc5c4d5ae7f4da7178e0ad215e3c",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "b7ea6390d7340d5ad6a446fca5c9a1a89ffb5ffa937c25dd6822f580abe6ca60"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.600322952144779,
+        "quantizedColours": 230,
+        "dHash64": "16670fcfe9acec6c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

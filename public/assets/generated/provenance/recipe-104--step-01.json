@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-104:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-104-korean-vegetable-glass-noodles/step-01.webp",
+  "promptHash": "0c57ebf6ffa2f974ff0b28c79c92d9c5d69f7a9b812fed5d152e8ef321787201",
+  "providerPromptHash": "60a8b38c4ccfc2ae77f8f72ed9580b50c50aef2abcdc72ee0fa4a95101aa6cbb",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-64970f8f-dd79-47e0-a0df-dd9d902a4a4f",
+  "generatedAt": "2026-07-26T18:12:25.277Z",
+  "registeredAt": "2026-07-27T01:39:04.712Z",
+  "assetSHA256": "94ae6a48aab4b63c3fbc1ea80ceb1777072b9ce98d915ac999ab3c57db4ed850",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "cf3f955d2dabbed2262f2d47be8313f0499fb9e8540a8b53fea6a51b2a328f5f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.819783565180842,
+        "quantizedColours": 613,
+        "dHash64": "dbbf57ccc6c41ec6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

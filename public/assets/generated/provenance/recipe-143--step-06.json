@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-143:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-143-indonesian-chicken-satay/step-06.webp",
+  "promptHash": "2d2b1e254effdee914ec45d7b654f65acd88df012ecc99e33962604ada657273",
+  "providerPromptHash": "0233ae01285421e134885e543f1127db344a46e15e417502845ca44487ee7f9b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cde193cb-6341-4e7a-beb3-c17a690a4c69",
+  "generatedAt": "2026-07-26T22:19:25.375Z",
+  "registeredAt": "2026-07-27T01:40:19.046Z",
+  "assetSHA256": "94e165d4e620f9682c1eeeb3638b7383d5e1a62be5500d253c4615e7d4626166",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "54c47f61092b1262aa6b6c264c7f53ef07fc0b985c7d5742066205951c91d109"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.274947824946139,
+        "quantizedColours": 196,
+        "dHash64": "e08e1c1c1d079c22"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

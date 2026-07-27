@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-248:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-248-tomato-egg-curry/step-06.webp",
+  "promptHash": "674f4cfae9b3e27f2c078a72e074be8f87532ec91bccaede18aa40e3d51e317b",
+  "providerPromptHash": "794693da350ed8f52b6ae56ee9929455569ec3ca0ea438f6ea2b8cca1af38aec",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_NNl2yE1v8HwXkwVVu0QstVgu",
+  "generatedAt": "2026-07-27T11:47:07.300Z",
+  "registeredAt": "2026-07-27T13:00:21.889Z",
+  "assetSHA256": "e04919170e99a1a039b3a3b4dfaacbb73868f07b9e35eee3c9c2a3bb3d1dcc99",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "c7cdcb172dd2d057e4162b844791edd286fc9dd925f5bc3cc2a7b66f9f5d63a8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.663080923521193,
+        "quantizedColours": 327,
+        "dHash64": "f894b3d68e8e8ee9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly three serving bowls each show one whole fully cooked egg and equal potato-tomato curry."
+    }
+  }
+}

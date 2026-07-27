@@ -1,0 +1,47 @@
+{
+  "name": "home-table-recipe-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "recipes:overrides:validate": "node scripts/validate-recipe-overrides.mjs scripts/recipe-overrides/recipes-001-100.json scripts/recipe-overrides/recipes-101-200.json scripts/recipe-overrides/recipes-201-300.json",
+    "recipes:translations:validate": "node scripts/validate-recipe-override-translations.mjs",
+    "recipes:curate": "node scripts/apply-curated-recipe-overrides.mjs",
+    "recipes:generate": "node scripts/generate-recipes.mjs && npm run recipes:overrides:validate && npm run recipes:translations:validate && npm run recipes:curate",
+    "recipes:curate:test": "node scripts/test-curated-recipe-overrides.mjs",
+    "recipes:release-gate": "node scripts/validate-curated-recipe-release.mjs",
+    "images:manifest": "node scripts/build-image-manifest.mjs",
+    "images:prompts:check": "node scripts/audit-image-prompts.mjs --strict",
+    "images:stage": "node scripts/stage-generated-image.mjs",
+    "images:stage:check": "node scripts/validate-staged-images.mjs",
+    "images:registration-batch": "node scripts/build-staged-registration-batch.mjs",
+    "images:register-batch": "node scripts/register-generated-image-batch.mjs",
+    "images:visual-qa:apply": "node scripts/apply-independent-visual-qa.mjs",
+    "images:visual-qa:consolidate": "node scripts/consolidate-independent-visual-qa.mjs",
+    "images:visual-retry:constraints": "node scripts/build-visual-retry-constraints.mjs",
+    "images:visual-retry:batches": "node scripts/build-image-retry-batches.mjs",
+    "images:render": "node scripts/render-recipe-images.mjs",
+    "images:check": "node scripts/validate-recipe-images.mjs",
+    "lint:data": "node scripts/validate-recipes.mjs && node scripts/validate-recipe-content.mjs",
+    "check": "npm run recipes:curate:test && npm run recipes:overrides:validate && npm run recipes:translations:validate && npm run lint:data && npm run recipes:release-gate && npm run images:prompts:check && npm run images:check && npm run build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/material": "^7.2.0",
+    "vite": "^7.0.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "sharp": "^0.35.3"
+  }
+}

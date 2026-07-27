@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-014:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-014-hairy-gourd-and-vermicelli-claypot/step-05.webp",
+  "promptHash": "ab79628902b44f6ea2de06c3b7257990f1a58b9f68faa2c0f25c1cc4954f8fa2",
+  "providerPromptHash": "d646caf21d7f0f15a4b5c5c98e7ff621deea085b79e16bcc20c3699f3738aef6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-fb0456d4-f8e2-4394-89c8-f86dbeaa6863",
+  "generatedAt": "2026-07-27T04:37:18.923Z",
+  "registeredAt": "2026-07-27T12:59:38.554Z",
+  "assetSHA256": "0a3f3a86b0aad9b8c61825ae9f0a635302403fdc9ea70886c8fad17b42756caf",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "ac3a55c372f2545458b7c20d8d8f71a3ce524e6bc0fb4f5255d020eadcf7f5f1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.51450098521309,
+        "quantizedColours": 233,
+        "dHash64": "63868e1f2f378ff3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Hairy gourd and vermicelli are covered and simmering in a Chinese wok; no later-step prawns are shown."
+    }
+  }
+}

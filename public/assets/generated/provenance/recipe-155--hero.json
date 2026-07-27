@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-155:hero",
+  "publicPath": "/assets/generated/recipes/recipe-155-javanese-sweet-soy-beef/hero.webp",
+  "promptHash": "79dcc6941f10b47af77462d7c7bdeda2931edea889684e7290a9ee79ad34264d",
+  "providerPromptHash": "cfb731d6676403e0f99149176cd364dcc0118c42f1d6b6c0baeb140986044500",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1b1e6c55-e3eb-4dfd-8a11-095b7d580a6c",
+  "generatedAt": "2026-07-26T23:23:50.638Z",
+  "registeredAt": "2026-07-27T01:40:39.844Z",
+  "assetSHA256": "13c52854bfeca23795652b3c1bf4d98439ce4296d1b7348ab52d7e43d31db5d2",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "64761ab9bd18daeec5f23c8aafb4469b6e88db2106ddda9be317e771aff38deb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.751225887914188,
+        "quantizedColours": 254,
+        "dHash64": "f9ccce9ba9f9e9b3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

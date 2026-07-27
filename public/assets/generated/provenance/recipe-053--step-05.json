@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-053:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-053-northern-chicken-and-mushroom-stew/step-05.webp",
+  "promptHash": "0d609b5bfbee48c89b4b9a5bbecd0cfc35d393d5516fb8acb158656b4711dd01",
+  "providerPromptHash": "27c6673a987d75f1aa53d3fae6b69f2f13da335717cf62ae8c9b2d870896fea0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-465e09fc-9451-4dcf-b246-30b07d22f8cb",
+  "generatedAt": "2026-07-27T04:29:47.203Z",
+  "registeredAt": "2026-07-27T12:59:43.306Z",
+  "assetSHA256": "9b635a6beb7e03f681e36e87219b22cf83919313bac968f5c9dd83681f373d7b",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "4fe44895796a1491b572a57e0b88ae03315e5b774d145f1cabd26e7a6dc63765"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.403399578011886,
+        "quantizedColours": 211,
+        "dHash64": "f8bc1c1f373b3386"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current photo shows boneless chicken pieces and vegetables in the allowed Chinese wok during one continuous broth-pouring moment."
+    }
+  }
+}

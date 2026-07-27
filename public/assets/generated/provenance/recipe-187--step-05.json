@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-187:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-187-italian-meatballs-in-tomato-sauce/step-05.webp",
+  "promptHash": "ee6a92e3d902b5883b005d95800f947d0125da3f8b7da11770ce6688d4c281a0",
+  "providerPromptHash": "1bcdb47d573a9b2fdc1d203d814b78219a6d24d8610ab9ecdcdcf361405c5fda",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b0362c90-f045-455c-90c8-06ce2d55e1bd",
+  "generatedAt": "2026-07-26T23:44:03.042Z",
+  "registeredAt": "2026-07-27T01:41:40.962Z",
+  "assetSHA256": "e07522577923c6b89ff2641cff2cc53386c34d2448715109e4b17c256fa00dff",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "753352021fc99bd82503f5fe8a73f455fd0ce81c56ca9c281bbd9c6812f52120"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.161669773340691,
+        "quantizedColours": 310,
+        "dHash64": "b43486070d9ddbd7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

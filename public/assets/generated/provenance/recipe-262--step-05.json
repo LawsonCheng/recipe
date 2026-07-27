@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-262:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-262-vegetarian-mapo-tofu/step-05.webp",
+  "promptHash": "6360de829415f135d51290b91bab4d1c4313f56126b03003f5220b1642ad0946",
+  "providerPromptHash": "64f1ee4eb2f677a415c1bf9217c5e05fb30fc211f7b3171d7f24e847c3543b6e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dc6de264-7f08-4139-87b9-d188e3d67013.png",
+  "generatedAt": "2026-07-27T05:21:00.219Z",
+  "registeredAt": "2026-07-27T13:00:24.196Z",
+  "assetSHA256": "9bff5939190ced8464f3cc098aa1b7e884604cdaa483a2522cbd7a1fc6316804",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "abae34b6a12a0a5e3ce77f9cfd066036a2873db6efe2bc877b6c66d0e5c06370"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6449854373931885,
+        "quantizedColours": 311,
+        "dHash64": "928306162f27978e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — silken tofu simmers in clingy vegetarian mapo sauce with finely minced mushrooms in one Chinese wok."
+    }
+  }
+}

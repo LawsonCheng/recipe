@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-213:hero",
+  "publicPath": "/assets/generated/recipes/recipe-213-tomato-cheese-cauliflower-bake/hero.webp",
+  "promptHash": "a206af5210408e27ebc6c685d1be5154b7012482fae38ff1c4c96e45e8300dbe",
+  "providerPromptHash": "e025896f2ff3cebd549b5522e2b2f294db35d4745f626e9bfca97aaaab746012",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-569ff393-f699-4770-97a4-6cd89169736d",
+  "generatedAt": "2026-07-26T19:03:16.268Z",
+  "registeredAt": "2026-07-27T01:42:26.344Z",
+  "assetSHA256": "2d86c4e36f1e9b304005edd7849ddd99818bb6cba700660f190e7605686f647c",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "297f662428e82d5da20c5189a79f9fddf617227a0af330a540252d9c336086de"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.810600939166761,
+        "quantizedColours": 327,
+        "dHash64": "054c0c30968eb472"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:29:20.799Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — The CURRENT hero prompt asks for a finished three-serving dish with Hong Kong family-style plating; the staging image shows the complete cauliflower bake together with served portions and does not require three separate plates."
+    }
+  }
+}

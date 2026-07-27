@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-027:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-027-silky-scrambled-egg-with-prawns/step-01.webp",
+  "promptHash": "a6d96b4370648ad8ae7615ade5ed8f53d800c891044aaa9b7cb00d815df8e23f",
+  "providerPromptHash": "193ece53568f51daba18e8785acf7204ed243a70f9fbb37e34d78ce6d80c42bd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5f1642cd-7bba-4341-b297-f4207f48766e",
+  "generatedAt": "2026-07-26T20:06:51.238Z",
+  "registeredAt": "2026-07-27T01:36:52.560Z",
+  "assetSHA256": "0a82c24696217e1161094138a54a7e2451dc8cb485b048359da438b6273dc49d",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "3ace97f45a0b0422460ce364312153f77310b00e504d06d6f4403f4bc022c0c9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.675873277359642,
+        "quantizedColours": 233,
+        "dHash64": "c8b90c4eca43c6f0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

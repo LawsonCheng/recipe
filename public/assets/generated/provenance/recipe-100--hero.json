@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-100:hero",
+  "publicPath": "/assets/generated/recipes/recipe-100-japanese-creamy-corn-soup/hero.webp",
+  "promptHash": "af17c01928b30a64e80ef11334c20401119e4348c9502ec1e20db3e01e5a6505",
+  "providerPromptHash": "2de533a0dab88773380c57635a7cd5181ea1cfd4d060f5c3d1de96caf235b354",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b8ca2856-8344-4be1-893d-21d244c6160c",
+  "generatedAt": "2026-07-27T05:14:16.965Z",
+  "registeredAt": "2026-07-27T13:00:01.307Z",
+  "assetSHA256": "1192bf0e759b13f5d05b5d600eab50d5319a2c92a5a2b2b31267849e3b277fe4",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "f83e8fc26abbac546d6a0f6732c3d3aa7c2e2fbe1c849d6b56cd781b05374ca1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.613975596497767,
+        "quantizedColours": 369,
+        "dHash64": "c766a19c26269cc8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three bowls show thick, partly mashed creamy corn soup with whole kernels and no egg-like ribbons."
+    }
+  }
+}

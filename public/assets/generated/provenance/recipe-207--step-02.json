@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-207:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-207-lemon-herb-fish-fillet/step-02.webp",
+  "promptHash": "f007fd3840f52fd5e8559673b2b58e6ce6bfc9b88f4dddea7f3450150890acec",
+  "providerPromptHash": "92f9896f03021653136886a43cd1861ddb45d1b95016c3ced676c0a68ee4966f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a238eae7-26c8-451f-b6a2-1e3ca6b028ca",
+  "generatedAt": "2026-07-26T18:33:19.415Z",
+  "registeredAt": "2026-07-27T01:42:16.212Z",
+  "assetSHA256": "218144e60f9460940434f19cc97bf0de145ea633eb1d2c0e1bde090d4cb7c8d1",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "74a9597112cc8e86e8f553faf047a8400cbcb783e28ab7ef12c47ac7fc9baab4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.496959728479851,
+        "quantizedColours": 269,
+        "dHash64": "c3c6783961a8aca4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

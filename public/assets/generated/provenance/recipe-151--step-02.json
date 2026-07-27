@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-151:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-151-soto-ayam-style-turmeric-soup/step-02.webp",
+  "promptHash": "e02e63822039c4f8e50c265dabe87ba62ba6c7cf19e01632c4823a1b0d32d830",
+  "providerPromptHash": "37899521af07172344495d20f96a8df2b36a170ed9922a8eb673049830040a0b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-624a611a-f21e-417f-8f48-d1e8a133410c",
+  "generatedAt": "2026-07-26T23:03:27.955Z",
+  "registeredAt": "2026-07-27T01:40:33.135Z",
+  "assetSHA256": "141eb25f244a2c35cf6014d59b6f1f9f6f338f51a1ef54d4891e18781a2ab867",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "a4c0cacaf282ecac06217ddf09ff4eef26cba6c200e6018fd296f02ea3457859"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.528964756565983,
+        "quantizedColours": 149,
+        "dHash64": "e38e0f0f878fc7c6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

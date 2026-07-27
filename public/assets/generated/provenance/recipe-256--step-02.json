@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-256:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-256-tomato-potato-curry/step-02.webp",
+  "promptHash": "597f52e953312c7945b6ae542de65a2fb956fb95905dbbe2f2675fbbe2382d71",
+  "providerPromptHash": "c2ae3f55e9b07064856b7d97857d326e2b98752b084ed83e56d98f822719b8d3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8266e54c-d407-4977-98dc-2c51437a762f",
+  "generatedAt": "2026-07-26T19:27:01.852Z",
+  "registeredAt": "2026-07-27T01:43:44.234Z",
+  "assetSHA256": "4249019689680c2de3e5f450e50f612cf4508cc53f8d3e7886daf5b6f4ef6ebd",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "14d646bc680c29446c9286b6d494c7fbcd09d075eb88779eea4960489b1d115f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5175695618236205,
+        "quantizedColours": 357,
+        "dHash64": "9964470b0b2f9b8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

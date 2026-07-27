@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-267:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-267-chickpea-vegetarian-patties/step-07.webp",
+  "promptHash": "9d36c47c0adba889296742014f24f411a555f2ba0b41a842cc8b5b4fd6ec6ce6",
+  "providerPromptHash": "d6cab7663a0adbee0eabe20cb9651c5b31e132c420c2d481637e7f468ff695ce",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_wxamKrMheKlnbJ0hoPi6M8ot",
+  "generatedAt": "2026-07-27T10:09:10.964Z",
+  "registeredAt": "2026-07-27T13:00:24.961Z",
+  "assetSHA256": "27f2c85f9fe224507e81e0a03fe1fac5c156bddd9d40e1ae2d2d3620e20c5db4",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "ad5fa7d81cb334bd0fc1c492757b3a4b4e2f8bf72aef7f144c3b5b847dec29bd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.624899034126429,
+        "quantizedColours": 210,
+        "dHash64": "8733dd6786b39acc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Five patties remain intact and the sixth is shown as two matching halves kept together on one plate, preserving exactly six patties."
+    }
+  }
+}

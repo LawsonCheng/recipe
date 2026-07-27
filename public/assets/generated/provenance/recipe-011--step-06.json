@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-011:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-011-hong-kong-baked-pork-chop-rice/step-06.webp",
+  "promptHash": "cd1c8943c73dca13d52b2c5152a83f86f94b71e14cb791e7b4de3a383b339bc3",
+  "providerPromptHash": "cb7896350ebef83e0c9e82670ebed69593cbd06e856417d0a2d020ed424935e5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6cecbfb3-a703-4676-8e32-eef24de19146",
+  "generatedAt": "2026-07-26T18:39:04.143Z",
+  "registeredAt": "2026-07-27T01:36:26.646Z",
+  "assetSHA256": "171ac6749e8f0461b45f63a4a6bdef54a1dfb92e94a3819dfbd31ff342200990",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "23fb0525c34de5b0338ba29e33f0f89a33ef0d01746ae92aa3759940ca62b133"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.2265711067884695,
+        "quantizedColours": 235,
+        "dHash64": "ffd8d9bf869f9cc1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

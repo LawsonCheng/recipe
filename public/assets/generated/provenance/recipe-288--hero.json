@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-288:hero",
+  "publicPath": "/assets/generated/recipes/recipe-288-miso-corn-chicken-soup/hero.webp",
+  "promptHash": "aaf2a39f55507957db1b36ee6e3e4b6531b4c1897708260f0ec07361beea8eb7",
+  "providerPromptHash": "7d4dd33e75588f74b9b56c1b31385f796276d23b2f8e961b87a073ef22adcc5a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f29ed0de-da08-455b-9d3e-d71f2a375731",
+  "generatedAt": "2026-07-27T07:15:20.852Z",
+  "registeredAt": "2026-07-27T13:00:27.402Z",
+  "assetSHA256": "e24d25d508f1badcc8f158c8504b2b7df1fcb0538284f65f8c771243a2a7529a",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "2beae77f22e12a4dac66dfd4b26651bf4ecef8e571475838b5c27f7266cb49cc"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.784256502072822,
+        "quantizedColours": 388,
+        "dHash64": "cd0848e78b9b938f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

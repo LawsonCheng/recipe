@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-118:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-118-korean-rice-cake-style-potato-stir-fry/step-07.webp",
+  "promptHash": "ec9105e53e816330e5a2938cf7af1ad4679ae254bcca21d72a335bf664b43ac0",
+  "providerPromptHash": "67858ce45cb58cc347ee9bfb9f8c3e09a1e51ba3ec2997b6df6e0328e8c8e8da",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1008a603-4b44-4947-aa9a-135160fd5b39",
+  "generatedAt": "2026-07-26T19:45:55.334Z",
+  "registeredAt": "2026-07-27T01:39:32.874Z",
+  "assetSHA256": "d546772dbfcec762a91667c431a71ff69d177c1aa1f6fc3976beb28ec7ca36d1",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "7954cb9aea842eccf02091c3ad9d0317f8e70ae8c950d643c9c5f9cca11f0cbd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.670973845291883,
+        "quantizedColours": 463,
+        "dHash64": "90181f872713270e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

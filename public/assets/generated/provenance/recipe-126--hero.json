@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-126:hero",
+  "publicPath": "/assets/generated/recipes/recipe-126-thai-pineapple-chicken-fried-rice/hero.webp",
+  "promptHash": "5d231f378879dfe92d76aceb25db3e76629dd1e0b2bff5be43bc8624d4f0e9bf",
+  "providerPromptHash": "8a05f70956176bbe1d62a2b716e3f53b0f382efac1d1188328c2acf01bfc159b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d91a4603-fc35-4d2f-8714-0ef1b4ae9edd",
+  "generatedAt": "2026-07-26T20:30:14.884Z",
+  "registeredAt": "2026-07-27T01:39:45.940Z",
+  "assetSHA256": "0d7d288460eba7b70451eb29067148a0e07b13113af47ae7213be6b16029b399",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "2022eec1a246b469d9730110adb64220aa3908cb3e82cc8bb48abd32847cec27"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.544657565529633,
+        "quantizedColours": 415,
+        "dHash64": "0f6e2ece783cd8d8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

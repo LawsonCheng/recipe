@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-183:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-183-italian-herb-tomato-chicken/step-03.webp",
+  "promptHash": "30e5246994efcb738ae09c4b8ea4ad78b3e1c603a829c3b82d56320350c2f150",
+  "providerPromptHash": "2b3ff0b048d318a2c9e8f023632778786001cd4ca2b945ebf2fe77dff476f169",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dd0db24e-b9ba-4cdc-b944-09929189ff48",
+  "generatedAt": "2026-07-26T23:22:18.709Z",
+  "registeredAt": "2026-07-27T01:41:33.192Z",
+  "assetSHA256": "27ce84149219a6bc6fcd13eb508646b21fbff901ee1f23ced44d9ea9b949d6ee",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d315c16e1c6b460c8f5f885cfad049eb70b05acf077886d317d6431b9638b7d1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.4835905668878695,
+        "quantizedColours": 361,
+        "dHash64": "f89e2d3d7d190787"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

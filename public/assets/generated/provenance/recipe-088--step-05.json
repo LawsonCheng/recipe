@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-088:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-088-japanese-karaage-chicken/step-05.webp",
+  "promptHash": "b73c1333b9652435dbf82b0450c4f686fcfc15a16f846777e8bd13c527112cee",
+  "providerPromptHash": "2548c03f1a11213c47520059d497659dd23645d9d47725385525ba3513796885",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d740b522-5620-4b5d-8d38-07461043da28",
+  "generatedAt": "2026-07-27T05:38:12.638Z",
+  "registeredAt": "2026-07-27T12:59:56.300Z",
+  "assetSHA256": "1f487c7352760f4f1235447178d7ca3b0d60f2da60bac7424152d00938370e15",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "42c06fe19a6bc3079f272bd9de60d4145b98a9a21b2e8da75bd6d30bbd9cc9e9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.67983008408919,
+        "quantizedColours": 246,
+        "dHash64": "12e7408c04caf1f9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — All deep-golden karaage portions are together on a clean rack after the final high-temperature fry."
+    }
+  }
+}

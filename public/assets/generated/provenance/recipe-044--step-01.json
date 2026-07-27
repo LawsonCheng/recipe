@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-044:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-044-northeastern-three-vegetable-stir-fry/step-01.webp",
+  "promptHash": "ef820606c5b46de76cbc66c9c4824c3598bbcf04704f4f40a3bdf4992e16392e",
+  "providerPromptHash": "25a5c55a971e52f35359cf6884bb55d5676c0a8f8e0dc499a3778ec4e0e3b92c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-13621691-39f0-449f-8aa7-163dab8f58ea",
+  "generatedAt": "2026-07-26T21:47:10.816Z",
+  "registeredAt": "2026-07-27T01:37:21.720Z",
+  "assetSHA256": "c55a275657a81684052f6a8dde817ee51f73d54ed2d240e4b51ae625ae9e9c47",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "52ff87116d3861fdbc578fa6f2776b5b61ee3bca18c4465a399e6ea1f40bc334"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.743275381595595,
+        "quantizedColours": 423,
+        "dHash64": "8f67c7c261499adb"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-176:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-176-filipino-tomato-beef-stew/step-01.webp",
+  "promptHash": "fdb5c0c48f6cc84013c7aa74847fcbb2a4d19b4056f060487e31438677394989",
+  "providerPromptHash": "f8ba92530d647c7f009133aab789ee3d370841fab1d4fba313a0f843e4910602",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2745b4a8-b454-45f9-8daf-23f14a84853a",
+  "generatedAt": "2026-07-26T22:41:31.670Z",
+  "registeredAt": "2026-07-27T01:41:19.197Z",
+  "assetSHA256": "92d7602673d464af234861012b2ea222d42c397be9257748735a0d5dc1781328",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "d659ff2d85b67a84c4ed860e0d232b5f0ec358c4d6035b2876bc0e9702651c74"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.606265687383711,
+        "quantizedColours": 157,
+        "dHash64": "c6060e060f2d0d79"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

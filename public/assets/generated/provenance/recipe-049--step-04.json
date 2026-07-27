@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-049:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-049-poached-pork-with-garlic-dressing/step-04.webp",
+  "promptHash": "37258f9d6b2b25dd96c2d1cff208b4bab88aba0b5c50b0ab84f0e418270b7105",
+  "providerPromptHash": "afc1e9229b92b7b68c369de3cd876eac5547a09304b9d11555d53996017c4f9c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ba187f23-88d2-48b2-a0a5-09e514aad4d9",
+  "generatedAt": "2026-07-26T22:10:43.308Z",
+  "registeredAt": "2026-07-27T01:37:31.034Z",
+  "assetSHA256": "ec4b18dfee75c3de1b5fa8bb4105d207447cf62219f244f779bac82b859bbcdc",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "daeb24f8d6816ce1cd50514be19b6f115a9ff63e124a1eb09189b64a7bbfd8bc"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.566176656837342,
+        "quantizedColours": 270,
+        "dHash64": "62200483213993e9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

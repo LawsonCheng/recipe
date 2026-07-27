@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-163:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-163-singapore-style-curry-noodles/step-06.webp",
+  "promptHash": "6004d8ac698609f763b3e7899f4bd18fa3fed541611a9cb82056e701cd068954",
+  "providerPromptHash": "8b7fcdbbd47544c110273ce255335239932ba4b96eaad8456d47b019ff489e94",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a01b8e08-7fc9-43bd-bdad-a8e7c2efcef6",
+  "generatedAt": "2026-07-27T00:16:08.770Z",
+  "registeredAt": "2026-07-27T01:40:56.343Z",
+  "assetSHA256": "bd59cfc009dc0f8870b50ff832342bd8b4a103372b5f121b3cd212ae4b1b9342",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "2cb1b2bf6c8f7278c4679c379f5a1ca2e59dd06d16843bd31fdeeadf3d412243"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.686497010290623,
+        "quantizedColours": 241,
+        "dHash64": "f8cc0e1e1a1a6084"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

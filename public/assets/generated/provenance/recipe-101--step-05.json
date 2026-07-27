@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-101:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-101-korean-beef-bibimbap/step-05.webp",
+  "promptHash": "5e5770b6d31d0718e45f53b2110e011bdd1aed10cdabb9ed8ab4d8a2e952f57a",
+  "providerPromptHash": "fb641665e3f194d9a580114cafc0a8eb0a5a4f14ca04abfc0def6fdb0fbd676a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2e8a78c5-b5ac-4fdd-94ea-a4e8f6cbdf25",
+  "generatedAt": "2026-07-26T17:54:44.447Z",
+  "registeredAt": "2026-07-27T01:39:00.261Z",
+  "assetSHA256": "0c194112c31fdd996e23a0b40f435bb8301ebe1f9bc80d9d82c879c3a217755d",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "9164df903a7d0c1bca14b7d6c899ad4c452fe635d622b2a42acb3e0b1316a110"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.2791847952175885,
+        "quantizedColours": 147,
+        "dHash64": "8ec727130b27a7c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

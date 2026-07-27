@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-229:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-229-middle-eastern-spiced-chicken-rice/step-06.webp",
+  "promptHash": "40bb04ce5c2167b06e8e61e0e71317ac100eeeef99bf23516837ec7a3be93780",
+  "providerPromptHash": "97f022735b66a5ccbbe70c37c0f456b991f297d01108bc82f03ad1f004b4aee7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_bHeKfN6LxT6vuSdK3lTxVkNe",
+  "generatedAt": "2026-07-27T11:39:40.300Z",
+  "registeredAt": "2026-07-27T13:00:16.612Z",
+  "assetSHA256": "099c931e6af7a6e15ca51b475eb999e42076b9128ee4f72e4cb3736d870d4cd1",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "2540349c3b2dcd83c165858021a2be99c95045f913a2ca8eba961b3e0cc7938e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.493894373910734,
+        "quantizedColours": 309,
+        "dHash64": "efe7cf96373797cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — The rested chicken rice shows a food-safe 75.2°C reading and lemon squeezed over the fluffed rice."
+    }
+  }
+}

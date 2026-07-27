@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-049:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-049-poached-pork-with-garlic-dressing/step-05.webp",
+  "promptHash": "8ba1c5b213e9a860fb1e6b16e1d336ac3f5a717318865b72397c7e2c5216ac11",
+  "providerPromptHash": "75b8d8374bf30793847d436864f2b94ac6ee412043351de167514c57fcd0ae8e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-31ee8f9b-0b60-4c62-8b63-c0650843c46a",
+  "generatedAt": "2026-07-27T04:41:32.535Z",
+  "registeredAt": "2026-07-27T12:59:42.309Z",
+  "assetSHA256": "7ea310d9dfc34277dc092928abef529d617fba4e59025dd55d7429d8583cfdd9",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "c72db80f744d85ae9c0dcf262d43fda23f8b05e1fa2558988cb5dafa0ba7fa49"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.339291793497978,
+        "quantizedColours": 221,
+        "dHash64": "bb8f8110216b318e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Chilled pork belly is being cut across the grain into convincingly thin, approximately 3 mm slices."
+    }
+  }
+}

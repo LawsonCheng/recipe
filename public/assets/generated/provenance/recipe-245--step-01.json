@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-245:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-245-coconut-fish-curry/step-01.webp",
+  "promptHash": "7bc57b3c49d53b3c6fd1413e0f8965f25721d0d772ed5cab29b9f795e65c177e",
+  "providerPromptHash": "3aff7b88f864fdf64d9eda749bc19ab7e06a92a2b5d87aa1f77a34d1177b8654",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-494d1ae3-39ac-4262-ac8f-0e1b2b465abe",
+  "generatedAt": "2026-07-27T05:53:18.602Z",
+  "registeredAt": "2026-07-27T13:00:20.377Z",
+  "assetSHA256": "4d3ea053bb1c1f42220db6803395507d00e1c5ae06e603edfa5406809d30b8a9",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "5f2a03d4025e0cba9cc17abf50593087b0d9903180d0aee2fd25506c2ff0ea7b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.417203507517115,
+        "quantizedColours": 307,
+        "dHash64": "164b939a1c5e6c86"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

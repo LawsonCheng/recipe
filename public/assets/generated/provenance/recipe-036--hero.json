@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-036:hero",
+  "publicPath": "/assets/generated/recipes/recipe-036-cantonese-vegetable-omelette/hero.webp",
+  "promptHash": "450828e84da8e032936824c86a417cf4ac8c71c2610d4b52430017ef6e691e99",
+  "providerPromptHash": "30811b41c2f051dd7df5d900492412843babcb66c80e4aae16a12f4f80a4af0c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1089776a-7f6e-4acb-95e9-d850a9bdea3f",
+  "generatedAt": "2026-07-26T20:59:24.626Z",
+  "registeredAt": "2026-07-27T01:37:07.802Z",
+  "assetSHA256": "6ad8de02175881bf3426c80f1b80fac5c4ba9bc5da1a5283ddb3182481b17118",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "44f3b9032c5b85f5ac434df37f360cbdf62778c1e562501ddfb6d6a50aed936f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.643102802219801,
+        "quantizedColours": 400,
+        "dHash64": "115a778b99899dcb"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

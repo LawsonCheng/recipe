@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-155:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-155-javanese-sweet-soy-beef/step-02.webp",
+  "promptHash": "2252d6404a35e196f9c34bac49038c387a5c0948ce6876e268a633e24b28a64b",
+  "providerPromptHash": "3b0f8901b252f2fee6462038a8b8d7e0ff0a073f6fda78e345740724a13f404f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-56b96e91-39dc-45c6-88ea-0edc04a4cb15",
+  "generatedAt": "2026-07-26T23:25:07.693Z",
+  "registeredAt": "2026-07-27T01:40:40.332Z",
+  "assetSHA256": "76b58e82c9c9b462aa4c383924361e635d330cc5e41ccd20d143d55b139e4c75",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "ef743c5f4a430b646567b6f284a9de5d25417baac851119123d3cc3c711e6bb2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.322549209857243,
+        "quantizedColours": 198,
+        "dHash64": "f0da8e0f1f860ec6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

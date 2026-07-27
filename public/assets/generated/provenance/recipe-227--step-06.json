@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-227:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-227-greek-spinach-cheese-frittata/step-06.webp",
+  "promptHash": "d49bc73f0ecc9b494ff9a43d86f903755f25c362ae648f988b00a3f6a034b67d",
+  "providerPromptHash": "95a6aff4b5a3c04105a10297f0739745862118e5947e3ce09c6397363f692d21",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2bcf40ab-833b-4a91-a6e9-01148490c58d",
+  "generatedAt": "2026-07-27T04:59:14.717Z",
+  "registeredAt": "2026-07-27T13:00:15.093Z",
+  "assetSHA256": "5b0a3c0660e566557e0fb5fd92d82aeef46199138d1e0e59312f47db8f0228e7",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "fe0f64c97231c01be706ad76c1ff5acc356467ef8709f4a8813d6929a984b442"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.595522440504283,
+        "quantizedColours": 278,
+        "dHash64": "011be4a2330886c1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — the rested spinach-feta frittata is divided into exactly three equal wedges in its heatproof ceramic dish."
+    }
+  }
+}

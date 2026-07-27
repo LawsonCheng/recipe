@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-204:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-204-british-style-tomato-chickpeas/step-06.webp",
+  "promptHash": "38f31f29a54f50b9faf8f59143a12d17149fceb553041a501709c0f44667b16d",
+  "providerPromptHash": "6ef8fef777caa50235b156ca14d64263119fd423be6f199f851faddd9c495746",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e8887f10-fb9a-4ad7-b2f3-88534262179a",
+  "generatedAt": "2026-07-26T18:19:47.564Z",
+  "registeredAt": "2026-07-27T01:42:11.968Z",
+  "assetSHA256": "0ba82a24c1eb1d73fbf22c7f0b2ae163977e729a51073f012c7fc02765736270",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "3a95d27dec941e084c3df086211c2d5f5f22ce4fe36fad92a773904903a8d4c5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.670272984134499,
+        "quantizedColours": 347,
+        "dHash64": "301210089a9294e4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

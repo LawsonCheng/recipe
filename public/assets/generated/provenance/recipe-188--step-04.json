@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-188:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-188-garlic-prawn-pasta/step-04.webp",
+  "promptHash": "96a84f4f3b1ec9ef22513dd6ddf5264ae2776f46d5b4df80024d90cace2f867c",
+  "providerPromptHash": "be4c8f6237f80172313f0d99c47ab6cda085caf0be85a760e7def63ac4b18381",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3edd0e34-0ea3-476c-be5b-d9591f5a6f3f",
+  "generatedAt": "2026-07-26T23:48:12.819Z",
+  "registeredAt": "2026-07-27T01:41:42.729Z",
+  "assetSHA256": "a2e2fd4f8ae20ff5c4ee8d00f989bf6487e652e39d2f429b37cdc71c1eecdb9c",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "b2cfde78c213cb4b514c5e04b12ae8b93b899288a0dc73c3289f64c260f88158"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.350569574409747,
+        "quantizedColours": 335,
+        "dHash64": "091907070f270e26"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

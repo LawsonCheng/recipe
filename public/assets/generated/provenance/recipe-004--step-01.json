@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-004:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-004-supreme-soy-sauce-chicken-wings/step-01.webp",
+  "promptHash": "2698398f3d4ea74d90af51fe0c297ff7dbec5f32ecbb9026f1f7d723c30f58f2",
+  "providerPromptHash": "9122d64bb81d89c4dbe3facf6e73e39e50242702d203985e823e001af6954af6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e7026f4b-84e5-4f70-81c3-70f7eaf59692",
+  "generatedAt": "2026-07-26T20:59:24.626Z",
+  "registeredAt": "2026-07-27T01:36:13.389Z",
+  "assetSHA256": "de497a0eb1e8dc76c86e841aafdcacc20dddc8c19e4c31ac6a242c0d211aa45d",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "15faadc5807ac5a6c5193bad06971c32d5f8f1283a8079d3a991657a0f521180"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.627874189052818,
+        "quantizedColours": 329,
+        "dHash64": "1f4ff7e5e4f9716a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

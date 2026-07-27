@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-067:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-067-hot-and-sour-shredded-potato/step-04.webp",
+  "promptHash": "67d1b5277bc4130ddcc209fa6dcd1a2a307d8da9c9218ca704978163cc3191b0",
+  "providerPromptHash": "e86ff18d0cf64d42ecd9ed538226bfd276b0b7c87ecea99a43fcd5d60a5cb938",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f3361c89-fae5-4016-9164-20b3b499e690",
+  "generatedAt": "2026-07-26T23:41:54.072Z",
+  "registeredAt": "2026-07-27T01:38:01.831Z",
+  "assetSHA256": "1c6df12b08207269a41d0522479b5c8a79c253a9ea62e144a709099d5ecc6ba6",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "ac54b770c75da089ca07a4f7b37c64d9e02df85ff5338ae97eba032ae3fc65a2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5984676856023725,
+        "quantizedColours": 193,
+        "dHash64": "dcf4981f0f07cee4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

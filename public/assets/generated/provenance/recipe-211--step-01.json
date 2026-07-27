@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-211:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-211-honey-roast-chicken-wings/step-01.webp",
+  "promptHash": "d97f50db6fe01bc3591a19babeb082b886bb7317a9e1da41d9f07fbfdcef089f",
+  "providerPromptHash": "a60faebcbdf64106bd443ecb0464890dd53acc4acda5f30bfc095a363165d988",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1e2d6256-d31f-4ba4-9d8d-b4243db11364",
+  "generatedAt": "2026-07-26T18:54:53.686Z",
+  "registeredAt": "2026-07-27T01:42:23.058Z",
+  "assetSHA256": "1f8db87b2e22209f6c64f2154db8655e9f36f3b536db4963eec2d896f779b859",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "098d6f9a8de71ba7a446a708de0ea297c2e75405fc85a07ba61c546ac2eecfdd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.729390561988112,
+        "quantizedColours": 265,
+        "dHash64": "2dbb3a3a587b3b31"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

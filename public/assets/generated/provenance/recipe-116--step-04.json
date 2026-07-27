@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-116:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-116-korean-honey-soy-salmon/step-04.webp",
+  "promptHash": "bebc98c7f1bc3ca327877fa0e3c33d1e5e2db8ccb82a4d67a28c8e8eac624560",
+  "providerPromptHash": "4bb36344f2a0731156b788b2cf01b0d5d156067c4e52b7389fdababbd7ce7f8d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a337ff5c-b398-4c21-a652-79fa5ccf3e22",
+  "generatedAt": "2026-07-26T19:31:41.462Z",
+  "registeredAt": "2026-07-27T01:39:28.431Z",
+  "assetSHA256": "7442ce670dc688273111601588158063d7de80324384e96690b41f28d5eb900d",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "a1033d1036fe878e98ea5e33f2ecb95207613041b9363615a4437605c8a17b5b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.830217900278512,
+        "quantizedColours": 184,
+        "dHash64": "d9d6c6c4c6d0ccc7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

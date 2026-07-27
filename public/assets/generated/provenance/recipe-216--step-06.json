@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-216:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-216-butter-mushroom-omelette/step-06.webp",
+  "promptHash": "963c715f0341a0949da2e04decc4a21c28c8026304520747b2c04c791e996c9b",
+  "providerPromptHash": "c54f24b0c8eb98aab2b6bc545c227e889a6f0dfe5e0cb32d3bf152ae74546a7e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4df057ab-14d0-4eaf-ab0f-c6203f0aec3a",
+  "generatedAt": "2026-07-26T19:26:04.703Z",
+  "registeredAt": "2026-07-27T01:42:33.460Z",
+  "assetSHA256": "bc12b2f181c75fcbe7c0469eade84a2cba55fbd933edc7f2296e1f36e8ea687c",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "96f9570f5e7fd1dc31ad04ee76298baae38409304172ef1b15cb6210e19ad0f8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.228820422664285,
+        "quantizedColours": 319,
+        "dHash64": "8d2c5b67532b37f7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:29:20.799Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — Independent inspection of the staging image shows exactly three cut omelette portions, not four; this matches the CURRENT instruction to cut into three equal wedges."
+    }
+  }
+}

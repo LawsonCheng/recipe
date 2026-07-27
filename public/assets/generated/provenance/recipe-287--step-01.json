@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-287:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-287-satay-mushroom-fried-noodles/step-01.webp",
+  "promptHash": "8949f7bba735c1addd84e20974588ea75d3cc3a6baf412acf835bd6f4405bed6",
+  "providerPromptHash": "aa602c34e0d516f880d3fe3dd898904a2a56efd99b56c971e2cb7a2ba481b2ad",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-53cb2a8d-6ebf-40f2-a1e4-4defc4d1cb67",
+  "generatedAt": "2026-07-26T22:52:34.433Z",
+  "registeredAt": "2026-07-27T01:44:40.032Z",
+  "assetSHA256": "55e97d47e00b4a9fb85c9466f080a09d21108266235600f5f089c380c6ad8a5c",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "01927f2a2cdfb4136bba1df339417a96bba67e7dda8b65d17c54442519acafc7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.8355194316245615,
+        "quantizedColours": 329,
+        "dHash64": "8d29c139dbcbc3c3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-190:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-190-creamy-spinach-chicken-rice-bake/step-06.webp",
+  "promptHash": "d6e83a3e6734cd897437d3d5fe268c34e683ec7cbd730719e3b24fc705c1b1fa",
+  "providerPromptHash": "036cb93ed09f725b9e239d115bd971a0999de14baacb61e12238697d5b5a9108",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4266975c-e425-417b-a59f-7a32e80b0b04",
+  "generatedAt": "2026-07-27T04:51:04.067Z",
+  "registeredAt": "2026-07-27T13:00:07.024Z",
+  "assetSHA256": "2b9e7d0e7334aaefb263630958cc0fa928891bb5e92e320bdc42d03038b8a565",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "35e447d0e1f8c35669b7699f3d62afea7c4d298e7e1bcf714568afb5aa9dfc7e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.030258980463259,
+        "quantizedColours": 268,
+        "dHash64": "8292070b2b03713d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — heatproof ceramic dish contains small chicken cubes and creamy spinach rice, visibly bubbling and browning on the lower oven rack."
+    }
+  }
+}

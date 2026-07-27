@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-060:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-060-braised-beef-with-potatoes/step-01.webp",
+  "promptHash": "ad4478a02882e80e1aae846d396fac7e6cf0ab35b2e82c24da84725b16d0b7c1",
+  "providerPromptHash": "858aa57c060cceab7d85146c26ec5f6f408df31a57c0f6fd9b32336ebd3ec8bf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b61dbc6d-fde9-4dd3-9a75-467e0687f494",
+  "generatedAt": "2026-07-26T23:07:00.147Z",
+  "registeredAt": "2026-07-27T01:37:49.055Z",
+  "assetSHA256": "0fbf87183cc0803caf07238add50aa5e6a2aa5efadc5516cca57e18bf10d6c43",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "2b28fa886cfac7aafced51a5050e78af2c427c3849889e2fbf843b2b01c2fade"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.647861221252242,
+        "quantizedColours": 475,
+        "dHash64": "6325275332464d15"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

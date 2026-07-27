@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-094:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-094-japanese-chinese-omelette-rice/step-03.webp",
+  "promptHash": "69a02994b503b3b40b013dddf342f9e39dd4cbe85cbcf5de952e6822d4ce27b4",
+  "providerPromptHash": "6168efe464d5b46429b34e9b5348fc69c913f14c8a4dbd72bb2a06933aa891dc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a483249e-8c86-4158-83d8-6a959c1ff9ac",
+  "generatedAt": "2026-07-27T01:04:02.553Z",
+  "registeredAt": "2026-07-27T01:38:47.847Z",
+  "assetSHA256": "84915c72441bc3e36dea32e0be533c2c799ed65db12f0d8f72b2c106f4b7e6a5",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "539c1b84bb8f6714294c9705e632b09dd1217be610972f8f27572a6bd1f6933e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.536426135662623,
+        "quantizedColours": 224,
+        "dHash64": "f8cd8f3f3b3f0fd4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

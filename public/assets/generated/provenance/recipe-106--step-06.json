@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-106:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-106-mild-gochujang-pork/step-06.webp",
+  "promptHash": "e9513228b2c6480550c2e5ce84e1b57442c357a37b94a2b4f1d2dbd5ee498cdb",
+  "providerPromptHash": "26ec85aaf2a8f8bdf794e7a2c8f88cadb4566ff95ef75afeef15ea2947cb9971",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-20608be6-153e-4f6b-909d-dea4a9484288",
+  "generatedAt": "2026-07-26T18:28:18.954Z",
+  "registeredAt": "2026-07-27T01:39:09.713Z",
+  "assetSHA256": "65ec5449e5be96cd90c660abfd18e9427891225d8bd64c153e371b382bcf34cd",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "bd7b8b401a858eec0853ea593cbb08caa8eeb61bb110ca6603d7a11ff590d54e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.449812377162743,
+        "quantizedColours": 474,
+        "dHash64": "eb6aae2707178e87"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image accurately shows a continuous pour of gochujang sauce onto cooked pork strips and crisp vegetables in the wok during the finishing toss."
+    }
+  }
+}

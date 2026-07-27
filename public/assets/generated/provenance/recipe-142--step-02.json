@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-142:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-142-family-style-beef-rendang/step-02.webp",
+  "promptHash": "bbeacee678e3600a7fedb01f67efda200300f91f6342c3807ab711d1e2a4be4e",
+  "providerPromptHash": "7f2675588e814a7f862302f0942604031438f3c5bb1f6fbce2829fa836a772a2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-369dd3d5-77e9-4451-8b0d-d93025e48a86",
+  "generatedAt": "2026-07-26T22:10:39.823Z",
+  "registeredAt": "2026-07-27T01:40:16.355Z",
+  "assetSHA256": "05f85319b8e3129f4b9c47ccc4e683f3e89511e3ee898d9c77de3be2e195fc9a",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "883e736265d103f5e3b38a40e3598bc0949caf1a2e04f3c3b05b05ab97d8c299"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.170398472604575,
+        "quantizedColours": 261,
+        "dHash64": "c48c19173e178785"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

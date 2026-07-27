@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-024:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-024-beef-and-broccoli-stir-fry/step-02.webp",
+  "promptHash": "0f3dc8cbac1f7c72bd52818860f8fe9dae391ad3ff71be32d187fd7641a160d0",
+  "providerPromptHash": "0c8635cfece15c825d4c23cfae98fa4000771382e9913bd8db4eba63dbeacc1b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-827c2b3a-d001-45f6-9831-a51ad87a831f",
+  "generatedAt": "2026-07-26T19:49:32.007Z",
+  "registeredAt": "2026-07-27T01:36:47.714Z",
+  "assetSHA256": "e28d3f641978aca9a9e339203dae85daf04cf76a817fc238923ce48e8e7610ce",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "624ec2c524eafb54e9a3cf1a960e70a83380b3bff34bd7adccd57864e54192ef"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.359707517598508,
+        "quantizedColours": 302,
+        "dHash64": "3c5c6d3b33353333"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

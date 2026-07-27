@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-114:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-114-korean-style-egg-ribbon-soup/step-06.webp",
+  "promptHash": "16508c28e39edb04d48e722480fa8d4acebf8d840e3dae3146fe820240a6b17d",
+  "providerPromptHash": "fbd68452c726d9b7a1315ea006b884f2f19002496043688137d50630f0d8e45f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9b061cb2-bd44-4707-b837-df13486c9452",
+  "generatedAt": "2026-07-26T19:21:08.071Z",
+  "registeredAt": "2026-07-27T01:39:25.169Z",
+  "assetSHA256": "a929d011a1e4e49a29779590e6f2f8064669ee84268354625eaddce44c2b905d",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "ea5f679cb32738eb76cfca56f0cdc6b2c3e8c2e6ff9f5d2f29a2acf9a4e5413a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.449459033785388,
+        "quantizedColours": 279,
+        "dHash64": "fe3c6c6d382323a1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "This is a valid in-progress moment of the final step: long egg ribbons and spring onion are visible while the soup is being ladled into bowls."
+    }
+  }
+}

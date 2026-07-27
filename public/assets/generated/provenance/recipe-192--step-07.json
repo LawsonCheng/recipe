@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-192:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-192-herb-roast-chicken-with-potatoes/step-07.webp",
+  "promptHash": "ba8492a9ad54fe149e7ab60762ccd326cdf3eda582d884b26c1c71ad7d69aaec",
+  "providerPromptHash": "502a67e0a672e3d46f5d64c991988f4360bd861ad75f07e902fcf3cd0a354fe3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a9fc64cc-94f9-455f-81e9-a2cc08e5e073",
+  "generatedAt": "2026-07-27T00:14:22.263Z",
+  "registeredAt": "2026-07-27T01:41:50.847Z",
+  "assetSHA256": "d6aff996866784a5e7a97123db00c9849cb0f8b3acc9ff7013149d2fe4829551",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "882d95a7dc9fb18430dcfc7f78b5f975731197e574e9b822c96f83b2fdd6efdc"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.687813373748213,
+        "quantizedColours": 389,
+        "dHash64": "066767d6888882c3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image captures the required resting/finishing moment as reduced tray juices are spooned over roasted chicken and roots."
+    }
+  }
+}

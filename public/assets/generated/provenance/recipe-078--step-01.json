@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-078:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-078-mild-chilli-dumpling-style-soup/step-01.webp",
+  "promptHash": "665ffff64551f49beba7108dfd300b78d902c8c6904efdb4daa42772a0ff049a",
+  "providerPromptHash": "b860ad8b53efca9dc590b7c3b25974cae70a3e6bd154c66a634f7824dae99e5c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ab8184bc-18e4-4387-acfc-14aafadaafae",
+  "generatedAt": "2026-07-27T00:33:49.748Z",
+  "registeredAt": "2026-07-27T01:38:19.850Z",
+  "assetSHA256": "fa91752b9343abc48dc29f581dc2976b69b9ee18f0a8a81833018ead292311a7",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "c3e9230584d286c7611c0bc0e608c169df4b9699b50ae83d897a524303afedb0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.451551165311685,
+        "quantizedColours": 124,
+        "dHash64": "3361ce86979ea7c2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-108:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-108-korean-potato-rib-stew/step-01.webp",
+  "promptHash": "ea3b00cb3c9c3d61e87eb4c99f209b04da82d7efbf3e3696219e8bbebd56874d",
+  "providerPromptHash": "6cc85c6b159968f8f4fae40cb2d45024423149e3faa38b136dd8ff02aecac045",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8255c609-112e-4089-ac85-4a950476847f",
+  "generatedAt": "2026-07-26T18:37:46.988Z",
+  "registeredAt": "2026-07-27T01:39:12.446Z",
+  "assetSHA256": "57e9250d57e2aa8e1cf63adb91ac1d5ebe875c8f919502ef922106db3d98bdd8",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "1eb8a4662166672f1122aef8f65aa1f2ed363f8aa3c757d3cb4cbc33cf5748e2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.501206384738907,
+        "quantizedColours": 170,
+        "dHash64": "c8c88f1e0f9d1919"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

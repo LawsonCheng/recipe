@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-152:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-152-balinese-style-spiced-pork/step-02.webp",
+  "promptHash": "9a257e36cee1eb331e79b00066af642cac6b7151ef57321942cc1168203d92df",
+  "providerPromptHash": "12c83b8446daa90bab4f480d06fed08e4503604cd9d1c255b8df18dda72d05b0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7b4feae3-0643-44c6-acbd-d65b74fcd157",
+  "generatedAt": "2026-07-26T23:09:31.129Z",
+  "registeredAt": "2026-07-27T01:40:35.108Z",
+  "assetSHA256": "51cdc7ba78bb41e4dcffb1957ea4da9ff745d3e1b3d1232fcafa37b485bcf377",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "aa8e6b09bf00f452a80cf071b6c44bb22322fe3bbcde4d708aeedb854a917906"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.494629817898385,
+        "quantizedColours": 324,
+        "dHash64": "6878cd17333b96c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

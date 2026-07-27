@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-068:hero",
+  "publicPath": "/assets/generated/recipes/recipe-068-family-style-mild-chilli-chicken/hero.webp",
+  "promptHash": "1ddc1bc1633cbc98f30a49b32694d7dedbc11500df9a7fe89182ec2cfabe08c9",
+  "providerPromptHash": "bf05a65dbc985bf5bd3b9c065f10710cc52878767cc2c0d0ec176851086ad5e5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-73f09ffa-f465-46ab-b09a-f7fd3ced7813",
+  "generatedAt": "2026-07-27T04:42:38.000Z",
+  "registeredAt": "2026-07-27T12:59:50.036Z",
+  "assetSHA256": "4f62aec05ae85a2b0be55148d30bd0e2a22cfe8571689c9ebce828acb3c07994",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "796e723f0c08c2cc0f21ccaca1ac20caa02c943e7d288401c86be685db7a9592"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.565396725687606,
+        "quantizedColours": 348,
+        "dHash64": "8ccc8f3168742986"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

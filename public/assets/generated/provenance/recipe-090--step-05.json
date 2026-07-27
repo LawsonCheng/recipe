@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-090:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-090-miso-simmered-fish-fillet/step-05.webp",
+  "promptHash": "36ce83b7bae9c811d37952693aae5d00b9a9e616bd017476d2cd0d5b13ec31b6",
+  "providerPromptHash": "d8957fea9e0c1544c5ba41f587160b0495e4a9ebc99628f0dfc4bceadd01c47b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3f6312c1-8570-4300-b4e2-c75a5e568b3e",
+  "generatedAt": "2026-07-27T05:08:25.877Z",
+  "registeredAt": "2026-07-27T12:59:57.061Z",
+  "assetSHA256": "27cc16465dae512a5509f48bf61bab0045627d4b3abcf43b753f40c601155dd5",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "6b7a315d4bbde4084b045e2bb28aad440879ac1f55d46a8181727b69d5abfa49"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.675412271055393,
+        "quantizedColours": 197,
+        "dHash64": "b7e0c2e7e5d3dbb6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly three opaque fish portions are transferred while the miso broth reduces in the Chinese wok."
+    }
+  }
+}

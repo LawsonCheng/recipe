@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-254:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-254-indian-tofu-curry/step-03.webp",
+  "promptHash": "ba12f9ef8ba01ad69863b5b107154d511b06ad1103c7547a5663d755f15a6c27",
+  "providerPromptHash": "4421a195fe3a13ce79790def20d6dfcea46f036dc0a134eac7e1bb61abbd65c4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f554b398-15b5-4a4a-ac25-4b67d7ce875b",
+  "generatedAt": "2026-07-26T19:19:41.552Z",
+  "registeredAt": "2026-07-27T01:43:40.856Z",
+  "assetSHA256": "e09cd8a9d93b8c058dc1c0e39b534117aeae632c2ed67bbd102e7469add68a16",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "e43decbd14ae3eccaa74b8d134cfee7223bd1d09e094bca20ffc62b0d415c5f9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.540393944946118,
+        "quantizedColours": 377,
+        "dHash64": "e0bf363b173f164c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

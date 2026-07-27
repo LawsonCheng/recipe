@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-113:hero",
+  "publicPath": "/assets/generated/recipes/recipe-113-mild-gochujang-squid-stir-fry/hero.webp",
+  "promptHash": "2ad605f3752b242b9371db130958f9632b05da9d2dbf84d8097cc16a6165b067",
+  "providerPromptHash": "3d2f2142f9bdb98ea5e9757d3272d9dd9df92aa7f7dae4e5e9ca576a89f7d8db",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-606c77f7-b88d-440c-8837-d8f67b491324",
+  "generatedAt": "2026-07-26T19:10:18.234Z",
+  "registeredAt": "2026-07-27T01:39:22.019Z",
+  "assetSHA256": "e78c8e76bbbd2d554b77448dcdce2a8993026a211ea71afc24ab4f950d6ccb39",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "10585acc55fc8df1ad46857f9e164bcee4b3e9262c362a9d92a873af85daf3ed"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.792323111811129,
+        "quantizedColours": 359,
+        "dHash64": "c48c0e23506c6d33"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

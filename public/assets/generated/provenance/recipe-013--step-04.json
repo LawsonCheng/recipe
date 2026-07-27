@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-013:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-013-steamed-chicken-with-mushrooms/step-04.webp",
+  "promptHash": "899a851094c273650c697d4dffd7001de14751207ae9e0442f4f3157a4d2637c",
+  "providerPromptHash": "402680db40eb84bc9b4539b1404d6f91e16efd1dfc171793238841c5ac1ef5f0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-52cd5d84-1e99-4b62-8e0a-3ebccd3e574a",
+  "generatedAt": "2026-07-27T04:32:38.000Z",
+  "registeredAt": "2026-07-27T12:59:38.308Z",
+  "assetSHA256": "4d657bec0602138a7b57cfc71fa6b4748993b8b39488188b21b03692fb83a1d4",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "d5451a8b9814ad246df21fb3c7acfbfd9fd6d6a5b7a0de877767baf30a440667"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.397592727720621,
+        "quantizedColours": 173,
+        "dHash64": "eec6cee6c6eefe40"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

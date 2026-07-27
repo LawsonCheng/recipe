@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-070:hero",
+  "publicPath": "/assets/generated/recipes/recipe-070-minced-pork-with-glass-noodles/hero.webp",
+  "promptHash": "5ac9041392e3a5ab8a7aa93fbdc5a0734564e51067ec642ac33a1dde41acafb1",
+  "providerPromptHash": "2be5aee153d5e1955c65cf0ef3eb27b1ffe1bbbe6036f2449bb9dbc055073215",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8512a3d7-3dd1-4101-8f0a-5cc45c3a9836",
+  "generatedAt": "2026-07-27T04:40:40.959Z",
+  "registeredAt": "2026-07-27T12:59:50.290Z",
+  "assetSHA256": "83b2caecfd8737b01542eae505dcfbe8601832bae26d764b62ea4520bf24065a",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "647daac064cc95b3c8d4237ba5458b4711f0cdae348e2d120e2157303a9217c3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.792553763356409,
+        "quantizedColours": 219,
+        "dHash64": "ccce8eb3696869b2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — three photorealistic servings accurately show glossy mung-bean noodles with minced pork and the finished sauce."
+    }
+  }
+}

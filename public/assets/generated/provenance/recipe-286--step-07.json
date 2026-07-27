@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-286:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-286-hong-kong-tomato-beef-meatballs/step-07.webp",
+  "promptHash": "08e933fa8bcfb3e275f045ee4d4224ee18a256e9de14310ceb1777bbbf39d1ab",
+  "providerPromptHash": "9eee7621c154483483c85c214350d7e427010e57f0ca868d9826243188bc252b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_Kpy3y5Jkw7LonK85fffWyn4S",
+  "generatedAt": "2026-07-27T13:23:55.000Z",
+  "registeredAt": "2026-07-27T13:55:33.150Z",
+  "assetSHA256": "913262784ee991b68450ced62a5e7aa835c62be71d321b0e27b60cf6069acd43",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "dc0bfb613d3b2529dd352347cad421fc2533f132be8b3ac08db2836512d12894"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.601293547893874,
+        "quantizedColours": 267,
+        "dHash64": "f0994e45d6d6f6ec"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three bowls represent four meatballs each: rear bowls have four whole each, front has three whole plus two touching halves of the cooked fourth."
+    }
+  }
+}

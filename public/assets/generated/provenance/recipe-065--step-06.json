@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-065:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-065-family-style-mild-sichuan-fish/step-06.webp",
+  "promptHash": "1cb094799a3a11406db831d58b0d8b2d027a8ee293a6d65e067b6ad09d0461b6",
+  "providerPromptHash": "f26bdd8eef4ab85ae6b1fcf01e3bf14622aad33e73901d2633229b1653968812",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cadd021b-4d4d-4642-aa46-e6ae4f783523",
+  "generatedAt": "2026-07-26T23:36:55.272Z",
+  "registeredAt": "2026-07-27T01:37:58.865Z",
+  "assetSHA256": "e2a9909571c6b7616e03b89304db297edff07a5932291bcc0b70279cdc62471f",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "43fd20794d4a561a8b9406800fdb555ab8952f9df34202890376bb14fc9c5bdf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.715886248159222,
+        "quantizedColours": 277,
+        "dHash64": "ea2c8f8319272f0e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T04:17:28.886Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The white ceramic vessel is the deep serving bowl explicitly required by the assembly step, not a substitute cooking vessel, and the image also shows the Chinese wok holding the shimmering finishing oil. The depicted equipment is therefore appropriate."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-056:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-056-northern-sweet-vinegar-fish-fillet/step-02.webp",
+  "promptHash": "c0e5760f6ded893fe75dc07b0fb41f3008360bb550c18353d31bdd375294d1ff",
+  "providerPromptHash": "8957cb3d40a8f78feb1f9b503354ec9850365709cb88071ba7ca1a170a20804f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-bf756056-bcd9-4416-9eab-039544954211",
+  "generatedAt": "2026-07-26T22:44:56.248Z",
+  "registeredAt": "2026-07-27T01:37:42.533Z",
+  "assetSHA256": "b9ffa8a0815471c86a8362aac71534414f9041d2cae496af90f3afb42ccd1675",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "56920c794d73ff3901cd2d2e55c02a29afcad764093b7803901656b5291b3476"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.412763331201859,
+        "quantizedColours": 121,
+        "dHash64": "1f0e1f1b33270b8f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-141:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-141-ayam-kecap-style-sweet-soy-chicken/step-06.webp",
+  "promptHash": "fb7078a1e55f288eedc95ef5bef3d2bd592e3d24ae2445bd319723842288a445",
+  "providerPromptHash": "2624c54b3d5ec9348f7bbd187c05d5d809afb44fd5f58b27dee17cdbeafae7f0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5c5bea3f-e738-4d3f-8153-6143533c2106",
+  "generatedAt": "2026-07-26T22:07:33.277Z",
+  "registeredAt": "2026-07-27T01:40:15.585Z",
+  "assetSHA256": "9a734b77522b308d83e6b33abf8c3974c9862a5971e3b8f6460a67097cf27424",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "1ff545059e58b3289fcd20ff56df796b45485df26503b88c6303e32b149f890a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.543196820421144,
+        "quantizedColours": 324,
+        "dHash64": "b3c303b7ae9e952f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

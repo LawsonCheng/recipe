@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-035:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-035-spinach-with-two-egg-broth/step-04.webp",
+  "promptHash": "1c0e2c428f591fa8ef84d15c6adf8faa3e5cee4a0dce97710309ccfcfab02399",
+  "providerPromptHash": "f1e99315b24a565bda73da0be7c8260e5f986fbea591503e6845fcf1242df790",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6b9cbc45-21c4-4b34-91c3-cb2f97043fc2",
+  "generatedAt": "2026-07-26T20:49:17.843Z",
+  "registeredAt": "2026-07-27T01:37:07.070Z",
+  "assetSHA256": "0ac5ac3191ccbbeac6af4c4b8ef2adf4e66db3e2d11624ba27dcc4b1f70104d4",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "1c28d6f2ea9ba81a9df339356e9c42885482af3d13abea6b94a7bd00e8d39829"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.667570597259328,
+        "quantizedColours": 248,
+        "dHash64": "73db3733292b86c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

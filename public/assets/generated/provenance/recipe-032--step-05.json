@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-032:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-032-sizzling-cantonese-chicken-pot/step-05.webp",
+  "promptHash": "3e3efd2cbc4c3afe31fb0e4109480d7e1d6020aa275630a09826f210a1edc2d7",
+  "providerPromptHash": "3081b851237551dff684a3cb6206d9203e1c51cb3485272553d556f6656cc13c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7f994d90-d6fa-4236-b7a9-d0b25ab92141",
+  "generatedAt": "2026-07-26T20:36:55.203Z",
+  "registeredAt": "2026-07-27T01:37:02.246Z",
+  "assetSHA256": "5b68266148ee0edff9312373d210a333f3f4c6c617586159894cadadb0dc7a6d",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "fc790ab68f772770efdaeed0d896b40c44599bde92b9e091f9945216d5ae52db"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.641513696391485,
+        "quantizedColours": 325,
+        "dHash64": "70cc96322b9a8ec2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

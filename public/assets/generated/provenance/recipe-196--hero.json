@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-196:hero",
+  "publicPath": "/assets/generated/recipes/recipe-196-tomato-clam-pasta/hero.webp",
+  "promptHash": "e2f9f6342639040713d62f49a3f5140230cb1a927c44f35a28b69bc528a2d6ec",
+  "providerPromptHash": "ecc34ce94614322c4cf483883ec05e81a631499369f95e9e9b0d062de01026ce",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6c1d7c16-14bb-499f-9dc5-affa76caadc4",
+  "generatedAt": "2026-07-27T00:31:48.620Z",
+  "registeredAt": "2026-07-27T01:41:56.356Z",
+  "assetSHA256": "b2bfd1385c4aef6b7d39fa098cf00853b8345a0edbe4f9d346201cd4d8ddc2c3",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "a5216289b76664321a17b416a5c066bb1b1d419dfe05b49c5aaf134af51ea0a9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.800690128467977,
+        "quantizedColours": 427,
+        "dHash64": "93ced28652f3d372"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

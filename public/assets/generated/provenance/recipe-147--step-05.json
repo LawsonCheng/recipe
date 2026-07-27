@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-147:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-147-indonesian-turmeric-fish/step-05.webp",
+  "promptHash": "24f36104df0d6c3ee2f3324059789ba45e877321a00a1f6bdfa0c0f6c1a7ccf9",
+  "providerPromptHash": "6a3ea91fa44e13f5bb588d838abd167a4f45bc3c28b7d7d2cc6093320be3c0da",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5c25a8da-0010-4c2f-bbb9-603492372f69",
+  "generatedAt": "2026-07-26T22:43:26.024Z",
+  "registeredAt": "2026-07-27T01:40:26.488Z",
+  "assetSHA256": "23b055694a2e7dd44745699eb36fddd2e0ba5d70347ba0ba2c05730f4292b52f",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7c16b9b98eeac2c05c3c4d5cbafd6eaee117cf4577ff306e3ae1af4ddd1988da"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.562474979698891,
+        "quantizedColours": 242,
+        "dHash64": "e7c61f33312786c6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

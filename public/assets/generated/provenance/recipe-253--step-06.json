@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-253:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-253-indian-spiced-baked-fish/step-06.webp",
+  "promptHash": "3db00e48da40e97136274dcd4f2a404de7e94ffb59b055bdb761df2c4081712d",
+  "providerPromptHash": "6d447a012aa318be6ea489acd404c93b8dd4da854daf0d8c424ab2c71e69a0c4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-025118bf-c3aa-416b-b5e4-0a051d8a0ee8.png",
+  "generatedAt": "2026-07-27T05:21:00.098Z",
+  "registeredAt": "2026-07-27T13:00:23.166Z",
+  "assetSHA256": "76d57c03a848d76fea0286a6ccdeb38b46fc2bfe38c2283fa0f6948466ded0ca",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "b210818d8ea4405f35f845ca1abc6615f7986143da1eba9d8c52093049d04492"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.487766527472559,
+        "quantizedColours": 289,
+        "dHash64": "3003013cd2e17ce0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three finished fish portions are plated while one continuous stream of final lemon-butter mixture is poured over them."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-110:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-110-korean-corn-and-chicken-rice-bake/step-05.webp",
+  "promptHash": "594f3e2b65ba4c9da5842f75f5a5143afd02285ca28e60bac8833e0325367d6d",
+  "providerPromptHash": "08590228195d3cf29b9fc74c1ae9ab92606c41a57941af07409e88a6e033e4f2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-223729a4-3733-4066-8d06-94da3d494c0f",
+  "generatedAt": "2026-07-26T18:53:49.081Z",
+  "registeredAt": "2026-07-27T01:39:17.311Z",
+  "assetSHA256": "0e585ff5efe4286226380bd7ea54388e624e2bbca09dab8a2e77aaee792c7266",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "5a224c9f5da8f98dee6113265f3954de6ddbc39b949230adf4a01ed0ee424176"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.573575558606535,
+        "quantizedColours": 242,
+        "dHash64": "444ecefaad9c9c9c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-202:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-202-beef-hamburger-steak-with-mushroom-gravy/step-02.webp",
+  "promptHash": "f699c540113dcd925adfc6252607f1e714ba06cd2941f5b5c217bdf18e81636f",
+  "providerPromptHash": "e48aa36d152495620e32e9706b5b4a55d65d23dd6a12816773f4a5b20d614db4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2a0edee6-a9d8-4878-8c40-987369ac7715",
+  "generatedAt": "2026-07-26T18:03:28.378Z",
+  "registeredAt": "2026-07-27T01:42:07.397Z",
+  "assetSHA256": "d6c6ccc233c240e072630616f5a915dab48cd0ce6d0828359d5b068dce2bba60",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "889ce9b397854d4c29ace332804f6c500c48d2a87232746eb2f9e07e58f8ba27"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5452859232827905,
+        "quantizedColours": 233,
+        "dHash64": "33d9399b4b229669"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

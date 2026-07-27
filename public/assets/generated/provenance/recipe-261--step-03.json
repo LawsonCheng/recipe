@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-261:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-261-buddha-s-delight/step-03.webp",
+  "promptHash": "9e067198f15603896288d4622f7f7cdb63c6bcace122d2c51ee34ec31a831698",
+  "providerPromptHash": "e2ef92249958c4c7ba17fcff8115610f73bb5938b4de734c16c5aef96a6bd7dc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d0de9cb8-1b2c-46e9-8ac5-6e21f9285518",
+  "generatedAt": "2026-07-26T20:04:19.676Z",
+  "registeredAt": "2026-07-27T01:43:53.641Z",
+  "assetSHA256": "0ed46dba39eabb070430af4dfebd892dcd5eb4c3f93a499ef92a1a7d568e4bff",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "5d6d1da092ec2c52a971ac1fd06de470fa30cb5973e475f07ef55c97fc185cfd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.418714881125197,
+        "quantizedColours": 305,
+        "dHash64": "f4861b3d29a6d69c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

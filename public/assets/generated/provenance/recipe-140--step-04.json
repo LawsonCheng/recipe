@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-140:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-140-pineapple-coconut-sticky-rice-style-dessert/step-04.webp",
+  "promptHash": "17a5d919eef7b7215099388e0e57b26c94d8bed200a09c56669e5b076661115d",
+  "providerPromptHash": "6ad993bd0bd296fcfa85ba0c6c1d38803e6083b16fa497ed6982278780e69e3f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-99c880e2-130b-477d-9153-edd4398ff180",
+  "generatedAt": "2026-07-27T04:47:40.452Z",
+  "registeredAt": "2026-07-27T13:00:03.790Z",
+  "assetSHA256": "4adcb41f4674439deb6677c5567a03abf55118c93c95ce5b4abb653ad9e94c3b",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "15c39904d3d9bb53ccf044488cccbb25435411dcbf22194596eb8bd029d957b8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.735256214858964,
+        "quantizedColours": 202,
+        "dHash64": "7c3c4d0f0f0f074c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — coconut sweet liquid is being folded into hot sticky rice in the allowed Chinese wok, before fruit or final plating."
+    }
+  }
+}

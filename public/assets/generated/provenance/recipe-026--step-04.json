@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-026:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-026-cantonese-eggplant-claypot/step-04.webp",
+  "promptHash": "878a39b526f864357a7baab4928cfc1532e3cdbb489993c22b8e945731b9b65e",
+  "providerPromptHash": "a5b1443d5ca7b0d3e9acf3e8a4816a12a6c38c7f47704633e7af631a463e96a2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7c711f0c-edc6-495b-a264-de457c2f76ea",
+  "generatedAt": "2026-07-27T04:45:17.000Z",
+  "registeredAt": "2026-07-27T12:59:39.311Z",
+  "assetSHA256": "1b53d5c4879f09cddec9f1244b8b534f08c3f6df62a4761d0424933f4eba21ab",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "7f13245b66150ef24deefba5114003f6f11e518868fc2d0321b8b8a74023547b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.553935110145176,
+        "quantizedColours": 347,
+        "dHash64": "d39913372b138fa6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

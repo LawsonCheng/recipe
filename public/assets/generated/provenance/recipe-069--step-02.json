@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-069:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-069-mild-sichuan-mouth-watering-chicken/step-02.webp",
+  "promptHash": "7b942350902a1073f748c5090e3f8ce1aba4a605781fb5119742b1a9d0b0bdf3",
+  "providerPromptHash": "7e6d27dfb8505980ff06a7fb869a02842c61bc99e5b5144dc9f29468642cb187",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-349e80e7-9d66-4666-a59c-cd89aa5aea3e",
+  "generatedAt": "2026-07-26T23:52:00.502Z",
+  "registeredAt": "2026-07-27T01:38:04.761Z",
+  "assetSHA256": "4176975729f3d1c856064b166f4006bce516d35f90454ad9060722c13abfd328",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "6e68de905db96389b07b866282e3f83cd850a754b8a0eadfb236a8f89692e201"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.209102147258818,
+        "quantizedColours": 86,
+        "dHash64": "6692120f0f8f0d09"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Noether",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:52:47Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — The covered vessel is a shallow, long-handled stainless-steel frying pan, matching recipe-069's sole listed equipment. It accurately shows the chicken gently poaching without a rolling boil."
+    }
+  }
+}

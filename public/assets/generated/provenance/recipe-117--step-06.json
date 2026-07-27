@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-117:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-117-mild-korean-cucumber-salad/step-06.webp",
+  "promptHash": "942716fa421de9157ad0f1a4dc98ab451a51e27cbbb11dd4fba18ba4bb561442",
+  "providerPromptHash": "cde959c4b8206204c2a686481e4e21462ec3cb7486d37e6e0c361720120c2e0f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-193df135-3e74-4fd8-b315-2180b7a49613",
+  "generatedAt": "2026-07-26T19:41:17.507Z",
+  "registeredAt": "2026-07-27T01:39:30.903Z",
+  "assetSHA256": "e66deff1fe30d6295921dfbc2925687ba899339f4fa1141985e72531b9ba705c",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "52e2aefcb343adf37a900c5a8df7c4f8e499a864d540d3eea99de02523c0b0d4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.572756799432682,
+        "quantizedColours": 417,
+        "dHash64": "dc8e470f27551133"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

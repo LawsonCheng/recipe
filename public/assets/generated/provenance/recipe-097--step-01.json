@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-097:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-097-japanese-meat-and-potato-stew/step-01.webp",
+  "promptHash": "dde94ace29b88bc8bc9487f5220f8066fc323cc0e2296fde53ef4bc69ce45d71",
+  "providerPromptHash": "6bedd3d5dbdd64880b222ab2a498989c93589e1168ff9b54f9523d532a89ea50",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-420c0d79-1fcb-49a3-bc83-0c236571f2a7",
+  "generatedAt": "2026-07-27T01:01:59.173Z",
+  "registeredAt": "2026-07-27T01:38:52.491Z",
+  "assetSHA256": "f922bdb6765fce1084bb6fb06d484e66ac71b710000b9be72ede7758523e2794",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "3c7294787a59631342c66a2c4da034ca1853b4af1ef5d5eb612104bb64f39d0e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.758601448342233,
+        "quantizedColours": 541,
+        "dHash64": "3361c9498c8c8cce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

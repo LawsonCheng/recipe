@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-082:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-082-japanese-beef-curry/step-04.webp",
+  "promptHash": "dd30efe818bbf12f4067584ee68d509d9b68c83415f86315d7dc39cbc5fad470",
+  "providerPromptHash": "537119d17ff519a2d0d531effd50f9245d57228b66beb009008020a16ccaf571",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-df65d7bf-65fd-4758-9dcc-e760a63871e3",
+  "generatedAt": "2026-07-27T04:55:04.904Z",
+  "registeredAt": "2026-07-27T12:59:54.530Z",
+  "assetSHA256": "a462b45904fc917ddc00b06e87e0dc1be070200ed1bf775e9ccd8e76a502b057",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "4a014fcde855a58dd5fa53272096109e37b51ba3b5c92b025aa5c584e0e3de99"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.459472898430249,
+        "quantizedColours": 248,
+        "dHash64": "f6f64e2b0f2b0e80"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Beef, potatoes and carrot simmer together in a Chinese wok with clean-edged vegetables."
+    }
+  }
+}

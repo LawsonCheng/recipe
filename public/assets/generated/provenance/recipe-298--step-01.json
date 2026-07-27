@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-298:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-298-mild-gochujang-meatball-rice-bake/step-01.webp",
+  "promptHash": "3151a4616a216dc3dc17c0340df9e75b88abbc33cd4fea02277667be2bb46971",
+  "providerPromptHash": "1fcc2e9120e902ee1323dbe0499c7f855e48c16ed71f11361b1ed5c2f2ee99a0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5df66112-3ce1-4fa9-8415-22643a71f715",
+  "generatedAt": "2026-07-26T23:59:52.207Z",
+  "registeredAt": "2026-07-27T01:44:59.660Z",
+  "assetSHA256": "21562aeb0ccc89f0ae15daf87c19a61692a102fdc9295c76626a24adceec1066",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "ca52cedf999ce33a72f46f5849ec4ffc70c2ac5cfc409e51ff3b9d28e95aeeea"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.745316886299406,
+        "quantizedColours": 465,
+        "dHash64": "813321ec6d6c8c1f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

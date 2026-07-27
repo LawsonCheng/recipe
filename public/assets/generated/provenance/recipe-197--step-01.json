@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-197:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-197-italian-roasted-cauliflower/step-01.webp",
+  "promptHash": "22e2b5ae0ceee521467b4a08f43185b8dd48c0cec846b295f449484373b9e109",
+  "providerPromptHash": "d7631f89f662f4532f493d11d6673ca6713d90d66c44e52df95e3f9db1eaebd5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c523cca8-ddb6-4b1b-8ffa-2027e5f50518",
+  "generatedAt": "2026-07-27T00:37:20.664Z",
+  "registeredAt": "2026-07-27T01:41:58.389Z",
+  "assetSHA256": "042efab3203f20001e956e9c558de1bb3299f69717b65674f0b1afb1d769051d",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "eba87db0e67d77a07dcde3da12f2271af3c2bf482a60ddc27e0f18ad0bc7c77b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5627062690309685,
+        "quantizedColours": 170,
+        "dHash64": "6c8f1935713b2982"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

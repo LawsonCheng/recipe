@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-197:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-197-italian-roasted-cauliflower/step-05.webp",
+  "promptHash": "21292c9560e6d49b47a5d19f4074265d1af96255eaca7f86a0857f7aaf1636ab",
+  "providerPromptHash": "2904ae6668961ee3f724fbe71c1cd74d15b8d8f3f45f9920f390d4d5400ccd83",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0eb84aa5-043c-40db-9d35-63828293405d",
+  "generatedAt": "2026-07-27T00:38:42.755Z",
+  "registeredAt": "2026-07-27T01:41:59.373Z",
+  "assetSHA256": "7af766de7f5dab48aaad61e7dee216ac88eb649638459b132786cd34b0985587",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "ba4ce178fa2a392bff97f43598defb65875d67b279f9ae7f0f0551ee50f6adb4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.306035341181996,
+        "quantizedColours": 275,
+        "dHash64": "383d9f1b0b0b07c7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

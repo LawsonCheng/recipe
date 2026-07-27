@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-073:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-073-sichuan-pepper-style-shredded-chicken/step-02.webp",
+  "promptHash": "1135b3a016d7f5392f0338c1ac20d99a4475319ffca07e1acf98419e17e9c096",
+  "providerPromptHash": "94b0845566fc8b1ba932c26c0d5be6dfad3f0a2b98fefb6cbed68e75aeeb5526",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-83f95df2-4a36-49c7-b750-f60f3e049aee",
+  "generatedAt": "2026-07-27T04:50:09.444Z",
+  "registeredAt": "2026-07-27T12:59:52.531Z",
+  "assetSHA256": "2efbe6238189f5f6ae215c0664043fb4ed055bcbc7be2c324558ffa190d00062",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "13e4379974bfcae09e87e62fe02660bbcc582cc2e7707c661a62fa4e48679990"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.489168654428795,
+        "quantizedColours": 138,
+        "dHash64": "02f1d61e0f0f8fe8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Chicken breast poaches gently under a lid in the recipe's allowed frying pan."
+    }
+  }
+}

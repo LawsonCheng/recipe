@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-082:hero",
+  "publicPath": "/assets/generated/recipes/recipe-082-japanese-beef-curry/hero.webp",
+  "promptHash": "893044a94a1fc2b996384f01d0f37db26f79129648614cfb4115fb4d2032406a",
+  "providerPromptHash": "388e66177a74047cbab6812dbfa71b5f6f5518d334ff6a4aaaf768e98cd1ab00",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-11717113-ea3f-4f84-afaa-5df849d978c7",
+  "generatedAt": "2026-07-27T04:55:04.582Z",
+  "registeredAt": "2026-07-27T12:59:54.041Z",
+  "assetSHA256": "89650315a44871b22f9f8fdb650886a865cd712232722c2e24efd2900b3bd8e7",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "c9b993ff7cb1acc4ba773665c8da989a1f7bcb05e48c4c912a99c31c16cc87fb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.659416726819472,
+        "quantizedColours": 336,
+        "dHash64": "50e4ce8890b0f8f4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three finished Japanese beef-curry portions show beef, potatoes and carrot with no unlisted rice."
+    }
+  }
+}

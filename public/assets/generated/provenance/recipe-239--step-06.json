@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-239:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-239-mediterranean-tomato-baked-eggs/step-06.webp",
+  "promptHash": "6d67da43e1c1b34e3f4a7568833b3cb9ec55ac31fd1a5911be351e4a2a454b3c",
+  "providerPromptHash": "eabb62afaecd94b4088b675771c06794ebf0ced976574b710e7a572a8dcae618",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_Tey7KZDGKsaQ0sRmu5PiGjyd",
+  "generatedAt": "2026-07-27T10:30:15.174Z",
+  "registeredAt": "2026-07-27T13:00:19.614Z",
+  "assetSHA256": "30b83749d29fe6ace55e7a8355660db44229c961404bcea6125b543f87f36694",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "8537d8dde262e58f2eab3d61a1edf2ad55f4742c8d782a533bc365fe1fb29521"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.174719911519787,
+        "quantizedColours": 362,
+        "dHash64": "07143436c5d4d3e7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly three finished baked-egg portions are shown, one egg per dish, while lemon is squeezed over the sauce."
+    }
+  }
+}

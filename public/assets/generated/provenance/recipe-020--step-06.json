@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-020:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-020-century-egg-and-lean-pork-congee/step-06.webp",
+  "promptHash": "21c87942a9cbb4c78acb41f72093fd73ffa743c3c22e145b498703f81889cdb9",
+  "providerPromptHash": "6fdc1a126232005455ee008c5388587b9fa3dd7a548ddd4e0845156f024b1ea3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-84e72e17-8302-4c64-a025-51eb8fd91403",
+  "generatedAt": "2026-07-26T19:29:59.852Z",
+  "registeredAt": "2026-07-27T01:36:41.884Z",
+  "assetSHA256": "60f330f8b0630ec68bd4b3163aeb18690e75c627975897528dfb0ae7cbeb9044",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "3e590f35c16b85ddfbea0df245b7560367ca57b7caadc251c2d534dd5cd7fd09"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6067741682054475,
+        "quantizedColours": 303,
+        "dHash64": "fcfd4292ebe92b8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

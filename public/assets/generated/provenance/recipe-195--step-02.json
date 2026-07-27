@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-195:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-195-italian-herb-pork-loin/step-02.webp",
+  "promptHash": "7c9c1b184cfcd3da60acf60aad95eced75bd84c521c408621e0e3dcc96362f89",
+  "providerPromptHash": "cfb56be3619dc758964412776e55e9fd52a8ee9020325062361194760107de05",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-16902059-dddb-4f95-8799-8e2cf0f995f7",
+  "generatedAt": "2026-07-27T00:27:23.527Z",
+  "registeredAt": "2026-07-27T01:41:55.082Z",
+  "assetSHA256": "3644529ae0b58a056ba40951f5f3584c1d1ee71419c43be68657390141c2cbd6",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "2ff71d91fc05fb976be50b06a45b3395087b6e9aa266c6695ff1da72576952a6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.705184353340883,
+        "quantizedColours": 233,
+        "dHash64": "60e82756dae56386"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

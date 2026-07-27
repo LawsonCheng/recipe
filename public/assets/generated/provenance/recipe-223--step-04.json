@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-223:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-223-moroccan-chickpea-stew/step-04.webp",
+  "promptHash": "fa82ead6f202f93010d29db6a1e50c09f3acecc686cb61f92341a2d96a3207a8",
+  "providerPromptHash": "2cd7ee5763d3ae41314a4a24456dc81d682d1bf4a457f120b439217617a435e3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9ca4a44f-07ee-44fc-87ba-6c770ca5d383",
+  "generatedAt": "2026-07-27T05:47:03.959Z",
+  "registeredAt": "2026-07-27T13:00:14.087Z",
+  "assetSHA256": "25c55555c1406fc22109206707c99cc539ca9aed1942bb1e449b0eedf52e29de",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "c6ae0a4bc30b9f099f2476860baa1419b744336082d436051cf540db651a295a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.627337156038266,
+        "quantizedColours": 310,
+        "dHash64": "fbe28f0f1f979fde"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

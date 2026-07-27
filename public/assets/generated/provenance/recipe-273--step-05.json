@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-273:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-273-sweet-corn-tofu-soup/step-05.webp",
+  "promptHash": "07505e58ee71d7601191095cb7a6a10501a99469627bbca463049fef149a97b7",
+  "providerPromptHash": "3c50e7087fd64adcca64d93da58aa37cb72598b4612e8761f10eef57e76eaced",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b7a2144b-5e0a-47e7-8add-704428df9f6c",
+  "generatedAt": "2026-07-26T21:30:19.701Z",
+  "registeredAt": "2026-07-27T01:44:15.814Z",
+  "assetSHA256": "ddc5460ff2bdd0c8855099f401891bf3f67b32e29173bc321dc3e0fcc2f2c0c1",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "03067ab0569ef20e15344ac970288d32b1b6c28a892fa1201f2b7fdff400e049"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.278309352521319,
+        "quantizedColours": 278,
+        "dHash64": "f0ce8b19594d2113"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

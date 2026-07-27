@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-083:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-083-chicken-and-egg-rice-bowl/step-01.webp",
+  "promptHash": "90ba852312676938bcbfa771d2d961c34d8d48ceb0cdb8df5e2bc773a8b0105b",
+  "providerPromptHash": "9e896237fe255c63c726055b6be7ca3e3ec03eb7a97925eac06e34cf64aed438",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-730308eb-2451-4f3f-9931-f198b61d602d",
+  "generatedAt": "2026-07-27T01:02:54.602Z",
+  "registeredAt": "2026-07-27T01:38:28.473Z",
+  "assetSHA256": "cfcf58cd3b4dd18442ebba118a1890611938d3cb2b457c05c91626041031417c",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "431a5e510d688478aaba1c831a184788cfc07d4ad2bb37477923448d042295b1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.663874932099134,
+        "quantizedColours": 251,
+        "dHash64": "91253e0e87868fe1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

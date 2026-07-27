@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-240:hero",
+  "publicPath": "/assets/generated/recipes/recipe-240-lemon-cumin-chicken-meatballs/hero.webp",
+  "promptHash": "e575d7d6116d51e0b88784db4702e6dd25dd6d0029bd67658fcc587e752910c9",
+  "providerPromptHash": "3ef5ce9b839757577c390c136ea2d6f2a7567a57b21cc50c9853f19934cfb6f4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8e247dcf-aeca-4a9a-9052-d32894173b46",
+  "generatedAt": "2026-07-27T05:45:01.886Z",
+  "registeredAt": "2026-07-27T13:00:19.873Z",
+  "assetSHA256": "d3771d345a1f1144a0a5d34f6210ed7529a130d375369c4bbfa5844b4612e06d",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "1a3d65ca83bd98f6c7430218ab1722f39c840e3d2b79ae0e93b8be6db38d8149"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.738220826839097,
+        "quantizedColours": 290,
+        "dHash64": "dbd5c687bbfb3396"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

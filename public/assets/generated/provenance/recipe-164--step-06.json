@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-164:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-164-malaysian-chicken-curry/step-06.webp",
+  "promptHash": "28364d19511b6c56ffbadffa2f8250c4e582e2a85221d2c019a37bcd079a5a3d",
+  "providerPromptHash": "89272849d5b5ee678286307745582e75ef3d8dade42d99770b61ab8848ca0890",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cf68d993-50b4-47b9-baeb-8da6444fa81f",
+  "generatedAt": "2026-07-27T00:23:11.645Z",
+  "registeredAt": "2026-07-27T01:40:58.363Z",
+  "assetSHA256": "4e3d095e8e44765929e72568a25043284c472fb93bf3efaf54e4b076b3ecfa8f",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "a9776316ff16df08b9a6b59b0c416e5a870b25e26494640fa544c40caa1fff1d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.458564132568426,
+        "quantizedColours": 197,
+        "dHash64": "de983367cf8b078f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-242:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-242-palak-paneer/step-01.webp",
+  "promptHash": "026b083e67a5c028b1a626a29de0e55e4bf9e634169d4735de1c063a74c29292",
+  "providerPromptHash": "13c41e09454cd01c7b1cd94fc61d8233a9756a0f06745392fe6c8f32da07c549",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-742922ba-4fd8-4611-8175-1383e19f9a90",
+  "generatedAt": "2026-07-26T21:53:42.021Z",
+  "registeredAt": "2026-07-27T01:43:18.627Z",
+  "assetSHA256": "982545f2377833ce9aa4f28bdad4a28b3a7d41288a733d5b3ca4a228e9dec02a",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "bfc044ebab5fa1c52a6c068557a21a8cf86da7057b4f9541424708ca54f7305f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.567137571983039,
+        "quantizedColours": 226,
+        "dHash64": "e466e3890f1f9b8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

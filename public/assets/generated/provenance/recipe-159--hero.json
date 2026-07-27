@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-159:hero",
+  "publicPath": "/assets/generated/recipes/recipe-159-indonesian-potato-beef-patties/hero.webp",
+  "promptHash": "ad045c8f00fa164309a09147b6d528f22ee5f72789f85b319a96bc12c85bdb39",
+  "providerPromptHash": "81d1d9b1cee0ed6902f913835133d5ed09baa7f930cf292292ef0fd844343a75",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_TjckerNXpoCogflAvwqP8wNG",
+  "generatedAt": "2026-07-27T14:13:25.000Z",
+  "registeredAt": "2026-07-27T14:24:06.606Z",
+  "assetSHA256": "ff0c7fb17aabaaa2ade52367435f14e1daffb796f07fc58bd91bd988a30e1930",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "c311c6f6ca06a0f22bc67ba9b47c8a58befb91b3fa1b9cbc6cc95f6ef9d7a77d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.777673565025907,
+        "quantizedColours": 286,
+        "dHash64": "7ee6fef1e4d6f1e6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — re-opened at original resolution: real-camera food photo with exactly three plates of three patties (nine total), lime garnish and no unrelated sauce."
+    }
+  }
+}

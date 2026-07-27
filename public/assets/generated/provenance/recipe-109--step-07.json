@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-109:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-109-mild-korean-seafood-tofu-soup/step-07.webp",
+  "promptHash": "c369bf0bce0d3d751c4d96e19c768450d3bbea7414f725af78bf4978f073b29d",
+  "providerPromptHash": "db329ee3bda48e09e56a982dd348e18a10535e3149161a9be4d63220bb1f5df4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e2dd3090-eb05-4da6-bc44-f89599112519",
+  "generatedAt": "2026-07-26T18:49:45.124Z",
+  "registeredAt": "2026-07-27T01:39:15.852Z",
+  "assetSHA256": "94d44e857c9ec8512927e520fe973269483cb2244cdfb462d84aaaf80816a84e",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "4c290958303cbb9e795690b2c62077a1e99cace99aca2b4bd304da6928e39160"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.630169252632186,
+        "quantizedColours": 361,
+        "dHash64": "7030ae9b3b3396cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

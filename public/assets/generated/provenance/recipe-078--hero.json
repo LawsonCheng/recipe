@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-078:hero",
+  "publicPath": "/assets/generated/recipes/recipe-078-mild-chilli-dumpling-style-soup/hero.webp",
+  "promptHash": "84b220fc299cd447399d08a7ff042c5c6772aadeba610214a89eb746f34005c9",
+  "providerPromptHash": "114f75353864d572c6ba25eb89d4c095cd67f732bce4b6627025c99ad35f6ecf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_ygX24PDIlniDN34pYF4ZB8MD",
+  "generatedAt": "2026-07-27T13:20:04.000Z",
+  "registeredAt": "2026-07-27T13:55:30.444Z",
+  "assetSHA256": "9f5812e30e2e590c7b88489b4dedb9c4223f985e726103dc65eb9df1544873f6",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "008eabba2e1965e369a665fd2a99dedb68561055ffe7d0bc90e833c7ac4dbdb2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.732310445280746,
+        "quantizedColours": 314,
+        "dHash64": "07313b4d333373a8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen image reviewed at full size: photorealistic final dish with exactly three bowls of eight fully wrapped dumplings each (24 total)."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-034:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-034-baby-cabbage-in-superior-broth/step-02.webp",
+  "promptHash": "3d771abd44acbe1f20fb226c972e722923eae497e9abf06f953382a3c735bb08",
+  "providerPromptHash": "12c06a3e5da745da4bbe52ee6efcca5d7019ee020ffd975e7bdda2f70109275d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4638191d-27db-4f4d-ba42-92ff69de9b8a",
+  "generatedAt": "2026-07-26T20:43:02.671Z",
+  "registeredAt": "2026-07-27T01:37:04.898Z",
+  "assetSHA256": "53c1caa0a201e88d411306550ba66793d5bc6ce6c21fa7c77a087e566e5a28f8",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "d1c33f9a3d70036e7797596c11e2c9b37a95a97057ac93b9a690f5ace4377e2b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.675088871794287,
+        "quantizedColours": 258,
+        "dHash64": "6391c3c2e2e2c285"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

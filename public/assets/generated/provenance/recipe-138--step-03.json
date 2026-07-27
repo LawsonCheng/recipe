@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-138:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-138-thai-garlic-pork-loin/step-03.webp",
+  "promptHash": "0f7a79becb3d52080e2c281a9e930d2a4f7a74d53b3bd0ed9fc601ce2767b2c7",
+  "providerPromptHash": "515a576aeff184ab4219988acc8d429d2a44632ce404d6b5d759e75388334715",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-356a0838-42c0-4f9c-80b9-8461f1318f96",
+  "generatedAt": "2026-07-26T21:48:24.057Z",
+  "registeredAt": "2026-07-27T01:40:09.376Z",
+  "assetSHA256": "a2b85f40c2a9648c7ea7ed7130bb46e82c3adb7eb645b828d7ec50d39940d1b6",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "65aeb1aeaa3e0322fb350b2d3e5f503b591ecba339511e729fa964f3f8327cc4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.610137083102018,
+        "quantizedColours": 367,
+        "dHash64": "8d6c72ca93b3161f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

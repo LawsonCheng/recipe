@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-181:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-181-spaghetti-bolognese/step-06.webp",
+  "promptHash": "93950bbc258a0594ffc5010f1ee965f3bac58db2bef80f50cf8fa15b80997b2e",
+  "providerPromptHash": "d00b282b0f0d8b0cfe9a4a8c972862fd921ab9641f501f2609537040be995dc9",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d9512576-203f-462f-8e3d-30f8dce3f370",
+  "generatedAt": "2026-07-26T23:13:05.564Z",
+  "registeredAt": "2026-07-27T01:41:29.918Z",
+  "assetSHA256": "8629e6ad8e36e09bcd838fb73012a5691e976bc1947c030e67a0b29db101f86b",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "079ee4e6ff18562a005c036aae64f3c064e562248c903d132a903fcf8553e105"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.4971179458952975,
+        "quantizedColours": 292,
+        "dHash64": "716c860f0f0b9f4e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

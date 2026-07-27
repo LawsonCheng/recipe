@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-019:hero",
+  "publicPath": "/assets/generated/recipes/recipe-019-roast-pork-and-tofu-pot/hero.webp",
+  "promptHash": "b69d27bcd6904c1d799fc07864661edb96ead0f4767b6df055e42746e1d06733",
+  "providerPromptHash": "7f189fb93f3b906ec8be171780503cd9dea4e145c807015a7a08fd5c67a3665f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8185e374-4492-483c-a3f5-5cb88a81c8b6",
+  "generatedAt": "2026-07-26T19:24:01.774Z",
+  "registeredAt": "2026-07-27T01:36:38.742Z",
+  "assetSHA256": "c965bd846d6f89c89164044ff08012a2457c7f61224f9a8151d8bb95355a089b",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "235b8242eb257c3eaed441bed99ec529a1db87debed4c75aad6f57743c4276ff"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.743416357945534,
+        "quantizedColours": 289,
+        "dHash64": "5f73ed58c85533cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

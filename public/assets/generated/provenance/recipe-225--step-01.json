@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-225:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-225-mediterranean-tomato-eggplant/step-01.webp",
+  "promptHash": "2f954ad88fe33f094255f4d31371f7c8124abfb74db54e17f0d9b2015ddbe46f",
+  "providerPromptHash": "f90506e88120f74c6cc0b9b9f1f4d538fd95c51028f1ea6e97d2a14b9a3cec94",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8842f4e3-6e59-4cdd-9136-9b709bd4fd8d",
+  "generatedAt": "2026-07-26T20:17:30.253Z",
+  "registeredAt": "2026-07-27T01:42:48.185Z",
+  "assetSHA256": "2b1fe50428de8c265dfe42c6ca488ef8780cbab92d07637c880ea9353a250cb8",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "ce1c8c5a15402a8bef68b4c5f07f96fe4e8de8779d03b19b60d3fb38baef8833"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.681970110163093,
+        "quantizedColours": 327,
+        "dHash64": "63797434b7c32347"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

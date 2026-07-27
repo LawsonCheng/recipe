@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-058:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-058-shredded-chicken-cold-noodles/step-05.webp",
+  "promptHash": "e980382a6f7dd61283cbd080a544f5005bbcec513c7f30d8ee154dab02b0e408",
+  "providerPromptHash": "7b41258e1d708416e8daa1a3ea27a2e431d1326d00a8fcb330aef9fe0857c44e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-23226b07-8443-4f29-ad2e-9f607a9f1a73",
+  "generatedAt": "2026-07-26T22:56:08.329Z",
+  "registeredAt": "2026-07-27T01:37:46.694Z",
+  "assetSHA256": "78ec4b25dca998d90aa959d6cb4aef97b230b2d344338364791d929709fa8114",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7bafae6e873aa0314a8cc31ec02ca90fbf55d7b469c3db4be480a7c54d805e33"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7787745127570815,
+        "quantizedColours": 409,
+        "dHash64": "8f0f0f0707071f8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

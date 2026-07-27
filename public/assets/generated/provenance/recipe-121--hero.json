@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-121:hero",
+  "publicPath": "/assets/generated/recipes/recipe-121-thai-basil-minced-pork/hero.webp",
+  "promptHash": "c4d6aa76b5c30da245f8c0b7e8ca29424a9ab7fd8f27159dfecd4278c8414873",
+  "providerPromptHash": "db080484367ade9da89e8ddf3fb09e465f6b63b593a55d54101c78519c4df331",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3cbc6439-7409-415b-8524-67de56774e61",
+  "generatedAt": "2026-07-26T19:58:41.253Z",
+  "registeredAt": "2026-07-27T01:39:37.085Z",
+  "assetSHA256": "bbcca302d054c921957b2dd92094bd738d4766803d391bdb6ce1c8035a179f21",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "5ffd19a80b232c6ca5251c6715fe2451e8bd833b28aba1170b381e23c7d7e89c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.668768111339887,
+        "quantizedColours": 301,
+        "dHash64": "11cc8a3364686431"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image shows three photorealistic servings of cooked minced pork with Thai basil and the expected glossy sauce."
+    }
+  }
+}

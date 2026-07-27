@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-294:hero",
+  "publicPath": "/assets/generated/recipes/recipe-294-sweet-and-sour-tofu-rice-bowl/hero.webp",
+  "promptHash": "e34dd4dc57dc24dc9e09b798820f8c803844bb4d9988878ed4b20317f32709be",
+  "providerPromptHash": "64ea5c3fbcf9fd7972061486956fab8617a6961d6405057e8b99f36775770301",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-42397ea6-3f97-49be-a849-191a8110f500",
+  "generatedAt": "2026-07-26T23:34:05.368Z",
+  "registeredAt": "2026-07-27T01:44:52.248Z",
+  "assetSHA256": "f14fccc35d2eb1621563a9e6ce73e41043576542887429a4517123448230170a",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "f8f32a2137ca0cf3235175e8863fda3a81e6de61882621fd16b50ec883deef9e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7862846333300695,
+        "quantizedColours": 689,
+        "dHash64": "3031182a62363356"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

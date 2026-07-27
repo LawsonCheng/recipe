@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-065:hero",
+  "publicPath": "/assets/generated/recipes/recipe-065-family-style-mild-sichuan-fish/hero.webp",
+  "promptHash": "da080163f73186b09f8056a7ff428a7da0e3da43049c44a02a1afcd57aca8abd",
+  "providerPromptHash": "c092a7ebc5e5eab2b87b9adcbfa3489e2358332e377879893af6d0c07ecdf0dc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-aa80a40a-c68e-4aad-807f-641525c0ef99",
+  "generatedAt": "2026-07-27T04:51:47.604Z",
+  "registeredAt": "2026-07-27T12:59:48.524Z",
+  "assetSHA256": "20726adbc629cf258b32dd041f15cfacf397697920b651d0237ac6423f93f69f",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "02e2136f8e61c009f02a0e3c5bf6d8be029435d07fe19179b2b72bb7359b0bc5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.779518937135435,
+        "quantizedColours": 397,
+        "dHash64": "f3f3d39395999d9b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

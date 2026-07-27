@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-085:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-085-miso-glazed-salmon/step-05.webp",
+  "promptHash": "c9a431f7299f69530f71aecab78a69162600949b99c2695db0a3df4cb6734431",
+  "providerPromptHash": "46786069a49ac4773b470af5ff7b73700782b1bef21f45939636b02f27b9b00e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6f4bb234-68a4-4d0d-b3da-a310c0d02356",
+  "generatedAt": "2026-07-27T01:17:21.246Z",
+  "registeredAt": "2026-07-27T01:38:32.847Z",
+  "assetSHA256": "23852e346b26013a807ec397aa256a6a0dcaf5c4cd905fc3949cacc7b211b247",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "670e36ae85ca922203cd35403e7b8a7f9b118ab9fe8f5e0700753c8261367498"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.069320303271525,
+        "quantizedColours": 246,
+        "dHash64": "bcdcde8ece869cc3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Noether",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:52:47Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — Independent recount shows three distinct glazed salmon portions on the lined lower-level MX2 tray, with broccoli arranged around them; this matches the established quantity and the current Steam Bake step."
+    }
+  }
+}

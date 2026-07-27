@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-136:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-136-thai-basil-eggplant/step-02.webp",
+  "promptHash": "ee242fb0accfecb05bd09b55d59f3283257c9be430f1b1d08147da1c20d77fe7",
+  "providerPromptHash": "f3d4a70f1bc1e6cdba4424bc589275466e02cfb2dfec5a57e14e85d64377c3f6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-95a6922c-f82f-44a6-90c1-a1c7ac935eaf",
+  "generatedAt": "2026-07-26T21:36:33.918Z",
+  "registeredAt": "2026-07-27T01:40:05.669Z",
+  "assetSHA256": "4cd7fb3f14f8d9429b8c62eb885244854eb5a95ba1a7f6804c50c632d0a34eb4",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "93e91700f523b00c7dc99cd95475663d5c94e590d9a0b10eb1f53aaa505b8bc6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.627105627441779,
+        "quantizedColours": 190,
+        "dHash64": "39de9eb26aecf444"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

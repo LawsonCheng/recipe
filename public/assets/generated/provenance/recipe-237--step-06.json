@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-237:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-237-moroccan-spiced-fish-fillet/step-06.webp",
+  "promptHash": "eb005ed00a242e2d07cdfdf0c05bd1f3e4bd057646f114a2aca69a48986e6b08",
+  "providerPromptHash": "66813fa2699578c973dab257ebfc6708d06efb7943dc4b7a1547a500cc42ee49",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7e0be60b-553e-4a8f-890b-212785761f17",
+  "generatedAt": "2026-07-27T07:07:05.000Z",
+  "registeredAt": "2026-07-27T13:00:19.117Z",
+  "assetSHA256": "d18994846ce8ae03e3f12d12ffb17046d3c6bdd11c92835373f61929a4a8621c",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "9fa48becd8eda7ede71e3a3b74e2ae2bfab54b452481c6eb380d98212f14aa53"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.455111328148632,
+        "quantizedColours": 337,
+        "dHash64": "309e1f0f07250b03"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

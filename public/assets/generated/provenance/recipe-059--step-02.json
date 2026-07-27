@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-059:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-059-sweet-corn-and-egg-drop-soup/step-02.webp",
+  "promptHash": "8eac629cf68f2415c276eb908cbef62b2dd6ea20dc470fff60d14eb0dd729f86",
+  "providerPromptHash": "f7fb7425666186fd90aef753c5805c3b8e33045465ed7b1cc2cbb63d25232339",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2cf6202f-781b-4acf-81c8-3667327f2d45",
+  "generatedAt": "2026-07-27T04:35:41.645Z",
+  "registeredAt": "2026-07-27T12:59:45.791Z",
+  "assetSHA256": "d8960f776c19f5c556392840bd32e90cddcc66bb37dbd7a9777a5e8844e8fb08",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "c72e894227e90587cf151383abf25b9d967cd961581dfa1e6135bea81bc7a4f0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.42529134652068,
+        "quantizedColours": 169,
+        "dHash64": "e30b0e2e264cd8b0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — broth seasoning and separate cold cornstarch slurry are shown in the allowed Chinese wok at the correct preparation stage."
+    }
+  }
+}

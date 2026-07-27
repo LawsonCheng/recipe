@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-286:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-286-hong-kong-tomato-beef-meatballs/step-04.webp",
+  "promptHash": "8722ec53899dcc7af33a0325a2bf0274f070d4aba074fef2a4ad1c58117f1bc1",
+  "providerPromptHash": "80db0a6495ba8c225f3513d96347ee215d40e69d63a1a9309c55f770bb68f46f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-95941e20-8c83-4a03-b02d-37a8aa2a72a3",
+  "generatedAt": "2026-07-26T22:44:45.982Z",
+  "registeredAt": "2026-07-27T01:44:38.740Z",
+  "assetSHA256": "4235b76c69699447ce037c2220f34f0466329c7dcda2c925bad15d84f03dbdc4",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "2616d94525d0c4f8f93ad9e9104da6e8939bb833b735c8bac57f67b3a01bd0e0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.2468036758891685,
+        "quantizedColours": 225,
+        "dHash64": "d0ce8e9f9f8ecce4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

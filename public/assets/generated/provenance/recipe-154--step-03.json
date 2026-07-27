@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-154:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-154-indonesian-coconut-pumpkin/step-03.webp",
+  "promptHash": "8376283dcba419f42df43a15e8c333c930db6ef58e614339a8254d1802b3847f",
+  "providerPromptHash": "a80040ed5fd755a0fe3394bd832eee122343cedb069f50fb54f30d9fb96f8dc0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c7e889e0-8099-4efb-b6e0-c6ddf2c9d26c",
+  "generatedAt": "2026-07-26T23:20:33.103Z",
+  "registeredAt": "2026-07-27T01:40:38.866Z",
+  "assetSHA256": "559ecbc9d53b46b3b21f09955e7c442791263633292e22ce200daf5f5d06f166",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "cded16cd92a3fc4ad897f9267a1de6a9e19ad70d362a0f42088342e6a62ed8ef"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.710035201103892,
+        "quantizedColours": 286,
+        "dHash64": "e08c0d3f27b696cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

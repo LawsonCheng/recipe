@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-186:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-186-tomato-cheese-eggplant-rice-bake/step-03.webp",
+  "promptHash": "7547b12d1ad4d0f86a79b769aa4b605dc1d13a19dbe0d53a794ed9e4ec08f700",
+  "providerPromptHash": "f586ed1f343808c9698a44398fe3aa4d402d2bd5001c27a74800bdc77e1f61f0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3d1d1895-9de3-4952-9204-747985a1cfdf",
+  "generatedAt": "2026-07-26T23:37:12.199Z",
+  "registeredAt": "2026-07-27T01:41:38.445Z",
+  "assetSHA256": "d9d18546f9dd52f6988717f0d81ed2892e3864f84cd3ac03b83fafecdc5a96b7",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "77f66075911bf84dca43f557a4f84172a0a6155b63f1aeb3a8c8ecf1f8da8d23"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7102400965522975,
+        "quantizedColours": 283,
+        "dHash64": "d0cc8e9a8ee4e9e1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

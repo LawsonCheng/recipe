@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-026:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-026-cantonese-eggplant-claypot/step-02.webp",
+  "promptHash": "be5fed950ea3a292a4dedbbc6d252c0660573ab95cf1feb200743683c7ac6fe0",
+  "providerPromptHash": "530359df1403fde8a6d6f24bd43c175a1c665ddb501e9c0f705d9fcdc238f518",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-10a5c8f3-b17b-4571-80eb-a53452090320",
+  "generatedAt": "2026-07-26T20:01:05.444Z",
+  "registeredAt": "2026-07-27T01:36:51.113Z",
+  "assetSHA256": "eccea270b780c1e88d0eea681e0a2996b0c4c6de73d7cb1fd25aa42260de1a35",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "4b5d741f0f556847b0541c6e3abb8625d065a402990259d653d5f39f5d02b7e2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.33584910153877,
+        "quantizedColours": 158,
+        "dHash64": "9746c9587865776b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

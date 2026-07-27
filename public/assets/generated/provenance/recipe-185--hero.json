@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-185:hero",
+  "publicPath": "/assets/generated/recipes/recipe-185-creamy-mushroom-pasta/hero.webp",
+  "promptHash": "cf9477b3bdddcc0a7c54593e576435e16a097d778d8864535c432c809400341d",
+  "providerPromptHash": "8cf49d36cec02e7ffbb44a3811177503e3ae932c4f31e92856b0b51d8ac43e90",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e7399917-2ba0-49d9-8276-fdd614bc58dd",
+  "generatedAt": "2026-07-26T23:29:54.447Z",
+  "registeredAt": "2026-07-27T01:41:35.942Z",
+  "assetSHA256": "6314131081c36f3628ee8cfe190d2751255744e59d62dcfb77701c00f40c77f7",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "2e0096ff86460fcb803cdc2ef6aaadaed58bc2b8e6213d452c7098d7b8de02fa"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6689929268322885,
+        "quantizedColours": 276,
+        "dHash64": "121626f6c32bd7c7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The hero shows three servings of creamy pasta with abundant mixed mushrooms and a realistic cream sauce."
+    }
+  }
+}

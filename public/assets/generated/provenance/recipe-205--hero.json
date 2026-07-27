@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-205:hero",
+  "publicPath": "/assets/generated/recipes/recipe-205-cottage-pie-with-mashed-potato/hero.webp",
+  "promptHash": "64e819a67405f2e9addbd4341a9f781b6794b7c7505e13516db72e22ebfaf43f",
+  "providerPromptHash": "9f9acaeb4ac380918aa78b7fa7a8b8dcb3d43c30bf4c99c552117c82030472ba",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6d99868b-b460-48fe-abdc-6d0ea45e9fa7",
+  "generatedAt": "2026-07-26T18:21:11.827Z",
+  "registeredAt": "2026-07-27T01:42:12.225Z",
+  "assetSHA256": "4115aa1abb70b43ebc7ee0355839f659694f9f67f7be60d267bca57507a4e60a",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "0fcdd874092df724015ba91f92f02c45014ae9ae4e763fea3a0830ae6fad4d21"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.8369011496106395,
+        "quantizedColours": 396,
+        "dHash64": "f7cc1c162228b0c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

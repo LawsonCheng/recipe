@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-096:hero",
+  "publicPath": "/assets/generated/recipes/recipe-096-miso-glazed-eggplant/hero.webp",
+  "promptHash": "1b8ab85bc9336a1202082139750c6a4cdc0f843218ace4b70151e63a88c13361",
+  "providerPromptHash": "82090c5ac8758a8918f51f875699676dcdce60cc4407e98370f3d80a9cbb963a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-17004485-ee13-4cd7-821d-caa41c585454",
+  "generatedAt": "2026-07-27T05:08:26.042Z",
+  "registeredAt": "2026-07-27T12:59:59.319Z",
+  "assetSHA256": "3e347607458333f829c57516386d8c3453917ccbc82b404567899a8bd63fde83",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "1219ef8d65e9c07e272ab1422403270f54e27903a05d5477af89d99658fd54ca"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.846405443735421,
+        "quantizedColours": 364,
+        "dHash64": "f98cc6c7d9f5d9e3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three plates collectively show exactly six caramelised miso-glazed eggplant pieces."
+    }
+  }
+}

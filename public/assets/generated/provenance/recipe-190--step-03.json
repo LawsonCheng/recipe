@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-190:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-190-creamy-spinach-chicken-rice-bake/step-03.webp",
+  "promptHash": "4ab94d8e78c725046d46abb3e9bcbed6898e359caa24cb9c45efa974ff4b6eb6",
+  "providerPromptHash": "fad3260b264379b22735d8d72f06caa084f3013339ae4265a8cbd1a1f8631665",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a32cfb68-89ad-49d3-91fc-34aa6a837648",
+  "generatedAt": "2026-07-26T23:59:10.180Z",
+  "registeredAt": "2026-07-27T01:41:46.099Z",
+  "assetSHA256": "e92ab3af89c4d9a1bf9b3c374243f581e774ac2682925b7006d978aa7d5795a2",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "dbe9f6076822dced9f64c45f0d204ddd0418bcae422498b1c99b23683042b57c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.671316608510097,
+        "quantizedColours": 212,
+        "dHash64": "31cc962726be5ccc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

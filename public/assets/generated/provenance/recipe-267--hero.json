@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-267:hero",
+  "publicPath": "/assets/generated/recipes/recipe-267-chickpea-vegetarian-patties/hero.webp",
+  "promptHash": "6fce1ec06f4727c8974ce396cb633d3d57ae7723a86aacbf431437324ab060c7",
+  "providerPromptHash": "5bc4893f4771465d0b01a282242213eea5cd603fa331f745183a8bf429afe673",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_n21XKoqp41fXmNPWfo0MQE1Q",
+  "generatedAt": "2026-07-27T07:41:44.184Z",
+  "registeredAt": "2026-07-27T13:00:24.706Z",
+  "assetSHA256": "41ec088a9ac1ddd0d4d993903b0fea5694803904bee9ae0de672a7df8ed85b54",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "64518df941ec2faca2a343c0f4448eceb05544cafdbb75ae426d595c2c69ea2d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.607383736292832,
+        "quantizedColours": 297,
+        "dHash64": "7297d5618633339b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly six chickpea patties are divided two per plate across three servings."
+    }
+  }
+}

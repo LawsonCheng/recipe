@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-276:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-276-vegetarian-indonesian-fried-noodles/step-06.webp",
+  "promptHash": "28c33baac82381d50960d1e8ab7099715cdfbef1f5f1d6685e9f6473572f9bca",
+  "providerPromptHash": "377792b48e2463a92ab887935bff1db85a0d0c9107dddbc6367c23060602c96e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a72aa786-1575-458f-8e70-0f352d023436",
+  "generatedAt": "2026-07-26T21:50:50.275Z",
+  "registeredAt": "2026-07-27T01:44:21.411Z",
+  "assetSHA256": "eb00c785f47a19cd9c793d0156001a59e9bcfeb06addc55e06f7ff9f5c5bd03e",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "3c6c962b3b6f79ec35738ae72e2a87a3244643e263916f8ac65e35f35be1e818"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.437202231350966,
+        "quantizedColours": 271,
+        "dHash64": "c8499b1797afcdf9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

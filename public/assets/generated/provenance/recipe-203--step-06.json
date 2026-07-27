@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-203:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-203-honey-glazed-salmon/step-06.webp",
+  "promptHash": "815dcacca07f22c3fbe6c74407443446eb9ab3f0ebf109b7f0eed6270e49b617",
+  "providerPromptHash": "920ff19b8bfc7ac48cb9e1a1b7f3badcac507dcbb03ea854991f28c2113a000a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-574d9495-207e-46e9-a679-1f641f5d6fdd",
+  "generatedAt": "2026-07-26T18:11:49.025Z",
+  "registeredAt": "2026-07-27T01:42:10.203Z",
+  "assetSHA256": "4a118c89d593c3fad2674ac5475fcda4d43a7fb36a9a4daee14152100882bace",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "0dceb6f0ed48feeb9c6fecaadd09636d108470c1851eb5a5fff26bd64f2e37b0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.69838450482348,
+        "quantizedColours": 392,
+        "dHash64": "61fa7aebe9ede3a7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-299:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-299-indonesian-sweet-soy-tofu-pasta/step-02.webp",
+  "promptHash": "479bcee251bbe4da3f923183d785aa5b71a0d137c20e3998b81f2151f2ce50b3",
+  "providerPromptHash": "009294e529a43f84e65b1e8605ca9bbaa63a9e753b485d97a6983d315e608b48",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-66a5b0d0-3808-417e-b076-73aa387b7762",
+  "generatedAt": "2026-07-27T00:06:25.917Z",
+  "registeredAt": "2026-07-27T01:45:01.718Z",
+  "assetSHA256": "28309ed3e8459cde832ed4fc4d899f5b8ea6c6d2b887610987bb93d8623043ad",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "bc1fc06d70c7cae54d6cbf3940efca35c5e9b73d09cf3356f0b20497824bdef2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.380412250116933,
+        "quantizedColours": 176,
+        "dHash64": "bd1d1939786e6d4d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

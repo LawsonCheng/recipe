@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-236:hero",
+  "publicPath": "/assets/generated/recipes/recipe-236-greek-style-potato-salad/hero.webp",
+  "promptHash": "e4e52ad2650b1e53d2e1f89d6ba07798f9e6fccbb7ebcbc770abc10c86d9bb83",
+  "providerPromptHash": "8b1f4c70e5d16db19fab62d9605cc2a5eea0ee4d937abf53e49bdd02d53e52e3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f849dff1-a974-4ecc-affe-37586f016b36",
+  "generatedAt": "2026-07-26T21:19:41.043Z",
+  "registeredAt": "2026-07-27T01:43:07.594Z",
+  "assetSHA256": "fc12b08d535f950d786ba79355d68a22a04dedff9eae8b5fe8e3d3e4b31f41ae",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "3cd1d268290dc1609a694418e91cecd0e5b4057f7ffc32cf0fe35f38db8b551e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.560095291773905,
+        "quantizedColours": 428,
+        "dHash64": "4f971e5346d671d9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-100:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-100-japanese-creamy-corn-soup/step-04.webp",
+  "promptHash": "78f5dff83e493c29cd1f743d3d871a40b224905eb3e3ffce1e8e3c329f126e69",
+  "providerPromptHash": "aa09d280d34b4be2cc888c9ca075cee56b156b80670917455d7bcc311dd3ff44",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e713f66b-e726-415a-a8b8-5daa042249a5",
+  "generatedAt": "2026-07-27T05:14:17.456Z",
+  "registeredAt": "2026-07-27T13:00:02.037Z",
+  "assetSHA256": "4a000ffc7eac95de422cd0177c248b922defe9b1ac91385519508069b1ea3b2a",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "e23a3234944af9dd0b079def92169002c9bdf589185b16641badedc559faae69"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.371955562870426,
+        "quantizedColours": 134,
+        "dHash64": "3159c68f17938fcf"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Milk is being whisked continuously into a smooth roux in the Chinese wok."
+    }
+  }
+}

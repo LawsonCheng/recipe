@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-165:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-165-tofu-laksa-noodles/step-07.webp",
+  "promptHash": "63c07a8fa6a4438ad2117b6f39f08c8df32afa1ff9c6a87c069ff335ea4c69c2",
+  "providerPromptHash": "4d22589313478408d40ee164d28db69fca445fc2705d75d8eb2c799924649c53",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d4c215a7-8d61-41d3-a710-c6ad48293726",
+  "generatedAt": "2026-07-27T00:30:46.113Z",
+  "registeredAt": "2026-07-27T01:41:00.353Z",
+  "assetSHA256": "b715a1773c1972eb938e9da8682b3dc0a4252b99dd31c861827834d7c9cef297",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "2f9f68ba530638f885d2f48dd1a4f436f3c29de3a66e9cd47d2ffef052654f98"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.495470104331616,
+        "quantizedColours": 387,
+        "dHash64": "bc1c9787393913c7"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image accurately shows lime juice being added to assembled tofu laksa with fresh basil at the final moment."
+    }
+  }
+}

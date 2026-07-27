@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-248:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-248-tomato-egg-curry/step-05.webp",
+  "promptHash": "9b5c66815ae618fb8ddc5233f24bc6f8892761ab89b377a81f14acf204efa16e",
+  "providerPromptHash": "a321a9a80d16b2be9ac22dc736fd886fb57653c870db6f562dc503f18c85e595",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_kjwS2t3S12a6zjp6vFAJWjoO",
+  "generatedAt": "2026-07-27T11:44:42.300Z",
+  "registeredAt": "2026-07-27T13:00:21.635Z",
+  "assetSHA256": "a8ed43da8d88436cd095635926bc21a8b673fdb58a28629305740f421acccb5f",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "b5be06051296cea8b2fcaf02d9f94dc1f187fe6a79bd103fa7eaa15270c399d7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.46435219283012,
+        "quantizedColours": 260,
+        "dHash64": "f89a0f27333307c5"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly three slashed prepared eggs are nestled in the cooked tomato-potato curry."
+    }
+  }
+}

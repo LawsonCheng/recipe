@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-033:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-033-braised-ribs-with-lotus-root-style-vegetables/step-06.webp",
+  "promptHash": "ba41ab15a27d654608a01eaa6421e9fe5b36fb65451974bcf6f91a5d596b6da4",
+  "providerPromptHash": "05b7a8e2ca5110f6c7f31a467de23b144623e3be18cae02374f59aa7b05f76fe",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b7792cbb-892b-4137-8815-99e4641a7624",
+  "generatedAt": "2026-07-26T20:43:02.671Z",
+  "registeredAt": "2026-07-27T01:37:04.190Z",
+  "assetSHA256": "5c23afab30013533c1b7c324e1f86fc0921a510aa1d9f0ed7fd2797299063331",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "eb30b1f63b7ae6f71733a2612a9248b6b7a21c16f83cfc67f6633112fef6f2f1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.500325427632561,
+        "quantizedColours": 306,
+        "dHash64": "31e09e963a170f3c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

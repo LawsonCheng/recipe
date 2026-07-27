@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-298:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-298-mild-gochujang-meatball-rice-bake/step-05.webp",
+  "promptHash": "bc59d2a838c922b0505a772bdd3010cfaf29e2cd15149f15486f2fc41158c0ec",
+  "providerPromptHash": "a90c58eb79f97b032a213357fa4033c17e9f1828cded3ffc991675a12f53e100",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_4HTLmKLoLw0KLVpsm5akwoR9",
+  "generatedAt": "2026-07-27T13:26:15.000Z",
+  "registeredAt": "2026-07-27T13:55:33.389Z",
+  "assetSHA256": "cf7e1ba29eb56b7f0d48752ccca4c28c75d9cd8a6acb71f9d6b6a1b865f78506",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "45e895b0c1d32f946620ca570f3e817a26012dd1c072a562736a6b01261487ae"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.594333719462156,
+        "quantizedColours": 261,
+        "dHash64": "004547a9a9abd2a2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen image reviewed at full size: exactly 12 browned meatballs over sauced rice and Parmesan in a heatproof ceramic dish on the lower oven rack."
+    }
+  }
+}

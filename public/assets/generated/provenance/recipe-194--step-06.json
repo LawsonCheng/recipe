@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-194:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-194-creamy-pumpkin-pasta/step-06.webp",
+  "promptHash": "a660b61f17287e59635a99348614d7aebebc46d10e19d698c04f3dc38796da90",
+  "providerPromptHash": "19cdb3970121eca1f85c4a801f9cf2888ef64b1c5e06a780647823825f818a19",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6a004894-3c8d-474a-bdf7-8d691bd0ab98",
+  "generatedAt": "2026-07-27T00:25:01.887Z",
+  "registeredAt": "2026-07-27T01:41:54.336Z",
+  "assetSHA256": "dbeaa7ffc7ae788249f0dcabee5365479c352873a3cea0f05974129a83c76d84",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "ac1603e2819d335277e87387aebf40417896c5c1fd531537a4b33c1c7c3af0c4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.609070488731959,
+        "quantizedColours": 353,
+        "dHash64": "98920b1d1f4f9b6e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-251:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-251-indian-masala-prawns/step-04.webp",
+  "promptHash": "eff08364139f21322f5ca984eb530ccb340bd808edf8e444e6e6facdff053ccb",
+  "providerPromptHash": "2dd9685c4be3159bbfac251de65e875f634945e5e8517a1ed8c9121e1ac7671f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6eea7fd3-f714-4a2c-982d-972da9864ad7.png",
+  "generatedAt": "2026-07-27T05:12:31.866Z",
+  "registeredAt": "2026-07-27T13:00:22.151Z",
+  "assetSHA256": "80e6fa63667cd23e2f5137f9b4e4bcd01f96b512a6ce0cb5811c585a1cf09802",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "7851dbe4b6bd44c0fad1119f2f6b497773c9dd2adbdd8d6d4002dc7224e6da5d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.279985483837663,
+        "quantizedColours": 209,
+        "dHash64": "f03e0317170f0f06"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — thick tomato masala base reduces alone in the Chinese wok, with prawns correctly absent until step 6."
+    }
+  }
+}

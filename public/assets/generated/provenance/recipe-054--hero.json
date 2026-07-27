@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-054:hero",
+  "publicPath": "/assets/generated/recipes/recipe-054-napa-cabbage-and-tofu-stew/hero.webp",
+  "promptHash": "ad6d6eb804af08e1ed8daaee855ec3d7637d2f547ddb512bd743d8f7f29bebca",
+  "providerPromptHash": "f7a207f3c0883fdc8e25d82c269b7802fd83652dfb3a75dfba00ccf6111471dd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-141ec57a-0c2f-49e0-bece-24dea994cfac",
+  "generatedAt": "2026-07-26T22:34:35.305Z",
+  "registeredAt": "2026-07-27T01:37:38.698Z",
+  "assetSHA256": "d3c76c06f64e743983fae692e1e78164844136fc6f35687e861d777e82a1b7e4",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "eaa0985504f85455d99f32ac9cd5095dd526cc31c5417ad8443d895a15232d8f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.717028010070862,
+        "quantizedColours": 306,
+        "dHash64": "195373879f8b2fce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

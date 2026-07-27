@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-185:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-185-creamy-mushroom-pasta/step-03.webp",
+  "promptHash": "cff0b9ee0bd1510247aea81790873462621434fadb85f3ca4cd52bd9f8803d77",
+  "providerPromptHash": "21e69cdb7ec5cce20907230a8bcf989d3b8b077e1f5a6a7adbecf93d3a8f37f8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-229b8f81-2ef8-4d19-bce5-a1a2a6ba1779",
+  "generatedAt": "2026-07-26T23:31:44.001Z",
+  "registeredAt": "2026-07-27T01:41:36.695Z",
+  "assetSHA256": "5556c2892e69c2c1cd87a179a7216df1a51d056b4b5776f8684656333cb2dc70",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "3f80f0e6cca28071cc71c80fe2d9efe850d28aa265731e0bc8dda75fa7b86af3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.53584585734643,
+        "quantizedColours": 204,
+        "dHash64": "7ccf9f2f37239bde"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

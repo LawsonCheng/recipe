@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-198:hero",
+  "publicPath": "/assets/generated/recipes/recipe-198-italian-tomato-cheese-omelette/hero.webp",
+  "promptHash": "befdba26a825bca53ec69dd428060b1f60d996b6e7056e80f5ef621b035868b7",
+  "providerPromptHash": "6c52c4cc0da8fad9cb65c5e20ab3b4fb68c661db6b1d7809a10f7a159161c05a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0dfc9cd8-4139-4766-a8a5-61600b6288a6",
+  "generatedAt": "2026-07-27T04:52:49.566Z",
+  "registeredAt": "2026-07-27T13:00:07.537Z",
+  "assetSHA256": "34a66fdecfb5cb2692d7859074020d615e1adc94892f114f6ca87bbf17eaf1bd",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "e6b5ab7916d539830328c2d3e709e3cda612ce7722d1c0f7fad9388614d91542"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.586587200639769,
+        "quantizedColours": 443,
+        "dHash64": "7bcc43992a26b29c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three whole, uncut tomato-cheese omelettes are plated separately with realistic sauce and melted cheese."
+    }
+  }
+}

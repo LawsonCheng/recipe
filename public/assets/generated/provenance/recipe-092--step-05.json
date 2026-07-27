@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-092:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-092-beef-udon-style-noodles/step-05.webp",
+  "promptHash": "ef86f6061d729e32b1a8325237d64192266567273aef4336d5eafdfd38c9368a",
+  "providerPromptHash": "a52d6ecd3fc4d23709f6a2a2caeca82a5a654b2b2bc626ace1c7a575edc3c4c5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-23381026-6ac8-4770-afed-d0878c815d1a",
+  "generatedAt": "2026-07-27T05:07:32.000Z",
+  "registeredAt": "2026-07-27T12:59:58.560Z",
+  "assetSHA256": "979e7f10456ff30a5d2211fce3a31e4789ef2a53e0daf5995b9ab3d65946a1c0",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "e9bbfa14880097764980c19a9ec15f26f5dc02f26effd460ed76ac7b71eb2241"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.474671465875872,
+        "quantizedColours": 321,
+        "dHash64": "f7de8f0f2931258f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-096:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-096-miso-glazed-eggplant/step-04.webp",
+  "promptHash": "e3c7729680cd77b30a9a068b2c7526d9c63e92f47e8386a360a218116e3b667b",
+  "providerPromptHash": "7abc18bcc71a1db8bbf9abc68469f2f7bd591a3c802171671d47367bd896f224",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1cb43d19-7c3e-40e0-a79c-fd5736f9be42",
+  "generatedAt": "2026-07-27T00:58:55.392Z",
+  "registeredAt": "2026-07-27T01:38:51.508Z",
+  "assetSHA256": "cb1e1ef6cea5a498370e957438a507089ca06942738c40c78ebeddb82c01a6c2",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "677947e7b831e9e9c6e85156a29a3eb9b2e369aa38a7af5ad748fdc22713e885"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.2730035635322565,
+        "quantizedColours": 231,
+        "dHash64": "0b36963928787834"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

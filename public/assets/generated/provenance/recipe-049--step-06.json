@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-049:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-049-poached-pork-with-garlic-dressing/step-06.webp",
+  "promptHash": "8d9cf2a7da67f23f17bf445a819c60e25be39cdfd3199592b5555094e8745ebc",
+  "providerPromptHash": "471e74c556c0457175c8ffc4d82dffda1c87bb6cc10d8384c529bc2837ec130d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ebb5197d-c441-4d8c-a79c-27b63b964221",
+  "generatedAt": "2026-07-26T22:16:23.082Z",
+  "registeredAt": "2026-07-27T01:37:31.508Z",
+  "assetSHA256": "23ee7bcff1dc01bf1952334afba40de3a274f5f4d6e21a210c987b5c31c9b5b9",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "7b94a7c6eca291b59be9790967a21eaa0f44e449e58337f09481d5b35229e98c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.483993080561049,
+        "quantizedColours": 291,
+        "dHash64": "8c1b397575d5676c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

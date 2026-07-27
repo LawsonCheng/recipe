@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-131:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-131-thai-sweet-chilli-style-fish/step-05.webp",
+  "promptHash": "12c7ee6e29dec701f19b9c085aa0d5b809bb70765c070a2d3c12ce76a48ddf1f",
+  "providerPromptHash": "fc93c8c5f500b8dd7583fb8ad4389ca48fbb130de9f2d6ddc4c54864de76c099",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e0db22d3-36ef-4c13-9fb6-d04833c93fd9",
+  "generatedAt": "2026-07-26T21:08:56.658Z",
+  "registeredAt": "2026-07-27T01:39:57.330Z",
+  "assetSHA256": "1f1365158294e10ca567a4c7abec78aa9c7ec8494d6a25dc8c7a22e7cbe86232",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "5bb75bd0125263a4bc19e437e92b93f72acd2e82f781d1548df56af031ada91a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.506306656268862,
+        "quantizedColours": 249,
+        "dHash64": "b07c9f030b8f8f86"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

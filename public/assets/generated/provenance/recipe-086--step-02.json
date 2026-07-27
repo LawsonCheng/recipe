@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-086:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-086-japanese-ginger-pork/step-02.webp",
+  "promptHash": "3b4404c446e5d3a5b47c713aeb5e70f5bcd0defec3f2f43c60f6b79810f96ae9",
+  "providerPromptHash": "5a6aa190386e19635a8b8c6615e927aab8d9b48222fe0dc113ec6c90caa2195b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-756228f6-5881-449c-b02d-5025e9b61544",
+  "generatedAt": "2026-07-27T00:17:19.451Z",
+  "registeredAt": "2026-07-27T01:38:33.823Z",
+  "assetSHA256": "913a77d8130fb7e5794294cbe123d5b2b8b48d76f88f258fd819a3b89563eb39",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "57c8424c6816b0fe8c9d6d4092eb7f16d007cf10fd377f8ba2cf911fa6545371"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.847602084744722,
+        "quantizedColours": 362,
+        "dHash64": "5f7b0f0d8f9d47a6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

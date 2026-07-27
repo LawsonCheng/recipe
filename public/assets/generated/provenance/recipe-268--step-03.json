@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-268:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-268-spinach-mushroom-omelette/step-03.webp",
+  "promptHash": "a7f8250aca209829eca5a8d427742cc74c5982a7e3821371c730eee8bfb8250f",
+  "providerPromptHash": "f9768dbd5beaee2db397053b6610c14f700ef886c03baf243ac8c2f7b6c7560a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-df2948bf-cb8a-44db-8020-5fb64aead3d6",
+  "generatedAt": "2026-07-26T20:46:33.639Z",
+  "registeredAt": "2026-07-27T01:44:06.409Z",
+  "assetSHA256": "c2edd6f290152791be1547e8d709b89368774fff583e5ec753c76f40f132bccf",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "4295f0c7504df1b795225c7bdf5b74421fbe7b65e75da4fd3acc42f120ec6ddb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.683436370061827,
+        "quantizedColours": 283,
+        "dHash64": "d094a408d1191d0b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

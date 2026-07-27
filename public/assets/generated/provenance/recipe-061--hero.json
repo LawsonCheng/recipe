@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-061:hero",
+  "publicPath": "/assets/generated/recipes/recipe-061-mild-mapo-tofu/hero.webp",
+  "promptHash": "71dc7ab55bc5f3af421545494b18f0155a7dbd111ce6ff937bdf0421e69a45b3",
+  "providerPromptHash": "fe8b409033a4ae5498e62018c04f890ebb19bdd83ad232ad0aa5159238fd5618",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-072ac3df-4106-4bd7-bee5-d8c1807f1d83",
+  "generatedAt": "2026-07-26T23:07:00.147Z",
+  "registeredAt": "2026-07-27T01:37:50.524Z",
+  "assetSHA256": "b90e3c147fd3c74f76caa2c544982025c60dbd876ee59cbe153445fe0b535a7f",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "f4224a9b741fcc36aac563e6d332a1f5f9f99a0fef1f7c2dc25754538ced238b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.801955052522317,
+        "quantizedColours": 322,
+        "dHash64": "1b506685b6a6569c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

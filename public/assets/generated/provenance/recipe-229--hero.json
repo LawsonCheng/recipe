@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-229:hero",
+  "publicPath": "/assets/generated/recipes/recipe-229-middle-eastern-spiced-chicken-rice/hero.webp",
+  "promptHash": "4fb4653551b98f08434d8b73f887e94e511597cec725ff230e12849ab24626f7",
+  "providerPromptHash": "7cec2d5169e1322e8ad67444099c5309f211ace7f2950c47ba875b85256fe1f4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1c6e7f51-bd96-4dd3-86bc-e3ac685bc1fb",
+  "generatedAt": "2026-07-27T06:24:47.140Z",
+  "registeredAt": "2026-07-27T13:00:16.102Z",
+  "assetSHA256": "ac167d5ece632492a7458d485128c651c95d90b164b77f0b537095f9448e29f5",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "773561ffb6ba22e92b63d9a46a416a6f3b52a86e57b58535e36ca018cff13568"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.698769382710452,
+        "quantizedColours": 443,
+        "dHash64": "9ace8e99b4b2b9cf"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three finished rice servings use browned 4 cm chicken-thigh pieces rather than sliced whole chicken."
+    }
+  }
+}

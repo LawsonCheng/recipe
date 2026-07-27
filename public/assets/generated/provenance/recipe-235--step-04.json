@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-235:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-235-tomato-lentil-stew/step-04.webp",
+  "promptHash": "ac4dd5e228330ea8f2a9867d58e4fe3018d4bf3713bcca10986d1315003899a4",
+  "providerPromptHash": "99a8c1c71d5d549ac2d0c2c5b877ed96d83bf1433fca0e52163f0d63f2e45fa0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-161d28cb-841c-4804-8caf-813c7eb0cc86",
+  "generatedAt": "2026-07-26T21:17:25.004Z",
+  "registeredAt": "2026-07-27T01:43:06.817Z",
+  "assetSHA256": "80db4000b16be5470bdbe147a5f89f97ce50375e94ce3944bc3cea908842e22f",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "857ad6e9037ad66f7969c71341e47cc746a4f140f2878a15c8ca19d742fafd04"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.476560865121428,
+        "quantizedColours": 314,
+        "dHash64": "7e60ec0e4f020707"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

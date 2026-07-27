@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-091:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-091-japanese-simmered-pumpkin/step-05.webp",
+  "promptHash": "558b4979ff9dc0667d88aa76a7daee2ad1f2d718125f2ec38299efa993dc86fd",
+  "providerPromptHash": "0f6ba5e78c07901b36d03414bf72063de19e2a43939b1da33dd1bdd944746621",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-50286e75-7707-4dff-aa11-fdab43305503",
+  "generatedAt": "2026-07-27T04:44:03.250Z",
+  "registeredAt": "2026-07-27T12:59:57.558Z",
+  "assetSHA256": "37c424763a4e9a0f7d95b278f3ea954e8e678459bfbf0fd92ebe9e0615209802",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "191d05833d4be66f919538302edbce74fe5c4af7f0630b0ea652092c954427d9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.409579459515953,
+        "quantizedColours": 160,
+        "dHash64": "f03e2f072f078ea4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — a round parchment drop-lid rests directly on the pumpkin in the Chinese wok during the gentle simmer."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-025:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-025-crisp-preserved-radish-omelette/step-04.webp",
+  "promptHash": "594d09f2526bee30cebb738b8b8d01575f2b389c14c033600470680e004be16d",
+  "providerPromptHash": "e654f41a8479244d9df8d28067374574b3b5c499ddf78a066ddb3565489a4851",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a2591a91-e939-4089-95a1-796cc65707c3",
+  "generatedAt": "2026-07-26T19:55:09.703Z",
+  "registeredAt": "2026-07-27T01:36:49.899Z",
+  "assetSHA256": "7909ad6952ff87bf33056fb1806f2c5e8b3148ee6f7b6a2ce7d9decd9fae098d",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "2ede950d4d7d068697017cd1380bfd2fd24ac563d7fca37c74415f83beb56849"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5127289275988005,
+        "quantizedColours": 286,
+        "dHash64": "f93e6f67c94f1e8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

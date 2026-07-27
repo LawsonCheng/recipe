@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-190:hero",
+  "publicPath": "/assets/generated/recipes/recipe-190-creamy-spinach-chicken-rice-bake/hero.webp",
+  "promptHash": "5de38fd97fedeec81ee60a46c83367478d906c9ffd56d55dced1ddf0fd7261c1",
+  "providerPromptHash": "9d06a1ba34cbc3db35e8a82cc508d9b35620280ef86f8ad2128ff22e40b424c9",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ad8bea51-4c08-4e6e-8dac-44c5b930c52b",
+  "generatedAt": "2026-07-27T04:50:14.896Z",
+  "registeredAt": "2026-07-27T13:00:06.779Z",
+  "assetSHA256": "6cf802db6df59291409c0d386f4e805f1ab74d399b88bf8d8e4ab8155cade8de",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "3b2604e7d013d6c51ca0f4b60ebec76337ada9f2fa4b1a155be5020d900ae29d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.54440466791857,
+        "quantizedColours": 289,
+        "dHash64": "34a68e166353531e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — three real-camera servings show creamy spinach rice with small chicken cubes and browned cheese."
+    }
+  }
+}

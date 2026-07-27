@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-085:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-085-miso-glazed-salmon/step-06.webp",
+  "promptHash": "9438c477e2a5c764d4448f6b04adbec152c9432a232303f38e9ef14fb9b2b61b",
+  "providerPromptHash": "6e433f6ba93b460508d21c80f3ea344356f141b131e0bd0753cee27dc37c95e3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2c8ee392-87f3-47eb-97ab-5629f6e1f3b0",
+  "generatedAt": "2026-07-27T01:17:21.246Z",
+  "registeredAt": "2026-07-27T01:38:33.102Z",
+  "assetSHA256": "0ea58809192cc8bbc4ec3661b6887554eef7602b3a040c8bfe034bcab1bda9b7",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "6706b2b6b784c0d5617ebdc1f45100db31230d2238734e7dd7020b14a9cf6c21"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.701726098777726,
+        "quantizedColours": 470,
+        "dHash64": "0d266dcefef16326"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

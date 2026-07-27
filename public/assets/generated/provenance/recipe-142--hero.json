@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-142:hero",
+  "publicPath": "/assets/generated/recipes/recipe-142-family-style-beef-rendang/hero.webp",
+  "promptHash": "6fb50408221777a9453068bb049ee8d7bd8485a5ac7046fe40d9c11ba5a46d48",
+  "providerPromptHash": "4dec1d8ecf6ef7bbcdf7745bd1d03dbf7c0ff471ca7ff0d7502988a3e5733a9d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1fa91097-39be-4f9b-8528-a0c2de5296b0",
+  "generatedAt": "2026-07-26T22:08:36.289Z",
+  "registeredAt": "2026-07-27T01:40:15.841Z",
+  "assetSHA256": "a43b150bc6817ce07548f27e30395fc3548f20107390f15749150d032bbf1b73",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "70b5fc2b7ab630081b8e157cf49133a7e29c3636c1aea1046ebc4a2a81a5135f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.855197645025328,
+        "quantizedColours": 275,
+        "dHash64": "8c8ec3f9cdd57933"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

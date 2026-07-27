@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-130:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-130-thai-curry-squid/step-03.webp",
+  "promptHash": "63521648787407dbb2391c64718a76a0454a065f02a2c271b4c4a50adbe64924",
+  "providerPromptHash": "24a62ce855f45815834eed65e35d0b7ed1932ab33b11db420f6b28d9e19e7ab0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-618f6355-4585-45b2-aa11-10903bfb9441",
+  "generatedAt": "2026-07-26T21:01:37.870Z",
+  "registeredAt": "2026-07-27T01:39:54.860Z",
+  "assetSHA256": "42c8248386cb0e917d997804e5a4f83330948f8f542304c390cb5c3542abe919",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "27bbcb36ca284e1aa5a7984a457cd27a221ff76a4cae89b9164236cfe30aef79"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.644738726085052,
+        "quantizedColours": 161,
+        "dHash64": "f23839993831b069"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

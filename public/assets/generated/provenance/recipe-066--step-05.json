@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-066:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-066-dry-fried-green-bean-style-okra/step-05.webp",
+  "promptHash": "50f6230e27de598021a425a4b417cc0d6a5ef37dcff994307bb57ea9c0df4ee5",
+  "providerPromptHash": "a7d623c62120acacf4af28acdd16a1beba8cbd380c09617b35479cf291bd1487",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d910e753-8989-4dbc-8c2c-33970e335c52",
+  "generatedAt": "2026-07-27T04:50:09.281Z",
+  "registeredAt": "2026-07-27T12:59:49.536Z",
+  "assetSHA256": "59d1a3512b719cb5291f561316308510439ecc6298aa83cf1140de1dcc608aff",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "373c8e765d545880cbea62c39545c27c7e1d545f477a024b5963d402da797bd5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.1303251553326845,
+        "quantizedColours": 247,
+        "dHash64": "f191810f3b9f8fde"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Browned minced pork, garlic, bell pepper and nearly dry seasoning are shown without prematurely returned okra."
+    }
+  }
+}

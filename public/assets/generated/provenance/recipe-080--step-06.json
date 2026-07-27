@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-080:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-080-hunan-tomato-egg-with-mild-chilli/step-06.webp",
+  "promptHash": "2fb1c0fca76308aa8d103a6d420ac3d82037f27cf54462495a543091e961bfbe",
+  "providerPromptHash": "97401f4e86ebc95659be2bbcbf8090b8f154827bad78d4081c0c0260cc0904b8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-657acf36-3b73-48ff-88da-5bf22425b498",
+  "generatedAt": "2026-07-27T00:50:35.763Z",
+  "registeredAt": "2026-07-27T01:38:24.527Z",
+  "assetSHA256": "6965713639cc94998e59d2029f3ec6db79c066f89010e4792d8d5fb4dfbd01cb",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "5bacbe20ffa939376e3f05f9119c9ea4edc231bd16932782a02b84c9c1352970"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.633285133226309,
+        "quantizedColours": 484,
+        "dHash64": "e0c1010b170b97fc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

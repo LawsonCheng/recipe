@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-068:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-068-family-style-mild-chilli-chicken/step-01.webp",
+  "promptHash": "d5fede5bd3841ed1f713e36983703b748822caa4cf52b1393439703702031cd5",
+  "providerPromptHash": "bd55390e446296ffdd77cc3556bcc1b6681f0d25b687489e4a953e9902fad789",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-54c8aac2-695d-4315-9957-3e350973f80e",
+  "generatedAt": "2026-07-26T23:47:00.945Z",
+  "registeredAt": "2026-07-27T01:38:02.793Z",
+  "assetSHA256": "e25a31478c115372707c611440c50477793bb3d237ac7b34a448143e4cc29e86",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "039c7c690f40ebbee647a4c6aa05152878ce1414d071221326c268b1d190e8e5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.591864794536377,
+        "quantizedColours": 378,
+        "dHash64": "c6931999cbc595b3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

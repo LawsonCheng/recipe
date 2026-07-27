@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-012:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-012-steamed-spare-ribs-with-black-bean-sauce/step-06.webp",
+  "promptHash": "baf45e499da7241c3c561c2b5403ce33bcf55d95cc7433d354d41a7c582cf39f",
+  "providerPromptHash": "cf3a0e50015ac6a6e1eb5239983ee53f888d70cc4b9edb60298a2dae2658b096",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f4081b9d-a4ce-4ce5-85f4-03ba3831b1fe",
+  "generatedAt": "2026-07-26T18:45:14.257Z",
+  "registeredAt": "2026-07-27T01:36:28.343Z",
+  "assetSHA256": "a92006f43ed4fa1c4eaacddb59c3d7245ba0f5a647efba8d0040153553c539cb",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "cbaea8d6e04e7fd72206dda2109ae9cc6926b8dc2362332d788ac20550b311d0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.790595379367005,
+        "quantizedColours": 251,
+        "dHash64": "08336ce6d26c19c6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-071:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-071-easy-sour-vegetable-fish-soup/step-05.webp",
+  "promptHash": "de32b12296144a2d3f7eb1c6d73eb9019a50d34e502b3f55692afaf530783893",
+  "providerPromptHash": "6aba43fec3865f23b34777248bc513850d03ecf52eb52b9d90ff6829c849cb23",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-532452e2-94f2-453b-a7ce-b9e17368a56f",
+  "generatedAt": "2026-07-27T04:51:49.000Z",
+  "registeredAt": "2026-07-27T12:59:51.532Z",
+  "assetSHA256": "13a5a8ea28da9413edd8b283494bafff4801b3b0d6325771287ae58c72dd8c60",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "18333d49d01216af2c1cefb91f26bf67d31174f6126439e37c60ff5b2d50fb0f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.45210590827628,
+        "quantizedColours": 235,
+        "dHash64": "e496171333130706"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

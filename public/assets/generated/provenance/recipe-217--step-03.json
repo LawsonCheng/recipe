@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-217:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-217-home-style-barbecue-ribs/step-03.webp",
+  "promptHash": "f2fc0bc9d6e1bba1a323e61976b2dbe8ca88b47c89a91ae94c785c4967ea7d90",
+  "providerPromptHash": "e4b03a736aa01085f64fadb8a130736741369893562877899094e306e7b8ba53",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a18cba50-ce37-4824-8c60-42d1beeef9f0",
+  "generatedAt": "2026-07-27T05:38:50.013Z",
+  "registeredAt": "2026-07-27T13:00:12.560Z",
+  "assetSHA256": "078582f7fc801bb6006f891e11f574d08c30156b3da1817f4d57dd0611990b17",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "be73aac8c486c299c0fbe913081900aff9028b0756bcdafd380ffd4e2aa75a6a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.580497467632085,
+        "quantizedColours": 286,
+        "dHash64": "1b939cea77427cc0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-087:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-087-family-style-okonomiyaki/step-04.webp",
+  "promptHash": "3467571db32934bdce5618b978c82dbc5d321f6fc3ad3509dc96024ec37be731",
+  "providerPromptHash": "1e92c61609d41ef8174790f4d84ca0dca0eb8194d8411341fb73675459e4a0e5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6ce6dc91-4061-4e1f-8b82-129cfe02f223",
+  "generatedAt": "2026-07-27T00:23:10.972Z",
+  "registeredAt": "2026-07-27T01:38:36.070Z",
+  "assetSHA256": "2d48b1c60ea755a203e51770c16dc580d8e2a859591e6a5487de04f9e162ea53",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "70d69fb2e495d28871911b18e880641ca426bf3b911a6e9a53aa3499c926d6ea"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.472422170190839,
+        "quantizedColours": 209,
+        "dHash64": "0b70b6962e87ccec"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

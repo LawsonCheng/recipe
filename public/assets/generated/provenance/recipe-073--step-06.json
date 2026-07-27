@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-073:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-073-sichuan-pepper-style-shredded-chicken/step-06.webp",
+  "promptHash": "17c0a5be6a424f520a1e73c8233b151f9236857cc35623a53f84d7b3b8366524",
+  "providerPromptHash": "b44b61f2ff17e734a6f5b064444cc640da5db4d71072749fa301dc36962315bd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-af4891a5-6e47-4859-9468-70fd9833feef",
+  "generatedAt": "2026-07-27T00:16:24.074Z",
+  "registeredAt": "2026-07-27T01:38:12.531Z",
+  "assetSHA256": "810822a4b21c644678e14f3407d0a1036ba53dbb3f4e2fb2d29907d41a2c4980",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "dd60f721e8a5ff1950cceaa4ecd2130367ef078e942f0039e29dd9dcf56438e1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.609955551190069,
+        "quantizedColours": 250,
+        "dHash64": "c74f1331796d33cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

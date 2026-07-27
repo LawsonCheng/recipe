@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-184:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-184-lemon-butter-salmon/step-01.webp",
+  "promptHash": "f38d1951d43a6e6b21df1a0335eb1aebcaf9b6d89eeeb29f7c8e5ed32e6dd9e1",
+  "providerPromptHash": "2d248a10f1f20d325a7d113acc1cb3e7e72fdcb7e150a70cb60c87710081a457",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-91eafa86-044b-42c3-aac8-11f15d03de42",
+  "generatedAt": "2026-07-26T23:26:09.418Z",
+  "registeredAt": "2026-07-27T01:41:34.441Z",
+  "assetSHA256": "af302aa1034e5fffdc4acc132f93fcd9617e4a22829284aeb3b649d92825f003",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "8b5f445ebea395eafe556996826821239e35086e448da5039e84cb3f3dbfce64"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.584965413727332,
+        "quantizedColours": 504,
+        "dHash64": "fd8766e1f2d2a067"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-129:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-129-thai-minced-chicken-lettuce-cups/step-03.webp",
+  "promptHash": "dbaf40e9e31895d46c59bd96e0350289a68d4c1ee202571b462cfd318f26b6bd",
+  "providerPromptHash": "533b912c6d52f69a0d975d9f209976b771408e3b9bff94c7785fdcc603edba00",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-25a423f3-827f-44ea-88b4-b7ae90a8ca1f",
+  "generatedAt": "2026-07-26T20:56:42.547Z",
+  "registeredAt": "2026-07-27T01:39:53.118Z",
+  "assetSHA256": "6af621b7642edc5f8429ace892c8c84ab7c92dc0722bd855493ea2a25116f1ad",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "0c1b70238a4b66738be915054371da43c7ab7803e0ad2b78009fc64e5d2ec79c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.613516884935962,
+        "quantizedColours": 140,
+        "dHash64": "7ede8f0f2b1b1fc4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

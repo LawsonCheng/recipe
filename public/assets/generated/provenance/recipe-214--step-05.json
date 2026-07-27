@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-214:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-214-herb-lamb-and-potato-stew/step-05.webp",
+  "promptHash": "34fabb09e375644c80c275015f7edb3856d5a97e32e773490529bf04cec36890",
+  "providerPromptHash": "8c68117bd63bca53956ab351e2568a0bd491ad315ef33449d8223b0578bb3e26",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2647def2-624f-4205-9b49-a9787ac53a2b",
+  "generatedAt": "2026-07-26T19:13:42.949Z",
+  "registeredAt": "2026-07-27T01:42:29.395Z",
+  "assetSHA256": "a4bf756767f9f1aca9d11fd6246d6ef3ae6291ec7daff75e668c49945c737eec",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7d58b051bf645dd7d3b1e85fd0e09718a9f58c48dbe36782d89c96b83979098a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.557630359166069,
+        "quantizedColours": 231,
+        "dHash64": "8c93e141132182c4"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

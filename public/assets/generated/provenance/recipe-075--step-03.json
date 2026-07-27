@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-075:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-075-hunan-farmhouse-pork-stir-fry/step-03.webp",
+  "promptHash": "de272137d319db9136ff02d521581d6a489b6ac200256f8f36298370351444d0",
+  "providerPromptHash": "2768e1dd2ae06459cafaa84bcd6dd8234a4d747b40b4170bb1ae3a38713cd8fc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3d1af91a-c46a-4e6f-a138-80d69dd0aa05",
+  "generatedAt": "2026-07-27T00:22:03.698Z",
+  "registeredAt": "2026-07-27T01:38:15.199Z",
+  "assetSHA256": "4b412fb029d74d5bce94befc288f1133733ede9f621b0b564ff857fe3540af56",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "fa5be9b2202947ea5c636d3785dca4546addf0af532af6796608ff070eba14bf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.303687297506258,
+        "quantizedColours": 205,
+        "dHash64": "e7a61d151f8f0666"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

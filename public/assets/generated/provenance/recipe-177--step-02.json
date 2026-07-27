@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-177:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-177-cambodian-style-lemongrass-fish/step-02.webp",
+  "promptHash": "4cdafc3693285263db4af169c63111e04c98a9fd93ae0193efcf55a55bfd1e33",
+  "providerPromptHash": "8bf6f4655395219601a7bdd60ce7e5c9975d86fd4089216cfbc8ac4495c9826d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d5cb5164-24e4-45b9-829b-ee10fdb245fa",
+  "generatedAt": "2026-07-26T22:48:34.369Z",
+  "registeredAt": "2026-07-27T01:41:21.457Z",
+  "assetSHA256": "22965d7e71337188e8bfe74bddcf514de09d53f60529e88c9616ca00c272899d",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "41a898a757b5c2eb34cbeb7f0c610b6f8390d5a5ff72f4dfd5b5a6b2d0966aa0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.603036576969316,
+        "quantizedColours": 260,
+        "dHash64": "f19e1c0f2f160644"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

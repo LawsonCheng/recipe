@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-270:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-270-eggplant-mushroom-bolognese/step-02.webp",
+  "promptHash": "568fe7ff6db59ff82e5cffaefa4db7ac7ffa3a29ee3f3ae0d7dfd48735d58b9e",
+  "providerPromptHash": "2648d4f219fb5813f47fc6aea7dbd687678a36cec824701febf9672049be4145",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d789c6b7-c5da-41d5-bd0c-037649c28e86",
+  "generatedAt": "2026-07-26T21:08:40.188Z",
+  "registeredAt": "2026-07-27T01:44:09.733Z",
+  "assetSHA256": "47a48959351dac3e51ed0ada3d7f230a6eb0cf8b2b43b7a73d136c40cc6443d9",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "52c29caa327a5e9c4fb14ea3efe4d1ef3a1204f619b23b1b192d398cc7497ea9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.645227187254932,
+        "quantizedColours": 198,
+        "dHash64": "a2c3e6e66763631a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

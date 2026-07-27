@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-064:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-064-twice-cooked-pork-with-cabbage/step-02.webp",
+  "promptHash": "9820687ac222695df1c9e339104e02e750025d44f133662c073b2aae97bb069e",
+  "providerPromptHash": "8a752f903b80cb78866732d2c32a56229d4276e1c4b6debd2b5359f8ecd1b705",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-be2071f1-2745-453d-a081-0ce50883a2de",
+  "generatedAt": "2026-07-27T04:50:08.798Z",
+  "registeredAt": "2026-07-27T12:59:48.267Z",
+  "assetSHA256": "fdead67795efb39abc364f19b68b1db27519c4088462d0c64b181901ff617e45",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "2185eaaefad5524906f1f57e9b10d23b989eabf45889586affc3a0ac60fb2c62"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.843103056540713,
+        "quantizedColours": 505,
+        "dHash64": "3f3b0f8c1e1e168e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Thin chilled pork-belly slices and separately prepared cabbage, bell pepper and garlic match this prep step."
+    }
+  }
+}

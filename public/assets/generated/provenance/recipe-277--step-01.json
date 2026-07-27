@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-277:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-277-potato-cabbage-frittata/step-01.webp",
+  "promptHash": "d623d912a50834a2f8fc455c6440581a5dc2c5fc65fc6af6e0fc111a9ddc46e5",
+  "providerPromptHash": "00b10946960e9ed73819b741030a224e29ea0d38ce35ed7447e241271bfd6587",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9bd7ab56-0cf1-4558-b142-46c3f2c3af59",
+  "generatedAt": "2026-07-26T21:50:50.598Z",
+  "registeredAt": "2026-07-27T01:44:21.927Z",
+  "assetSHA256": "d8705cd4357f07a327162848c41c776ce3a5173ff2afae35373972fcde99acdc",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "7a13e306a64e69f10b8990736874919706e494b93167bcb8e0c31128e8280ace"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.735958173405379,
+        "quantizedColours": 359,
+        "dHash64": "0707276e6666e3c6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

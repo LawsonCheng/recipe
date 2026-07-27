@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-247:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-247-family-style-tandoori-chicken/step-03.webp",
+  "promptHash": "aacca542733057f28967eaf8f98058250e6e764f8f7588cb6985a69325dfd658",
+  "providerPromptHash": "3539b2202e075bb92acd04faaf3f552b3cb15a4770b85d40b6d023533811f750",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ee7e6d5c-e056-41ac-8f95-bf908492386c",
+  "generatedAt": "2026-07-26T22:21:44.058Z",
+  "registeredAt": "2026-07-27T01:43:28.174Z",
+  "assetSHA256": "85ec2b65103e41e923470c2e8bd3f3ec80c0956404df40b757bd8e2d82534c48",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "bf1ed353d02a7dd7274a11041ea83d9c1f000ec1ceed9ed1acb54a0bb75bb758"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.645984609611332,
+        "quantizedColours": 277,
+        "dHash64": "c3c3869e1e97c6fe"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

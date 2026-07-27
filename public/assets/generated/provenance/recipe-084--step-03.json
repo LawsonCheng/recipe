@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-084:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-084-beef-sukiyaki-hotpot/step-03.webp",
+  "promptHash": "c97d26bcabe8086cd7e1f72fd193ca61301684db5ca41d8029d8a47a2e218371",
+  "providerPromptHash": "c89558ff3fd5a7099ab537a614081bef502d1450b6b8d75dfcfd5cd1a1c18bcd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-029fe640-2c96-4fe9-8f28-ba341465d8c2",
+  "generatedAt": "2026-07-27T01:11:12.715Z",
+  "registeredAt": "2026-07-27T01:38:30.677Z",
+  "assetSHA256": "235f1491f5a2092c0270a3641d923592d878bd6279b02e924a3d71b3f4d61c6c",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "f97fe9d693ae2042cb6dd4028b452b7cc22d04a8a9c88ad91e86c4432a90ad3b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.200761276646517,
+        "quantizedColours": 210,
+        "dHash64": "9d998b8c8ccd4669"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

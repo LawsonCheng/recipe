@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-138:hero",
+  "publicPath": "/assets/generated/recipes/recipe-138-thai-garlic-pork-loin/hero.webp",
+  "promptHash": "dc9ed35c20a7ba2bea1d133eaaa3ec511999681505a850bd638bd623b178774d",
+  "providerPromptHash": "daf3a4ac21c3c04f2d036dc7d251e92527ee6b617c41cdecdd87aa9005c4eedf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c454a4cb-e89b-4a3a-9a7f-b2d110a1ea96",
+  "generatedAt": "2026-07-26T21:46:04.791Z",
+  "registeredAt": "2026-07-27T01:40:08.634Z",
+  "assetSHA256": "099a3c9d598ee976ec4b6bef188fa54b6e668a093106d841b81cdb44f914856e",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "86628e40f65f784c0083bfd911580a87f8e2b4eb2d61165cd5ad02ff1f8e916f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.701727793406462,
+        "quantizedColours": 346,
+        "dHash64": "13ce92316cdcdc71"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

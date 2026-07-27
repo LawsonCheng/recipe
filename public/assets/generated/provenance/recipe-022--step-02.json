@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-022:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-022-steamed-pork-patty-with-preserved-vegetable-flavour/step-02.webp",
+  "promptHash": "48bee5c847c453594ee558660c0401bfc771dbf687abaaa36b02dba24d2142ae",
+  "providerPromptHash": "cf16716fef46d42bb2c16a1afc2636da5144d895276fb675494117501edfe4ee",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5d31d479-a8d1-4f5f-bf03-429994723bf4",
+  "generatedAt": "2026-07-26T19:43:06.519Z",
+  "registeredAt": "2026-07-27T01:36:44.308Z",
+  "assetSHA256": "2fab3da3f414cc1692ea10488c17b52fb2ec0d557cb45f67c0f304ebc7fbb6ca",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "5e4100eff5bad0d940882ab513d7a47e5e2d9c0d1e1a63d0f08774c0c263de54"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.635322932386771,
+        "quantizedColours": 272,
+        "dHash64": "998792f1e1e9737e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-165:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-165-tofu-laksa-noodles/step-04.webp",
+  "promptHash": "33efde4df9d873baf35107f222eca3b572fa9e3692a2ff370f27d4ca3d04ea63",
+  "providerPromptHash": "bb659d8d35f313b2de295c0dd089be27e2dab6a8d659eb66a81cf4f27f3ad502",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7482aabd-17d8-4a3f-9d1b-a2a6f903c7a9",
+  "generatedAt": "2026-07-27T00:26:46.309Z",
+  "registeredAt": "2026-07-27T01:40:59.624Z",
+  "assetSHA256": "97e035fc432bd9fec74d2d336ce8d9bfc710d589e1f63939536e7e70fafb8f52",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "7901546ddbae17bdecb76b8b3701e88007abd21382f5ee7ae440ef0b0fb92c10"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.480439430102706,
+        "quantizedColours": 232,
+        "dHash64": "71d19e9e3e160f0e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

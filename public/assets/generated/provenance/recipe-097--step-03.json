@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-097:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-097-japanese-meat-and-potato-stew/step-03.webp",
+  "promptHash": "c2fb8a326bb1907521c8fa30d77f1e8d6bd6b931b40fe86b2323eab84558d38b",
+  "providerPromptHash": "8aa8183e7380b059b98321d32e75463d05cbd8abab866a09f07ddb7ca501fc16",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-57f234ca-cb14-40be-a169-cd35c8dfb986",
+  "generatedAt": "2026-07-27T01:03:43.584Z",
+  "registeredAt": "2026-07-27T01:38:52.949Z",
+  "assetSHA256": "33e7a36af3685940d44d9340ffb1c92152f7aa916430f4b43b5bd7fa10bceb72",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "bfb50f0711b432cd2778add1bd1d8ff176e65172416139a263bcc3b7782e8708"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.256997673786827,
+        "quantizedColours": 253,
+        "dHash64": "f2ce8c8f0f2f170d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

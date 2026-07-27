@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-123:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-123-thai-red-curry-tofu/step-06.webp",
+  "promptHash": "0c2faeb8a5044d6ce7d0a81508d4676f74ddb58163cebf6cbef0d26b1d9a40dc",
+  "providerPromptHash": "a02a361ce7b00d04ee051fedbff6a93beeba4f29b87a9e25279d12d0711abe88",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f252858d-4a75-4844-882b-5b08ff0a5f76",
+  "generatedAt": "2026-07-26T20:14:45.933Z",
+  "registeredAt": "2026-07-27T01:39:41.985Z",
+  "assetSHA256": "84c12699e03a3db3a104578f3996c0a218343a81f22f001d506e50ae47be0428",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "17d887a96acc0d4dbd90604c67b97b62c770ae9c73f5456048e371212f2e3c6c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.557056385092437,
+        "quantizedColours": 325,
+        "dHash64": "1c9f869525b196de"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

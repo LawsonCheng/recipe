@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-071:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-071-easy-sour-vegetable-fish-soup/step-01.webp",
+  "promptHash": "8db61318faddc370df323cea15cb26f2f0acab773b822368ffba9a515a23faa6",
+  "providerPromptHash": "d06958d525a0f19d4d823527d47029b84ea44d6d1d6468ecba69fb7e9be01144",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c7efe030-106c-4dbd-bedc-91df7fe0e7ae",
+  "generatedAt": "2026-07-26T23:57:44.916Z",
+  "registeredAt": "2026-07-27T01:38:07.929Z",
+  "assetSHA256": "8bba353878a3b28653f1be2b5acaf6bdb3ad264e1ccc8c53818e644c94dbf049",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "880d81da7b449a7d889eade35dc370ac8bb402d0ee5f544e1cdf6320a17f5716"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.768381173504167,
+        "quantizedColours": 448,
+        "dHash64": "5323cfc7b34e8f6f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

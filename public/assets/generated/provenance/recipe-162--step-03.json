@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-162:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-162-singapore-curry-fish/step-03.webp",
+  "promptHash": "b58d8c11558828f42d035fe266c731755a7e3625bcf29cb02cd4a1f26cc656e7",
+  "providerPromptHash": "f81592bf22fb14369da33c06e10e12e43ae55fb49cca6df0fd2ce4691639c221",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-66375259-ad13-4353-a315-68aeca1d8732",
+  "generatedAt": "2026-07-27T00:10:21.857Z",
+  "registeredAt": "2026-07-27T01:40:53.840Z",
+  "assetSHA256": "d5cddbda9ce3e89fdbaae596e9e65cac3156d7c20c14f5f526f6a76a7b369e92",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "26531f1c0241666e9f2b618b03ee1391f507ba786d23ea36f389a201f6871bb3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.65289043517987,
+        "quantizedColours": 247,
+        "dHash64": "d7f0d49f9f97c6ec"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

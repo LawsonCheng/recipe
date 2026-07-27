@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-280:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-280-tomato-lentil-spinach-pot/step-02.webp",
+  "promptHash": "12dcce6564652f3c858941962114463f9062eb97475bdb7f37d64b16853a4810",
+  "providerPromptHash": "6a4791bb547b84a01029b5ab805b002704197dac92e0393461e8ab8c1fb491c2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e542917e-cd83-44d8-b0ee-e6a0b01e72eb",
+  "generatedAt": "2026-07-26T22:11:46.108Z",
+  "registeredAt": "2026-07-27T01:44:27.557Z",
+  "assetSHA256": "e32fd4a5ecc442e60125f19f1422db978f7e9450d084a630bddd10b15ed7ad9d",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "eb87a2ccadc919c020b25691b854ec2a56835bc011f64a4b19834bc28121a177"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.35878037189832,
+        "quantizedColours": 240,
+        "dHash64": "f0dc9e132dae96c8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

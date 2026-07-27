@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-112:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-112-korean-style-braised-beef-brisket/step-06.webp",
+  "promptHash": "08ad32a797fbb808c2fc461f87588669713ee6703f4b0ab501cb26843cf3db48",
+  "providerPromptHash": "5117a2c1785ac9148fd3239399791369b5a8ee79191b83c6abc9823606673a3b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d9124b3d-d47e-42c7-a595-f847952741ec",
+  "generatedAt": "2026-07-26T19:08:01.405Z",
+  "registeredAt": "2026-07-27T01:39:21.279Z",
+  "assetSHA256": "051ac801c79e2f3f2518c988caa5e5259b2652780b1494bac620c42cf5c5de5e",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "6546b220a8a790335cc909d92fa43b18876ab55eab10d5db2bc5291f35fd35cd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.58446580535383,
+        "quantizedColours": 219,
+        "dHash64": "31f7b71f3b1f2b87"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

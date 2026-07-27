@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-006:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-006-minced-pork-and-corn-rice/step-02.webp",
+  "promptHash": "3ece190696e88b81c31673f12cb6dcffee18ba6e2bc2d7b0638292b0e9d12d28",
+  "providerPromptHash": "aa3e0b5d20329f165f3b69cc539f7f53c576eb0190689675edb1c7533cea11c4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b34d066a-d03b-42f5-b35d-bc205b1f6e3b",
+  "generatedAt": "2026-07-26T18:08:04.257Z",
+  "registeredAt": "2026-07-27T01:36:16.984Z",
+  "assetSHA256": "a4351d995deb900f66bed11daec68695a1f700d7cb7ae838b68bb7d56112ab1d",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "8e9d8c031cb391eb155ade91b7e6f7bed4b7625714ea376113abcf6e6ae7206f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.704889952961821,
+        "quantizedColours": 479,
+        "dHash64": "19617a392426246f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-228:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-228-lemon-herb-lamb/step-06.webp",
+  "promptHash": "af6b7d16d68f6920337dc9649b4c67d0c2320c7c01b792a5a3c23c428e0ad0b0",
+  "providerPromptHash": "6ad357f19659e78cce750eef8c05de878d1b822ab41a5f1076fed7f36fa0a8ac",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3d6d9b48-d46c-43e3-980e-ce733dce908c",
+  "generatedAt": "2026-07-26T20:37:29.625Z",
+  "registeredAt": "2026-07-27T01:42:54.813Z",
+  "assetSHA256": "18e6e746a08c9ba0cdab8ccdadc5a159aef0d8df54b94c53a5cd4932b8d845cf",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "e5863fd1cb30fe9c888b7088deb18e6e18813c245e61815cc6de969fd36510aa"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5640301667226595,
+        "quantizedColours": 286,
+        "dHash64": "c3974c9b39694f1c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

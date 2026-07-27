@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-250:hero",
+  "publicPath": "/assets/generated/recipes/recipe-250-coconut-pumpkin-curry/hero.webp",
+  "promptHash": "3dd54129faf52046650b57c610ac6113852b6bb633410fcae3743f55ffcfb136",
+  "providerPromptHash": "a92b2d21e9b61ced2dae9216659dfacafaf02b3e473cd29256ecefdc8aaf2cd5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d686ef8c-55c6-4101-8518-77e1b7bafdea",
+  "generatedAt": "2026-07-26T22:36:01.082Z",
+  "registeredAt": "2026-07-27T01:43:32.957Z",
+  "assetSHA256": "340a331d75114ecd647fb03186f8006d642bebc3cda661420519610adaa9aa10",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "5cfac9f66e01c8ea98d486410655ae4da577da5276e90ba75aa413321b2029bb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.63194183804444,
+        "quantizedColours": 312,
+        "dHash64": "b2d1358793932326"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

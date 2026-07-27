@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-082:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-082-japanese-beef-curry/step-03.webp",
+  "promptHash": "ebc5f4bd2261234f6853396464814da0a71a6d14026a8f66c24afc10d53c0149",
+  "providerPromptHash": "4789281cb11bb189dc18be1e3000d489cbd9f68812c76a8cc2373e6fa97bfc57",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b83da747-4f57-457d-9e68-d5a1b67972c2",
+  "generatedAt": "2026-07-27T04:55:04.744Z",
+  "registeredAt": "2026-07-27T12:59:54.282Z",
+  "assetSHA256": "8105cc24fe311f0e9cec92d33bf7f7993be5828b333affb4c801219052a4953e",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "5b2dd9267a73ed25f7b081430053b629849401919b530fdc9f023dea998ad781"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.3729017356236,
+        "quantizedColours": 171,
+        "dHash64": "6b6f2e0713178fc6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Beef brisket simmers in stock in the allowed Chinese wok while foam is skimmed."
+    }
+  }
+}

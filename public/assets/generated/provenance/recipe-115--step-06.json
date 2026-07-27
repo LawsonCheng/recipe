@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-115:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-115-family-korean-black-bean-noodles/step-06.webp",
+  "promptHash": "796466cc81e32705bc595d69a61f4cf17072680afdc7d1065f6c9ef3eb8c6248",
+  "providerPromptHash": "072a96e6aae25fb9f27bd84982cf10de08ddadeb5bf5d759ff9f41d50a4cab4f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d19414e1-90f7-4d27-9c62-40554fa482b0",
+  "generatedAt": "2026-07-26T19:27:00.256Z",
+  "registeredAt": "2026-07-27T01:39:26.934Z",
+  "assetSHA256": "fcfeadea983d968dde437f620f9e024856b75dc815e65989c24c66768da44e26",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "b575963eae70f42c240ecda1f872082de51dfd28c225153bcace29e8b9d138ed"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5034601986117195,
+        "quantizedColours": 193,
+        "dHash64": "093c3b9c9d98ccf2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

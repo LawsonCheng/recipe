@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-266:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-266-mixed-mushroom-tofu-pot/step-03.webp",
+  "promptHash": "9af325a882af5c2e6c724b202538a20d1848b267d918e607cf4190cc9340b435",
+  "providerPromptHash": "4954054d291bface5800c2543a597114f4125ae7719357d476381ba0147a351d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7acde932-18cc-4b2d-bdfa-0bcf7c719b47",
+  "generatedAt": "2026-07-26T20:32:36.676Z",
+  "registeredAt": "2026-07-27T01:44:02.582Z",
+  "assetSHA256": "962df51d7c83d9f30d0f56fda22f64d88fa7ccaa0a6f230a3e731c5493c70163",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "59a862701ae7c21aa32f640aa6b224c03e6ae0d75a997f8d80353253f39c24cb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.453066137997666,
+        "quantizedColours": 191,
+        "dHash64": "9f3e6b4d652587e6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

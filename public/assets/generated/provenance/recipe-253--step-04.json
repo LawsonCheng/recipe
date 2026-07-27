@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-253:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-253-indian-spiced-baked-fish/step-04.webp",
+  "promptHash": "ece421ccf022edde556e40afd3a2bb66adf314b136c15a37091f0ac446688e19",
+  "providerPromptHash": "8a26a6508a6d2197cc71ef912bda5c1b7555205372fc529de546456d5b6210e7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-39a69d08-c0ed-4cda-94a4-af2b37dbe611.png",
+  "generatedAt": "2026-07-27T05:12:32.090Z",
+  "registeredAt": "2026-07-27T13:00:22.681Z",
+  "assetSHA256": "6d8a86ee80e1ea84ef6d49f29e9e7212e0c5628df55b577d203232187dcfc61e",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "0eb7bb84d4d84b1c5df09264f8ad3bdc39c38a8b673139cb8c2ef746f4b20bad"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.650084116903599,
+        "quantizedColours": 236,
+        "dHash64": "e2e6c39594ec407f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly three raw fish portions are coated once with spice mixture on the paper-lined MX2 tray."
+    }
+  }
+}

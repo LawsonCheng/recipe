@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-087:hero",
+  "publicPath": "/assets/generated/recipes/recipe-087-family-style-okonomiyaki/hero.webp",
+  "promptHash": "fa0068dbf364218fc5197782d969242ad05b24f90c60bf263d2bbafe53faf044",
+  "providerPromptHash": "fda1c7e896d646fff4dbad04dbcb092ed8f4127671afa5e335fb0b36d464df0e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_ifx131RYxpyyj4dWwt9E3vhQ",
+  "generatedAt": "2026-07-27T13:22:19.000Z",
+  "registeredAt": "2026-07-27T13:55:30.950Z",
+  "assetSHA256": "6e07e407cceb6609af8160bd89422da013b5bcec00f729dde2e9fff432b77e55",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "f48caeba9ea1bb113857a2f1151685b4cd342c3c40e530146bccee8d3a2fe7eb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.77989403376705,
+        "quantizedColours": 363,
+        "dHash64": "8c3741486841238e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen image reviewed at full size: one photorealistic 20 cm cabbage pancake cut into six wedges, finished with spring onion and no unlisted sauce or garnish."
+    }
+  }
+}

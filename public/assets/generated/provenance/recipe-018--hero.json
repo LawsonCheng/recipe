@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-018:hero",
+  "publicPath": "/assets/generated/recipes/recipe-018-char-siu-style-pork-with-scrambled-egg/hero.webp",
+  "promptHash": "ae70ae3831e8b888fc886a43fe8d75cb8bdb64b108a4cc26532171f55e90397f",
+  "providerPromptHash": "71468a43c9ccae476527e8d3888e93412e1ff26f968354d5bb7954068491a748",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ad2472f1-d6cf-4213-b2cf-ad4e18cf359b",
+  "generatedAt": "2026-07-26T19:17:41.795Z",
+  "registeredAt": "2026-07-27T01:36:37.036Z",
+  "assetSHA256": "09da2c44762dabafbbfa9be3833cf440f18761d02dffe7ac11118badb4483aed",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "ada68a6fb0f8506969c463de69a68c823199dcf994f425d0b1bed67ae550405e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.762594832063769,
+        "quantizedColours": 411,
+        "dHash64": "b69c3e664246621b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

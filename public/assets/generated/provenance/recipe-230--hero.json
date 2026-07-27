@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-230:hero",
+  "publicPath": "/assets/generated/recipes/recipe-230-tomato-chickpea-egg-skillet/hero.webp",
+  "promptHash": "67fb0a688ad478b5cf53f58199c588596ff7f048c3ed3a0f1d2abe6ac9d9cf10",
+  "providerPromptHash": "efd2a9a93a0044f68c17aad6dceaf7ffb9485dd24932ab1704d45b1ef25d21c3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a6cb6c3f-e30c-4331-a461-98130a537bae",
+  "generatedAt": "2026-07-26T20:42:47.517Z",
+  "registeredAt": "2026-07-27T01:42:56.858Z",
+  "assetSHA256": "14f60d785f21543cd040d000f6a558485c3dd910dbec4f7f862aa35de841294f",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "eaa1a8bc73156300accbe063bc24627d7824842b3b7263a7760f8aeff52bbd06"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6121448474004865,
+        "quantizedColours": 431,
+        "dHash64": "23cc863626268de2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

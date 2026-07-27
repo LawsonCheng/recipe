@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-016:hero",
+  "publicPath": "/assets/generated/recipes/recipe-016-egg-white-and-mushroom-fried-rice/hero.webp",
+  "promptHash": "7482826044ab9404f283f7b40227635cc2f85ed69bc7ac241f3f0370394e2bd9",
+  "providerPromptHash": "1ca262781c3edad72942b72eb64d199acc855fe01c2628f160e0c492f4bd75f8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-08731e39-5d09-448e-a656-680100ed0a99",
+  "generatedAt": "2026-07-26T19:04:20.206Z",
+  "registeredAt": "2026-07-27T01:36:33.629Z",
+  "assetSHA256": "54372cc7a9026c554e93ac04b5da8531d24ae02f78a3d1994763d42691495d84",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "ad61a3ae78dbe9e722ab020d2dc8bf78262fea61df31976ba884baaf6682efa2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.69766873770277,
+        "quantizedColours": 290,
+        "dHash64": "31b4358622223292"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

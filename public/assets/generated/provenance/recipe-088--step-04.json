@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-088:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-088-japanese-karaage-chicken/step-04.webp",
+  "promptHash": "6766b7d72b134ef42484b65a873cfeef849cc144126e92234c4ab65644935834",
+  "providerPromptHash": "8c8151e53c28bb5183089790f7ad56ad3d8244bc309a69fc691d5e553e0e613a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c26f4020-5f9b-4fb9-a7b5-b2b6b8c1ae70",
+  "generatedAt": "2026-07-27T00:30:58.473Z",
+  "registeredAt": "2026-07-27T01:38:37.803Z",
+  "assetSHA256": "618336ea355b01e69d77e0f959138ec6ca23b9c0eb263cf69e5f5db7c733c898",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "629a6c2a0e7a008d1a72ffc8bccaac25ba32f405c3c849d8b0c433e3cb7c4056"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.64219232625328,
+        "quantizedColours": 299,
+        "dHash64": "969064cc2f2f1b2b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Noether",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:52:47Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — The Chinese wok contains only residual bubbling oil and no chicken; the full pale-gold first-fried batch is together on the draining rack, accurately depicting the state immediately after the final first-fry pass."
+    }
+  }
+}

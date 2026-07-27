@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-010:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-010-satay-beef-vermicelli-pot/step-05.webp",
+  "promptHash": "eaa1274c679e5c7fc5ff1e601615654467584a62625abce45453f2d8eabc15bf",
+  "providerPromptHash": "b0f3502f4fbe9afad87eedebdf9ae9f1136bd3666dd30b7f390dcf21685c0acf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-91eb43e9-2121-41c2-bbca-8f5cb71b2f93",
+  "generatedAt": "2026-07-26T18:32:56.099Z",
+  "registeredAt": "2026-07-27T01:36:24.507Z",
+  "assetSHA256": "bf4cf9a4b6590db839563a55fbf33b778be3ecbab83253b22a8c7b1609b5d1f3",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "acb874c445343ebcda94dbf83663d7b9164e8e56113487dd9ab21f490fe7d36d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.428382664336823,
+        "quantizedColours": 204,
+        "dHash64": "bc1f0f0f1d0f0f86"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

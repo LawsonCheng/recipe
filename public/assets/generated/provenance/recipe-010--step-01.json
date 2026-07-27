@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-010:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-010-satay-beef-vermicelli-pot/step-01.webp",
+  "promptHash": "ab63e81cdddceee0edce2a8863f371081343393dc6d3210eea38b94797c1076b",
+  "providerPromptHash": "cffe7d6898eccb4b0d884521e8d69515041e0f5e5b72e519e5bd702cca867b8d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6c4a472f-0903-43f4-b406-167facc54b69",
+  "generatedAt": "2026-07-27T04:31:48.000Z",
+  "registeredAt": "2026-07-27T12:59:37.345Z",
+  "assetSHA256": "460dede78c84944e86d931ba0f8073fb2629123e9b59a2d36ec8d92c297a9408",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "343952575ad3b6d0e9c2d96ccce9983ae0f2e5eaaefe333d7cc9e5fc9cb3a2db"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.242936329004806,
+        "quantizedColours": 115,
+        "dHash64": "68c88e1f071f47cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Rice vermicelli is genuinely submerged for the room-temperature soak in one current state."
+    }
+  }
+}

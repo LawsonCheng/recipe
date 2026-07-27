@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-208:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-208-crispy-baked-pork-chops/step-01.webp",
+  "promptHash": "050bf2453741238dfecf89e95fb18939b8b56c4cdbdb4e35008c9b73d93570eb",
+  "providerPromptHash": "89471ec80cb5bc69852e1e3f5283fe4a9787bdbcd7dd68e621f63760de463f5d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4ba9a257-0273-4ec9-a164-586e7ddca434",
+  "generatedAt": "2026-07-26T18:38:03.878Z",
+  "registeredAt": "2026-07-27T01:42:17.749Z",
+  "assetSHA256": "7500009050546a4b8561d6b6564c0c64e545a830c404402245c451e15492b20b",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "e1e24e8bedd13c7fe93ebddade2352621bf7890f15a70c071584f89e8617d3f8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.391551366541535,
+        "quantizedColours": 342,
+        "dHash64": "616565c6d2d3dbdb"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

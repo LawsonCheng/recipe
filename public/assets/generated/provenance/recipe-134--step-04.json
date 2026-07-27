@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-134:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-134-thai-carrot-som-tam-style-salad/step-04.webp",
+  "promptHash": "9971d3734ee13de5504f1ed5d8a67bd10c1c983d5393b848aca17ca025987320",
+  "providerPromptHash": "239f6862a581a49c672f3fdf5b67bf0aec851727322f06ef32bcdafa1e3144bd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b921a2a3-f2c6-4078-a2d9-4b348708116f",
+  "generatedAt": "2026-07-26T21:25:42.398Z",
+  "registeredAt": "2026-07-27T01:40:02.470Z",
+  "assetSHA256": "26763a7390ca62434b0cb2fd4188a04fd5bec830839dbce56ab91425b3082c69",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "20bd8c5f8fa899a71d5c630163e61394e0acb8704f33ea7020ef7f9145ea485a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.188226112601114,
+        "quantizedColours": 301,
+        "dHash64": "f392123b138f537e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

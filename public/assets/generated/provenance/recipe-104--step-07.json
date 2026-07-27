@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-104:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-104-korean-vegetable-glass-noodles/step-07.webp",
+  "promptHash": "fa7fa637237507c98efcabe1b24f1d67a53720f14f2cdceedec40f622b7db77f",
+  "providerPromptHash": "2d0e4af5fb936cabe9eca457e85fae71133a92dbffd7874febe9a3c176fa2d46",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-aa769150-b95f-4098-8ad1-69976eea6bd1",
+  "generatedAt": "2026-07-26T18:17:31.461Z",
+  "registeredAt": "2026-07-27T01:39:06.217Z",
+  "assetSHA256": "569eecf7e7f359e8f4cc0551f9036ba868349b3e6eb66cb9b2c3012716fc187d",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "023fb7b66f54ab5cd4f02a451b77b559aac04d4b4a7da9789490574d48a60370"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.639302951400168,
+        "quantizedColours": 436,
+        "dHash64": "db99839f169bcafc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-144:hero",
+  "publicPath": "/assets/generated/recipes/recipe-144-nasi-goreng-with-chicken-and-egg/hero.webp",
+  "promptHash": "d6737cbe2bdd18f55e71217cb7b1fc7036e72403c5f6737db3ea3f0b80776466",
+  "providerPromptHash": "e65964bde3ce745d2ac4b18a0bef5d494a4ae3e1b02f97c158da4d2d52d700f4",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-80272de1-7d8c-4db5-afa2-78e3861a28cd",
+  "generatedAt": "2026-07-26T22:20:44.812Z",
+  "registeredAt": "2026-07-27T01:40:19.545Z",
+  "assetSHA256": "2db6db4f78d9470924f2db327ba9f3b4de11f22a79eff1dbc6656d44e2ef1f5f",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "837374993314549492674576025232370acd82c0757d0e093577cca843cc7e11"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.627747314374574,
+        "quantizedColours": 351,
+        "dHash64": "30943096332b2337"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

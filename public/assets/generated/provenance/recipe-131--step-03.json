@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-131:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-131-thai-sweet-chilli-style-fish/step-03.webp",
+  "promptHash": "05164b0d0d76abca4e11d2cdcef064ef1644e5956aebb80ed3fcfecfc71feefa",
+  "providerPromptHash": "672001d2a697c272f66d014d4e71f4de720df23ebe7e69785230313e677e1494",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4361a9ef-4454-4b65-9520-9560845a49a2",
+  "generatedAt": "2026-07-26T21:07:35.221Z",
+  "registeredAt": "2026-07-27T01:39:56.831Z",
+  "assetSHA256": "c0c0972760fe04042ea984394d7c93c2acb2e18fdb8ad137887b395bbe45e0a7",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d3b1c5f7ce02c308a39841bf5029b527bc30a92c2fc935084a903fe1d4f6b73a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.288413122107158,
+        "quantizedColours": 211,
+        "dHash64": "8de686301831797c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

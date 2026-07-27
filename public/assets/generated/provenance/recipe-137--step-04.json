@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-137:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-137-thai-coconut-fish-curry/step-04.webp",
+  "promptHash": "3073444b0ebe575e92afeb2737f832463bb61d3de9600bce5f5eb65985f87b0a",
+  "providerPromptHash": "2b00943ec3a7f5db3e973fa6696e792a089b30abc098bb4e0412736940a97866",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5d766917-c598-4a0a-b1c1-8add41993fde",
+  "generatedAt": "2026-07-27T05:16:26.382Z",
+  "registeredAt": "2026-07-27T13:00:03.549Z",
+  "assetSHA256": "8801a064df859f3b68acc03923a94ecd83f49d40cbdd5d67bab5c3d3ca0cf339",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "da94ab9a93608fb9b17a5125e672d9a237b62bf2c4addd63dd14f0b650cb7aac"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.470929413684644,
+        "quantizedColours": 437,
+        "dHash64": "a607131b2f2f8f8e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-274:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-274-roast-pumpkin-and-chickpeas/step-02.webp",
+  "promptHash": "637cb7cb67eca8719e51721fb8e3c6bd82ebe8eac45231a4613f2b143287298e",
+  "providerPromptHash": "541a12b641583d4685e78f16cd908609ea44ec88481a7f768e7cddab53b9ed05",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-abce3614-fe79-4e89-9cb4-573761b61504",
+  "generatedAt": "2026-07-26T21:37:29.366Z",
+  "registeredAt": "2026-07-27T01:44:16.839Z",
+  "assetSHA256": "9c8bc98ece397dd663db59db9ab02734ccfde82e11f10e04519a304cf70ceaee",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "46cf888b2a96423103355a1e81681ae88c675973967a8eb1302519b3a6c2a308"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.553905162960291,
+        "quantizedColours": 345,
+        "dHash64": "6786941d65e06466"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

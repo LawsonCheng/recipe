@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-215:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-215-salmon-potato-fishcakes/step-07.webp",
+  "promptHash": "8ff88db13a2d4cb3463230f6f8b9cf066754bcb22c4f3b2cfd38c38180edac3a",
+  "providerPromptHash": "eb3f539a0f3ae452f42a41fb99182a30154a477d487e051a6a8fe08a7940bb94",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9681f8e4-dc14-45ed-aa55-4db065b4e042",
+  "generatedAt": "2026-07-26T19:20:42.153Z",
+  "registeredAt": "2026-07-27T01:42:31.687Z",
+  "assetSHA256": "01dd5f7ae9fbd3f13371e7f49db052db757133b7cc906e563ceff03f59e0828a",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "a1467b6621c532521b4d3664530b4c07048b4defd8f4800ca6f426ddf85c071d"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.580376255878946,
+        "quantizedColours": 307,
+        "dHash64": "8d8aecc6939b4787"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

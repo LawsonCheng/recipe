@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-049:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-049-poached-pork-with-garlic-dressing/step-02.webp",
+  "promptHash": "04c74d8f6d66ac11270d15479c80b6e19eae2fc8bcf91c75fe7d1a81914f564b",
+  "providerPromptHash": "8b1ebfe20c434a93bb63cf6736b496966c0a981a3b74de0f2faa24e6f48b684d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_HPWTvGDLyK0OmMFtCxCDmkxz",
+  "generatedAt": "2026-07-27T13:28:32.000Z",
+  "registeredAt": "2026-07-27T13:55:29.693Z",
+  "assetSHA256": "ac43b4967f51519bbe82eef29fee432a89d6290e2c638bb901f97070061f9a73",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "288642a07061e4b3f22070441e45d41798f1e4e016f6dcb65cc29f9b6b88762a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.572863610508648,
+        "quantizedColours": 126,
+        "dHash64": "77c18c9f8b8bcfde"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Final current image now shows one intact pork-belly piece fully submerged with ginger and white spring onion in a gently simmering, part-covered Chinese wok."
+    }
+  }
+}

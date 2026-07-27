@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-189:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-189-italian-vegetable-stew/step-06.webp",
+  "promptHash": "4f479fdba9bad36582210f8a2efe179ad84557e0110812f0e2a7dc301509fb77",
+  "providerPromptHash": "d565ac919186b0020c7710fdc1f3dbce89f79fb60ec99ecfa02b8f47d4619061",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ad10935c-8bbe-47f6-b395-5eb603a7ce00",
+  "generatedAt": "2026-07-26T23:56:11.295Z",
+  "registeredAt": "2026-07-27T01:41:45.058Z",
+  "assetSHA256": "2e8c6c7d8561ce54433eaa81040fb7552c1d62006353a2fd13004c328b59f3ff",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "16ea5cad224e163716b88d7a71300c91558ee7c6d3a4a7b7ecca33096c34677b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.687758572457824,
+        "quantizedColours": 270,
+        "dHash64": "40313663a319a562"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

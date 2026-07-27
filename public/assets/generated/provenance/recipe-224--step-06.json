@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-224:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-224-turkish-style-beef-meatballs/step-06.webp",
+  "promptHash": "b27f6e58463e222e968713a7546714098231240691050a41793d868f549af805",
+  "providerPromptHash": "0819ed64ee811b984f51213dae15e4fac1e9be8c613535dce2e2b59688e797e8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_P9sM1AUXcS0bUJ8mMYMxhBsl",
+  "generatedAt": "2026-07-27T14:21:14.000Z",
+  "registeredAt": "2026-07-27T14:24:07.112Z",
+  "assetSHA256": "08434c4bf02bf5bee5778113aeecd99f3abc6a4afb589a86f0763c39d49e2781",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "b906616e8b877999383d076b3ecc476b010652ebf075295de2b5d00cadedcf7c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.501684565329924,
+        "quantizedColours": 226,
+        "dHash64": "71c696963696de2e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — corrected frozen photo contains exactly eight distinct köfte in a clear 2-by-4 layout, all glazed in tomato sauce in one frying pan; no ninth piece or pouring container appears."
+    }
+  }
+}

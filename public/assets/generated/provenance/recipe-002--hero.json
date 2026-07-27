@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-002:hero",
+  "publicPath": "/assets/generated/recipes/recipe-002-fish-fillet-with-sweet-corn-sauce/hero.webp",
+  "promptHash": "ecbf7726cf5a8dcc4ff65162bd24c66f437b335325dcba991d9684f648c8f75b",
+  "providerPromptHash": "f9aa4c837fcd186ce07ca1f7e95874bb450ed74f31222ad5537208213d78d3c3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d4881a65-5b06-4614-8a9c-193a477ecfdc",
+  "generatedAt": "2026-07-26T15:46:19.019Z",
+  "registeredAt": "2026-07-27T01:36:09.815Z",
+  "assetSHA256": "763498a8a713d2cc70a511f9735daf736c516b5f1e82e4a5bc0572ffe81518b4",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "32dbbd3290e7cf64d14ce0116c192d20c7554d4a71599262a3ecce763d7c6a2b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.112088467347348,
+        "quantizedColours": 382,
+        "dHash64": "e7949693bbcfebe6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

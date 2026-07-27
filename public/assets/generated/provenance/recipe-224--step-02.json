@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-224:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-224-turkish-style-beef-meatballs/step-02.webp",
+  "promptHash": "12a6345ae36a8a71c408cf4fd2a2fc5da2aa6773b4d9d2afe64ad0e4b3dd2c3b",
+  "providerPromptHash": "2b0683a5e81b10273243b7e3feacc6968b04fc2e600223eb0e1e8488daf4f7fb",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c068185c-c1a6-42a8-80aa-68266de05263",
+  "generatedAt": "2026-07-26T20:12:29.425Z",
+  "registeredAt": "2026-07-27T01:42:46.627Z",
+  "assetSHA256": "9004a59fd7a69181819be552caeb1f6d8effabd194748ee9256975e8f0aab9aa",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "335e779d0b56328f00079406b1a9269d44ce884bd6d8512362fe236a046d8e6a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.715478155296296,
+        "quantizedColours": 321,
+        "dHash64": "8103176fed315307"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

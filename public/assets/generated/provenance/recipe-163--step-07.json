@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-163:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-163-singapore-style-curry-noodles/step-07.webp",
+  "promptHash": "2581755f9b2e1dd535463585115632d0e7eca276fd06ffb6568ed7e39ca2f768",
+  "providerPromptHash": "3ff620c18e4903c54b9d4205437e13cc37060a2408033d9b98266e4bd071fc33",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_w0N3bvb6tpQoefODmLjI5c7Q",
+  "generatedAt": "2026-07-27T14:14:48.000Z",
+  "registeredAt": "2026-07-27T14:24:06.855Z",
+  "assetSHA256": "245a3ec745ab32256fdb466d189e53317168e593717e2b2c4f5a475a31f69d10",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "5cbe41f74c0d4495e45e2d0e707e8a937074fb6686265b2eee2c14b51fc97c65"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.43387905790587,
+        "quantizedColours": 307,
+        "dHash64": "0c070d3351d17369"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — re-opened at original resolution: three separate noodle bowls, each with two egg halves, prawns, potatoes and blanched sprouts; all three established eggs are present."
+    }
+  }
+}

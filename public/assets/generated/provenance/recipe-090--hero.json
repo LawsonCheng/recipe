@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-090:hero",
+  "publicPath": "/assets/generated/recipes/recipe-090-miso-simmered-fish-fillet/hero.webp",
+  "promptHash": "a65fafe1b3f8c002503cdbea5b66df8c3f54fda655f861bc9f5d0912cd3739ac",
+  "providerPromptHash": "c5450d95c973d4b7d707399ed9a9045f04fe83f28ce4429a268580cac07ec8d3",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-72b13e6c-50aa-42f9-aa08-93641476c79e",
+  "generatedAt": "2026-07-27T05:08:25.712Z",
+  "registeredAt": "2026-07-27T12:59:56.813Z",
+  "assetSHA256": "9ca335c8bd6c5661cf9bc4e0aec026ced5d4bf063086366fa235f3ea1ad387b6",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "7f9e9e518745b77a9bf33b4310965712ed9e65dde544366c89b4d694dd196330"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.700031031388789,
+        "quantizedColours": 334,
+        "dHash64": "6084c89f3534b4c9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three finished miso fish portions have glossy sauce and sliced spring-onion garnish."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-267:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-267-chickpea-vegetarian-patties/step-01.webp",
+  "promptHash": "7cc6cfc75be0e292304bacd4f7c204b27a153a81a4161a7a573ab68be77922bf",
+  "providerPromptHash": "ee226ff1cdefa2f609bb91d98892f4c528bfe3277f6de46829f76712277de0be",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-05919ca7-dbe5-4f55-912a-8284a9677a34",
+  "generatedAt": "2026-07-26T20:39:10.583Z",
+  "registeredAt": "2026-07-27T01:44:03.855Z",
+  "assetSHA256": "4852aa132ba4d66f2a648e60807847802c4b9637283f3882663ae7c3e849843b",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "6e1145e0fddcc529b0076c268c6f546f835556d6ce0c098f45f5d7c9a018ce10"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.7491929149546195,
+        "quantizedColours": 284,
+        "dHash64": "af2329696fc64f87"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

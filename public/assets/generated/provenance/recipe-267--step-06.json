@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-267:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-267-chickpea-vegetarian-patties/step-06.webp",
+  "promptHash": "c1eccf417ef9510f5309aef38c072a943f05820fe09641bc101f9fb1bac909c8",
+  "providerPromptHash": "15b33f003ae03883ec8d449049b30b5e8e64a8d32bea0d3007b1c505811fb988",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3e95d5b4-9cd5-4642-a25c-120b4df6e295",
+  "generatedAt": "2026-07-26T20:46:32.783Z",
+  "registeredAt": "2026-07-27T01:44:05.144Z",
+  "assetSHA256": "284546f31de9b7160a8424b5731549d2df57e7a21940c72f50283e77f1d68e72",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "4665c6fc518a3e8fcbc27a78e97c5f7198024a3c44d42204021d6a8a335a029c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.64333549735602,
+        "quantizedColours": 280,
+        "dHash64": "3dfa831b3f535f1e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:29:20.799Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "OVERTURN — Independent recount shows all six browned chickpea patties in the carrot-onion sauce, exactly matching the CURRENT step instruction."
+    }
+  }
+}

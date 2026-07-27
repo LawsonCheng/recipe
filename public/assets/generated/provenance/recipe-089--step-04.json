@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-089:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-089-japanese-tofu-hamburger-steak/step-04.webp",
+  "promptHash": "c795fb0ca8d63dc8b21b6472cad1ec8126fa5dca10a283201ccfeecfc0a06429",
+  "providerPromptHash": "5eb469f6f1769dad67b99dbb015195aabcf383402748974cbedb0cafd430c112",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d862e828-a4e0-4c13-b242-099615e2e376",
+  "generatedAt": "2026-07-27T05:01:30.266Z",
+  "registeredAt": "2026-07-27T12:59:56.558Z",
+  "assetSHA256": "ad49ff85bc8029b8be2b33b3a4c3fa8aad4c42ccaf3c7d70f0b029b04547a188",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "2057cfba8652db4f8ac9be3c7a431de730e49c46e0a58c21fcfdb5547d0ab8af"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.481428817060078,
+        "quantizedColours": 191,
+        "dHash64": "7ec6a7263d0f4f0f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

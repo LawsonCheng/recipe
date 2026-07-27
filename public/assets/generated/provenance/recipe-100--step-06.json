@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-100:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-100-japanese-creamy-corn-soup/step-06.webp",
+  "promptHash": "ef63bc352dbce464f029153f9c8c9fb3deeff37299b9f04f4b2b7f19c08abe1c",
+  "providerPromptHash": "8f9d7e34cff5498a38df25f8715c4e5341c90a491933db3e7eb38115762fb91a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a17646a0-7727-4591-bb96-c192c49ab862",
+  "generatedAt": "2026-07-27T05:55:36.319Z",
+  "registeredAt": "2026-07-27T13:00:02.284Z",
+  "assetSHA256": "e3f94a94f8cfd239657cfe20d2acb3988dff86133c385cd27c8f3c74b86a1ca8",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "6cd2201245201295f23ab3bd115ab28c192e14f0aca609826476e0e512d89efa"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.603820241149151,
+        "quantizedColours": 218,
+        "dHash64": "70340e1f179e9cc8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Cream is in a continuous pour into thick partly mashed corn soup in the allowed Chinese wok."
+    }
+  }
+}

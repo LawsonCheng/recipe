@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-059:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-059-sweet-corn-and-egg-drop-soup/step-01.webp",
+  "promptHash": "e86f526b58b1033601a30ca212e36d80d929491a9273524fbde11b65837a4eff",
+  "providerPromptHash": "2650f7784090cae5257eaf6391aa9b9c28cc3d0c391634cacf3379ef608d4c13",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4ed0fdca-bf88-4c23-b682-e75344b66317",
+  "generatedAt": "2026-07-26T23:00:49.873Z",
+  "registeredAt": "2026-07-27T01:37:47.401Z",
+  "assetSHA256": "a49a146dd030ade89f561c357d7b388b39f5e5a61b33e16052d802dbf937a86c",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "a35793da17ded59b9f0e7daffd53d55b69d88c2bb556b452736103d32f709994"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.513148921483662,
+        "quantizedColours": 314,
+        "dHash64": "133131331b999999"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

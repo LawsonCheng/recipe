@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-183:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-183-italian-herb-tomato-chicken/step-05.webp",
+  "promptHash": "c5d0df45b99ae446188d8598c5322f673cac716081944388f624b4ebf034448d",
+  "providerPromptHash": "f17f4e6b3eb02131e7ce7d45d1b7b5b31111e489794febee907d4ebd5809b5b8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d3ceaf42-c2ae-43da-b6ba-d2e431ead895",
+  "generatedAt": "2026-07-26T23:23:51.509Z",
+  "registeredAt": "2026-07-27T01:41:33.689Z",
+  "assetSHA256": "2073108d9a683fb3eb09851469cbcee1d3bf196f14b39dfefea76f13cd9cf7df",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "404c2650affc0e135404fd518d347860d3bb827cb9225c025ffb277a33b27dda"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.163715171132935,
+        "quantizedColours": 241,
+        "dHash64": "f3b2337317a73386"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The covered pan visibly contains chicken thighs simmering in herb-tomato sauce, accurately depicting the low braise."
+    }
+  }
+}

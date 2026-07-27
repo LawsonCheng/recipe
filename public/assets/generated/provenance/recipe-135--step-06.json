@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-135:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-135-thai-savoury-prawn-fried-rice/step-06.webp",
+  "promptHash": "57c5f00748a8f17f9aeda7e356d7c1441e2742a007e130c37b6398828072bb10",
+  "providerPromptHash": "6f1ec86ad9cf6ca9cd8e22f387482576b4e652bf9ec67d2e552709de04dd6903",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_Becrm4BRocUcvnDoIpEg8VUw",
+  "generatedAt": "2026-07-27T11:31:35.300Z",
+  "registeredAt": "2026-07-27T13:00:03.299Z",
+  "assetSHA256": "615d0443873d43fb4617a7506bfd7434907e0add168b36597b120b9eca0b87fe",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "a8fc43e496a506aeed27566142a03dbe65448d3a12aafb9fc9fa60360e16ebe0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.278692259918898,
+        "quantizedColours": 201,
+        "dHash64": "d0dc86172b0f8f87"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Jasmine rice and fried corn-aromatics are tossed in a Chinese wok without prematurely returned prawns."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-153:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-153-indonesian-sweet-soy-tofu/step-05.webp",
+  "promptHash": "94e645a37c34a8037fee00ae884e5e27d3e6a616ab6176a5e3cf6d042df989a0",
+  "providerPromptHash": "3804d194ff8d961d5c1549b06cbc604a178de820787cbcee3f9b9ada9d4c6769",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f03af9bf-5a6b-4b03-bd90-50a44a9d6aa1",
+  "generatedAt": "2026-07-26T23:17:45.264Z",
+  "registeredAt": "2026-07-27T01:40:37.637Z",
+  "assetSHA256": "580c0878467e252f51979cf1a89ab547582bc1c7fa7830171ebe63df5c40b382",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "97723f5b82eece2bbc5237d22bdf545364867fa38d69248c78921da740140664"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.447877945553046,
+        "quantizedColours": 351,
+        "dHash64": "79ce8f292d8d96ca"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

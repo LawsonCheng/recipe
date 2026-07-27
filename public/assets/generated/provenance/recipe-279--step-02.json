@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-279:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-279-thai-basil-mixed-mushrooms/step-02.webp",
+  "promptHash": "f9e8d25f197f5397063dee28955a561833caab58c42b62e5a231b497d35db785",
+  "providerPromptHash": "0d41a8220dbb2bb98ce8789ebccc707cdade919a8c47db90b4d3f4728c8c03f2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2c04228d-fb62-4f65-bbc4-11ac99249c13",
+  "generatedAt": "2026-07-26T22:05:19.859Z",
+  "registeredAt": "2026-07-27T01:44:25.732Z",
+  "assetSHA256": "8a5f9ce417f1e91082b9024c91c604b1a2ae8876bc4f69b83711d4aa249df335",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "4fa04d15f8ede7d379ed55cc2951d0556015e7baa8c4ceca27f9cd1dbdeb9b42"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.60891565005295,
+        "quantizedColours": 249,
+        "dHash64": "f0f0bebcac7950b8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

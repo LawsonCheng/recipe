@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-183:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-183-italian-herb-tomato-chicken/step-06.webp",
+  "promptHash": "0cd5105c30009b1f8ba1739888415250222415a17a9d6d311795358d462a8f68",
+  "providerPromptHash": "1d07342224827d4e29a3675f584059320bf890558c60b62d240efe1da77f7c6d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dda79eb6-228a-4501-bfa9-551b3a44faa1",
+  "generatedAt": "2026-07-26T23:24:39.804Z",
+  "registeredAt": "2026-07-27T01:41:33.939Z",
+  "assetSHA256": "fae463fee98077ea50c8f128e33ae65e5324b166a54a84a51d13bf3a593dae16",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "da47e6b5ac8dae667b8f5bd242e95a19e0b2ff8bea53853d08c853e022636cd5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.420043548030662,
+        "quantizedColours": 257,
+        "dHash64": "71cc94154da7b246"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T02:09:49.425Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "The image is a valid in-progress moment of the reduce-and-serve step: the uncovered sauce clings to the chicken while reducing."
+    }
+  }
+}

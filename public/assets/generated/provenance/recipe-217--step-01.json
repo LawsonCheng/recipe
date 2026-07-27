@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-217:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-217-home-style-barbecue-ribs/step-01.webp",
+  "promptHash": "b3f025e21528dccc34d26ea014dccb5fbb80f6ba01a378221754587cc69f9954",
+  "providerPromptHash": "297c1b24909e6c7fdd0c610a0355306765db6c3be3ae23b1df7e09cbb13cf208",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0f1f8bd9-40ec-4b6a-8745-fd6864acd659",
+  "generatedAt": "2026-07-26T19:28:01.219Z",
+  "registeredAt": "2026-07-27T01:42:33.961Z",
+  "assetSHA256": "99931ab5a8530deabbea35f454a14c4ebae6316eeabd35725e2a2c8e8c25949e",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "e0102eb8c2752866e7f713a1929e6c8cab0d75f5c75fdd877e8e1f0ee4e1d372"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.219006092866039,
+        "quantizedColours": 217,
+        "dHash64": "071737dce291d9f1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

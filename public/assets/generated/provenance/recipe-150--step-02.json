@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-150:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-150-gado-gado-warm-vegetable-salad/step-02.webp",
+  "promptHash": "2a38a0e5adedbe0f01891fc6e5420eae51689a509f13d2e3e4be1e8146c2878f",
+  "providerPromptHash": "8a43216fbd71964cf53eb03f5d324b9e77948c38d571a7d8ec6d290c161b3168",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0f828ebe-32c2-4d70-afc2-e89d82b1e8ba",
+  "generatedAt": "2026-07-26T22:56:47.456Z",
+  "registeredAt": "2026-07-27T01:40:30.930Z",
+  "assetSHA256": "54420eaf1d8077930ae3b48dd31f8c14c6809c90c1bc048f057723935b2d5e8a",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "ceccc16d9c6faf1f0bbe8c6cf9dcd98af778b59807a3c6e4382bbcedbfc4a4ce"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.630453184188809,
+        "quantizedColours": 220,
+        "dHash64": "97cbe3236129ec46"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

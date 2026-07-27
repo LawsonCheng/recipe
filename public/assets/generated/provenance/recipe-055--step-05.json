@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-055:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-055-egg-coated-pan-braised-tofu/step-05.webp",
+  "promptHash": "d181d26400bc2cdf447f08217558dc16844a012b6bd7418a842e5b793007c88e",
+  "providerPromptHash": "ca66f1dee472fbcf37a9e7a34dafb5d53dba24872e6c7ff2707a6368354c1218",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_jmlkt9sdKq0sh38o7VjVohS0",
+  "generatedAt": "2026-07-27T14:18:27.000Z",
+  "registeredAt": "2026-07-27T14:24:06.111Z",
+  "assetSHA256": "ac76f3a569be733100f615284bfc02030e7174afbc4ce57ee7692d91736ce0a3",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "6ebc6573797a44c52781644f82dc2b99002943956c2ac80069434af94bea1449"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.587057274475228,
+        "quantizedColours": 225,
+        "dHash64": "f186b71713130644"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — corrected frozen photo contains exactly twelve distinct tofu slabs in a clearly countable 3-by-4 grid, all simmering in one flat-bottom frying pan with ginger and white spring onion."
+    }
+  }
+}

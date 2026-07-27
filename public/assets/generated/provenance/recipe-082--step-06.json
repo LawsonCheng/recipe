@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-082:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-082-japanese-beef-curry/step-06.webp",
+  "promptHash": "9a53f88b343c548d17122dcc154b9333f2181d5ea4947e19d3c4c79333911dbb",
+  "providerPromptHash": "772c40c3a0b84b5056f420562505b3c112dd0c4e25ce738ecee70ea39d7e1b4d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8d400a78-fa99-48c0-85c2-227af0717fcf",
+  "generatedAt": "2026-07-27T04:55:05.065Z",
+  "registeredAt": "2026-07-27T12:59:54.778Z",
+  "assetSHA256": "998a3be74c0bd22e1bc0e55c6ee50fb69fdb9080e7a6f3ecf5928462181956d1",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "97442fc7c77ae76e7ab4e719541fdee969c6724e89a8d43a1a1ec5d8ca2a2c16"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.394628264621133,
+        "quantizedColours": 208,
+        "dHash64": "feb82d1f17174fe1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Thick glossy curry is being stirred in the allowed Chinese wok."
+    }
+  }
+}

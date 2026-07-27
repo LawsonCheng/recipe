@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-193:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-193-italian-tomato-baked-rice/step-05.webp",
+  "promptHash": "ce3be9a5bbf0230be5957381f0b0107d54a9da961527052654cc073d8f3079e6",
+  "providerPromptHash": "0f69447b5e8b598a3e1388c9652f6518001ab1f408720c9f4a5c28821fa432a0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-2ecc4007-c79a-4798-a0b5-1af0172d24fc",
+  "generatedAt": "2026-07-27T00:19:18.794Z",
+  "registeredAt": "2026-07-27T01:41:52.356Z",
+  "assetSHA256": "3050066e241a9f388e7363fa5c1b505c86e1733b43e4d0dec534e8c9310d9337",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "6a0a28827de383b471b3cd32bc964e598c588e2e9d297950bc30f23c23027720"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.84371413430199,
+        "quantizedColours": 223,
+        "dHash64": "3cf607291f3f1d4c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

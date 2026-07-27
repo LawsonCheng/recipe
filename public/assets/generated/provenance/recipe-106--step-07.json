@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-106:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-106-mild-gochujang-pork/step-07.webp",
+  "promptHash": "e85a6ac0e41956ec4161f0440bb0eea4c10704ce794c3302b68e86c59226248d",
+  "providerPromptHash": "740ac42f0d0b721d51061d5483caae134499f5a7e9dc6876b251e17f81557979",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-12457c6d-df03-4114-bcd6-a26f7d43ec93",
+  "generatedAt": "2026-07-26T18:29:10.284Z",
+  "registeredAt": "2026-07-27T01:39:09.957Z",
+  "assetSHA256": "e133e6b06dfdfb665bbdb60bcfe2db4827be19fb47d09d93b80ce90304e7a4b7",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "e8f9ead404e56028110f6f1cb2b795620e153f6edd369cc99907a1f1de24a0d1"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.452285024555749,
+        "quantizedColours": 348,
+        "dHash64": "91c04e0b0313978e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

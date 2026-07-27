@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-099:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-099-japanese-salmon-fried-rice/step-04.webp",
+  "promptHash": "b9fc6eb3a27c05ff228b070fefbad89f8855ad9017edea4db02b010098733e0e",
+  "providerPromptHash": "7f8a0fd0f8b2bc232ddc000c9c908ac4ffa4699b608d6000ca50cabf7dd305ab",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ac30e389-c596-46f5-81fb-cce13c976262",
+  "generatedAt": "2026-07-27T01:17:24.447Z",
+  "registeredAt": "2026-07-27T01:38:56.591Z",
+  "assetSHA256": "ecb27726068bdc5bea51d7cc73bc4ebef00e096c6af2e1663e8002f5c712874f",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "7fc980105642e6b9ef837ed6f649940988d1e43d859568bb9cd3f37d79cea58f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.324140626995359,
+        "quantizedColours": 203,
+        "dHash64": "8293ce4d8f8f8ece"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

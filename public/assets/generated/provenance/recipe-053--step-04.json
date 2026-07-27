@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-053:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-053-northern-chicken-and-mushroom-stew/step-04.webp",
+  "promptHash": "303ecb74fd04dcb20500a68f82a62ed9528f62140a3b70435e4c792c896d038a",
+  "providerPromptHash": "d18ed65c663651b90dd484d05ab52c51164a1dd6cdda35d36737e3e495d7369f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dcac139e-a01a-40d9-9b64-5e7241f8038e",
+  "generatedAt": "2026-07-26T22:34:35.305Z",
+  "registeredAt": "2026-07-27T01:37:37.966Z",
+  "assetSHA256": "50d3d7195c0091869bc46138cff3344fed50d83a9a4cc6c70f855f85ca44d177",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "432bc2df3ac4179f2772c501f62d115aecbe6e8eb09543104e580d0c1d877906"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.415831478516338,
+        "quantizedColours": 177,
+        "dHash64": "ce8f172517278646"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

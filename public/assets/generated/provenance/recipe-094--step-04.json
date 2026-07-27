@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-094:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-094-japanese-chinese-omelette-rice/step-04.webp",
+  "promptHash": "0c63ddd64e838b39d955799c08d9d13aeef69ceaf42a0e5cb37b348a5ccc68d0",
+  "providerPromptHash": "ce0f86716f8a3848f10bc4d7e78d001ba49b79867719c8bbcf2a43824865b466",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f745430e-8e74-4a5f-b746-9314d412bd85",
+  "generatedAt": "2026-07-27T04:45:29.569Z",
+  "registeredAt": "2026-07-27T12:59:58.807Z",
+  "assetSHA256": "dc32f8f17aa3a499e36045ce34a21e4a5806415e03a6ccbf2ce6ea0ed708ed40",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "ef6b783a5c3a5f23df7d8d208ebcf6a7235369b9d544fb17fbf9a34207fd0205"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.57417892380181,
+        "quantizedColours": 208,
+        "dHash64": "66d296bc0f9e8ecc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — cornstarch slurry is added continuously to the savoury sauce in a Chinese wok, with no omelette or rice shown early."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-216:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-216-butter-mushroom-omelette/step-04.webp",
+  "promptHash": "a67551f16063d71915ee22a01c5c292283c8657e2b8df36b69b0cea7df9e9c58",
+  "providerPromptHash": "0e0f36e3c29446851b28ea292b2493a723afb4f81d5297388236ba15fc08f1de",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9e7ffb45-75af-4233-ae31-d7ebd0c36662",
+  "generatedAt": "2026-07-26T19:24:31.525Z",
+  "registeredAt": "2026-07-27T01:42:32.946Z",
+  "assetSHA256": "52b7603f2fb318cd259e53d991962c347924e54ee774eaa258ea74e916165b5f",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "b7391814df92cdc3e792a92e6766ec99849d4c12505a07704e3a7c9394035648"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.233998568088282,
+        "quantizedColours": 220,
+        "dHash64": "f3c88a962e97ce64"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

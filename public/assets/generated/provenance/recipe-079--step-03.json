@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-079:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-079-bean-sauce-beef-and-tofu/step-03.webp",
+  "promptHash": "10f0193051c818fb54c47d2fedfdc6d3aa828609d80dda87b0dd09858fd4dfc3",
+  "providerPromptHash": "96ef40c0bbd28719e56e0e53555ed434f1e3c7679881a6f62447d6de60ab0a0f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c4c5ba70-5478-4927-9495-35f008e932c7",
+  "generatedAt": "2026-07-27T00:44:18.731Z",
+  "registeredAt": "2026-07-27T01:38:22.060Z",
+  "assetSHA256": "d3cd58d6e26b1c5ed1c927eef15afaa55b7e499d0395b954575e017a122c24dc",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "f09179f058e7f557d93145fa0384a0ecdd5aebaa2409feb179c6eb70bcd2d0b3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.591130384011194,
+        "quantizedColours": 171,
+        "dHash64": "cd8e97b331307c79"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

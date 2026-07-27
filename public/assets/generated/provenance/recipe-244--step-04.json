@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-244:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-244-red-lentil-dal/step-04.webp",
+  "promptHash": "e2197b760c1172d08000d5a8014cf58593b707f1fc0d0b72e150f70e9861f523",
+  "providerPromptHash": "3e49deb4fa1c5f08f39e0054986e85ce4519f8139ce721af0a0ad2cbbb5cd228",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-26170675-e71d-4958-b948-045d1d7f24d2",
+  "generatedAt": "2026-07-26T22:05:53.390Z",
+  "registeredAt": "2026-07-27T01:43:23.049Z",
+  "assetSHA256": "958262773cb0f930a073f793683cd0458b19018222280534b34423d1a5500fdb",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "6c87f3668e930302d65fa10cd4c37b93a9651e66c27354e993ae05b97eb6fee8"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.60314982989803,
+        "quantizedColours": 299,
+        "dHash64": "a0189e1636329cc2"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

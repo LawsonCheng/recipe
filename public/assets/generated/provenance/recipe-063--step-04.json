@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-063:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-063-mild-fish-fragrant-pork-strips/step-04.webp",
+  "promptHash": "a0444f1018d70de2062e01d4ee813b9598830d74420b2b58eef20b18b5ec8552",
+  "providerPromptHash": "2a6e1d54134c58c49932d91d5478a99759d985a566690b75de3fa9d9d562cf24",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-593b86bb-e74c-4465-a9d8-36b92f9b2e82",
+  "generatedAt": "2026-07-26T23:24:47.318Z",
+  "registeredAt": "2026-07-27T01:37:54.904Z",
+  "assetSHA256": "2c82d21a288ddeb5377dec5bbbb5b4a876ea372ed71f6c4f51cf9dbb2247c0c3",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "9affbe932b65c58dd16943e89f9ca103d1fc9e6a8e53121fd3972817a28a99fe"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.691869969246909,
+        "quantizedColours": 223,
+        "dHash64": "702c3a1e1f9e4cb9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

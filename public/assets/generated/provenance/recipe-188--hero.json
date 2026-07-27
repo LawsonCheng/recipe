@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-188:hero",
+  "publicPath": "/assets/generated/recipes/recipe-188-garlic-prawn-pasta/hero.webp",
+  "promptHash": "6206981f286554c6f051491cfccc5ad60e4c616cf8035a58d4f486b5ede3e20b",
+  "providerPromptHash": "aeff49712b7c6ad1cd4058a5c4c96fde205026214346722fcf930f159da5aa9c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ea3b388f-1e0f-4dd3-a1f1-3d56987c66ff",
+  "generatedAt": "2026-07-26T23:46:10.008Z",
+  "registeredAt": "2026-07-27T01:41:41.716Z",
+  "assetSHA256": "487602250a40859f3a6d294e6e2f359f95ed407ad1df9f07f0f709d0d17eed66",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "554f5d27aafb3bd3b6387658bd9c01d36e0b01bf315fc006aa6bb0a2fc25c0ce"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.703938405209556,
+        "quantizedColours": 422,
+        "dHash64": "314ec68bc4d8faf8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

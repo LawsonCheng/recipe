@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-199:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-199-garlic-herb-fish-fillet/step-03.webp",
+  "promptHash": "8950d423d7e274ec2aaabac603914e6616619f795ddf66f6c3505cd810eef718",
+  "providerPromptHash": "dc1f06579bebc6670bfd862d195ab3fb555983a7ec25d74559d57d0929a81ffa",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-270f39ca-c1b6-47aa-8f76-a9377ad6847e",
+  "generatedAt": "2026-07-27T00:46:47.744Z",
+  "registeredAt": "2026-07-27T01:42:02.371Z",
+  "assetSHA256": "78df1a1d4d4979eed8742a48efc93f5aaddafcb0df373da7c690dab9fd2b91db",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "31349b854de68918eadaf042a27e54db1c6ed1a3ac3d3e6499a388cb1decdae6"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.407788845303003,
+        "quantizedColours": 195,
+        "dHash64": "07ee8d27130f87c9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-074:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-074-steamed-spiced-spare-ribs/step-04.webp",
+  "promptHash": "2bc37645775b2c98c9808546aa7f5cc40852477b68ef1cd2eb5b48404a7696ef",
+  "providerPromptHash": "6b9d88c40d5ccb192e0b6ab73511176375ea8d8deb7fed12a1e51aa8dd6005f0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5c48b6eb-9b77-4b6a-bf2d-643191555ebc",
+  "generatedAt": "2026-07-27T00:16:24.074Z",
+  "registeredAt": "2026-07-27T01:38:13.760Z",
+  "assetSHA256": "ebc299731e2a0d032e4e1fedda513929626699982683210838c872786f959631",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "38c998a3e15bb2205c0b7280e27065135d051e20d3324b6bc340382b0794c014"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.715447522457907,
+        "quantizedColours": 395,
+        "dHash64": "8d1778aaaccc4b8c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

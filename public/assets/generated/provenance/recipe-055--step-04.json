@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-055:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-055-egg-coated-pan-braised-tofu/step-04.webp",
+  "promptHash": "95fd219d51afc08d8c13bec4e5f95f07e0aa07c68037ffa83697bb5d4cefb56d",
+  "providerPromptHash": "2cc9df21e6fe474e67cfabe556115fa185009a6b05dffcf77ce16cb0376cc4de",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dc2ed9b3-bc0d-42e5-a247-eaa8f196f78f",
+  "generatedAt": "2026-07-27T04:32:26.612Z",
+  "registeredAt": "2026-07-27T12:59:44.546Z",
+  "assetSHA256": "9673426cd5b08f9c5863874de2bcbab9d22f307326622cd3bade0b8674d90de4",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "9c6daf4885132328a8cb29d3b3629e9647f04e9bb0a10878694811a14bf74a73"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.328103067760821,
+        "quantizedColours": 218,
+        "dHash64": "cf9f3b2b2b2b2f64"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly twelve uniformly golden egg-coated tofu slabs are together in the allowed frying pan after the second batch."
+    }
+  }
+}

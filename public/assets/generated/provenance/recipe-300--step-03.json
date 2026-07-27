@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-300:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-300-basil-tomato-chicken-rice/step-03.webp",
+  "promptHash": "2071e91aaaedf19b1f1c75cfe209996fb6193ca9a963a953699ab82e4a90ce87",
+  "providerPromptHash": "28967dff25a230d300faf474a6dee8e0cc700f90a19e6a08ba5a79aee9831252",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-24a75dcb-a269-44ea-9f96-6c27af98c487",
+  "generatedAt": "2026-07-27T00:10:14.663Z",
+  "registeredAt": "2026-07-27T01:45:03.760Z",
+  "assetSHA256": "881b9bca8b86828bab84ec42a9873361a048b81f7ad31928cca71529389233e6",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "61e54985782837cb3be476d38f84472001497f8877cbf186778c46c93febefc4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.231759930204134,
+        "quantizedColours": 180,
+        "dHash64": "7e230d1d98d0d0d0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

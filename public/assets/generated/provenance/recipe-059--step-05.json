@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-059:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-059-sweet-corn-and-egg-drop-soup/step-05.webp",
+  "promptHash": "8d4218ba917311e3501d8b8a8a02c084cebcad8e8bb49b0ebb98b22c6605cf8e",
+  "providerPromptHash": "c9e472d91d75626c18f1ca0d266a4323cbea0c99e2731bfef84efbe4cb5441a6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3d4bbe0d-8882-461f-9b64-b0045057f791",
+  "generatedAt": "2026-07-27T04:37:33.355Z",
+  "registeredAt": "2026-07-27T12:59:46.269Z",
+  "assetSHA256": "63731794e598d69b3686c2a0b525e685a049bdcbfade1334d9febc9c22ee8690",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "264a2d02db2bb45498a7735274a9b231b7d1e32453e082380b97186288cbb938"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.243157670571236,
+        "quantizedColours": 178,
+        "dHash64": "a0810d1333138f4a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — broad egg ribbons have just formed in the thickened corn soup in the allowed Chinese wok, with no later bowl service."
+    }
+  }
+}

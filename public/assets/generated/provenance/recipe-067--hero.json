@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-067:hero",
+  "publicPath": "/assets/generated/recipes/recipe-067-hot-and-sour-shredded-potato/hero.webp",
+  "promptHash": "86e60af40926639aeaf2615c49a4ea1b905335fc43855afc744c745d83bca31d",
+  "providerPromptHash": "e553a80e2abae8ee7fbd5be21384acffb5b89fd88481a73f22eda8a287794050",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cba06f53-4f32-4491-ac2d-f16d7cea23d1",
+  "generatedAt": "2026-07-27T04:39:43.797Z",
+  "registeredAt": "2026-07-27T12:59:49.786Z",
+  "assetSHA256": "f46408f6d50d1044bfd851b0fa63d3fe4b23c88890eead0c7a67240efc4a15d6",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "107917ba54419f1b156c348e60c4e8377176709b08cf6e7e9449ba58e63fb1bc"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.586702699811212,
+        "quantizedColours": 448,
+        "dHash64": "4dac0e3a2470f0d9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — three natural-looking servings of finished shredded potato with red and green pepper are shown as real food photography."
+    }
+  }
+}

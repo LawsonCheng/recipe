@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-251:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-251-indian-masala-prawns/step-05.webp",
+  "promptHash": "330a7001ce62e69a4cbf65182e99dc0ac2a1701bca00e9352f82ae35793b171b",
+  "providerPromptHash": "3a5a29a5b3c35749ef278b89fd984ed08d1145ec96793b1aed20deeb33d335a5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-9fc3d8e8-f6fe-4d18-8a19-72ffe30aabb0.png",
+  "generatedAt": "2026-07-27T05:12:31.977Z",
+  "registeredAt": "2026-07-27T13:00:22.416Z",
+  "assetSHA256": "12d6189bf79facff3805c1bc6069618a9ed92863a5bc7b043142d40aab581fdc",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "4b13074f92b605b1fb263ca65e827d0d933b1d9f53e5d66a389b6eae2b0455a0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.509902425517794,
+        "quantizedColours": 486,
+        "dHash64": "d4868e0c0b2397ce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — tomato pieces and tender-crisp bell pepper cook in the thick masala base in the Chinese wok, still without prematurely returned prawns."
+    }
+  }
+}

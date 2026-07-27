@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-108:hero",
+  "publicPath": "/assets/generated/recipes/recipe-108-korean-potato-rib-stew/hero.webp",
+  "promptHash": "f4f7e210245f4d6a09987842718bdf1344ebc3f3804e09c23f547c3991304339",
+  "providerPromptHash": "4494ebe7c1335464dd75fc2ca85ae3d5211803e4f550ccc1aa12e39df729fe6b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8b349f05-7713-4f54-95ee-af0fea142059",
+  "generatedAt": "2026-07-26T18:36:55.775Z",
+  "registeredAt": "2026-07-27T01:39:12.191Z",
+  "assetSHA256": "9ef941356b27a5341c3f60257c845c818db484ad61cfce4e1bbbacca49483776",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "62b7cfc898e704322408d92b08f6acd135274063587a593c87eb1c33bcdd3df2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.767056011682143,
+        "quantizedColours": 412,
+        "dHash64": "cc8c8eb8647460e9"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

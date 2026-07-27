@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-096:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-096-miso-glazed-eggplant/step-03.webp",
+  "promptHash": "f12e78ce547ebfbc596ac86181fdc35e9796d6d1c738c9dfbc42fa5d2bf274ea",
+  "providerPromptHash": "42b5a2b92a467e67c1d78da637092b6dea56a40376f861fcfbb59cfbe31ecfa8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-ea824bf2-dfc4-4662-a20b-a4147896039d",
+  "generatedAt": "2026-07-27T05:30:57.056Z",
+  "registeredAt": "2026-07-27T12:59:59.566Z",
+  "assetSHA256": "c16e94710ded2089cb44c7e8a0daa221232fd1a4ef678813ca22dac0ccfd13b4",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "520934c30a04f7c757518c71dbf3498463286471e59a9b57f9b419e68858009e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.332530106694321,
+        "quantizedColours": 274,
+        "dHash64": "9f27372c1e9c9cb1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly six scored eggplant pieces are loaded cut-side up on a lined MX2-style supplied tray."
+    }
+  }
+}

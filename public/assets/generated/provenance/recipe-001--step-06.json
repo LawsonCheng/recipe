@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-001:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-001-hong-kong-sweet-and-sour-pork/step-06.webp",
+  "promptHash": "1a7ecc06c5588fb4babd59309c3e31b9ece9ae5ebd42a1e8a353e3b56cae74b5",
+  "providerPromptHash": "396b5ced2a7e636714c1d25e2e5383b325426ca2ec4c0d6648e47307601f793d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-5b6787f7-57a6-42c7-a62f-18960b97e021",
+  "generatedAt": "2026-07-26T16:50:00.000Z",
+  "registeredAt": "2026-07-27T01:36:09.575Z",
+  "assetSHA256": "ff35b24ce7ed452b1cd7528b737fbfb4ead452e74ce017383afa1e1d1fb7a383",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "2fc5e89db902b9b25b48ae9f9ae8a357a4310f6109175b39976dcf6d0d46d563"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.662405103445053,
+        "quantizedColours": 385,
+        "dHash64": "fcf886bbb39bcecb"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

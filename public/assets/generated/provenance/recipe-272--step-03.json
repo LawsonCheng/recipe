@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-272:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-272-red-braised-king-oyster-mushrooms/step-03.webp",
+  "promptHash": "ca19a1136951569386ec2c620843f87520e393f291d8f31bef1ec9cf9320d27a",
+  "providerPromptHash": "d05fce4f7c2a621757b6007c9c0ac349bcce3cd9f30158ac149dc17cd1baff25",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_3BbuW2Y1fnEJewU7cMib82lr",
+  "generatedAt": "2026-07-27T07:50:55.707Z",
+  "registeredAt": "2026-07-27T13:00:25.214Z",
+  "assetSHA256": "246e629117752ed29e314cc7d14f2ea4f37711588196cd1ba1f49ca3ac4cdc46",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "6c8f4274d7395859355e4853607c86f9d76bb922f31e6bd0c86e26c2bd1b9b63"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.610588253970491,
+        "quantizedColours": 280,
+        "dHash64": "c7a32711169fcece"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Ginger-only red-braising liquid reduces gently in a Chinese wok without king oyster mushrooms appearing early."
+    }
+  }
+}

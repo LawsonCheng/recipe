@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-038:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-038-cantonese-red-braised-tofu/step-05.webp",
+  "promptHash": "7e50db45410c5be9c7d553a1bbdf0855abdf29f7bf8559448e1b6abe623d0c52",
+  "providerPromptHash": "91fd7a6ec4b91b399a56109c87b78785ce3b9e6a7b02391f21b26a85f2d01074",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d38b03f8-b85a-43a5-a0f1-054e54f0e637",
+  "generatedAt": "2026-07-26T21:16:52.908Z",
+  "registeredAt": "2026-07-27T01:37:12.441Z",
+  "assetSHA256": "76a8697dfff5ab04c5638b2f091ea82ac13bcbc4c4f89fcfaa676de25364947c",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7a13f21b70877daf1e9a5890b8771585ea5a65efa8eb108600f6ad7450365935"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.590180265107847,
+        "quantizedColours": 380,
+        "dHash64": "97300c0e1616969c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

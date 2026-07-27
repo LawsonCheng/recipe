@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-172:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-172-singapore-black-pepper-prawns/step-05.webp",
+  "promptHash": "df8716f62fca6290eac61fdf56e198d5917a04425af396a7caad2efa3868ec3e",
+  "providerPromptHash": "93e45d607924883259b448cdc96cc41c842ca903e6600c90fe02c20f88a79cad",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f9a35ab4-a348-49ad-b02d-3bd87e73800a",
+  "generatedAt": "2026-07-27T01:09:39.180Z",
+  "registeredAt": "2026-07-27T01:41:12.886Z",
+  "assetSHA256": "3047e9c47a8198edf029f22f6afdb85eab53ccf8c9b85dcd8b646a8d063d3714",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "81e68bd91aa68e138cd5e4351ba17bb81cd2d26a62b2205d43c5966b5a523184"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.552012281710631,
+        "quantizedColours": 319,
+        "dHash64": "30724707296727d3"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

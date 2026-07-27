@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-300:hero",
+  "publicPath": "/assets/generated/recipes/recipe-300-basil-tomato-chicken-rice/hero.webp",
+  "promptHash": "334114fbbacdf3c1b03dca44929dc74a32b7d35070c0bd41bdab7d039e289c32",
+  "providerPromptHash": "dfc6ca02c82969e4078a88bf25583cdcbc4c4f34b3dd8ac80d3119cec59db7a5",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-37f61eda-cba1-42c0-9c36-600045ba5d34.png",
+  "generatedAt": "2026-07-27T05:21:00.674Z",
+  "registeredAt": "2026-07-27T13:00:29.968Z",
+  "assetSHA256": "654e7ede600adc35c0b00af3d13c29e9ca199d1d9ee473706adc993447c1acb0",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "790b0f56e7b76a1dffd809c18f8a18775aaaa273f47bc0b9095de350159cb52f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.841709933069069,
+        "quantizedColours": 306,
+        "dHash64": "93c6a399bdb9dbe6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — three photorealistic rice servings show corrected 2 cm chicken cubes with tomato and basil."
+    }
+  }
+}

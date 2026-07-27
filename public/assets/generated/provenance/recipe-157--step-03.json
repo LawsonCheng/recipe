@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-157:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-157-bubur-ayam-style-chicken-congee/step-03.webp",
+  "promptHash": "18c711491e01aed231fa68c9ceffad28870d9fe54ccf937caaf2f975ea64f306",
+  "providerPromptHash": "dc6ac4b430a031e477de1dead076c42e54b32006abcecaa3fbdee22bbe5ccf59",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a020d14c-510e-45c1-90ea-21390cf28b3b",
+  "generatedAt": "2026-07-26T23:37:21.549Z",
+  "registeredAt": "2026-07-27T01:40:44.527Z",
+  "assetSHA256": "573866d11aeb4b6836ca729c99ebf2d5964fc6d86d985030d01db1591ecb5bf0",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "94ba93b4786227466745500a4b3d16d975fe2e5bd318096d561bb9214cd45f12"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5928605027729645,
+        "quantizedColours": 170,
+        "dHash64": "5ff3c6c7afaf9ac8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

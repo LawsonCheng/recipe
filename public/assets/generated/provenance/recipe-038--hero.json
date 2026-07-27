@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-038:hero",
+  "publicPath": "/assets/generated/recipes/recipe-038-cantonese-red-braised-tofu/hero.webp",
+  "promptHash": "fa4f64af3d974d2d9e5c2c78beece41c4a7d5a64546080499e70657f70b973da",
+  "providerPromptHash": "7d0acdcb88762be25676b6cc859a6f89b99c3da42b262f6fa0adba936ab378a6",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-951babae-ec3e-45c5-8968-e32876df2158",
+  "generatedAt": "2026-07-27T04:37:19.090Z",
+  "registeredAt": "2026-07-27T12:59:40.066Z",
+  "assetSHA256": "e373a9d67ce20d7743730d27d9b13b0a7678a40f45cc63445934f609f60022d4",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "31513358637949af6c52c1839e0b9fd097647daaa7a8a37b9181abb327c42447"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.897851807065308,
+        "quantizedColours": 488,
+        "dHash64": "c88ea292919d9be6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Three photorealistic finished servings show red-braised tofu with mushrooms, bok choy and glossy sauce."
+    }
+  }
+}

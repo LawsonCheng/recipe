@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-056:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-056-northern-sweet-vinegar-fish-fillet/step-04.webp",
+  "promptHash": "e6b0ef89c9ad788243138caf608866710cbc5a81e5c0c313ca5be3f26892596a",
+  "providerPromptHash": "8320156941be3e9d5a50aaa2ae4678f9de811e3f3c2f6d1d82f9f2e6b23ca894",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_7jO5VFytcJqeSMfhQw5ZW6aI",
+  "generatedAt": "2026-07-27T13:40:56.000Z",
+  "registeredAt": "2026-07-27T13:55:29.945Z",
+  "assetSHA256": "2f7ebbe885680e5d380f22b89329e244aaea79e609e22d8b7a3bad37b129e2c9",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "9ff53d064a6137ad6b49a918a911fe590ce60aee163bfcdf587f07f3f0b10d77"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.436230820865603,
+        "quantizedColours": 235,
+        "dHash64": "c28e17133b0386c5"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — one current batch of boneless battered fish pieces fries at one pale-golden state in a round-bottom Chinese wok, with no duplicate raw or drained batch."
+    }
+  }
+}

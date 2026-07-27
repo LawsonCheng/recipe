@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-105:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-105-korean-beef-patties/step-06.webp",
+  "promptHash": "1d06c2a9d81c8c805c38eab750eeea9ee62bf492f38c81c9d39759b0f8e89fa0",
+  "providerPromptHash": "42c10202c8600135e97adcb9d98b3063d76709e40083535577be1a04bfee33a1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-74ac3188-169c-4c4e-99d7-6ff5f808e3dd",
+  "generatedAt": "2026-07-26T18:22:49.221Z",
+  "registeredAt": "2026-07-27T01:39:07.970Z",
+  "assetSHA256": "db48d4fa5cbb3540b51ca6dc6c969ce8e9053aad120bc1397cd9be495775f8cc",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "a470bb0e8aa9253312e6de9a62e9416711bb6b0e1ca37c5a3ab24c30a971976f"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.212006907444447,
+        "quantizedColours": 188,
+        "dHash64": "65cf8f372b368a8f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

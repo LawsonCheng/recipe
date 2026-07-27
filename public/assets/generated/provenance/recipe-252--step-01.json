@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-252:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-252-spinach-lentil-soup/step-01.webp",
+  "promptHash": "c9822ed0f42e60d488b2b786e14f506f167d53c0b9effabb8e05dc6e8b83bc5e",
+  "providerPromptHash": "5aee9677b717cf014e25e4f5b9edd0cf9313c1d55f29ab0bd34cb76aafccce36",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a06363e4-fda6-4b73-9484-54c6a6984ec3",
+  "generatedAt": "2026-07-26T19:04:16.436Z",
+  "registeredAt": "2026-07-27T01:43:36.783Z",
+  "assetSHA256": "7cfcc4a8f71dca6c48e0dfe8150f01831a0967c00f09e416782c1addaca58c77",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "0803e2be340572ce67937929c8ceb00dd8dad22edc07f368677fad23a7f44683"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.818060017190874,
+        "quantizedColours": 510,
+        "dHash64": "10146d498d8f9696"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

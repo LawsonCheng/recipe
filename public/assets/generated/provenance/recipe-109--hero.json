@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-109:hero",
+  "publicPath": "/assets/generated/recipes/recipe-109-mild-korean-seafood-tofu-soup/hero.webp",
+  "promptHash": "46361021c5b409e599d4e377ab0e6fbc60531ea4c9e050bff50e8c56dabf2198",
+  "providerPromptHash": "1be22416f5e17338ce018e1ab7542051a0f36dc9a1fb41b572289bb62b18731b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cb7f8119-88d9-49cc-b3e3-e6faed6bd5c7",
+  "generatedAt": "2026-07-26T18:43:33.971Z",
+  "registeredAt": "2026-07-27T01:39:14.147Z",
+  "assetSHA256": "d7a168199dd71d1adc6373c82d9e0b0921dc71cb953e1959806700e78c82b675",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "a7ebe84589f86fe2c9738f6cfe555ae66afff40863d8cc9ad22459591dee4d04"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.686533650079582,
+        "quantizedColours": 447,
+        "dHash64": "b172b7b38b09939b"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

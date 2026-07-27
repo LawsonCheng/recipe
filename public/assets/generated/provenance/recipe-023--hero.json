@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-023:hero",
+  "publicPath": "/assets/generated/recipes/recipe-023-clams-with-black-bean-and-peppers/hero.webp",
+  "promptHash": "08c623f5dda1466cf4e65211884f03341001dd59950cb4d0559225ab817ab408",
+  "providerPromptHash": "a0a8ceeb8d57ffbbaabd259b9395127efbc7d8c5f59b2c8101a0d2db00ff47b7",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-dae9df40-b4cb-481f-a1d2-73cc675c680b",
+  "generatedAt": "2026-07-26T19:43:06.519Z",
+  "registeredAt": "2026-07-27T01:36:45.532Z",
+  "assetSHA256": "4f673c924e0cd4f6ecfeb2d9fd723f415c00ba61c197e4f40d5d6656aba736a6",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "066e2c52ed1f4434416abb1d66e6472cc0319d06f79742a0de6bbcabd49a1761"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.649594888556749,
+        "quantizedColours": 330,
+        "dHash64": "3425764e87e4c4cd"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

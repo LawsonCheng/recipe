@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-296:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-296-hong-kong-curry-chickpeas/step-06.webp",
+  "promptHash": "8583b52a912425e064304a5af207dc6f18be0695a26cc020f4a4334019a8f447",
+  "providerPromptHash": "261183c5ea9c43e8d9e00fc4981257081423fa63e729d3e0f80e03e3342fd21c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f11c3beb-349f-4c63-b50a-d55cb0ef6dc9",
+  "generatedAt": "2026-07-26T23:47:18.599Z",
+  "registeredAt": "2026-07-27T01:44:57.346Z",
+  "assetSHA256": "e382e7f62936400b3b2400878da02aa08e32a65193abe526150106d53a1f0e90",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "c6a2f600096d028b63b58c9a632b265028ec2d69b8db74f5cc40a999acc67ffb"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.701821804046631,
+        "quantizedColours": 330,
+        "dHash64": "744b3371ed5e4687"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

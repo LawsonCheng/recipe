@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-133:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-133-northern-thai-curry-chicken-noodles/step-01.webp",
+  "promptHash": "73715a8bab66b0a9fc9006cd502dbed01fad20c528abf87fb698b1d4e4e7ad1f",
+  "providerPromptHash": "bf4882739844833564252f29ab4e72b409ce4cbc6138c6d1f093afb2e3e18048",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7159019b-371b-4299-b99d-5841955f5c93",
+  "generatedAt": "2026-07-26T21:16:19.483Z",
+  "registeredAt": "2026-07-27T01:39:59.784Z",
+  "assetSHA256": "539e03389c7bb085608bcfb80c099de27e324f486cf371227951db83894651a7",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "bad4c1ee4856aa907de025d01f6271854e375849e9fa0c0c2773b11b87b53197"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.580839553556871,
+        "quantizedColours": 403,
+        "dHash64": "c7d3d949f97ccfb1"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

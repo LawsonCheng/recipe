@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-295:hero",
+  "publicPath": "/assets/generated/recipes/recipe-295-black-pepper-mushroom-baked-potatoes/hero.webp",
+  "promptHash": "f6569dd9213626fe06df1fc5e4421cf8ec8450d3b8bd4b7b4c969675c7899457",
+  "providerPromptHash": "f327bf1af9f480a971850f4d378e3f7dc3cf64b92a8fb1e7649a92546fd12b93",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-cf551a21-d2a3-4f4b-877f-0aeeb2e12154",
+  "generatedAt": "2026-07-26T23:40:46.586Z",
+  "registeredAt": "2026-07-27T01:44:54.059Z",
+  "assetSHA256": "3aa25759008cec91487616772a3c1124cffc74b7ceae07e22cf651a06d13027d",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "d3c19339547890a0e06f1549fd685c0b953bba3de8029794b0c36ca2d0abb3c3"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.84694454993587,
+        "quantizedColours": 333,
+        "dHash64": "4fccae87bbf96b6e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

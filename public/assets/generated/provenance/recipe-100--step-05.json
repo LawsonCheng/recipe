@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-100:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-100-japanese-creamy-corn-soup/step-05.webp",
+  "promptHash": "667945fd009adff3024cc1e6787cafc475b65dd527f02a87a50f208bd7d16ba8",
+  "providerPromptHash": "57e4b0aaeaf62d3db66d03c147039b5a877ffb6556db9632448fbb12e6b786ad",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-240d1a8b-503d-4afa-9db2-6407b4c09551",
+  "generatedAt": "2026-07-27T01:26:11.643Z",
+  "registeredAt": "2026-07-27T01:38:58.530Z",
+  "assetSHA256": "29062996c3dffa7ff29ca1c655a354e9ad9a17cef949d947120a516b2f5956e5",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "22cae7e03c5781c9a87b5372275bf4ea9ff9c2d7bebb518d4a4823a02c9ec908"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.123494522587862,
+        "quantizedColours": 149,
+        "dHash64": "cb831f3f373b1b0f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

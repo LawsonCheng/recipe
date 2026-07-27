@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-188:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-188-garlic-prawn-pasta/step-05.webp",
+  "promptHash": "17dcd9ec33c293456d08e3d21f7c35e62e0f8d44ba26f9084fd9ee5e6b0eb695",
+  "providerPromptHash": "725a29d1b221c191f05496ce05b19b968207052a8a8b9626a716378be2017778",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-193c31e2-0aa8-44cc-bf38-e9fb043a820b",
+  "generatedAt": "2026-07-27T05:55:36.660Z",
+  "registeredAt": "2026-07-27T13:00:06.529Z",
+  "assetSHA256": "ede3a0b2816f358b069ac6216c4ba52cceb2145d61a4371819eb33846cd74c01",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "46a263a19a27d2df3654d9abaa6c6669392405c1a247a47a98c68f57d1b49c15"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.652958468650468,
+        "quantizedColours": 356,
+        "dHash64": "682e0f150e0f0f0f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Pasta is tossed with garlic-tomato-butter sauce and pasta water, with no prawns before their later return."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-050:hero",
+  "publicPath": "/assets/generated/recipes/recipe-050-chive-style-egg-pancake/hero.webp",
+  "promptHash": "46fb894ab29598ba529f4416b64a263f496fbef0c1b4651507d571b7f29b96cb",
+  "providerPromptHash": "eca6b05423c520c3de8789b266a305f047dec1ca382083f23e425ca614f9372f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-99b43c3a-639b-489a-afe3-a801eb7757dd",
+  "generatedAt": "2026-07-27T04:47:28.628Z",
+  "registeredAt": "2026-07-27T12:59:42.568Z",
+  "assetSHA256": "d5caf23b312fa7d994e136fd26166717c10adbcad4e8bd13c5eb7cd5fd297913",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "e303cc2577473e8def32ad11ebda0ff99b31910f5a91f95fa16e3d4b813a530a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.65130207407492,
+        "quantizedColours": 432,
+        "dHash64": "1b11172b716b1bce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

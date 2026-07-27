@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-042:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-042-moo-shu-pork-with-egg-and-vegetables/step-04.webp",
+  "promptHash": "fc9bff3f02bbe6f2d563e7b99578b7889c8893a391a59736f46165bb7c98e9b1",
+  "providerPromptHash": "569910b32132d93cc241a989d8289f75627edabbc4a12842c5911a77c3b3992d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-7eb10b96-76af-452d-92ce-92b363833cad",
+  "generatedAt": "2026-07-27T04:25:39.915Z",
+  "registeredAt": "2026-07-27T12:59:40.569Z",
+  "assetSHA256": "35ebc5f7eb8b5d2255eb3000b8d10871b1559d9443d83246790a6b58ae86c71f",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "988f4129fafa9458d8439ada6ac1baf61e48adfce864c7f3fa7c3f422c74faa9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5462716347537935,
+        "quantizedColours": 257,
+        "dHash64": "fcc5070f1f86ddf8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened; pork strips sear alone in one round-bottom Chinese wok, with removed eggs correctly absent."
+    }
+  }
+}

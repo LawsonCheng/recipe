@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-088:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-088-japanese-karaage-chicken/step-06.webp",
+  "promptHash": "f4553d4dc7c316709ca8ab3b17e7eca265307d7b477159bbd9645610127161e3",
+  "providerPromptHash": "449b24d831254c0ba22f487c063db98890c088569a2827d5def0c6f8350d599e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6c0cfd15-951f-41f7-8e9b-f4235c7f8614",
+  "generatedAt": "2026-07-27T00:30:58.807Z",
+  "registeredAt": "2026-07-27T01:38:38.307Z",
+  "assetSHA256": "14d29998c135498f541045b41b0f5bb50bf252e2e1de8390ce78664e15f4d5e4",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "05d09ab272e4283fe5a76cbca00384028f9aa737919d4c70a6500ff31aee0130"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.700106491567567,
+        "quantizedColours": 358,
+        "dHash64": "0172711d6e7f4fce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

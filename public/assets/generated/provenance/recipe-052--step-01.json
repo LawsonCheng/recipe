@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-052:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-052-spring-onion-beef-stir-fry/step-01.webp",
+  "promptHash": "28c42dfdcdaca7dcf1d31c139d4d0256f296bb17ba60b5a1667f5d1b37e73563",
+  "providerPromptHash": "e2dc9a22d14736331178fdfb2c87e1e04b8512c4769656b61654db242e64eeef",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-6725f193-8c4b-40fe-acc1-bd4cbe643cc9",
+  "generatedAt": "2026-07-26T22:28:32.509Z",
+  "registeredAt": "2026-07-27T01:37:35.483Z",
+  "assetSHA256": "326854e00b2a73322d658eacd4dd88a50b52118c831cb4810fd9377c46c56337",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "963fea5804f3a2923957b0e8b78f4af5a51a293841685042c924117e5f8562d2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.6321474682190455,
+        "quantizedColours": 363,
+        "dHash64": "61e52686dba91999"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

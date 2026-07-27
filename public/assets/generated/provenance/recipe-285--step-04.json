@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-285:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-285-ginger-spring-onion-chicken-steak/step-04.webp",
+  "promptHash": "8a2fcb865742afe18bf4a040eab91def990c7654f4ce0ad0d273c17327c3d993",
+  "providerPromptHash": "f5ebcbb1d133964d2405219e8531481677f2c4cd6a0518e521ce20f5eeaf802b",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-0b82b536-593c-4fcd-bf1d-b629fd60fbe3",
+  "generatedAt": "2026-07-26T22:38:07.478Z",
+  "registeredAt": "2026-07-27T01:44:36.944Z",
+  "assetSHA256": "237a29156f55727166f0ba6e1feade6e8622ceb6d38a3bc44df8e6a31e11efa3",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "1001a801b979a6d76e0b150ea961c7c03b28b9e594bb272336dfef7e69351bd7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.405163148432621,
+        "quantizedColours": 197,
+        "dHash64": "f9df9793331698cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

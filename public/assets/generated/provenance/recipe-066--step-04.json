@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-066:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-066-dry-fried-green-bean-style-okra/step-04.webp",
+  "promptHash": "309cf75dd3525dfcfd4f484a79c5af975db4efaefae9544d947e4a90e1194f30",
+  "providerPromptHash": "85f7012f94edb0c09e56c95511d6e793e452b125569ad98a59f19cc3f14edf29",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1b892538-b523-401c-86f4-7255aa75421e",
+  "generatedAt": "2026-07-26T23:36:55.272Z",
+  "registeredAt": "2026-07-27T01:38:00.108Z",
+  "assetSHA256": "1299fdb40b5becac1f35e70b544b3dc6da5fe61b542aa259de97df8137a3b2cf",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "4c462d3464b42c670bd4e30446a84e88af183dc50dc212531692982ac2561c87"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.31247660786903,
+        "quantizedColours": 196,
+        "dHash64": "f06a4f3b3ba79690"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

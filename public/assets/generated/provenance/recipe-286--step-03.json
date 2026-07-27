@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-286:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-286-hong-kong-tomato-beef-meatballs/step-03.webp",
+  "promptHash": "9aa1b96f80abe8ece1e609b70cab5ccb733b79b3ff25f5913bccef70167ba18b",
+  "providerPromptHash": "f64905febfd264e9705c5e2ae08bab04ad488db4e3ae54b9d50da7efe2f0c245",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_sKDL9GuXBbmsszQE2by1X5bC",
+  "generatedAt": "2026-07-27T13:23:55.000Z",
+  "registeredAt": "2026-07-27T13:55:32.907Z",
+  "assetSHA256": "3f798b0b8a5797a90264de62db3b3b6328546923e350061902e2206f4c70c1ac",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "2e702dbf38a21612fdc7c802f83ec313d73d36a522fc743ac83921fcde002060"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.97820783817042,
+        "quantizedColours": 135,
+        "dHash64": "23c8e8ece8e892cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly twelve raw 3 cm meatballs are separated in a clearly countable three-by-four grid on one clean plate."
+    }
+  }
+}

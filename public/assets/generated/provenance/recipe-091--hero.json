@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-091:hero",
+  "publicPath": "/assets/generated/recipes/recipe-091-japanese-simmered-pumpkin/hero.webp",
+  "promptHash": "08b41050b9bae30c8ea54b061a6ccbcae19b44150631c0297950fb3ae6693726",
+  "providerPromptHash": "f2189c3472804d857bf549fc7b45522009e8a999aadd7ab58bfc6a0d7476153a",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4cce6982-9293-4b6f-a94f-b3ea9097e26f",
+  "generatedAt": "2026-07-27T00:44:39.167Z",
+  "registeredAt": "2026-07-27T01:38:41.982Z",
+  "assetSHA256": "b293e328cea58c23bd81d15a7bfc2887009457557f6b46704df80314bf1d323c",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "4cc86480b2ad9e9a51be4a676e4ad2c880d09237f4f10aa95d9bb68123f3a9f9"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.716662538558012,
+        "quantizedColours": 389,
+        "dHash64": "f1d6b28693bba346"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

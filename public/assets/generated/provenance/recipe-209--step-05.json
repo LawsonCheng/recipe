@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-209:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-209-western-beef-vegetable-soup/step-05.webp",
+  "promptHash": "b6096a29668fddd0b594a91bb34ae0d1b78505e8a092bb986d5bbd02ef44c886",
+  "providerPromptHash": "935155cd08ce7486c06b7d4bf4352e654eda46a9f9c5ca640168ec07818d9054",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1af132f5-3cad-443a-9e9f-b4b805c923a7",
+  "generatedAt": "2026-07-27T05:37:52.999Z",
+  "registeredAt": "2026-07-27T13:00:11.554Z",
+  "assetSHA256": "f4a13bc948c8499f2b1166ced6be50dd0c44e0ea76f3eb03826a50fe5c5a386f",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "c123691431ae94361c528356b5a343b76d0d1dde6ed2cb92c5f4c06f06fb0c09"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.633532758918591,
+        "quantizedColours": 288,
+        "dHash64": "f1a30b2f2d1b9edc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch3",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:36:44.721Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — frozen current public WebP re-opened in fresh contact sheets and checked against its current manifest prompt; photorealistic real-camera food image with correct quantities, step/final state and equipment, without text, watermark, stylisation or premature later state."
+    }
+  }
+}

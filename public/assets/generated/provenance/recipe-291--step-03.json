@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-291:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-291-teriyaki-chicken-fried-noodles/step-03.webp",
+  "promptHash": "f377a2568ccae5fe8fe7e2062958ec57e8b0c75bccb930cb147736fa0b9e3791",
+  "providerPromptHash": "05be6c82fb4b592c134389b7c670d0dd0da272743682a7097a3266e7661cb4d1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3874541f-1a59-4d0a-b1b0-8dfecd544b26",
+  "generatedAt": "2026-07-26T23:19:12.417Z",
+  "registeredAt": "2026-07-27T01:44:47.675Z",
+  "assetSHA256": "17b497cdf83b39ef42835362d5af0140cc509706c6eb61a38335236b9dfcd4ab",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d6353ee62ec84c80900aef91c69cbde7c7e1b77ab4050c55859dc96398de5e71"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.219904845580459,
+        "quantizedColours": 273,
+        "dHash64": "5b1b3c3d3a3ab5cd"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

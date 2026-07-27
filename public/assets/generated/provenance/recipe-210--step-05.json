@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-210:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-210-corn-and-potato-chowder/step-05.webp",
+  "promptHash": "b3acc745afdc0f6cff2c116be7a98f484dca1a7d485df569f58930ea8f541976",
+  "providerPromptHash": "ede2cc949578148f190f13b8b1f907edf12ba34034a74dddd0685d21b52ec706",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-398661ab-0626-4732-add0-e7bc96f52abd",
+  "generatedAt": "2026-07-26T18:52:18.754Z",
+  "registeredAt": "2026-07-27T01:42:22.287Z",
+  "assetSHA256": "249284c8968dd98d38f5814f4007f13bf585c7b08b47d8a9ebd45aa51dc63fde",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7b77f4fe5eeaecb9f0a7b82b287c054aa664c82b2d599435bec94c0ecf70b3ba"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.624656167667126,
+        "quantizedColours": 194,
+        "dHash64": "f8d487879b9b8f87"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

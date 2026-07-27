@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-263:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-263-black-pepper-king-oyster-mushroom-steaks/step-01.webp",
+  "promptHash": "249d19bf5c60728eade7ce98675e2d79795fc676c5786707fad7662a63adaa97",
+  "providerPromptHash": "809b23b5b97065af669eca8efeca9ea8faed06fc300c423984f7517f609ac9df",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-98d46ff0-fd02-4e08-8c15-9ca80b6c73ff",
+  "generatedAt": "2026-07-26T20:11:22.562Z",
+  "registeredAt": "2026-07-27T01:43:56.723Z",
+  "assetSHA256": "9c40234f7ebc2e3c1de9b002f134f86d7002a82715729558abe5e56e57d309a4",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "082b7cca251cb05750baa04390b5e3988b5feb37788cfbabb5222887fac24b69"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.214800928404657,
+        "quantizedColours": 300,
+        "dHash64": "2d1e37390d47131f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

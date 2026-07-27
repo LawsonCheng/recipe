@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-086:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-086-japanese-ginger-pork/step-04.webp",
+  "promptHash": "a51b4dfa7141bc1dd21b69bb6fa962300919fa73d4971a53bb863f1e0604a7d0",
+  "providerPromptHash": "f4f956684fd6d37511a9ddeae57a2187bc453ea2750607524284b2004fe5c658",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d5f7fa7b-b240-4261-876f-57f03b88455c",
+  "generatedAt": "2026-07-27T04:42:37.086Z",
+  "registeredAt": "2026-07-27T12:59:55.782Z",
+  "assetSHA256": "4d2d28835dcd88cb3c8595b38a9376fe1779465e85e5147c942348b1bfc4bc7d",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "776488e5475a33fce4d8a836d8f3ee03e6651ab778f5ca64016f2d01a503af43"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.453252125764266,
+        "quantizedColours": 226,
+        "dHash64": "79b546063696cecc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — all seared pork strips are together at one juicy browned state in the allowed Chinese wok after the second batch."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-168:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-168-vietnamese-caramel-chicken/step-04.webp",
+  "promptHash": "76cc458c5aaff6cf9504a2af11b85ca618a3cd1a52ec3e7dcf7d310ba1d26a39",
+  "providerPromptHash": "15bdb65a865f6ac19fd6cd020cb986e4515945c022c114ae4da0a57bf0305d24",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c1af4dbb-5293-42bc-9866-c08929a1d389",
+  "generatedAt": "2026-07-27T00:44:30.334Z",
+  "registeredAt": "2026-07-27T01:41:05.317Z",
+  "assetSHA256": "481bfbdf3c40fd667373d4efbeb5c03be69d4a0ef45bd76cb2f19380ac89c8da",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "8f4a0f607849a1efae28f49b6341452d568405dbb2895a03487935d2acf446be"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.510542046860792,
+        "quantizedColours": 363,
+        "dHash64": "3d0f1b473733161f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

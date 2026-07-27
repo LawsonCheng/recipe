@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-132:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-132-thai-coconut-pumpkin-soup/step-01.webp",
+  "promptHash": "ac12e2eedf091bf647c00608d64e432e0216b8fee54dab14ad3a28c855aa6f98",
+  "providerPromptHash": "93f4b4e860640974cd8a0fd18d06294f0c41f09b855e06ab865694c289ccb042",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a5e76e29-be14-4a87-a262-09aad8a2ae59",
+  "generatedAt": "2026-07-26T21:12:03.227Z",
+  "registeredAt": "2026-07-27T01:39:58.073Z",
+  "assetSHA256": "eeac77b19d9a6bf3736239f1267543494feda52e59bc637646bad86f663eb240",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "22654a2874ed8591acc1e28f9121e88fa7648eb8d2e3b25d018bc97abe87a586"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.5735755099740345,
+        "quantizedColours": 434,
+        "dHash64": "33999aded3e9b78d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-120:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-120-mild-kimchi-style-egg-fried-rice/step-06.webp",
+  "promptHash": "73c20149476d3a559b4c0000ff0dd07e3daecc44a202d666fe6c091c32e6dd4d",
+  "providerPromptHash": "30841225e09dd70ef7f20783d81fce879e00d8e8dbf0a21ffa04b54e242be9bc",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-b8daf4eb-f399-4ccc-8d67-f426a11b294f",
+  "generatedAt": "2026-07-27T04:46:30.207Z",
+  "registeredAt": "2026-07-27T13:00:02.794Z",
+  "assetSHA256": "946e6ece6f588912feb0efeacffb7e7cf4d4975991af3c3e7ac951b5531718a0",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "9f6d6ede3da4a8a0842be58677c9b687fb143f43adb52847242964e470d76c47"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.640432537329616,
+        "quantizedColours": 242,
+        "dHash64": "e7a60e1717178fc6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — fried-rice sauce is poured along the rim of one Chinese wok containing cooled rice, cabbage and peas at the correct current stage."
+    }
+  }
+}

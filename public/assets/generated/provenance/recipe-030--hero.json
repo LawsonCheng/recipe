@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-030:hero",
+  "publicPath": "/assets/generated/recipes/recipe-030-garlic-prawns-steamed-with-vermicelli/hero.webp",
+  "promptHash": "90b8e30181f0ad90ed2a68e87fa1573627420faecbafc81e8af580a2acefeb33",
+  "providerPromptHash": "3d8671660a20dc480b7b36c901a9595fada918ab91519dad2735d2daae4c1642",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e0dfb3d3-dfd5-421d-a0a0-03d962de1315",
+  "generatedAt": "2026-07-26T20:19:15.465Z",
+  "registeredAt": "2026-07-27T01:36:57.648Z",
+  "assetSHA256": "72dcfec4c6b31dc329e56550786e37fcda2e59abebb33707e6cc6f965bc72bd6",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "cb68ba9b3462866a0c16aea74efc6891590381a7f04794492589aa37be8dae1c"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.662740904259408,
+        "quantizedColours": 347,
+        "dHash64": "b592336944783907"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

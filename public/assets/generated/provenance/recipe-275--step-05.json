@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-275:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-275-teriyaki-tofu-rice-bowl/step-05.webp",
+  "promptHash": "72c791e29c27fda97477e79fd620aad2ae0341c30804ca22854b3b9c0872ab1f",
+  "providerPromptHash": "6912f81515217967526f5748a21310f68d306ee903efaf399691245d31d4eacf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4cdd0d3b-08d3-4c3f-9a71-f4338e27a715",
+  "generatedAt": "2026-07-26T21:44:09.105Z",
+  "registeredAt": "2026-07-27T01:44:19.348Z",
+  "assetSHA256": "6e07212835640d33fa46a0b9038eef355e54715f524943da07bac739798bcb3f",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "d845da7fad8ac59d8ec7357ba8d64e9ea804a8ac6a9e8d9e48b1a0861ec79bdf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.463722568354569,
+        "quantizedColours": 452,
+        "dHash64": "6132999d2723168d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

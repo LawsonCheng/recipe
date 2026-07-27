@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-187:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-187-italian-meatballs-in-tomato-sauce/step-02.webp",
+  "promptHash": "b7d32bb567f1e735d18bf8baab503ee2268aaeac8459129de0dada4ecc9add73",
+  "providerPromptHash": "50f4054ea1432927a50199cd100418147877c5b4ccc5eded4f42fbe7094ddd13",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f8ee4f83-a867-4187-b11e-3b7fceb2a11b",
+  "generatedAt": "2026-07-26T23:41:18.749Z",
+  "registeredAt": "2026-07-27T01:41:40.202Z",
+  "assetSHA256": "3589baccd4d31976a222350c478034be5074a8cd84d022f6b829803b93ae673b",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "ae11765448bf5cbad7e49592997ea7ce6b8eff87573bb989bd5cef0394d8a82b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.618303551891586,
+        "quantizedColours": 219,
+        "dHash64": "e7969e2f1b97ce71"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

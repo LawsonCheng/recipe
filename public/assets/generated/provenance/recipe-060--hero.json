@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-060:hero",
+  "publicPath": "/assets/generated/recipes/recipe-060-braised-beef-with-potatoes/hero.webp",
+  "promptHash": "9504ecbf56d27d407fe2c416d83149aa7308a365f66dd3597b9b350e5278c2ac",
+  "providerPromptHash": "999a65bc5c985dc334dd52b9c2210a0006e509fb9f6e19b0046774e5c21c1aa2",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-8df8f0d3-c43e-4313-a20d-43b881c5618b",
+  "generatedAt": "2026-07-27T04:42:38.000Z",
+  "registeredAt": "2026-07-27T12:59:46.760Z",
+  "assetSHA256": "7c8aefa908b05d9e49481f3d9c7f6d0c0e1fa727aff3f3869539e993f4877c23",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "b653c09d7e20aa0e782a94d91c21c6e9a5a8ecd9c43e96f466fc7277b6719471"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.855039589572698,
+        "quantizedColours": 318,
+        "dHash64": "46841e36282888c8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen current WebP visually reviewed: photorealistic real-camera food image with correct recipe/step state, quantity, allowed equipment, doneness and no unrelated text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-283:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-283-char-siu-style-tofu-baked-rice/step-04.webp",
+  "promptHash": "5aa4709f249a863231143c795e27e7b798b0c7f50022dddf4ff0928da7af4dc0",
+  "providerPromptHash": "b935ef63e034425a2e168406f77893821b8623ec98cb65328c62d157b73aec51",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-c3fd0b3c-c2ee-4f60-a0e3-22edc39e5571",
+  "generatedAt": "2026-07-26T22:32:13.036Z",
+  "registeredAt": "2026-07-27T01:44:33.373Z",
+  "assetSHA256": "392382f1e444986dbe2a08e05ba89a99ba7df512f744c0f12b1e2b3772328dcb",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "b5a2e52c2394798415527d1f2af9f8e2f93c27b94665faba727afac2567f6ecf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.32956613783972,
+        "quantizedColours": 160,
+        "dHash64": "70dc1e16368e88e8"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

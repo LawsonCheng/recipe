@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-090:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-090-miso-simmered-fish-fillet/step-06.webp",
+  "promptHash": "0d3c817fa6aef04acfde1e1a5e772531206bcbfa3b204c59e565252b8dd8bb95",
+  "providerPromptHash": "e9baa909f8205d69ed18f525db47d017731bf01af652a4ca0b8dc50687368877",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-94cdbd93-fbba-4b40-b575-98ddd786ae6e",
+  "generatedAt": "2026-07-27T00:44:39.001Z",
+  "registeredAt": "2026-07-27T01:38:41.744Z",
+  "assetSHA256": "309d182ea5cc805c630ab409179d8b3dba6d868ffff9d7e0a056eeba599c1752",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "03af48897520c3710a65d25194fc2165277fe2519f55049b2f7d64cd2ce942fa"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.551995498826727,
+        "quantizedColours": 312,
+        "dHash64": "c81e3f072303060e"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

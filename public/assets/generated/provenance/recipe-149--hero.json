@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-149:hero",
+  "publicPath": "/assets/generated/recipes/recipe-149-indonesian-cabbage-tofu-stew/hero.webp",
+  "promptHash": "eb176eee905d99511ce57e03fa05b4494a0a6689c6f4451230c5e6f68ca456e8",
+  "providerPromptHash": "2eb8722d162f0e647288edcc1910caeb3f2ea2787e7d35f71a9d74ad53a2a02d",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-303c99d9-3b0e-43b1-bceb-a6fedd6c2b20",
+  "generatedAt": "2026-07-26T22:49:37.482Z",
+  "registeredAt": "2026-07-27T01:40:28.718Z",
+  "assetSHA256": "e9fec40f18f0ceb18f58c2d65d8c6411ed6e71c04a97252fdd470614be3dff91",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "183f99264073e1b69999d8fe0e5b728726d6735e22e2652dad83d3b77db66004"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.620039732428268,
+        "quantizedColours": 356,
+        "dHash64": "2feda98f93339b46"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

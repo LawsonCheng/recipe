@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-246:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-246-aloo-gobi/step-03.webp",
+  "promptHash": "b16a9d18a2a3a72f0b9d10d66deb6ddfef12bdc5c272d8e6b3514082d31a87e4",
+  "providerPromptHash": "1857a026b16cf459bbf01674ddaf9e356581609223ec12bfe2e18cde1d24877e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-97f00aaf-98aa-4ba0-82d7-0e24ce703591",
+  "generatedAt": "2026-07-26T22:16:33.471Z",
+  "registeredAt": "2026-07-27T01:43:26.397Z",
+  "assetSHA256": "dc29cfffbe0eadcf8bb94e0b5e9c13b833c75de668b8db43f821ff3df93266ab",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "1a4eb9e1db574cc2527581e890a9ec0f5d89e00665f5476585fde901ee5d3126"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.474821806084947,
+        "quantizedColours": 278,
+        "dHash64": "a1f88e1713160f89"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

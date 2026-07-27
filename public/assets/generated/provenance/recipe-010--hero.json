@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-010:hero",
+  "publicPath": "/assets/generated/recipes/recipe-010-satay-beef-vermicelli-pot/hero.webp",
+  "promptHash": "13a650fcc279ae6797354fe1cab3501cf5482c50dcfe505c65e94e1896a6c5e1",
+  "providerPromptHash": "53d6765d553a6b2b348328ce4778cd116a4d8b867cd10537398ab156b0cbe167",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f827629f-2e75-49cc-bb3c-2230b75e442e",
+  "generatedAt": "2026-07-26T18:32:56.099Z",
+  "registeredAt": "2026-07-27T01:36:23.288Z",
+  "assetSHA256": "0ef88a5000f5f2e14d2a08ecf9d86724749ceb006578fbc70fc08e4647c79a17",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "75506e3722bd59caa4141f989d42659f12fefdf88082523242931d25bd1e58ee"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.719843527651392,
+        "quantizedColours": 415,
+        "dHash64": "4f6854a2ea6896cc"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-223:hero",
+  "publicPath": "/assets/generated/recipes/recipe-223-moroccan-chickpea-stew/hero.webp",
+  "promptHash": "be28d0ef0ef452e1811e29d46590190cd4615eb1e0f2be38019c45354b63784c",
+  "providerPromptHash": "26a88ab7336525434da470c2ecde8377fcbf337f6a4437a3dc60fd80c2820bb8",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-efba9350-fb73-465f-a8ac-b4d3512c841b",
+  "generatedAt": "2026-07-26T20:04:32.787Z",
+  "registeredAt": "2026-07-27T01:42:44.311Z",
+  "assetSHA256": "7fe32a9acdb235a52d88c25e63f6cf39a727a8a3abb94f00516aae88345be501",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "b07e23aec5fcd9924917d7080f37355394ba32220c49b033121afd1c77318c15"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.638146326455171,
+        "quantizedColours": 456,
+        "dHash64": "a435b01e2a612133"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

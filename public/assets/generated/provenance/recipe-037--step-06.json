@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-037:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-037-steamed-eggplant-with-savoury-bean-sauce/step-06.webp",
+  "promptHash": "a578c595706ac47eeb6896c6591bd33c1a29b70839bb758ae425c033b90c5c72",
+  "providerPromptHash": "96e35c685a60962e027b741fdd4bd9512adbdbdc52ecc63f577ca2073510131c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-13ab341c-d9f8-40a0-8053-51a3cb1edf47",
+  "generatedAt": "2026-07-26T21:10:53.533Z",
+  "registeredAt": "2026-07-27T01:37:10.984Z",
+  "assetSHA256": "ae51a42f9c38ba506d98e2abbdff06c2c2773e53755b9223b6afe9f50e0d72eb",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "d29279789407ecca2fcdf84610a2e87a04006e955d168f087f0b10e11e7859cd"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.315716911223717,
+        "quantizedColours": 338,
+        "dHash64": "1f1af9f8e0d0719a"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

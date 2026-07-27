@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-055:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-055-egg-coated-pan-braised-tofu/step-01.webp",
+  "promptHash": "adc6d62c89643b37388ae4c76e5f35af5bd1174a833713d767893d8f08fa7954",
+  "providerPromptHash": "58aff461563d2ff5ac343910cbac49aa3c6490a9aa20201fad4675446629fedf",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-980b7145-53c3-4888-ae29-4bbdee1e82e3",
+  "generatedAt": "2026-07-26T22:39:46.901Z",
+  "registeredAt": "2026-07-27T01:37:40.616Z",
+  "assetSHA256": "1dac0ad3530fdd1c858c8245aa2e434cb577e626b50238fcc6e1478f86c66b55",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "95b04efd453124b47a1c6e277a06ee55d57bd5ba3caf2a06a55600aa454fa317"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.393666603369638,
+        "quantizedColours": 240,
+        "dHash64": "d8191b1d276f1b3f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

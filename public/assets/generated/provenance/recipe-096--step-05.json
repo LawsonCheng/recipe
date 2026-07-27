@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-096:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-096-miso-glazed-eggplant/step-05.webp",
+  "promptHash": "c5a64cb88219250eae10efe6161fa3776e99edb583a2b7e10434d9d45df47a03",
+  "providerPromptHash": "29bbff0e765da4aa4edc88dcd40036d5e1c30a0ae19174edb1828d42cbf12d09",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-fcd8e74a-837f-410f-a576-d645b9ed90b0",
+  "generatedAt": "2026-07-27T05:24:57.000Z",
+  "registeredAt": "2026-07-27T12:59:59.797Z",
+  "assetSHA256": "e591957aa32829d2dd9c9d81e8884c0650825f7cd7c12630ec796bc88526f0f4",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "4bdd32f4f3ce8f80d08023ccfe99f57e305123cf5662efdc7b41e44b239f86f0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.714269947480716,
+        "quantizedColours": 259,
+        "dHash64": "a0223e47cf7ee6e6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Independent Agent /root/retry_visual_review_b (frozen final-manifest review)",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:32:48Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Exactly six glazed eggplant pieces are caramelised on the supplied tray in a plausible Toshiba MX2 oven."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-259:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-259-coconut-okra-curry/step-05.webp",
+  "promptHash": "33bc02feb3445bd4a2a173cec6dab3f80061f0ff60e5b7c541c327ba31e9b6cf",
+  "providerPromptHash": "5e0c6a5584a0464c65e6c4720af23671eef2c266c408725a28bc07834ca81b21",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-f0c0ccef-1b4e-4fda-95e3-9be938481c69",
+  "generatedAt": "2026-07-26T19:48:58.959Z",
+  "registeredAt": "2026-07-27T01:43:50.590Z",
+  "assetSHA256": "f3f1e80176fbbdf4db6c795b0173133e84d2aa8297374acc6ece2a2f1cf61188",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "3de78bdd7f7f5f7913925a8d133a2e86ebeb84a5e4b0adbdf1c71f0630afc2c5"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.383009989807761,
+        "quantizedColours": 268,
+        "dHash64": "e8861341a9192907"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

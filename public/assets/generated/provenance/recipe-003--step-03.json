@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-003:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-003-hong-kong-curry-chicken-with-potatoes/step-03.webp",
+  "promptHash": "1534f1db37184fe4232dcd8ff3a26cbcda49dfd39bb9dae95f98ab24bf70a1a8",
+  "providerPromptHash": "dc7e75d76e869b312c754c1b004fd8a359a72788ace041ab15556cfa8f64bfb1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-bf744a3c-32e9-4e86-9ad3-c360d2167578",
+  "generatedAt": "2026-07-26T17:55:31.811Z",
+  "registeredAt": "2026-07-27T01:36:12.182Z",
+  "assetSHA256": "989a010c9c0d12fb9cac345ba7493f7ead808b56fa488e4fe20ee2a2eb343415",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "d787d084767e01d3b3523507cca006d45e6d680664e19ae8a3d620214695a112"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.4930463618457,
+        "quantizedColours": 290,
+        "dHash64": "f8e4a3912b92cfec"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Gauss",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:17:11.668Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

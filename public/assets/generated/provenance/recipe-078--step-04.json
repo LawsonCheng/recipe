@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-078:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-078-mild-chilli-dumpling-style-soup/step-04.webp",
+  "promptHash": "923a8df2c9b18332438c0506263f136a1f4f654193497cdb330f439ee26814c9",
+  "providerPromptHash": "653b803126b9c20ddc00ff8632be667039a66ed26fadd3d99c8bc76724228249",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_qXJRxMyVieaB9FZPowIELovz",
+  "generatedAt": "2026-07-27T13:21:18.000Z",
+  "registeredAt": "2026-07-27T13:55:30.693Z",
+  "assetSHA256": "0fa525f47321f6505af6570c5c60ded15b394d2827c8fb7085500193adc4f067",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "3027229b583ecca88d2e3d66e6bac999ba906b8b73f511daa9c9acc7fd1e0011"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.324131230874627,
+        "quantizedColours": 152,
+        "dHash64": "de5555555555557f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "retry_visual_review_a",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T14:26:38Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Frozen image reviewed at full size: photorealistic tray with exactly 24 enclosed pleated dumplings in one coherent pre-cooking state."
+    }
+  }
+}

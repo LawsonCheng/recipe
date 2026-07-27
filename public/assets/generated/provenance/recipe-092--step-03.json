@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-092:step-03",
+  "publicPath": "/assets/generated/recipes/recipe-092-beef-udon-style-noodles/step-03.webp",
+  "promptHash": "4275b4a23f4a28339892b310eee1dd750999865e2ef8fec2d49115daf97d0f3a",
+  "providerPromptHash": "5d4c60fb21442f005f0c560a4433111b8ec4b0835f7bba937101cdab75d4d21c",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-185ade5b-9b27-491d-a107-18332e599529",
+  "generatedAt": "2026-07-27T00:51:23.614Z",
+  "registeredAt": "2026-07-27T01:38:44.402Z",
+  "assetSHA256": "2dad4b27720302d6a814e9d7f2dae80ca5ce0de9de8e2504a35b3a81e86b51ec",
+  "source": {
+    "inputFilename": "step-03.png",
+    "inputSHA256": "35d15611677d34980b9e065af3763d5e17919a5c16dab29d60364563021bb5f2"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.447930972150061,
+        "quantizedColours": 122,
+        "dHash64": "a0383939696d6d6c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:16:00.310Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — Visually aligned with the CURRENT hero/step prompt and carried-forward recipe state; equipment, sequencing and doneness are plausible; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

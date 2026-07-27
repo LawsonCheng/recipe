@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-072:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-072-chilli-bean-braised-eggplant/step-02.webp",
+  "promptHash": "333aab82db377b64d6eebbfb488c3cc2500f78b539ef988f45d71b64934e83b8",
+  "providerPromptHash": "7a069ed7931d67341cb5a6ce87f9c944d07565c742bdbbc390ce62de19486b96",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-a0454ea9-7986-4fc9-88b4-067a169fcc55",
+  "generatedAt": "2026-07-27T00:03:57.054Z",
+  "registeredAt": "2026-07-27T01:38:09.857Z",
+  "assetSHA256": "f9229cb9d321bc4c05eaeb978bc95453167fdbd4dbcbff6f45af77fb793a0f89",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "59005f8c42a51c5c9c755251af84e4fbc209987e76ecb55b3527478736e4f9c0"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.345363250526134,
+        "quantizedColours": 236,
+        "dHash64": "c0f02c3b0313934d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

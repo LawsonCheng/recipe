@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-127:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-127-family-style-pad-thai-noodles/step-01.webp",
+  "promptHash": "abd9804776f84d8407fe4979f4af827a28d574e7434a55156262aa0360570692",
+  "providerPromptHash": "a6910ae9348bd2a39965d1b3fb80955fe0d4b4f03c4d60722de9cb0d685133cd",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3780a826-15c1-4ac8-acb7-9072847658fa",
+  "generatedAt": "2026-07-26T20:39:26.822Z",
+  "registeredAt": "2026-07-27T01:39:48.452Z",
+  "assetSHA256": "83583b4f212af05720c23c0916c92fce94bc964d0bc8a03a29aaedcf26d59cd5",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "999817ab59d359a05cd4f80b1b188500115c6e986a651aa79808c6294117874e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.710671831853688,
+        "quantizedColours": 195,
+        "dHash64": "87250e0f8bb7868d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

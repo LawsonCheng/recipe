@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-030:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-030-garlic-prawns-steamed-with-vermicelli/step-01.webp",
+  "promptHash": "5bd49d44abfe9eb83b7bb825ed779ce3a4f2dbe11347aa12b21fb896ec48d708",
+  "providerPromptHash": "9f925df87432167b11f8b32c068840e480c4f4d73fb7af94dc1961749c19d3e1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_5SKrAV8IBn5rTOF4L3nt1mW3",
+  "generatedAt": "2026-07-27T14:17:09.000Z",
+  "registeredAt": "2026-07-27T14:24:05.859Z",
+  "assetSHA256": "57ed58620a4e1afc29de986aeb4e2152dddd63f61936716d7539d07249cfd812",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "b14f0c1d7482ee2a80a52da1e865873f7033695f9374bbc22752366b203d24f4"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.258131717742799,
+        "quantizedColours": 163,
+        "dHash64": "de8e1617175478b0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — corrected real-camera photo shows one drained vermicelli pile on one board with scissors making exactly one crosswise cut; there is no tap, rinse, water bowl or duplicate pile."
+    }
+  }
+}

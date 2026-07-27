@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-135:step-07",
+  "publicPath": "/assets/generated/recipes/recipe-135-thai-savoury-prawn-fried-rice/step-07.webp",
+  "promptHash": "5ddbe023cabb5fb57959e1cda43aee74ce925d159ae885867644c8ab3d949004",
+  "providerPromptHash": "37c89c0ea93ebc9006c13d888bade1734cdca08f40b7fc1b81ab9c842b21e0ec",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-e28c8205-fe98-45fc-a159-fa34a841388a",
+  "generatedAt": "2026-07-26T21:34:11.827Z",
+  "registeredAt": "2026-07-27T01:40:04.910Z",
+  "assetSHA256": "0b7ecb4265f3f736c285f6d2daae94fe258654f87005b7a5e7895633a19fae33",
+  "source": {
+    "inputFilename": "step-07.png",
+    "inputSHA256": "a739a322275af051e9c71ffcbc98cef7fde7daeb9cf5fb883108444b6e2322e7"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.695089760303745,
+        "quantizedColours": 374,
+        "dHash64": "e8c49e9f9fabab87"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

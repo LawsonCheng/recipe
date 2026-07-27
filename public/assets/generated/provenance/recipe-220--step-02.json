@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-220:step-02",
+  "publicPath": "/assets/generated/recipes/recipe-220-chicken-mushroom-pie-style-rice-bake/step-02.webp",
+  "promptHash": "21bf8772478d68f1004d3cf18e6c8c38aa3a0b5b50e19c4e4959757f101b55ad",
+  "providerPromptHash": "f0379c475e0c1c6a0cbce0208b7ac0dcb9ea85795c7bb7084370f0a17da845fb",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-4126cbf9-c996-4763-a1c3-068e3d5aff7b",
+  "generatedAt": "2026-07-26T19:46:58.945Z",
+  "registeredAt": "2026-07-27T01:42:39.482Z",
+  "assetSHA256": "1893c409a02e0c018984b415581f5f9fd844524f201e488258991a2076ab1812",
+  "source": {
+    "inputFilename": "step-02.png",
+    "inputSHA256": "493cc2a4d70e5b5368f36e222e094977511714e37c5db41c5e4ac1c1d46262bf"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.688849241303615,
+        "quantizedColours": 415,
+        "dHash64": "262665b80e0c0eb6"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

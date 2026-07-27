@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-046:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-046-red-braised-pork-meatballs/step-05.webp",
+  "promptHash": "a3b5c53bfe7f2df99dcfe21ba3ca91bd832334f9175ebcac9ba9df8e14eda79e",
+  "providerPromptHash": "85370f5a969c5a2adad7c9b617f8454560407f3235006e3ff68852dfdbd719da",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "call_N6F2VNmVOHzQGkNX1qEaqv9Z",
+  "generatedAt": "2026-07-27T13:21:09.000Z",
+  "registeredAt": "2026-07-27T13:55:29.215Z",
+  "assetSHA256": "764759189dd644937838da1bbd4c05242c6e26ad8461f955f5a5a09daccbf5e6",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "e40220efd5855f478078211037021139fe60fb0b3e720741bb0e8b819e5f7f2b"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.61582430150338,
+        "quantizedColours": 271,
+        "dHash64": "71bb972727af8ece"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — exactly six browned meatballs gently braise in one Chinese wok with napa cabbage and mushrooms, without later garnish or plating."
+    }
+  }
+}

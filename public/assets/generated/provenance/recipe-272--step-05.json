@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-272:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-272-red-braised-king-oyster-mushrooms/step-05.webp",
+  "promptHash": "d2321e51bfec55d8c53cd17d6875a1de68a93a35fceb423b08b26ea029459615",
+  "providerPromptHash": "79b68b42b226af43b65442e35285243af055e6df54939429ae01c44f71791208",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-42a9cefc-b5d2-4186-b503-02b8fa250790",
+  "generatedAt": "2026-07-26T21:23:12.604Z",
+  "registeredAt": "2026-07-27T01:44:14.065Z",
+  "assetSHA256": "85647c6b6534b3b3453bad31fce06d8f086a39c125a46c943a8332c5679ab926",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "cbb2d95a80cb60eae7e02a5029da83a652b8593f6c1a5263c8ddbaed5833be0a"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.540793884079903,
+        "quantizedColours": 365,
+        "dHash64": "708fbb3b3bab934f"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

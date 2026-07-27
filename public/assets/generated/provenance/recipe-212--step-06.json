@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-212:step-06",
+  "publicPath": "/assets/generated/recipes/recipe-212-garlic-butter-prawns/step-06.webp",
+  "promptHash": "6a86b849ae1e7a99fa39ecdc252f710bfc4db3c5223b1bb643185c2da3053d04",
+  "providerPromptHash": "1287df6c516fb5a0e5d19ee80ff72d08cf39235f4edbcd2a8211dc00da8bc2f0",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-af676e5d-1474-439b-a974-5c23d97503e5",
+  "generatedAt": "2026-07-26T19:04:04.479Z",
+  "registeredAt": "2026-07-27T01:42:26.093Z",
+  "assetSHA256": "d74acea9ac6fab34501ae29149aa6112e8bcc4e663364379f66be8c042c677a5",
+  "source": {
+    "inputFilename": "step-06.png",
+    "inputSHA256": "7b1eb2b70a9ae973bf3636df9161d832ada3bf4228312b7add4cba8369670f01"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.511797708209997,
+        "quantizedColours": 278,
+        "dHash64": "e5c40f3733338fce"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:48:26.384Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Matches the requested dish or step state and all visual constraints."
+    }
+  }
+}

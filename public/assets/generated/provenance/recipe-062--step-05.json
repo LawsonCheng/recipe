@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-062:step-05",
+  "publicPath": "/assets/generated/recipes/recipe-062-mild-kung-pao-chicken/step-05.webp",
+  "promptHash": "a9b583ef331a3e8d3090d07e8642623b805278bba94daf57c4064c4325259365",
+  "providerPromptHash": "1889fcad697459b77265ee2b9770bf15e7a10cf3a9f54fb5f283edf901db489e",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-711d02ad-cdad-40e4-9dfc-48f922d8f188",
+  "generatedAt": "2026-07-26T23:18:53.621Z",
+  "registeredAt": "2026-07-27T01:37:53.413Z",
+  "assetSHA256": "8d93cbb3a1ac8d52b3a1892df1f2bfbaf19890aafe69fa853b0bf29f75295180",
+  "source": {
+    "inputFilename": "step-05.png",
+    "inputSHA256": "7c17862bb68b667d32d6764ecd0a63fc599a6bc324600586c45300a6595b4780"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.37859055827721,
+        "quantizedColours": 364,
+        "dHash64": "e5b68d2f0f8f8eb0"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

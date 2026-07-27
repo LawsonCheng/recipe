@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-069:hero",
+  "publicPath": "/assets/generated/recipes/recipe-069-mild-sichuan-mouth-watering-chicken/hero.webp",
+  "promptHash": "8b25e5e5ff32e520ca9c75b7338b6725f0ef13c0038fc02e2d0778ce7e3adb7f",
+  "providerPromptHash": "6a5a15e71232bd62205cfdea62c739b86c1734962bafbc984d0ea5d22a0b5d4f",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-d33edd5e-a800-4d4c-bf1f-fd41f5b84ef5",
+  "generatedAt": "2026-07-26T23:47:00.945Z",
+  "registeredAt": "2026-07-27T01:38:04.286Z",
+  "assetSHA256": "6669d14ddde03af2468b8266daca3d6c16af4524e55005560a39824922f7f398",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "61f95b1e4f37a6f4a09674188fe57162798ae2d26d0e569e0ed93f9b84a3e98e"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.627244012401206,
+        "quantizedColours": 395,
+        "dHash64": "b0b29233715d7356"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Fermat",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T03:44:18.566Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": ""
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-152:step-01",
+  "publicPath": "/assets/generated/recipes/recipe-152-balinese-style-spiced-pork/step-01.webp",
+  "promptHash": "7093b603c30ba922f2d709622d0c00a7f658d56b01e37db334e81670d4c5e9e3",
+  "providerPromptHash": "cbffef75c40e51db3e20a5680621c5130f843400a0839ba5592ba5afd438e8e1",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-3263ec87-bde7-494b-ba5c-ae1ee30ebc8b",
+  "generatedAt": "2026-07-26T23:08:41.003Z",
+  "registeredAt": "2026-07-27T01:40:34.845Z",
+  "assetSHA256": "d8d7174844b584083c4c99f72fe7ed2a78752a7fa1f8f93b6cde6f79c43cb723",
+  "source": {
+    "inputFilename": "step-01.png",
+    "inputSHA256": "e26da7f641bae120b6ae17fbdc9fecda3c6f2584d06499f8390ed746c06d0320"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.607064819967491,
+        "quantizedColours": 511,
+        "dHash64": "6667263d4c492d2d"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

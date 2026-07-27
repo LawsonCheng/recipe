@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-192:step-04",
+  "publicPath": "/assets/generated/recipes/recipe-192-herb-roast-chicken-with-potatoes/step-04.webp",
+  "promptHash": "51bf93e56803ce25c24d2e48c001392baa07fc60549a9c48f3ad81ce07e42731",
+  "providerPromptHash": "1f48512dd8813ac2192c2754d6467afc5a273e802215d2ffb48ffbec210f6169",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-1d0bfdb9-30a6-4754-8690-110246bbf17c",
+  "generatedAt": "2026-07-27T00:15:11.111Z",
+  "registeredAt": "2026-07-27T01:41:50.091Z",
+  "assetSHA256": "c16356c7ed101615fd0d7fbaf38b9509b53df3d99f353ec18b4ddb1235913bd5",
+  "source": {
+    "inputFilename": "step-04.png",
+    "inputSHA256": "0e6569d521ea9a569e9c8325c8d9483cc662494b9bc4232afc7817a4e7c1d983"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 6.933076920802705,
+        "quantizedColours": 156,
+        "dHash64": "e2decf4f63be168c"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "Meitner",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T01:59:55.426Z",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "PASS — visually aligned with the specified hero/step state; correct equipment and sequencing; photorealistic with no disallowed text or watermark."
+    }
+  }
+}

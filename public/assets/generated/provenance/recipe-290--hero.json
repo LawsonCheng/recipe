@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "assetId": "recipe-290:hero",
+  "publicPath": "/assets/generated/recipes/recipe-290-mild-mapo-tofu-pasta/hero.webp",
+  "promptHash": "29594b05b4b9c2efb9a8a6666dac8f2c69f42d558008e8414676f7b4c9793725",
+  "providerPromptHash": "ce26cec56d56b3b4eb4e60fd881a3f93526ebe2a8dc28e76c4c75806e69c62ca",
+  "provider": "OpenAI",
+  "model": "Codex built-in imagegen",
+  "providerAssetId": "exec-21aa4861-915c-41bc-b89f-ecc84d65d3bd.png",
+  "generatedAt": "2026-07-27T05:21:00.562Z",
+  "registeredAt": "2026-07-27T13:00:28.185Z",
+  "assetSHA256": "da164623d073b0de7eb492da194e3235254545469e04e4687fcc16f1321345c0",
+  "source": {
+    "inputFilename": "hero.png",
+    "inputSHA256": "cde405fc4f8246ea8d767613184f7cbc7922dd6b2b911369771a1aa865122c20"
+  },
+  "qa": {
+    "automated": {
+      "status": "passed",
+      "checkedAt": "2026-07-27T14:24:37.703Z",
+      "reportVersion": "production-image-gate/v1",
+      "metrics": {
+        "entropy": 7.809838100743946,
+        "quantizedColours": 370,
+        "dHash64": "4d2aee87939391cb"
+      },
+      "errors": []
+    },
+    "visual": {
+      "status": "approved",
+      "reviewer": "final_current_review_batch4",
+      "reviewerType": "independent-agent",
+      "reviewedAt": "2026-07-27T22:44:00+08:00",
+      "checks": {
+        "promptAlignment": true,
+        "stepStateAccuracy": true,
+        "equipmentAccuracy": true,
+        "foodSafety": true,
+        "noTextOrWatermark": true,
+        "noPrematureLaterState": true,
+        "photorealisticNotStylised": true
+      },
+      "notes": "Approved — three servings each contain exactly two large silken-tofu scoops over mild mapo pasta, matching six pieces total."
+    }
+  }
+}
