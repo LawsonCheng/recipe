@@ -46,7 +46,7 @@ const SUPPORTED_LANGUAGES = new Set(['zh', 'en', 'id']);
 
 const COPY = {
   zh: {
-    appName: '屋企飯',
+    appName: '今晚食乜餸',
     appTagline: '清楚步驟，安心煮好每一餐',
     heroEyebrow: '為香港家庭而設',
     heroTitle: '今晚食咩？',
@@ -111,7 +111,7 @@ const COPY = {
     storageUnavailable: '此瀏覽器未能儲存設定或煮食紀錄。請檢查私隱／儲存空間設定。',
   },
   en: {
-    appName: 'Home Table',
+    appName: '今晚食乜餸',
     appTagline: 'Clear steps for a good meal, every time',
     heroEyebrow: 'Made for Hong Kong families',
     heroTitle: 'What shall we cook tonight?',
@@ -176,7 +176,7 @@ const COPY = {
     storageUnavailable: 'This browser could not save your settings or cooking history. Check privacy or storage settings.',
   },
   id: {
-    appName: 'Meja Keluarga',
+    appName: '今晚食乜餸',
     appTagline: 'Langkah jelas agar masakan selalu berhasil',
     heroEyebrow: 'Dibuat untuk keluarga Hong Kong',
     heroTitle: 'Mau masak apa malam ini?',
