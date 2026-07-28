@@ -72,10 +72,14 @@ export default function RecipeCard({
           spacing={0.75}
           sx={{ position: 'absolute', left: 12, top: 12, right: 12 }}
         >
-          {recipe.vegetarianAvailable && (
+          {(recipe.vegetarian || recipe.vegetarianAvailable) && (
             <Chip
               icon={<SpaRoundedIcon />}
-              label={labels.vegetarianReady}
+              label={
+                recipe.vegetarian
+                  ? labels.vegetarianRecipe
+                  : labels.vegetarianReady
+              }
               size="small"
               sx={{
                 color: '#174B31',

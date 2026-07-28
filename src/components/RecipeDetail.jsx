@@ -396,6 +396,8 @@ export default function RecipeDetail({
   const ingredients = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
   const steps = Array.isArray(recipe.steps) ? recipe.steps : [];
   const equipment = Array.isArray(recipe.equipment) ? recipe.equipment : [];
+  const highlights = Array.isArray(recipe.highlights) ? recipe.highlights : [];
+  const isVegetarianRecipe = recipe.vegetarian === true;
   const mainIngredient = ingredients[0]?.name;
 
   return (
@@ -506,6 +508,7 @@ export default function RecipeDetail({
                 variant="outlined"
               />
             </Stack>
+            {recipe.ingredientListComplete !== false && (
             <Paper
               variant="outlined"
               role="group"
@@ -554,6 +557,7 @@ export default function RecipeDetail({
                 </IconButton>
               </Stack>
             </Paper>
+            )}
           </Box>
 
           {!!equipment.length && (
@@ -593,40 +597,62 @@ export default function RecipeDetail({
             labels={labels}
           />
 
-          <Paper
-            variant="outlined"
-            sx={{
-              mt: 3,
-              p: { xs: 1.5, sm: 2 },
-              display: 'flex',
-              alignItems: { xs: 'flex-start', sm: 'center' },
-              justifyContent: 'space-between',
-              flexDirection: { xs: 'column', sm: 'row' },
-              gap: 1,
-              bgcolor: vegetarianMode ? '#EDF8F0' : 'background.paper',
-              borderColor: vegetarianMode ? 'success.light' : 'divider',
-            }}
-          >
-            <Box>
-              <Typography variant="h4">{labels.vegetarianMode}</Typography>
-              <Typography variant="body2" color="text.secondary" sx={{ mt: 0.35 }}>
-                {labels.vegetarianModeHelp}
-              </Typography>
-            </Box>
-            <FormControlLabel
-              control={
-                <Switch
-                  checked={vegetarianMode}
-                  onChange={(event) => onVegetarianModeChange(event.target.checked)}
-                  color="success"
-                />
-              }
-              label={vegetarianMode ? labels.on : labels.off}
-              sx={{ ml: { xs: 0, sm: 2 }, mr: 0 }}
-            />
-          </Paper>
+          {isVegetarianRecipe ? (
+            <Paper
+              variant="outlined"
+              sx={{
+                mt: 3,
+                p: { xs: 1.5, sm: 2 },
+                bgcolor: '#EDF8F0',
+                borderColor: 'success.light',
+              }}
+            >
+              <Stack direction="row" spacing={1.2} alignItems="flex-start">
+                <SpaRoundedIcon color="success" sx={{ mt: 0.1 }} />
+                <Box>
+                  <Typography variant="h4">{labels.vegetarianRecipe}</Typography>
+                  <Typography variant="body2" color="text.secondary" sx={{ mt: 0.35 }}>
+                    {labels.vegetarianOriginalHelp}
+                  </Typography>
+                </Box>
+              </Stack>
+            </Paper>
+          ) : (
+            <Paper
+              variant="outlined"
+              sx={{
+                mt: 3,
+                p: { xs: 1.5, sm: 2 },
+                display: 'flex',
+                alignItems: { xs: 'flex-start', sm: 'center' },
+                justifyContent: 'space-between',
+                flexDirection: { xs: 'column', sm: 'row' },
+                gap: 1,
+                bgcolor: vegetarianMode ? '#EDF8F0' : 'background.paper',
+                borderColor: vegetarianMode ? 'success.light' : 'divider',
+              }}
+            >
+              <Box>
+                <Typography variant="h4">{labels.vegetarianMode}</Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ mt: 0.35 }}>
+                  {labels.vegetarianModeHelp}
+                </Typography>
+              </Box>
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={vegetarianMode}
+                    onChange={(event) => onVegetarianModeChange(event.target.checked)}
+                    color="success"
+                  />
+                }
+                label={vegetarianMode ? labels.on : labels.off}
+                sx={{ ml: { xs: 0, sm: 2 }, mr: 0 }}
+              />
+            </Paper>
+          )}
 
-          {vegetarianMode && recipe.vegetarianNotes && (
+          {!isVegetarianRecipe && vegetarianMode && recipe.vegetarianNotes && (
             <Box
               sx={{
                 mt: 1.5,
@@ -658,6 +684,25 @@ export default function RecipeDetail({
             </Box>
           )}
 
+          {!!highlights.length && (
+            <Box component="section" aria-labelledby="recipe-highlights-title" sx={{ mt: 3 }}>
+              <Typography id="recipe-highlights-title" variant="h3">
+                {labels.recipeHighlights}
+              </Typography>
+              <Stack direction="row" useFlexGap flexWrap="wrap" gap={0.8} sx={{ mt: 1.25 }}>
+                {highlights.map((highlight, index) => (
+                  <Chip
+                    key={`${localize(highlight, primaryLanguage)}-${index}`}
+                    label={localize(highlight, primaryLanguage)}
+                    color="success"
+                    variant="outlined"
+                  />
+                ))}
+              </Stack>
+            </Box>
+          )}
+
+          {(ingredients.length > 0 || steps.length > 0) && (
           <Box
             sx={{
               mt: 4,
@@ -667,9 +712,12 @@ export default function RecipeDetail({
               alignItems: 'start',
             }}
           >
+            {ingredients.length > 0 && (
             <Box component="section" aria-labelledby="ingredients-title">
               <Typography id="ingredients-title" variant="h3">
-                {labels.ingredients}
+                {recipe.ingredientListComplete === false
+                  ? labels.keyIngredients
+                  : labels.ingredients}
               </Typography>
               <Paper variant="outlined" sx={{ mt: 1.5, px: 2 }}>
                 <Box component="ul" sx={{ m: 0, p: 0 }}>
@@ -688,10 +736,14 @@ export default function RecipeDetail({
                 </Box>
               </Paper>
             </Box>
+            )}
 
+            {steps.length > 0 && (
             <Box component="section" aria-labelledby="steps-title">
               <Typography id="steps-title" variant="h3">
-                {labels.steps}
+                {recipe.stepListComplete === false
+                  ? labels.methodHighlights
+                  : labels.steps}
               </Typography>
               <Stack spacing={2} sx={{ mt: 1.5 }}>
                 {steps.map((step, index) => {
@@ -711,7 +763,8 @@ export default function RecipeDetail({
                   );
                   return (
                     <Paper key={`${recipe.id}-step-${stepNumber}`} variant="outlined" sx={{ overflow: 'hidden' }}>
-                      <RecipeImage
+                      {stepPhoto(step) && (
+                        <RecipeImage
                         src={stepPhoto(step)}
                         alt={[
                           localize(recipe.title, primaryLanguage),
@@ -728,8 +781,9 @@ export default function RecipeDetail({
                         kind="step"
                         illustrationHint={`${localize(shownTitle, primaryLanguage)} ${localize(shownInstruction, primaryLanguage)}`}
                         height={{ xs: 190, sm: 250 }}
-                        unavailableText={imageUnavailableText}
-                      />
+                          unavailableText={imageUnavailableText}
+                        />
+                      )}
                       <Box sx={{ p: { xs: 2, sm: 2.5 } }}>
                         <Stack direction="row" spacing={1.3} alignItems="flex-start">
                           <Box
@@ -774,7 +828,9 @@ export default function RecipeDetail({
                 })}
               </Stack>
             </Box>
+            )}
           </Box>
+          )}
         </Box>
       </DialogContent>
 

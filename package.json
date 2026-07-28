@@ -16,6 +16,9 @@
     "recipes:generate": "node scripts/generate-recipes.mjs && npm run recipes:overrides:validate && npm run recipes:translations:validate && npm run recipes:curate",
     "recipes:curate:test": "node scripts/test-curated-recipe-overrides.mjs",
     "recipes:release-gate": "node scripts/validate-curated-recipe-release.mjs",
+    "recipes:sync:veggiedeer": "node scripts/sync-veggiedeer-recipes.mjs && node scripts/capture-veggiedeer-video-frames.mjs && node scripts/validate-synced-recipes.mjs",
+    "recipes:frames:veggiedeer": "node scripts/capture-veggiedeer-video-frames.mjs",
+    "recipes:sync:validate": "node scripts/validate-synced-recipes.mjs",
     "images:manifest": "node scripts/build-image-manifest.mjs",
     "images:prompts:check": "node scripts/audit-image-prompts.mjs --strict",
     "images:stage": "node scripts/stage-generated-image.mjs",
@@ -29,7 +32,7 @@
     "images:render": "node scripts/render-recipe-images.mjs",
     "images:check": "node scripts/validate-recipe-images.mjs",
     "lint:data": "node scripts/validate-recipes.mjs && node scripts/validate-recipe-content.mjs",
-    "check": "npm run recipes:curate:test && npm run recipes:overrides:validate && npm run recipes:translations:validate && npm run lint:data && npm run recipes:release-gate && npm run images:prompts:check && npm run images:check && npm run build"
+    "check": "npm run recipes:curate:test && npm run recipes:overrides:validate && npm run recipes:translations:validate && npm run lint:data && npm run recipes:release-gate && npm run recipes:sync:validate && npm run images:prompts:check && npm run images:check && npm run build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

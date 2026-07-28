@@ -12,6 +12,9 @@ import react from '@vitejs/plugin-react';
 const recipeSourceFile = fileURLToPath(
   new URL('./src/data/recipes.json', import.meta.url),
 );
+const syncedRecipeSourceFile = fileURLToPath(
+  new URL('./src/data/synced/veggiedeer-recipes.json', import.meta.url),
+);
 const virtualRecipeUrl = 'virtual:runtime-recipes-url';
 const resolvedVirtualRecipeUrl = `\0${virtualRecipeUrl}`;
 const generationOnlyFields = new Set([
@@ -25,9 +28,18 @@ const generationOnlyFields = new Set([
 
 function runtimeRecipeJson() {
   const source = readFileSync(recipeSourceFile, 'utf8');
+  const syncedSource = existsSync(syncedRecipeSourceFile)
+    ? readFileSync(syncedRecipeSourceFile, 'utf8')
+    : '[]';
+  const recipes = [
+    ...JSON.parse(source),
+    ...JSON.parse(syncedSource),
+  ];
   return JSON.stringify(
-    JSON.parse(source, (key, value) =>
-      generationOnlyFields.has(key) ? undefined : value,
+    JSON.parse(
+      JSON.stringify(recipes),
+      (key, value) =>
+        generationOnlyFields.has(key) ? undefined : value,
     ),
   );
 }
@@ -62,8 +74,13 @@ function runtimeRecipeDataPlugin() {
       });
 
       server.watcher.add(recipeSourceFile);
+      server.watcher.add(syncedRecipeSourceFile);
       server.watcher.on('change', (changedFile) => {
-        if (normalizePath(changedFile) === normalizePath(recipeSourceFile)) {
+        if (
+          [recipeSourceFile, syncedRecipeSourceFile]
+            .map(normalizePath)
+            .includes(normalizePath(changedFile))
+        ) {
           server.ws.send({ type: 'full-reload' });
         }
       });
