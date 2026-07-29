@@ -37,7 +37,19 @@ jobs:
             echo "VITE_BASE_PATH=/${repo_name}/" >> "$GITHUB_ENV"
           fi
       - run: npm ci
-      - run: npm run check
+      # The synchronized Veggie Deer collection is intentionally enriched in
+      # batches.  Its all-recipes release gate is a final-publishing check,
+      # not a prerequisite for deploying a valid partial site update.
+      - name: Validate deployable site
+        run: |
+          npm run recipes:curate:test
+          npm run recipes:overrides:validate
+          npm run recipes:translations:validate
+          npm run lint:data
+          npm run recipes:release-gate
+          npm run images:prompts:check
+          npm run images:check
+          npm run build
       - name: Verify deploy artifact
         run: |
           test -f dist/index.html
