@@ -141,11 +141,17 @@ export default function RecipeCard({
           value={recipe.description}
           primaryLanguage={primaryLanguage}
           secondaryLanguage={secondaryLanguage}
-          dual={false}
+          dual={dual}
           primaryVariant="body2"
           primarySx={{
             mt: 1,
             color: 'text.secondary',
+            display: '-webkit-box',
+            WebkitBoxOrient: 'vertical',
+            WebkitLineClamp: 2,
+            overflow: 'hidden',
+          }}
+          secondarySx={{
             display: '-webkit-box',
             WebkitBoxOrient: 'vertical',
             WebkitLineClamp: 2,

@@ -1848,17 +1848,6 @@
     "captureVersion": 1
   },
   {
-    "sourceId": "xJbMmbp40JY",
-    "source": "youtube-video-frame",
-    "timestampSeconds": 728,
-    "durationSeconds": 846,
-    "imagePath": "/assets/recipes/veggiedeer/xJbMmbp40JY.jpg",
-    "width": 640,
-    "height": 360,
-    "sha256": "e24026ea43972c4523569dd5ed25d52a9d027025aa86005b2a4026b7bee62800",
-    "captureVersion": 1
-  },
-  {
     "sourceId": "MAm492qmx2Q",
     "source": "youtube-video-frame",
     "timestampSeconds": 557,
@@ -2175,17 +2164,6 @@
     "width": 640,
     "height": 360,
     "sha256": "0c9e4034d03b1457acce46c551a6c752fb087ff2ecc3b0255832a54c976dbbae",
-    "captureVersion": 1
-  },
-  {
-    "sourceId": "X2zvvJm5Frg",
-    "source": "youtube-video-frame",
-    "timestampSeconds": 420,
-    "durationSeconds": 488,
-    "imagePath": "/assets/recipes/veggiedeer/X2zvvJm5Frg.jpg",
-    "width": 640,
-    "height": 360,
-    "sha256": "d63e52d024bbbc1fb7df02046e320511145859122429c4ac381ee65f43a1c3c7",
     "captureVersion": 1
   },
   {

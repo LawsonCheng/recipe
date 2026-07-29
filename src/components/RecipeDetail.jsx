@@ -175,9 +175,34 @@ function adaptTextForVegetarian(value, ingredients, enabled) {
 }
 
 function stepPhoto(step) {
-  const source = step.imageUrl || step.image;
+  // Synced recipes store their extracted video frame at `imageUrl`; support the
+  // more explicit aliases as well so imported recipes do not silently lose a
+  // step frame when their metadata shape differs.
+  const source =
+    step.imageUrl ||
+    step.image ||
+    step.frameImageUrl ||
+    step.sync?.imageUrl ||
+    step.sync?.frameImageUrl;
   if (!source || source.endsWith('/assets/home-table-hero.webp')) return undefined;
   return source;
+}
+
+function stepFrameTimestamp(step) {
+  const timestamp =
+    step.frameTimestampSeconds ?? step.sync?.frameTimestampSeconds;
+  const numeric = Number(timestamp);
+  return Number.isFinite(numeric) && numeric >= 0 ? numeric : null;
+}
+
+function formatVideoTimestamp(seconds) {
+  const wholeSeconds = Math.floor(seconds);
+  const hours = Math.floor(wholeSeconds / 3600);
+  const minutes = Math.floor((wholeSeconds % 3600) / 60);
+  const remainingSeconds = wholeSeconds % 60;
+  const minuteText = String(minutes).padStart(hours ? 2 : 1, '0');
+  const secondText = String(remainingSeconds).padStart(2, '0');
+  return hours ? `${hours}:${minuteText}:${secondText}` : `${minuteText}:${secondText}`;
 }
 
 function greatestCommonDivisor(a, b) {
@@ -748,6 +773,8 @@ export default function RecipeDetail({
               <Stack spacing={2} sx={{ mt: 1.5 }}>
                 {steps.map((step, index) => {
                   const stepNumber = step.order || index + 1;
+                  const photo = stepPhoto(step);
+                  const frameTimestamp = stepFrameTimestamp(step);
                   const shownTitle = adaptTextForVegetarian(
                     step.title,
                     ingredients,
@@ -763,9 +790,9 @@ export default function RecipeDetail({
                   );
                   return (
                     <Paper key={`${recipe.id}-step-${stepNumber}`} variant="outlined" sx={{ overflow: 'hidden' }}>
-                      {stepPhoto(step) && (
+                      {photo && (
                         <RecipeImage
-                        src={stepPhoto(step)}
+                        src={photo}
                         alt={[
                           localize(recipe.title, primaryLanguage),
                           `${labels.step} ${stepNumber}`,
@@ -781,10 +808,20 @@ export default function RecipeDetail({
                         kind="step"
                         illustrationHint={`${localize(shownTitle, primaryLanguage)} ${localize(shownInstruction, primaryLanguage)}`}
                         height={{ xs: 190, sm: 250 }}
-                          unavailableText={imageUnavailableText}
+                        unavailableText={imageUnavailableText}
                         />
                       )}
                       <Box sx={{ p: { xs: 2, sm: 2.5 } }}>
+                        {frameTimestamp != null && (
+                          <Typography
+                            variant="caption"
+                            component="p"
+                            color="text.secondary"
+                            sx={{ mb: 1, fontVariantNumeric: 'tabular-nums' }}
+                          >
+                            {`${labels.step} ${stepNumber} · ${formatVideoTimestamp(frameTimestamp)}`}
+                          </Typography>
+                        )}
                         <Stack direction="row" spacing={1.3} alignItems="flex-start">
                           <Box
                             sx={{
