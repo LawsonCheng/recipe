@@ -243,15 +243,18 @@ function formatAmount(amount, scale) {
 }
 
 const SCALABLE_QUANTITY_UNITS =
-  /(?<![\d.])(\d+(?:\.\d+)?)(\s*)(kg|g|ml|l|tbsp|tsp|cups?|cloves?|stalks?|pieces?|公斤|克|毫升|公升|湯匙|茶匙|杯|瓣|條|件|個|隻|片|sdm|sdt|cangkir|siung|batang|buah)(?![a-z])/gi;
+  /(\d+(?:\.\d+)?)(\s*)(kg|g|ml|l|tbsp|tsp|cups?|cloves?|stalks?|pieces?|公斤|克|毫升|公升|湯匙|茶匙|杯|瓣|條|件|個|隻|片|sdm|sdt|cangkir|siung|batang|buah)(?![a-z])/gi;
 
 function scaleInstructionQuantities(value, scale) {
   if (!value || scale === 1) return value;
   const scaleText = (text) =>
     text.replace(
       SCALABLE_QUANTITY_UNITS,
-      (_match, amount, spacing, unit) =>
-        `${formatAmount(Number(amount), scale)}${spacing}${unit}`,
+      (match, amount, spacing, unit, offset, fullString) => {
+        const precedingChar = fullString[offset - 1];
+        if (precedingChar && /[\d.]/.test(precedingChar)) return match;
+        return `${formatAmount(Number(amount), scale)}${spacing}${unit}`;
+      },
     );
   if (typeof value === 'string') return scaleText(value);
   return Object.fromEntries(
