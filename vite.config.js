@@ -141,6 +141,7 @@ export default defineConfig({
   plugins: [react(), runtimeRecipeDataPlugin()],
   base: normalizeBasePath(process.env.VITE_BASE_PATH),
   build: {
+    target: ['es2020', 'edge88', 'firefox78', 'chrome87', 'safari14'],
     sourcemap: false,
     chunkSizeWarningLimit: 650,
     rollupOptions: {
