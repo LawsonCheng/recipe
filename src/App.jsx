@@ -42,7 +42,7 @@ const STORAGE_KEYS = {
 };
 const STORAGE_VERSION = 2;
 const PAGE_SIZE = 24;
-const SUPPORTED_LANGUAGES = new Set(['zh', 'en', 'id']);
+const SUPPORTED_LANGUAGES = new Set(['zh', 'en', 'id', 'fil']);
 
 const COPY = {
   zh: {
@@ -257,6 +257,11 @@ const COPY = {
   },
 };
 
+// Filipino recipe content is available for the completed Veggie Deer
+// collection. Interface copy falls back to the established English wording
+// where a non-recipe page has not supplied a Filipino-specific label.
+COPY.fil = { ...COPY.en };
+
 function readStoredValue(key) {
   try {
     const raw = localStorage.getItem(key);
@@ -308,7 +313,7 @@ function readPreferences() {
     ? value.secondaryLanguage
     : fallback.secondaryLanguage;
   if (secondaryLanguage === primaryLanguage) {
-    secondaryLanguage = primaryLanguage === 'id' ? 'en' : 'id';
+    secondaryLanguage = ['zh', 'en', 'id', 'fil'].find((language) => language !== primaryLanguage) || 'zh';
   }
 
   return {
@@ -457,7 +462,7 @@ function App() {
 
   useEffect(() => {
     document.documentElement.lang =
-      primaryLanguage === 'zh' ? 'zh-Hant-HK' : primaryLanguage;
+      primaryLanguage === 'zh' ? 'zh-Hant-HK' : primaryLanguage === 'fil' ? 'fil-PH' : primaryLanguage;
   }, [primaryLanguage]);
 
   useEffect(() => {

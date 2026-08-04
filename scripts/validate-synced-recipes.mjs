@@ -38,7 +38,7 @@ const frameManifest = JSON.parse(await readFile(frameManifestPath, 'utf8'));
 const errors = [];
 const REPORT_JSON = process.argv.includes('--report-json');
 
-const REQUIRED_LANGUAGES = ['zh', 'en', 'id'];
+const REQUIRED_LANGUAGES = ['zh', 'en', 'id', 'fil'];
 // The source playlist has 204 videos. One is a restaurant visit rather than a
 // recipe and has no source-supported ingredients or method, so it is retained
 // as an import record but deliberately excluded from the recipe release gate.
@@ -54,8 +54,8 @@ const LOCAL_ASSET_PREFIX = '/assets/recipes/veggiedeer/';
 const CONTENT_PLACEHOLDER = /^(?:todo|tbd|n\/?a|unknown|placeholder|null|undefined)$|^\[.*?(?:todo|translate|translation).*?\]$/iu;
 const VAGUE_AMOUNT = /(?:適量|少許|酌量|as needed|to taste|as desired|secukupnya|sesuai selera)/iu;
 const QUALITATIVE_QUANTITY_UNITS = [
-  { zh: '適量', en: 'to taste', id: 'secukupnya' },
-  { zh: '少許', en: 'a little', id: 'sedikit' },
+  { zh: '適量', en: 'to taste', id: 'secukupnya', fil: 'ayon sa panlasa' },
+  { zh: '少許', en: 'a little', id: 'sedikit', fil: 'kaunti' },
 ];
 const THUMBNAIL_OR_REMOTE = /^(?:https?:)?\/\/|(?:youtube(?:-nocookie)?\.com|youtu\.be|ytimg\.com)|(?:thumbnail|thumb)(?:\.|\/|_)/iu;
 const VIDEO_TITLE_MARKERS = /[\p{Extended_Pictographic}#！!？?]|(?:一鍋到底|超簡單|颱風天|料理教學|懶人)/u;
@@ -133,17 +133,17 @@ function selfCheckMeasuredAmounts() {
     { amount: '酌量', expected: false },
     {
       amount: '',
-      unit: { zh: '適量', en: 'to taste', id: 'secukupnya' },
+      unit: { zh: '適量', en: 'to taste', id: 'secukupnya', fil: 'ayon sa panlasa' },
       expected: true,
     },
     {
       amount: '',
-      unit: { zh: '少許', en: 'a little', id: 'sedikit' },
+      unit: { zh: '少許', en: 'a little', id: 'sedikit', fil: 'kaunti' },
       expected: true,
     },
     {
       amount: '',
-      unit: { zh: '適量', en: 'a little', id: 'sedikit' },
+      unit: { zh: '適量', en: 'a little', id: 'sedikit', fil: 'kaunti' },
       expected: false,
     },
     {
@@ -413,7 +413,7 @@ if (REPORT_JSON) {
   process.exit(1);
 } else {
   console.log(
-    `Validated ${recipesToValidate.length} complete Veggie Deer recipes: trilingual ingredients, ` +
-    'trilingual step-by-step instructions, and hash-verified unique generated images for every step.',
+    `Validated ${recipesToValidate.length} complete Veggie Deer recipes: four-language ingredients, ` +
+    'four-language step-by-step instructions, and hash-verified unique generated images for every step.',
   );
 }

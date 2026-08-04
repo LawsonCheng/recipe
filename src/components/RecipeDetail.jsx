@@ -98,7 +98,7 @@ const VEGETARIAN_ALTERNATIVES = [
 ];
 
 export function getVegetarianAlternative(ingredient) {
-  const allNames = ['zh', 'en', 'id']
+  const allNames = ['zh', 'en', 'id', 'fil']
     .map((language) => localize(ingredient.name, language).toLowerCase())
     .join(' ');
   const preferredPlantMeat = VEGETARIAN_ALTERNATIVES.find(
@@ -160,7 +160,7 @@ function adaptTextForVegetarian(value, ingredients, enabled) {
     }, value);
   }
 
-  return ['zh', 'en', 'id'].reduce((translated, language) => {
+  return ['zh', 'en', 'id', 'fil'].reduce((translated, language) => {
     let text = localize(value, language);
     ingredients.forEach((ingredient) => {
       const alternative = getVegetarianAlternative(ingredient);
@@ -258,7 +258,7 @@ function scaleInstructionQuantities(value, scale) {
     );
   if (typeof value === 'string') return scaleText(value);
   return Object.fromEntries(
-    ['zh', 'en', 'id'].map((language) => [
+    ['zh', 'en', 'id', 'fil'].map((language) => [
       language,
       scaleText(localize(value, language)),
     ]),
@@ -267,7 +267,7 @@ function scaleInstructionQuantities(value, scale) {
 
 function metadataText(value, language) {
   if (value == null || value === '' || value === false) return '';
-  if (value === true) return language === 'zh' ? '是' : language === 'id' ? 'Ya' : 'Yes';
+  if (value === true) return language === 'zh' ? '是' : language === 'id' ? 'Ya' : language === 'fil' ? 'Oo' : 'Yes';
   if (typeof value === 'object') return localize(value, language);
   return String(value);
 }
@@ -280,17 +280,23 @@ function ApplianceSummary({ appliance, primaryLanguage, labels }) {
         ? '是'
         : primaryLanguage === 'id'
           ? 'Ya'
+          : primaryLanguage === 'fil'
+            ? 'Oo'
           : 'Yes'
       : primaryLanguage === 'zh'
         ? '否'
         : primaryLanguage === 'id'
           ? 'Tidak'
+          : primaryLanguage === 'fil'
+            ? 'Hindi'
           : 'No';
   const waterTank = appliance.waterTank != null
     ? primaryLanguage === 'zh'
       ? `水箱: ${appliance.waterTank ? '加滿' : '不使用'}`
       : primaryLanguage === 'id'
         ? `Tangki air: ${appliance.waterTank ? 'isi penuh' : 'tidak digunakan'}`
+        : primaryLanguage === 'fil'
+          ? `Tangke ng tubig: ${appliance.waterTank ? 'punuin' : 'huwag gamitin'}`
         : `Water tank: ${appliance.waterTank ? 'fill' : 'not used'}`
     : null;
   const fields = [
@@ -298,7 +304,7 @@ function ApplianceSummary({ appliance, primaryLanguage, labels }) {
     appliance.temperatureC && `${appliance.temperatureC}°C`,
     appliance.autoMenu && `Auto ${metadataText(appliance.autoMenu, primaryLanguage)}`,
     appliance.preheat != null &&
-      `${primaryLanguage === 'zh' ? '預熱' : primaryLanguage === 'id' ? 'Panaskan awal' : 'Preheat'}: ${yesNo(appliance.preheat)}`,
+      `${primaryLanguage === 'zh' ? '預熱' : primaryLanguage === 'id' ? 'Panaskan awal' : primaryLanguage === 'fil' ? 'Painitin muna' : 'Preheat'}: ${yesNo(appliance.preheat)}`,
     appliance.rack && metadataText(appliance.rack, primaryLanguage),
     waterTank,
     appliance.vessel && metadataText(appliance.vessel, primaryLanguage),

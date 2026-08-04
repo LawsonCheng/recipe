@@ -78,6 +78,8 @@ export default function CookedHistory({
                       ? 'zh-HK'
                       : primaryLanguage === 'id'
                         ? 'id-ID'
+                        : primaryLanguage === 'fil'
+                          ? 'fil-PH'
                         : 'en-HK',
                     { dateStyle: 'medium', timeStyle: 'short' },
                   ).format(cookedAt);

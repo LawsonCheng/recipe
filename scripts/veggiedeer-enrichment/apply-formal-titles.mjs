@@ -45,7 +45,7 @@ for (const recipe of completed) {
   const title = titles[sourceId];
   if (!title) throw new Error(`Missing formal title for ${sourceId}`);
   recipe.title = Object.fromEntries(
-    ['zh', 'en', 'id'].map((language) => [language, conciseTitle(title[language] ?? '', language)]),
+    ['zh', 'en', 'id', 'fil'].map((language) => [language, conciseTitle(title[language] ?? '', language)]),
   );
   if (Object.values(recipe.title).some((value) => !value)) {
     throw new Error(`Incomplete formal title for ${sourceId}`);

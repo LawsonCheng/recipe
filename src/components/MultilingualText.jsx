@@ -4,12 +4,13 @@ export const LANGUAGE_LABELS = {
   zh: '繁體中文',
   en: 'English',
   id: 'Bahasa Indonesia',
+  fil: 'Filipino',
 };
 
 export function localize(value, language = 'zh') {
   if (value == null) return '';
   if (typeof value === 'string' || typeof value === 'number') return String(value);
-  return value[language] || value.zh || value.en || value.id || '';
+  return value[language] || value.zh || value.en || value.id || value.fil || '';
 }
 
 export default function MultilingualText({
