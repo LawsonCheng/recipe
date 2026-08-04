@@ -47,6 +47,7 @@ jobs:
           npm run recipes:translations:validate
           npm run lint:data
           npm run recipes:release-gate
+          npm run recipes:sync:validate
           npm run images:prompts:check
           npm run images:check
           npm run build

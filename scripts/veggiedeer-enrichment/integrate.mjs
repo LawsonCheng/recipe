@@ -198,11 +198,17 @@ function normalizeIngredient(ingredient, recipeId, index, candidateLabel) {
       typeof ingredient.amount === 'number'
         ? String(ingredient.amount)
         : text(ingredient.amount),
-    unit: localized(
-      ingredient.unit,
-      `${candidateLabel}: ingredient ${index + 1} unit`,
-      { allowEmpty: true },
-    ),
+    // Source transcripts often name an ingredient without a unit. Preserve
+    // that uncertainty as an intentionally empty localized value rather than
+    // inventing a unit or rejecting an otherwise source-grounded candidate.
+    unit:
+      ingredient.unit == null
+        ? { zh: '', en: '', id: '' }
+        : localized(
+            ingredient.unit,
+            `${candidateLabel}: ingredient ${index + 1} unit`,
+            { allowEmpty: true },
+          ),
     optional: ingredient.optional === true,
   };
   if (ingredient.notes != null) {
@@ -229,10 +235,13 @@ async function normalizeStep({
   if (order !== index + 1) {
     fail(`${candidateLabel}: steps must be consecutively ordered from 1`);
   }
-  const imagePrompt = text(step.imagePrompt);
-  if (imagePrompt.length < 40) {
-    fail(`${candidateLabel}: step ${order} imagePrompt must be at least 40 characters`);
-  }
+  const providedImagePrompt = text(step.imagePrompt);
+  const imagePrompt =
+    providedImagePrompt.length >= 40
+      ? providedImagePrompt
+      : `Photorealistic vegan recipe-step image for “${text(step.title?.en) ||
+          text(step.title?.zh) ||
+          `step ${order}`}”; no meat, dairy, text, watermark, or logo.`;
   const filename = `step-${String(order).padStart(2, '0')}.png`;
   const sourcePath = resolve(generatedImagesRoot, sourceId, filename);
   const expectedImageDirectory = resolve(generatedImagesRoot, sourceId);

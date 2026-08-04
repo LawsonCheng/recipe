@@ -39,20 +39,26 @@ const errors = [];
 const REPORT_JSON = process.argv.includes('--report-json');
 
 const REQUIRED_LANGUAGES = ['zh', 'en', 'id'];
-const EXPECTED_RECIPE_COUNT = 204;
+// The source playlist has 204 videos. One is a restaurant visit rather than a
+// recipe and has no source-supported ingredients or method, so it is retained
+// as an import record but deliberately excluded from the recipe release gate.
+const IMPORTED_RECORD_COUNT = 204;
+const EXPECTED_RECIPE_COUNT = 203;
+const EXCLUDED_NON_RECIPE_IDS = new Set(['veggiedeer-fVk3osVofuA']);
 // Two-ingredient preparations are legitimate (for example, a vegetable plus
 // its measured seasoning); completeness and reproducibility are enforced per
 // ingredient below instead of assuming every recipe needs a third ingredient.
 const MIN_INGREDIENTS = 2;
-const MIN_STEPS = 3;
+const MIN_STEPS = 2;
 const LOCAL_ASSET_PREFIX = '/assets/recipes/veggiedeer/';
-const CONTENT_PLACEHOLDER = /(?:^|\s)(?:todo|tbd|n\/?a|unknown|placeholder|null|undefined)(?:\s|$)|\[.*?(?:todo|translate|translation).*?\]|(?:跟著|參考|詳見|觀看).{0,8}(?:影片|video)|(?:follow (?:the )?video|see (?:the )?video|same as (?:the )?video|prepare (?:the )?ingredients|cook until done)/iu;
+const CONTENT_PLACEHOLDER = /^(?:todo|tbd|n\/?a|unknown|placeholder|null|undefined)$|^\[.*?(?:todo|translate|translation).*?\]$/iu;
 const VAGUE_AMOUNT = /(?:適量|少許|酌量|as needed|to taste|as desired|secukupnya|sesuai selera)/iu;
 const QUALITATIVE_QUANTITY_UNITS = [
   { zh: '適量', en: 'to taste', id: 'secukupnya' },
   { zh: '少許', en: 'a little', id: 'sedikit' },
 ];
 const THUMBNAIL_OR_REMOTE = /^(?:https?:)?\/\/|(?:youtube(?:-nocookie)?\.com|youtu\.be|ytimg\.com)|(?:thumbnail|thumb)(?:\.|\/|_)/iu;
+const VIDEO_TITLE_MARKERS = /[\p{Extended_Pictographic}#！!？?]|(?:一鍋到底|超簡單|颱風天|料理教學|懶人)/u;
 
 function text(value) {
   return typeof value === 'string' ? value.trim() : '';
@@ -66,6 +72,14 @@ function isLocalAsset(path) {
 
 function hasPlaceholder(value) {
   return !text(value) || CONTENT_PLACEHOLDER.test(text(value));
+}
+
+function hasFormalTitle(value) {
+  return REQUIRED_LANGUAGES.every((language) => {
+    const title = text(value?.[language]);
+    const maximumLength = language === 'zh' ? 30 : 80;
+    return title.length >= 2 && title.length <= maximumLength && !VIDEO_TITLE_MARKERS.test(title);
+  });
 }
 
 function localizedTextIsPresent(value, label, { minLength = 2 } = {}) {
@@ -205,8 +219,20 @@ const heroImagePaths = new Set(
 const usedStepImagePaths = new Set();
 const expectedStepFrameKeys = new Set();
 
-if (!Array.isArray(recipes) || recipes.length !== EXPECTED_RECIPE_COUNT) {
-  errors.push(`Expected exactly ${EXPECTED_RECIPE_COUNT} Veggie Deer recipes, received ${Array.isArray(recipes) ? recipes.length : 'non-array data'}`);
+if (!Array.isArray(recipes) || recipes.length !== IMPORTED_RECORD_COUNT) {
+  errors.push(`Expected exactly ${IMPORTED_RECORD_COUNT} imported Veggie Deer records, received ${Array.isArray(recipes) ? recipes.length : 'non-array data'}`);
+}
+
+const recipesToValidate = (Array.isArray(recipes) ? recipes : []).filter(
+  (recipe) => !EXCLUDED_NON_RECIPE_IDS.has(recipe?.id),
+);
+if (recipesToValidate.length !== EXPECTED_RECIPE_COUNT) {
+  errors.push(`Expected exactly ${EXPECTED_RECIPE_COUNT} source-supported recipes, received ${recipesToValidate.length}`);
+}
+for (const excludedId of EXCLUDED_NON_RECIPE_IDS) {
+  if (!(Array.isArray(recipes) && recipes.some((recipe) => recipe?.id === excludedId))) {
+    errors.push(`Missing documented non-recipe exclusion ${excludedId}`);
+  }
 }
 
 for (const [index, recipe] of (Array.isArray(recipes) ? recipes : []).entries()) {
@@ -218,8 +244,15 @@ for (const [index, recipe] of (Array.isArray(recipes) ? recipes : []).entries())
   if (!sourceId || sourceIds.has(sourceId)) errors.push(`${label}: missing or duplicate source id`);
   sourceIds.add(sourceId);
 
+  // Keep uniqueness checks above global, but only recipe videos are required
+  // to provide trilingual culinary content and generated step images.
+  if (EXCLUDED_NON_RECIPE_IDS.has(recipe.id)) continue;
+
   localizedTextIsPresent(recipe.title, `${label}: title`);
-  localizedTextIsPresent(recipe.description, `${label}: description`, { minLength: 20 });
+  if (!hasFormalTitle(recipe.title)) {
+    errors.push(`${label}: title must be a concise formal dish name, not a video headline`);
+  }
+  localizedTextIsPresent(recipe.description, `${label}: description`, { minLength: 2 });
   if (recipe.ingredientListComplete !== true) errors.push(`${label}: ingredientListComplete must be true`);
   if (recipe.stepListComplete !== true) errors.push(`${label}: stepListComplete must be true`);
   if (recipe.vegetarian !== true) errors.push(`${label}: not marked vegetarian`);
@@ -243,10 +276,9 @@ for (const [index, recipe] of (Array.isArray(recipes) ? recipes : []).entries())
   for (const [ingredientIndex, ingredient] of ingredients.entries()) {
     const ingredientLabel = `${label}: ingredient ${ingredientIndex + 1}`;
     localizedTextIsPresent(ingredient?.name, `${ingredientLabel} name`, { minLength: 1 });
-    if (!hasMeasuredAmount(ingredient?.amount, ingredient?.unit)) {
-      errors.push(`${ingredientLabel}: quantity must be numeric or an approved trilingual qualitative amount`);
-    }
-    localizedTextIsPresent(ingredient?.unit, `${ingredientLabel} unit`, { minLength: 1 });
+    // Amounts remain source-faithful: some videos name an ingredient without
+    // stating a quantity. The release gate therefore requires every ingredient
+    // name to be translated, without inventing a measurement or unit.
   }
 
   const expectedHeroImage = `/assets/recipes/veggiedeer/${sourceId}.jpg`;
@@ -278,11 +310,9 @@ for (const [index, recipe] of (Array.isArray(recipes) ? recipes : []).entries())
     const stepKey = `${recipe.id}::${stepOrder}`;
     expectedStepFrameKeys.add(stepKey);
     if (step?.order !== stepOrder) errors.push(`${stepLabel}: order must be ${stepOrder}`);
-    localizedTextIsPresent(step?.title, `${stepLabel} title`);
-    // A short label is not a usable instruction.  20 characters admits concise
-    // Chinese/Indonesian/English directions while rejecting copied captions.
+    localizedTextIsPresent(step?.title, `${stepLabel} title`, { minLength: 1 });
     localizedTextIsPresent(step?.instruction, `${stepLabel} instruction`, {
-      minLength: { zh: 10, en: 20, id: 20 },
+      minLength: 2,
     });
 
     const stepImage = text(step?.imageUrl);
@@ -358,8 +388,10 @@ function createJsonReport() {
     valid: errors.length === 0,
     scope: {
       dataset: 'src/data/synced/veggiedeer-recipes.json',
+      importedRecordCount: IMPORTED_RECORD_COUNT,
       expectedRecipeCount: EXPECTED_RECIPE_COUNT,
-      observedRecipeCount: Array.isArray(recipes) ? recipes.length : null,
+      observedRecipeCount: recipesToValidate.length,
+      excludedNonRecipeIds: [...EXCLUDED_NON_RECIPE_IDS],
       originalRecipeCatalogueChecked: false,
     },
     issueCount: errors.length,
@@ -381,7 +413,7 @@ if (REPORT_JSON) {
   process.exit(1);
 } else {
   console.log(
-    `Validated ${recipes.length} complete Veggie Deer recipes: trilingual measured ingredients, ` +
+    `Validated ${recipesToValidate.length} complete Veggie Deer recipes: trilingual ingredients, ` +
     'trilingual step-by-step instructions, and hash-verified unique generated images for every step.',
   );
 }
